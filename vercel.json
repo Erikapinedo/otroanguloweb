@@ -1,0 +1,31 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/",                       "destination": "/otroanguloweb.cl/index.html" },
+    { "source": "/index",                  "destination": "/otroanguloweb.cl/index.html" },
+    { "source": "/about-me-erika-pinedo",  "destination": "/otroanguloweb.cl/about-me-erika-pinedo.html" },
+    { "source": "/portfolio",              "destination": "/otroanguloweb.cl/portfolio.html" },
+    { "source": "/contact",               "destination": "/otroanguloweb.cl/contact.html" },
+    { "source": "/project-parrotfy",      "destination": "/otroanguloweb.cl/project-parrotfy.html" },
+    { "source": "/project-nico-seguros",  "destination": "/otroanguloweb.cl/project-nico-seguros.html" },
+    { "source": "/project-expediente",    "destination": "/otroanguloweb.cl/project-expediente.html" },
+    { "source": "/project-alessandri",    "destination": "/otroanguloweb.cl/project-alessandri.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options",        "value": "DENY" },
+        { "key": "Referrer-Policy",        "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/cdn.prod.website-files.com/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}

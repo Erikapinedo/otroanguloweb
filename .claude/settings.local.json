@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *)",
+      "Bash(python3 *)",
+      "Bash(grep -v '^$')",
+      "Bash(tmutil listlocalsnapshots *)",
+      "Bash(npx --yes prettier --write main.css)",
+      "Bash([ -f \"$ASSETS/$img\" ])",
+      "Bash(curl -sL https://cdn.prod.website-files.com/698749cac56b62cc9304e563/69c06491efe56b7db9c960f2_4a890fef80220e7c77f01b3f3941721d_UI-01-nico-erika-pinedo.webp -o /Users/erika/Desktop/proyectos/cdn.prod.website-files.com/698749cac56b62cc9304e563/69c06491efe56b7db9c960f2_4a890fef80220e7c77f01b3f3941721d_UI-01-nico-erika-pinedo.webp)",
+      "Bash(curl -sL https://cdn.prod.website-files.com/698749cac56b62cc9304e563/69c07375f27c7bb43c170852_Frame%2091964.webp -o '/Users/erika/Desktop/proyectos/cdn.prod.website-files.com/698749cac56b62cc9304e563/69c07375f27c7bb43c170852_Frame 91964.webp')",
+      "Bash(curl -sL https://cdn.prod.website-files.com/698749cac56b62cc9304e563/69c3213d7ff25aa2a1fb7255_5aae901b4fcbe9651ac2f784bb08cc50_Frame%2091969.webp -o '/Users/erika/Desktop/proyectos/cdn.prod.website-files.com/698749cac56b62cc9304e563/69c3213d7ff25aa2a1fb7255_5aae901b4fcbe9651ac2f784bb08cc50_Frame 91969.webp')",
+      "Bash(find /Users/erika/Desktop/proyectos -type f '\\(' -iname *.webp -o -iname *.png -o -iname *.jpg -o -iname *.jpeg -o -iname *.svg -o -iname *.gif -o -iname *.ico -o -iname *.avif '\\)')",
+      "Bash(find /Users/erika/Desktop/proyectos/cdn.prod.website-files.com/698749cac56b62cc9304e563 -type f '\\(' -iname *.webp -o -iname *.png -o -iname *.jpg -o -iname *.svg -o -iname *.gif -o -iname *.ico '\\)')",
+      "Bash(grep -A 999 \"--- JSON MAPPING ---\")",
+      "Bash(curl -sL \"https://cdn.prod.website-files.com/698749cac56b62cc9304e563/698a5a55a42f8dd0a9ecfed1_f99cca1bac0596d1419e169aa86b102d_Opengraph.png\" -o \"/Users/erika/Desktop/proyectos/imagenes/opengraph-erika-pinedo.png\")",
+      "Bash(curl -sL \"https://cdn.prod.website-files.com/698749cac56b62cc9304e563/6a0128e80e5756f21cfad12f_Opengraph.png\" -o \"/Users/erika/Desktop/proyectos/imagenes/opengraph-about-me-erika-pinedo.png\")",
+      "Bash(grep -v \"^$\")",
+      "Bash(curl -sL \"https://cdn.prod.website-files.com/698749cac56b62cc9304e563/69c06aa93c643f620bddcca1_9Alessandri%20Erika%20Pinedo.webp\" -o \"/Users/erika/Desktop/proyectos/imagenes/9alessandri-erika-pinedo.webp\")",
+      "Bash(curl -sL \"https://cdn.prod.website-files.com/698749cac56b62cc9304e563/6a0664540a49934f24ac2583_ES-user-persona-2.webp\" -o \"/Users/erika/Desktop/proyectos/imagenes/es-user-persona-2.webp\")",
+      "Bash(curl -sL \"https://cdn.prod.website-files.com/698749cac56b62cc9304e563/6a0664545e0bd233dee5da78_ES-user-persona-1.webp\" -o \"/Users/erika/Desktop/proyectos/imagenes/es-user-persona-1.webp\")"
+    ]
+  }
+}
