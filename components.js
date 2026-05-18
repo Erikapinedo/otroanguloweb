@@ -10,10 +10,14 @@
 
   // Segmento de pathname → clave de página usada en data-nav-page
   var PAGE_MAP = {
-    '':                       'home',
-    'index':                  'home',
-    'about-me-erika-pinedo':  'about',
-    'portfolio':              'portfolio',
+    '':                         'home',
+    'index':                    'home',
+    'about-me-erika-pinedo':    'about',
+    'portfolio':                'portfolio',
+    'project-alessandri':       'portfolio',
+    'project-expediente':       'portfolio',
+    'project-nico-seguros':     'portfolio',
+    'project-parrotfy':         'portfolio',
   };
 
   // Fetch arranca inmediatamente (antes de DOMContentLoaded) para maximizar
