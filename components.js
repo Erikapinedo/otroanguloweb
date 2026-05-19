@@ -32,7 +32,7 @@
   });
 
   function getActivePage() {
-    var segment = window.location.pathname.replace(/^\/|\/$/g, '');
+    var segment = window.location.pathname.replace(/^\/|\/$/g, '').replace(/\.html$/, '');
     return PAGE_MAP[segment] || null;
   }
 
