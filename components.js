@@ -18,6 +18,8 @@
     'project-expediente':       'portfolio',
     'project-nico-seguros':     'portfolio',
     'project-parrotfy':         'portfolio',
+    'project-bluesphere':       'portfolio',
+    'project-playersnap':       'portfolio',
   };
 
   // Fetch arranca inmediatamente (antes de DOMContentLoaded) para maximizar
