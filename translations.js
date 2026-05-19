@@ -190,7 +190,13 @@
         "expTitle": "E-xpediente",
         "expSubtitle": "Plataforma abogados",
         "expDesc": "Proyecto end-to-end basado en research con usuarios reales para simplificar flujos complejos y centralizar la gestión de información en la plataforma interna del estudio de abogados.<br/>",
-        "expImgAlt": "Interfaz de expediente virtual que muestra causas, documentos en PDF para descargar y últimos movimientos."
+        "expImgAlt": "Interfaz de expediente virtual que muestra causas, documentos en PDF para descargar y últimos movimientos.",
+        "bluesphereTitle": "Plataforma de Ciberseguridad para Pymes",
+        "bluesphereDesc": "Diseño UX/UI de una plataforma cloud-native que integra monitoreo SOC 24/7, gestión de vulnerabilidades y resiliencia operativa para pequeñas y medianas empresas.<br/>",
+        "bluesphereImgAlt": "Interfaz de BlueSphere mostrando panel de monitoreo de ciberseguridad con puntajes de riesgo y alertas.",
+        "playersnapTitle": "Plataforma de Gestión de Activos Multimedia para Deportes",
+        "playersnapDesc": "Diseño UX/UI de un SaaS impulsado por IA para organizaciones deportivas, que centraliza la gestión, análisis y distribución de contenido multimedia en tiempo real.<br/>",
+        "playersnapImgAlt": "Interfaz de PlayerSnap mostrando panel de gestión de activos digitales para organizaciones deportivas."
       },
       alessandriProjectPage:       {
         "meta": {
@@ -673,7 +679,13 @@
         "expTitle": "E-xpediente",
         "expSubtitle": "Lawyers platform",
         "expDesc": "End-to-end UX/UI project for a virtual case file experience: causes, downloadable PDFs, and a clear timeline of movements for legal teams.<br/>",
-        "expImgAlt": "Virtual case file interface showing cases, PDF documents for download, and recent activity."
+        "expImgAlt": "Virtual case file interface showing cases, PDF documents for download, and recent activity.",
+        "bluesphereTitle": "Cybersecurity Platform for SMBs",
+        "bluesphereDesc": "UX/UI design of a cloud-native platform integrating 24/7 SOC monitoring, vulnerability management, and operational resilience for small and medium-sized businesses.<br/>",
+        "bluesphereImgAlt": "BlueSphere interface showing cybersecurity monitoring dashboard with risk scores and threat alerts.",
+        "playersnapTitle": "Sports Media Digital Asset Management Platform",
+        "playersnapDesc": "UX/UI design of an AI-powered SaaS for sports organizations, centralizing media asset management, intelligent search, and real-time distribution to media partners.<br/>",
+        "playersnapImgAlt": "PlayerSnap interface showing digital asset management dashboard for sports organizations."
       },
       alessandriProjectPage:       {
         "meta": {
