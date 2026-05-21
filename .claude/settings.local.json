@@ -18,7 +18,18 @@
       "Bash(grep -v \"^$\")",
       "Bash(curl -sL \"https://cdn.prod.website-files.com/698749cac56b62cc9304e563/69c06aa93c643f620bddcca1_9Alessandri%20Erika%20Pinedo.webp\" -o \"/Users/erika/Desktop/proyectos/imagenes/9alessandri-erika-pinedo.webp\")",
       "Bash(curl -sL \"https://cdn.prod.website-files.com/698749cac56b62cc9304e563/6a0664540a49934f24ac2583_ES-user-persona-2.webp\" -o \"/Users/erika/Desktop/proyectos/imagenes/es-user-persona-2.webp\")",
-      "Bash(curl -sL \"https://cdn.prod.website-files.com/698749cac56b62cc9304e563/6a0664545e0bd233dee5da78_ES-user-persona-1.webp\" -o \"/Users/erika/Desktop/proyectos/imagenes/es-user-persona-1.webp\")"
+      "Bash(curl -sL \"https://cdn.prod.website-files.com/698749cac56b62cc9304e563/6a0664545e0bd233dee5da78_ES-user-persona-1.webp\" -o \"/Users/erika/Desktop/proyectos/imagenes/es-user-persona-1.webp\")",
+      "WebFetch(domain:www.bluesphere.co)",
+      "WebFetch(domain:www.playersnap.io)",
+      "Bash(grep *)",
+      "Bash(git -C /Users/erika/Desktop/proyectos add \"cdn.prod.website-files.com/698749cac56b62cc9304e563/js/webflow.schunk.0ffa0db5861aed55.js\")",
+      "Bash(git -C /Users/erika/Desktop/proyectos commit -m ' *)",
+      "Bash(git -C /Users/erika/Desktop/proyectos push)",
+      "Bash(git *)",
+      "Bash(sed -n '6507,6530p' /Users/erika/Desktop/proyectos/cdn.prod.website-files.com/698749cac56b62cc9304e563/css/main.css)",
+      "Bash(sed -n '7542,7560p' /Users/erika/Desktop/proyectos/cdn.prod.website-files.com/698749cac56b62cc9304e563/css/main.css)",
+      "WebSearch",
+      "Bash(xargs -I{} basename {})"
     ]
   }
 }
