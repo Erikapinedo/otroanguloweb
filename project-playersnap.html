@@ -716,5 +716,78 @@
       }
       requestAnimationFrame(raf);
     </script>
+    <script>
+      (function () {
+        if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
+        gsap.registerPlugin(ScrollTrigger);
+
+        const fadeUp   = { opacity: 0, y: 40,  duration: 0.7, ease: "power2.out" };
+        const fadeLeft = { opacity: 0, x: -30, duration: 0.6, ease: "power2.out" };
+        const fadeRight= { opacity: 0, x:  60, duration: 0.8, ease: "power2.out" };
+
+        function st(trigger, extra) {
+          return { scrollTrigger: { trigger: trigger, start: "top 85%" }, ...extra };
+        }
+
+        // Títulos de sección
+        [
+          ".body-project-playersnap .project-title-problem-playersnap",
+          ".body-project-playersnap .project-title-user-persona-playersnap",
+          ".body-project-playersnap .project-title-approach-playersnap",
+          ".body-project-playersnap .project-title-impact-playersnap",
+          ".body-project-playersnap .project-title-problem-alessandri-copy",
+        ].forEach(function (sel) {
+          var el = document.querySelector(sel);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        // Párrafos de cuerpo
+        [
+          ".body-project-playersnap .description-problem-project-playersnap",
+          ".body-project-playersnap .description-approach-project",
+          ".body-project-playersnap .description--approach-project-copy-copy",
+          ".body-project-playersnap .description-problem-project-copy",
+          ".body-project-playersnap .description-impact-project-playersnap",
+          ".body-project-playersnap .description-impact-project",
+        ].forEach(function (sel) {
+          var el = document.querySelector(sel);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        // Cards del problema — stagger
+        var problemCards = gsap.utils.toArray(".body-project-playersnap .card-the-problem-playersnap");
+        if (problemCards.length)
+          gsap.from(problemCards, st(problemCards[0], { opacity: 0, y: 40, duration: 0.6, stagger: 0.15, ease: "power2.out" }));
+
+        // Cards del enfoque — stagger
+        var approachCards = gsap.utils.toArray(".body-project-playersnap .card-the-approach-playersnap");
+        if (approachCards.length)
+          gsap.from(approachCards, st(approachCards[0], { opacity: 0, y: 40, duration: 0.6, stagger: 0.15, ease: "power2.out" }));
+
+        // Items de La Solución — slide desde la izquierda, stagger
+        var solItems = gsap.utils.toArray(".body-project-playersnap .description-problem-project-copy-copy");
+        if (solItems.length)
+          gsap.from(solItems, st(solItems[0], { opacity: 0, x: -30, duration: 0.5, stagger: 0.1, ease: "power2.out" }));
+
+        // Teléfono La Solución — slide desde la derecha
+        var phone = document.querySelector(".body-project-playersnap .image-47");
+        if (phone) gsap.from(phone, st(phone, fadeRight));
+
+        // Cards de impacto — stagger
+        var impactCards = gsap.utils.toArray(".body-project-playersnap .card-the-impact-playersnap");
+        if (impactCards.length)
+          gsap.from(impactCards, st(impactCards[0], { opacity: 0, y: 40, duration: 0.6, stagger: 0.12, ease: "power2.out" }));
+
+        // User persona image — fade up
+        var persona = document.querySelector(".body-project-playersnap .image-46");
+        if (persona) gsap.from(persona, st(persona, { opacity: 0, y: 40, duration: 0.8, ease: "power2.out" }));
+
+        // Imágenes finales (colors, components, mails) — fade up escalonado
+        var finalImgs = gsap.utils.toArray(".body-project-playersnap .colors-playersnap, .body-project-playersnap .wireframes-playersnap");
+        finalImgs.forEach(function (img) {
+          gsap.from(img, st(img, { opacity: 0, y: 60, duration: 0.9, ease: "power2.out" }));
+        });
+      })();
+    </script>
   </body>
 </html>
