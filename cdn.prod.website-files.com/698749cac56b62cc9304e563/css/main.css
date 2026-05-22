@@ -8829,6 +8829,762 @@ a {
   color: #2843b3;
   text-align: left;
 }
+
+/* ===== PlayerSnap ===== */
+/* ===== PlayerSnap clases propias (duplicadas de parrotfy) ===== */
+.body-project-playersnap .image-45{filter:brightness(0) invert(1);margin-bottom:16px}
+.project-playersnap-hero-section {
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  background-image:
+  linear-gradient(90deg, #232323 50%, #23232378 90%, #2844b417), 
+    url(images/playersnap/bg-playersnap.webp);
+  background-position:
+    0 0,
+    0 0;
+  background-repeat: repeat, repeat;
+  background-size: auto, cover;
+  flex-flow: column;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 100px 40px 0;
+  display: flex;
+  position: relative;
+}
+.project-playersnap-context {
+  background-color: #404826;
+  width: 100%;
+}
+
+.paragraph-card-playersnap {
+  color: #ffffff;
+  width: 100%;
+    max-width: 1000px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+.images-playersnap {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  overflow: clip;
+}
+.project-playersnap-the-problem {
+  background-color: #1a1a1a;
+  width: 100%;
+}
+.project-playersnap-userpersona {
+  background-color: #1a1a1a;
+  flex-flow: row;
+  width: 100%;
+  display: flex;
+}
+.description-problem-project-playersnap {
+  color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.project-playersnap-approach {
+  background-color: #232323;
+  width: 100%;
+}
+.container-playersnap-prioblem {
+  max-width: var(--container-lg);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #404826;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 100px 0;
+  display: flex;
+}
+.project-playersnap-impact {
+  background-color: #404826;
+  width: 100%;
+}
+.colors-playersnap {
+  width: 100%;
+}
+.wireframes-playersnap {
+  background-color: #404826;
+  width: 100%;
+}
+.components-playersnap {
+  background-color: #f5fbfe;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.landing-playersnap {
+  background-image: linear-gradient(#f5fbfe, #c4fafc);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.mails-playersnap {
+  background-color: #404826;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.container-playersnap-context {
+  width: 100%;
+  max-width: var(--container-lg);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #0000;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 0;
+  padding: 100px 60px;
+  display: flex;
+}
+.image-1-playersnap {
+  background-color: #404826;
+  width: 100%;
+  height: 100%;
+}
+.image-2-playersnap {
+  background-color: #404826;
+  width: 100%;
+  height: 100%;
+}
+.image-3-playersnap {
+  background-color: #404826;
+  width: 100%;
+  height: 100%;
+}
+.container-playersnap-problem {
+  max-width: var(--container-lg);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #1a1a1a;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 100px 60px;
+  display: flex;
+}
+.card-the-problem-playersnap {
+  background-color: #404826;
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.cards-problems-playersnap {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-flow: wrap;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  place-content: stretch stretch;
+  place-items: stretch;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: grid;
+}
+.container-playersnap-user-persona {
+  width: 100%;
+  max-width: var(--container-lg);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #1a1a1a;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  display: flex;
+}
+.container-playersnap-approach {
+  max-width: var(--container-lg);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #232323;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 100px 60px;
+  display: flex;
+}
+.cards-approach-playersnap {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-flow: wrap;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  place-content: stretch center;
+  place-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: grid;
+}
+.card-the-approach-playersnap {
+  background-color: #404826;
+  border: 0 solid #2ae3f5;
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+.body-project-playersnap .title-card-approach {
+  color: #d3fc51;
+}
+.body-project-playersnap .paragraph-approach {
+  color: #ffffff;
+}
+.body-project-playersnap .bold-text-10,
+.body-project-playersnap .bold-text-11 {
+  color: #ffffff;
+}
+.container-playersnap-impact {
+  max-width: var(--container-lg);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #0000;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 100px 60px;
+  display: flex;
+}
+.description-impact-project-playersnap-title {
+  color: #1f2e4f;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 35px;
+}
+.description-impact-project-playersnap {
+  color: #1f2e4f;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.the-approach-title-playersnap {
+  max-width: var(--container-lg);
+  grid-column-gap: 18px;
+  grid-row-gap: 18px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  place-content: center;
+  place-items: center;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+}
+.description-text-hero-playersnap {
+  color: #D3FC51;
+  text-align: left;
+  letter-spacing: 0.4px;
+  max-width: 700px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.body-project-playersnap {
+  font-family: var(--avenir-ok);
+  background-color: #404826;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.project-title-user-persona-playersnap {
+  width: 100%;
+  max-width: 1000px;
+  font-family: var(--avenir-ok);
+  color: #D3FC51;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 100%;
+}
+.project-title-problem-playersnap {
+  width: 100%;
+  max-width: 1000px;
+  font-family: var(--avenir-ok);
+  color: #D3FC51;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 100%;
+}
+.head-card-playersnap {
+  color: #D3FC51;
+  margin-top: 0;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 30px;
+}
+.div-solution-container {
+  background-color: #4048261a;
+}
+
+.paragraph-card-playersnap {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+}
+.project-title-approach-playersnap {
+  width: 100%;
+  max-width: 1000px;
+  font-family: var(--avenir-ok);
+  color: var(--white-100);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 100%;
+}
+.project-title-impact-playersnap {
+  width: 100%;
+  max-width: 1000px;
+  font-family: var(--avenir-ok);
+  color: #D3FC51;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 100%;
+}
+.text-solution-playersnap {
+  color: #d3fc51;
+  font-size: 22px;
+}
+.card-the-impact-playersnap {
+  background-color: #00000021;
+  border: 0 solid #2ae3f5;
+  border-radius: 40px;
+  flex: 1;
+  width: auto;
+  padding: 30px;
+  box-shadow: 0 7px 20px -8px rgba(0,0,0,0.35);
+}
+.impact-card-title-playersnap {
+  color: #d3fc51;
+}
+.impact-card-body-playersnap {
+  color: #ffffff;
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.container-cards-approach-playersnap {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-flow: row;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  place-content: stretch center;
+  align-items: stretch;
+  margin-top: 0;
+  margin-bottom: 40px;
+  display: flex;
+}
+.image-alessandri,
+.image-nico,
+.image-playersnap {
+  box-sizing: border-box;
+  aspect-ratio: auto;
+  object-fit: fill;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  width: 100%;
+  max-width: 1136px;
+  max-height: 400px;
+}
+.button-white-project-playersnap {
+  background-color: var(--white-100);
+  pointer-events: auto;
+  width: 100%;
+  height: auto;
+  font-family: var(--avenir-ok);
+  color: #000;
+  cursor: pointer;
+  border: 0 solid #4928fd;
+  border-radius: 33px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.button-white-project-playersnap:hover {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 0px solid
+    var(--violet-100\<deleted\|variable-4d41b7ec-e023-f314-c529-ee435c54e7a2\>);
+  outline-offset: 0px;
+  pointer-events: auto;
+  -webkit-text-fill-color: inherit;
+  background-color: #fe517d;
+  background-clip: border-box;
+  outline: 3px #000;
+  display: flex;
+  position: static;
+}
+.button-white-project-playersnap.center {
+  border-color: var(--white-100);
+  background-color: var(--white-100);
+  color: #101944;
+  cursor: pointer;
+  justify-content: center;
+}
+.button-white-project-playersnap.center:hover {
+  border-color: var(--white-10);
+  background-color: var(--white-60);
+}
+.button-white-project-playersnap.center:active {
+  box-shadow: inset 0 2px 5px #0003;
+}
+.button-white-project-playersnap.center.small {
+  width: 50%;
+  height: var(--medium-button-size);
+  padding-left: 0;
+  padding-right: 0;
+}
+.text-cierre-playersnap {
+  width: 70%;
+  max-width: var(--container-lg);
+  color: #232323;
+  text-align: left;
+}
+.cierre-playersnap {
+  background-color: #404826;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+@media screen and (min-width: 1440px) {
+  .project-playersnap-hero-section {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    display: flex;
+  }
+  .components-playersnap {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .project-playersnap-hero-section {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .components-playersnap {
+    background-color: #f5fbfe;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+  }
+  .landing-playersnap {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .project-playersnap-hero-section {
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+  }
+  .container-playersnap-prioblem {
+    padding: 40px 20px;
+  }
+  .container-playersnap-context {
+    padding: 40px 0 40px 20px;
+  }
+  .container-playersnap-problem {
+    justify-content: center;
+    align-items: stretch;
+    padding: 40px 20px;
+  }
+  .cards-problems-playersnap {
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-playersnap-user-persona,
+  .container-playersnap-approach {
+    padding: 40px 20px;
+  }
+  .cards-approach-playersnap {
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-playersnap-impact {
+    padding: 40px 20px;
+  }
+  .body-project-alessandri,
+  .body-project-playersnap {
+    background-repeat: repeat-x;
+  }
+  .project-title-user-persona-playersnap,
+  .project-title-problem-playersnap {
+    font-size: 50px;
+  }
+  .head-card-playersnap {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .project-title-approach-playersnap {
+    font-size: 50px;
+  }
+  .project-title-impact-playersnap {
+    font-size: 50px;
+  }
+  .container-cards-approach-alessandri-copy,
+  .container-cards-approach-playersnap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project-playersnap-hero-section {
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50%;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+  }
+  .container-playersnap-prioblem,
+  .container-playersnap-context,
+  .container-playersnap-problem {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cards-problems-playersnap {
+    flex-flow: column;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+  }
+  .container-playersnap-user-persona,
+  .container-playersnap-approach {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cards-approach-playersnap {
+    flex-flow: column;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+  }
+  .container-playersnap-impact {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .description-impact-project-playersnap-title,
+  .description-impact-project-playersnap {
+    width: 100%;
+  }
+  .description-text-hero-playersnap {
+    text-align: center;
+    width: 100%;
+  }
+  .body-project-alessandri,
+  .body-project-playersnap {
+    flex-flow: column;
+    display: block;
+  }
+  .project-title-problem-copy,
+  .project-title-user-persona-nico,
+  .project-title-problem-nico,
+  .project-title-user-persona-playersnap {
+    text-align: center;
+  }
+  .project-title-problem-playersnap {
+    text-align: center;
+  }
+  .head-card-playersnap {
+    line-height: 28px;
+  }
+  .container-cards-approach-alessandri-copy,
+  .container-cards-approach-playersnap {
+    flex-flow: column;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .project-playersnap-hero-section {
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 140px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .images-playersnap {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .container-playersnap-prioblem {
+    padding: 60px 0 0;
+  }
+  .container-playersnap-context,
+  .container-playersnap-problem {
+    padding: 60px 20px 0;
+  }
+  .card-the-problem-playersnap {
+    width: 100%;
+  }
+  .cards-problems-playersnap {
+    flex-flow: column;
+    display: flex;
+  }
+  .container-playersnap-user-persona {
+    padding: 60px 20px;
+  }
+  .container-playersnap-approach {
+    padding: 60px 20px 0;
+  }
+  .cards-approach-playersnap {
+    flex-flow: column;
+    display: flex;
+  }
+  .card-the-approach-playersnap {
+    width: 100%;
+  }
+  .container-playersnap-impact {
+    padding: 60px 20px 0;
+  }
+  .description-impact-project-playersnap-title,
+  .description-impact-project-playersnap,
+  .the-approach-title-playersnap {
+    text-align: center;
+  }
+  .description-text-hero-playersnap {
+    font-size: 16px;
+  }
+  .body-project-alessandri,
+  .body-project-playersnap {
+    display: flex;
+  }
+  .project-title-user-persona-playersnap {
+    text-align: center;
+    width: 100%;
+  }
+  .project-title-problem-playersnap {
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+  }
+  .head-card-playersnap {
+    box-sizing: border-box;
+    color: #2843b2;
+    object-fit: cover;
+    font-size: 24px;
+  }
+  .paragraph-card-playersnap {
+    color: #ffffff;
+  }
+  .project-title-approach-playersnap {
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+  }
+  .project-title-impact-playersnap {
+    text-align: center;
+    width: 100%;
+  }
+  .card-the-impact-playersnap {
+    width: 100%;
+  }
+  .container-cards-approach-playersnap {
+    flex-flow: column;
+    display: flex;
+  }
+  .button-white-project-nico,
+  .button-white-project-playersnap,
+  .button-white-project-alessandri {
+    width: 100%;
+  }
+}
+
+/* Context metadata bar */
+
+
+/* Bar resume PlayerSnap */
+
+
+/* Visibilidad forzada: IX2 no dispara animaciones en páginas sin page-ID hash de Webflow */
+.body-project-playersnap .container-playersnap-context,
+.body-project-playersnap .context-title,
+.body-project-playersnap .project-title-context,
+.body-project-playersnap .description-context-project,
+.body-project-playersnap .image-1-playersnap,
+.body-project-playersnap .image-2-playersnap,
+.body-project-playersnap .image-3-playersnap{opacity:1!important;transition:none}
+
 .cierre-alessandri {
   background-color: #95080c;
   flex-flow: column;
