@@ -9141,6 +9141,12 @@ a {
   font-weight: 900;
   line-height: 100%;
 }
+.body-project-playersnap .user-persona-title-copy {
+  padding-left: 60px;
+}
+.body-project-playersnap .image-46 {
+  padding-bottom: 30px;
+}
 .project-title-problem-playersnap {
   width: 100%;
   max-width: 1000px;
