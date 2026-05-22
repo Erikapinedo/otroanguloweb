@@ -12,7 +12,15 @@
     { "source": "/project-expediente",    "destination": "/otroanguloweb/project-expediente.html" },
     { "source": "/project-alessandri",    "destination": "/otroanguloweb/project-alessandri.html" },
     { "source": "/project-bluesphere",    "destination": "/otroanguloweb/project-bluesphere.html" },
-    { "source": "/project-playersnap",    "destination": "/otroanguloweb/project-playersnap.html" }
+    { "source": "/project-playersnap",    "destination": "/otroanguloweb/project-playersnap.html" },
+    { "source": "/images/:path*",                          "destination": "/otroanguloweb/images/:path*" },
+    { "source": "/components/:path*",                      "destination": "/otroanguloweb/components/:path*" },
+    { "source": "/cdn.prod.website-files.com/:path*",      "destination": "/otroanguloweb/cdn.prod.website-files.com/:path*" },
+    { "source": "/cdn.jsdelivr.net/:path*",                "destination": "/otroanguloweb/cdn.jsdelivr.net/:path*" },
+    { "source": "/unpkg.com/:path*",                       "destination": "/otroanguloweb/unpkg.com/:path*" },
+    { "source": "/fonts.googleapis.com/:path*",            "destination": "/otroanguloweb/fonts.googleapis.com/:path*" },
+    { "source": "/robots.txt",                             "destination": "/otroanguloweb/robots.txt" },
+    { "source": "/sitemap.xml",                            "destination": "/otroanguloweb/sitemap.xml" }
   ],
   "headers": [
     {
