@@ -6281,8 +6281,6 @@ a {
 .image-46 {
   width: 100%;
   padding-top: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
   display: block;
 }
 .user-persona-title-copy {
@@ -6294,7 +6292,6 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-flow: row;
   place-content: center flex-start;
-  place-items: center;
   padding-left: 0;
   padding-right: 60px;
   display: flex;
@@ -7792,8 +7789,7 @@ a {
 .image-user-nico {
   width: 100%;
   padding-top: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-bottom: 80px;
   display: block;
 }
 .body-home {
@@ -9011,7 +9007,7 @@ a {
   display: grid;
 }
 .container-playersnap-user-persona {
-  width: 100%;
+  width: 85%;
   max-width: var(--container-lg);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -9141,11 +9137,8 @@ a {
   font-weight: 900;
   line-height: 100%;
 }
-.body-project-playersnap .user-persona-title-copy {
-  padding-left: 60px;
-}
 .body-project-playersnap .image-46 {
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 .project-title-problem-playersnap {
   width: 100%;
@@ -9312,7 +9305,7 @@ a {
   text-align: left;
 }
 .cierre-playersnap {
-  background-color: #404826;
+  background-color: #d3fc51;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -9910,8 +9903,7 @@ a {
 .image-user-expediente {
   width: 100%;
   padding-top: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-bottom: 80px;
   display: block;
 }
 .container-expediente-approach {
