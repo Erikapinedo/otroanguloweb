@@ -2,15 +2,17 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/",                       "destination": "/otroanguloweb.cl/index.html" },
-    { "source": "/index",                  "destination": "/otroanguloweb.cl/index.html" },
-    { "source": "/about-me-erika-pinedo",  "destination": "/otroanguloweb.cl/about-me-erika-pinedo.html" },
-    { "source": "/portfolio",              "destination": "/otroanguloweb.cl/portfolio.html" },
-    { "source": "/contact",               "destination": "/otroanguloweb.cl/contact.html" },
-    { "source": "/project-parrotfy",      "destination": "/otroanguloweb.cl/project-parrotfy.html" },
-    { "source": "/project-nico-seguros",  "destination": "/otroanguloweb.cl/project-nico-seguros.html" },
-    { "source": "/project-expediente",    "destination": "/otroanguloweb.cl/project-expediente.html" },
-    { "source": "/project-alessandri",    "destination": "/otroanguloweb.cl/project-alessandri.html" }
+    { "source": "/",                      "destination": "/otroanguloweb/index.html" },
+    { "source": "/index",                 "destination": "/otroanguloweb/index.html" },
+    { "source": "/about-me-erika-pinedo", "destination": "/otroanguloweb/about-me-erika-pinedo.html" },
+    { "source": "/portfolio",             "destination": "/otroanguloweb/portfolio.html" },
+    { "source": "/contact",               "destination": "/otroanguloweb/contact.html" },
+    { "source": "/project-parrotfy",      "destination": "/otroanguloweb/project-parrotfy.html" },
+    { "source": "/project-nico-seguros",  "destination": "/otroanguloweb/project-nico-seguros.html" },
+    { "source": "/project-expediente",    "destination": "/otroanguloweb/project-expediente.html" },
+    { "source": "/project-alessandri",    "destination": "/otroanguloweb/project-alessandri.html" },
+    { "source": "/project-bluesphere",    "destination": "/otroanguloweb/project-bluesphere.html" },
+    { "source": "/project-playersnap",    "destination": "/otroanguloweb/project-playersnap.html" }
   ],
   "headers": [
     {
