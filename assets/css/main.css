@@ -1996,7 +1996,7 @@ a {
 .body {
   font-family: var(--avenir-ok);
   background-color: #101943;
-  background-image: url(../../../images/portfolio/hero-portafolio.webp);
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
   background-position: 50% 0;
   background-repeat: repeat-x;
   background-size: 100%;
@@ -2559,7 +2559,7 @@ a {
   margin-top: 80px;
 }
 .about-card-1 {
-  background-image: url(../../../images/shared/fondo-portada.jpg);
+  background-image: url(../../images/shared/fondo-portada.jpg);
   background-position: 0 0;
   background-size: auto;
   border-radius: 16px;
@@ -3097,7 +3097,7 @@ a {
 .c2a-main {
   border: 1px solid var(--black-10);
   background-color: #0000;
-  background-image: url(../../../images/portfolio/hero-portafolio.webp);
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
   background-position: 50% 0;
   background-size: cover;
   background-attachment: fixed;
@@ -3107,7 +3107,7 @@ a {
   padding: 100px;
 }
 .footer {
-  background-image: url(../../../images/shared/fondo-oscuro-hero.webp);
+  background-image: url(../../images/shared/fondo-oscuro-hero.webp);
   background-position: 50% 0;
   background-repeat: repeat-x;
   background-size: 100vw;
@@ -3985,7 +3985,7 @@ a {
 }
 .body-2 {
   background-color: #101944;
-  background-image: url(../../../images/portfolio/hero-portafolio.webp);
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
   background-position: 50% 0;
   background-repeat: repeat-x;
   background-size: cover;
@@ -4239,7 +4239,7 @@ a {
   background-color: var(
     --blue-dark\<deleted\|variable-726eb34b-ea5f-bc22-4172-070cbd692799\>
   );
-  background-image: url(../../../images/shared/fondo-oscuro-hero.webp);
+  background-image: url(../../images/shared/fondo-oscuro-hero.webp);
   background-position: 50% 0;
   background-repeat: repeat-x;
   background-size: 100vw;
@@ -4300,7 +4300,7 @@ a {
   display: flex;
 }
 .body-5 {
-  background-image: url(../../../images/portfolio/hero-portafolio.webp);
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
   background-position: 50%;
   background-size: cover;
   font-family:
@@ -5318,7 +5318,7 @@ a {
 .container-home-vip-projects {
   background-color: var(--pink-100);
   -webkit-text-fill-color: inherit;
-  background-image: url(../../../images/portfolio/hero-portafolio.webp);
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
   background-position: 50% 100%;
   background-repeat: repeat;
   background-size: cover;
@@ -6045,7 +6045,7 @@ a {
   grid-row-gap: 5px;
   background-image:
     linear-gradient(45deg, #1f2e4f 32%, #1f2e4f87 67%, #1f2e4f00),
-    url(../../../images/nico-seguros/bg-nico.webp);
+    url(../../images/nico-seguros/bg-nico.webp);
   background-position:
     0 0,
     0 0;
@@ -6071,7 +6071,7 @@ a {
 .project-nico-other-proyects {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  background-image: url(../../../images/portfolio/hero-portafolio.webp);
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
   background-position: 50% 100%;
   background-size: cover;
   flex-flow: column;
@@ -6885,7 +6885,7 @@ a {
   background-color: #990e0e00;
   background-image:
     linear-gradient(45deg, #480004 25%, #480004ba 60%, #48000400),
-    url(../../../images/alessandri/bg-alessandri.webp);
+    url(../../images/alessandri/bg-alessandri.webp);
   background-position:
     0 0,
     0 0;
@@ -6976,7 +6976,7 @@ a {
   height: 100%;
 }
 .project-alessandri-userpersona {
-  background-image: url(../../../images/alessandri/4alessandri-erika-pinedo.webp);
+  background-image: url(../../images/alessandri/4alessandri-erika-pinedo.webp);
   background-position: 50% 0;
   background-size: cover;
   flex-flow: row;
@@ -7050,7 +7050,7 @@ a {
 }
 .project-alessandri-impact {
   background-color: #0000;
-  background-image: url(../../../images/alessandri/9alessandri-erika-pinedo.webp);
+  background-image: url(../../images/alessandri/9alessandri-erika-pinedo.webp);
   background-position: 50% 0;
   background-size: cover;
   width: 100%;
@@ -7157,7 +7157,7 @@ a {
   grid-row-gap: 5px;
   background-image:
     linear-gradient(90deg, #2844b4 53%, #2844b48a 78%, #2844b400),
-    url(../../../images/parrotfy/bg-parrotfy.webp);
+    url(../../images/parrotfy/bg-parrotfy.webp);
   background-position:
     0 0,
     0 0;
@@ -7482,7 +7482,7 @@ a {
   display: flex;
 }
 .design-process {
-  background-image: url(../../../images/alessandri/4alessandri-erika-pinedo.webp);
+  background-image: url(../../images/alessandri/4alessandri-erika-pinedo.webp);
   background-position: 50% 0;
   background-size: cover;
   flex-flow: column;
@@ -7795,7 +7795,7 @@ a {
 .body-home {
   font-family: var(--avenir-ok);
   background-color: #101943;
-  background-image: url(../../../images/portfolio/hero-portafolio.webp);
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
   background-position: 50% 0;
   background-repeat: repeat-x;
   background-size: 100%;
@@ -7870,7 +7870,7 @@ a {
   background-color: #95080c;
 }
 .solution-container {
-  background-image: url(../../../images/alessandri/8alessandri-erika-pinedo.webp);
+  background-image: url(../../images/alessandri/8alessandri-erika-pinedo.webp);
   background-position: 50% 0;
   background-size: cover;
   width: 100%;
@@ -8270,7 +8270,7 @@ a {
   text-decoration: none;
 }
 .body-7 {
-  background-image: url(../../../images/portfolio/hero-portafolio.webp);
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
   background-position: 50% 0;
   background-size: cover;
 }
@@ -8834,7 +8834,7 @@ a {
   grid-row-gap: 5px;
   background-image:
   linear-gradient(90deg, #232323 50%, #23232378 90%, #2844b417), 
-    url(../../../images/playersnap/bg-playersnap.webp);
+    url(../../images/playersnap/bg-playersnap.webp);
   background-position:
     0 0,
     0 0;
@@ -9607,7 +9607,7 @@ a {
   grid-row-gap: 5px;
   background-image:
     linear-gradient(45deg, #1f2e4f 32%, #1f2e4f87 67%, #1f2e4f00),
-    url(../../../images/nico-seguros/bg-nico.webp);
+    url(../../images/nico-seguros/bg-nico.webp);
   background-position:
     0 0,
     0 0;
@@ -9815,7 +9815,7 @@ a {
   grid-row-gap: 5px;
   background-image:
     linear-gradient(45deg, #006838 24%, #0068388c 63%, #1f2e4f00),
-    url(../../../images/expediente/bg-expediente.webp);
+    url(../../images/expediente/bg-expediente.webp);
   background-position:
     0 0,
     0 0;
@@ -10039,7 +10039,7 @@ a {
 .project-expediente-other-proyects {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  background-image: url(../../../images/portfolio/hero-portafolio.webp);
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
   background-position: 50% 100%;
   background-size: cover;
   flex-flow: column;
@@ -10425,7 +10425,7 @@ a {
     max-width: none;
   }
   .container-home-vip-projects {
-    background-image: url(../../../images/shared/fondo-oscuro-hero.webp);
+    background-image: url(../../images/shared/fondo-oscuro-hero.webp);
     background-position: 50% 0;
     background-size: cover;
     background-attachment: fixed;
@@ -10717,7 +10717,7 @@ a {
     align-items: flex-start;
   }
   .project-alessandri-userpersona {
-    background-image: url(../../../images/alessandri/4alessandri-erika-pinedo.webp);
+    background-image: url(../../images/alessandri/4alessandri-erika-pinedo.webp);
     background-position: 50% 0;
     background-size: cover;
   }
