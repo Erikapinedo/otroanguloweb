@@ -8838,7 +8838,7 @@ a {
   grid-row-gap: 5px;
   background-image:
   linear-gradient(90deg, #232323 50%, #23232378 90%, #2844b417), 
-    url(images/playersnap/bg-playersnap.webp);
+    url(../../../images/playersnap/bg-playersnap.webp);
   background-position:
     0 0,
     0 0;
