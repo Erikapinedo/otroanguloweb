@@ -79,7 +79,6 @@
 
         if (navEl) {
           navEl.innerHTML = results[0];
-          applyActiveLink(navEl);
         }
         if (footEl) {
           footEl.innerHTML = results[1];
@@ -87,6 +86,12 @@
 
         applyI18n();
         reinitWebflow();
+
+        // Aplicar después de reinitWebflow: el módulo nav de Webflow resetea
+        // w--current al reiniciarse y no reconoce URLs limpias vs. hrefs con .html
+        if (navEl) {
+          applyActiveLink(navEl);
+        }
       })
       .catch(function (err) {
         console.error('[components.js]', err);

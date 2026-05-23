@@ -75,4 +75,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/project-expediente"/>
   </url>
 
+  <url>
+    <loc>https://otroanguloweb.cl/project-bluesphere</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/project-bluesphere"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/project-bluesphere"/>
+  </url>
+
+  <url>
+    <loc>https://otroanguloweb.cl/project-playersnap</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/project-playersnap"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/project-playersnap"/>
+  </url>
+
 </urlset>

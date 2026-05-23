@@ -19,7 +19,11 @@
       property="twitter:description"
     />
     <meta property="og:url" content="https://otroanguloweb.cl/project-bluesphere" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:site_name" content="Otro Ángulo Web – Erika Pinedo" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
@@ -54,13 +58,50 @@
     <link href="../images/shared/favicon.png" rel="shortcut icon" type="image/x-icon" />
     <link href="../images/shared/webclip-apple.webp" rel="apple-touch-icon" />
     <link href="https://otroanguloweb.cl/project-bluesphere" rel="canonical" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "BlueSphere – Diseño UX/UI de Plataforma de Ciberseguridad",
+        "url": "https://otroanguloweb.cl/project-bluesphere",
+        "inLanguage": "es",
+        "description": "Caso de diseño UX/UI: BlueSphere, plataforma cloud-native que integra ciberseguridad, gobernanza y resiliencia operativa para pymes con SOC 24/7 y gestión IT unificada.",
+        "dateCreated": "2025",
+        "keywords": ["Diseño UX/UI", "Ciberseguridad", "Cloud-native", "Zero Trust", "SaaS", "Figma"],
+        "genre": "Diseño UX/UI · Caso de estudio",
+        "author": {
+          "@type": "Person",
+          "name": "Erika Pinedo",
+          "url": "https://otroanguloweb.cl/about-me-erika-pinedo",
+          "jobTitle": "Diseñadora UX/UI",
+          "sameAs": "https://www.linkedin.com/in/erika-pinedo-camacho/"
+        },
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Otro Ángulo Web – Erika Pinedo",
+          "url": "https://otroanguloweb.cl"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://otroanguloweb.cl/"},
+          {"@type": "ListItem", "position": 2, "name": "Portafolio", "item": "https://otroanguloweb.cl/portfolio"},
+          {"@type": "ListItem", "position": 3, "name": "BlueSphere", "item": "https://otroanguloweb.cl/project-bluesphere"}
+        ]
+      }
+    </script>
     <link rel="stylesheet" href="../vendors/lenis/lenis.css" />
-    <link rel="alternate" hreflang="es" href="project-bluesphere.html" />
-    <link rel="alternate" hreflang="en" href="project-bluesphere.html" />
-    <link rel="alternate" hreflang="x-default" href="project-bluesphere.html" />
+    <link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/project-bluesphere" />
+    <link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/project-bluesphere" />
+    <link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/project-bluesphere" />
     <script
       src="../vendors/countup/countup.js"
       type="text/javascript"
+      defer
     ></script>
   </head>
   <body class="body-project-parrotfy">
@@ -620,7 +661,7 @@
                     <div class="div-block-240">
                       <a
                         href="project-parrotfy.html"
-                        class="button-white-project-parrotfy w-button"
+                        class="button-white-project-nico w-button"
                         data-i18n="bluesphereProjectPage.knowMore"
                         >Conocer más</a
                       >
@@ -661,7 +702,7 @@
                     <div class="div-block-240">
                       <a
                         href="project-playersnap.html"
-                        class="button-white-project-alessandri w-button"
+                        class="button-white-project-nico w-button"
                         data-i18n="bluesphereProjectPage.knowMore"
                         >Conocer más</a
                       >
@@ -704,9 +745,6 @@
     <script src="../vendors/lenis/lenis.min.js"></script>
     <script>
       const lenis = new Lenis({ lerp: 0.1 });
-      lenis.on("scroll", (e) => {
-        console.log(e);
-      });
       function raf(time) {
         lenis.raf(time);
         requestAnimationFrame(raf);

@@ -26,6 +26,10 @@
     />
     <meta property="og:url" content="https://otroanguloweb.cl/" />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:site_name" content="Otro Ángulo Web – Erika Pinedo" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
@@ -151,12 +155,13 @@
     </script>
     <link rel="stylesheet" href="../vendors/lenis/lenis.css" />
 
-    <link rel="alternate" hreflang="es" href="index.html" />
-    <link rel="alternate" hreflang="en" href="index.html" />
-    <link rel="alternate" hreflang="x-default" href="index.html" />
+    <link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/" />
+    <link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/" />
+    <link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/" />
     <script
       src="../vendors/countup/countup.js"
       type="text/javascript"
+      defer
     ></script>
   </head>
   <body class="body-home">
@@ -488,7 +493,7 @@
                       <a
                         href="project-alessandri.html"
                         data-i18n-href="links.projectAlessandri"
-                        class="button-white-project-alessandri w-button"
+                        class="button-white-project-nico w-button"
                         data-i18n="vip.knowMore"
                         >Conocer más</a
                       >
@@ -570,7 +575,7 @@
                       <a
                         href="project-parrotfy.html"
                         data-i18n-href="links.projectParrotfy"
-                        class="button-white-project-parrotfy w-button"
+                        class="button-white-project-nico w-button"
                         data-i18n="vip.knowMore"
                         >Conocer más</a
                       >
@@ -613,7 +618,7 @@
           </p>
           <section class="section-13">
             <div data-w-id="a1c5fec7-cb33-bffe-81c3-df5a41ae1b8c" style="opacity: 0" class="card-skills">
-              <h1 class="heading-card-skills">UX/UI</h1>
+              <h3 class="heading-card-skills">UX/UI</h3>
               <p class="paragraph-28" data-i18n-html="services.uxBody">
                 <strong
                   >Diseño productos digitales claros, intuitivos y escalables, enfocados en usuarios y objetivos de
@@ -623,7 +628,7 @@
               </p>
             </div>
             <div data-w-id="d3c3dc08-71f7-00ad-f19d-de7b5d948a35" style="opacity: 0" class="card-skills">
-              <h1 class="heading-card-skills">Branding</h1>
+              <h3 class="heading-card-skills">Branding</h3>
               <p class="paragraph-28" data-i18n-html="services.brandingBody">
                 <strong
                   >Construyo identidades visuales coherentes que transmiten valor, personalidad y
@@ -633,7 +638,7 @@
               </p>
             </div>
             <div data-w-id="cc5d13c9-cd18-2377-6d6a-28cda0b6a3ca" style="opacity: 0" class="card-skills">
-              <h1 class="heading-card-skills" data-i18n="services.presentationsTitle">Presentaciones</h1>
+              <h3 class="heading-card-skills" data-i18n="services.presentationsTitle">Presentaciones</h3>
               <p class="paragraph-28" data-i18n-html="services.presentationsBody">
                 <strong>Creo presentaciones visuales que comunican ideas complejas con claridad e impacto.</strong
                 ><br />‍<br />- Pitch decks para startups e inversionistas<br />- Presentaciones corporativas y
@@ -711,11 +716,6 @@
       // Initialize Lenis
       const lenis = new Lenis({
         lerp: 0.1,
-      });
-
-      // Listen for the scroll event and log the event data
-      lenis.on("scroll", (e) => {
-        console.log(e);
       });
 
       // Use requestAnimationFrame to continuously update the scroll

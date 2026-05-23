@@ -25,7 +25,11 @@
       property="twitter:description"
     />
     <meta property="og:url" content="https://otroanguloweb.cl/project-parrotfy" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:site_name" content="Otro Ángulo Web – Erika Pinedo" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
@@ -104,12 +108,24 @@
     </script>
     <link rel="stylesheet" href="../vendors/lenis/lenis.css" />
 
-    <link rel="alternate" hreflang="es" href="project-parrotfy.html" />
-    <link rel="alternate" hreflang="en" href="project-parrotfy.html" />
-    <link rel="alternate" hreflang="x-default" href="project-parrotfy.html" />
+    <link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/project-parrotfy" />
+    <link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/project-parrotfy" />
+    <link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/project-parrotfy" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://otroanguloweb.cl/"},
+          {"@type": "ListItem", "position": 2, "name": "Portafolio", "item": "https://otroanguloweb.cl/portfolio"},
+          {"@type": "ListItem", "position": 3, "name": "Parrotfy", "item": "https://otroanguloweb.cl/project-parrotfy"}
+        ]
+      }
+    </script>
     <script
       src="../vendors/countup/countup.js"
       type="text/javascript"
+      defer
     ></script>
     <style>
       .body-project-parrotfy .paragraph-30-copy-black {
@@ -736,7 +752,7 @@
                     <div class="div-block-240">
                       <a
                         href="project-alessandri.html"
-                        class="button-white-project-alessandri w-button"
+                        class="button-white-project-nico w-button"
                         data-i18n="parrotfyProjectPage.knowMore"
                         >Conocer más</a
                       >
@@ -775,7 +791,7 @@
                     <div class="div-block-240">
                       <a
                         href="project-expediente.html"
-                        class="button-white-project-alessandri w-button"
+                        class="button-white-project-nico w-button"
                         data-i18n="parrotfyProjectPage.knowMore"
                         >Conocer más</a
                       >
@@ -821,11 +837,6 @@
       // Initialize Lenis
       const lenis = new Lenis({
         lerp: 0.1,
-      });
-
-      // Listen for the scroll event and log the event data
-      lenis.on("scroll", (e) => {
-        console.log(e);
       });
 
       // Use requestAnimationFrame to continuously update the scroll
