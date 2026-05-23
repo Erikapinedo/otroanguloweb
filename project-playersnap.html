@@ -47,6 +47,132 @@
         ) {
         visibility: hidden !important;
       }
+
+      .ps-testimonial-section {
+        background: #111111;
+        width: 100%;
+        padding: 80px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+        box-sizing: border-box;
+      }
+
+      .ps-testimonial-card {
+        max-width: 820px;
+        width: 100%;
+        background: linear-gradient(180deg, #232323 0%, #4048268b 100%);
+        border-radius: 16px;
+        padding: 48px 52px;
+      }
+
+      .ps-quote-mark {
+        font-size: 88px;
+        line-height: 0.8;
+        color: #c6f135;
+        font-family: Georgia, serif;
+        display: block;
+        margin-bottom: 16px;
+      }
+
+      .ps-testimonial-quote {
+        font-size: 21px;
+        color: #ffffff;
+        line-height: 1.65;
+        margin: 0 0 32px 0;
+        font-style: italic;
+      }
+
+      .ps-highlight {
+        color: #c6f135;
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      .ps-testimonial-author {
+        border-top: 1px solid #2e2e2e;
+        padding-top: 24px;
+      }
+
+      .ps-author-name {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        color: #c6f135;
+        margin-bottom: 4px;
+      }
+
+      .ps-author-role {
+        display: block;
+        font-size: 14px;
+        color: #aaaaaa;
+      }
+
+      .ps-teams-logos {
+        max-width: 820px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .ps-teams-label {
+        display: block;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: #555555;
+        margin-bottom: 24px;
+      }
+
+      .ps-logos-row {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 56px;
+        flex-wrap: wrap;
+      }
+
+      .ps-logo-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .ps-team-logo {
+        height: 78px;
+        width: auto;
+        filter: brightness(0) invert(1);
+        opacity: 0.6;
+        transition: opacity 0.2s ease;
+      }
+
+      .ps-team-logo:hover {
+        opacity: 1;
+      }
+
+      .ps-team-name {
+        font-size: 11px;
+        color: #555555;
+        text-align: center;
+        max-width: 120px;
+        line-height: 1.4;
+      }
+
+      @media (max-width: 767px) {
+        .ps-testimonial-card {
+          padding: 32px 28px;
+        }
+        .ps-testimonial-quote {
+          font-size: 18px;
+        }
+        .ps-logos-row {
+          gap: 32px;
+        }
+        .ps-team-logo {
+          height: 57px;
+        }
+      }
     </style>
     <link
       href="../assets/css/fonts.css"
@@ -315,7 +441,7 @@
           </p>
           <section class="cards-approach-playersnap">
             <div data-w-id="221d333b-96b5-53d7-e1ff-8dc58e1cd779" class="card-the-approach-playersnap">
-              <img src="../images/shared/eye-blue.svg" loading="lazy" width="70" alt="" class="image-45" />
+              <img src="../images/shared/sparkle-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
               <h2 class="title-card-approach">
                 <strong data-i18n="playersnapProjectPage.approach1Title">IA al servicio del flujo</strong>
               </h2>
@@ -325,7 +451,7 @@
               </p>
             </div>
             <div class="card-the-approach-playersnap">
-              <img src="../images/shared/border-style-dashed-2.svg" loading="lazy" width="70" alt="" class="image-45" />
+              <img src="../images/shared/list-magnifying-glass-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
               <h2 class="title-card-approach" data-i18n="playersnapProjectPage.approach2Title">Búsqueda inteligente</h2>
               <p class="paragraph-approach" data-i18n="playersnapProjectPage.approach2Body">
                 Filtros multidimensionales que permiten encontrar cualquier activo en segundos, sin importar el volumen
@@ -333,7 +459,7 @@
               </p>
             </div>
             <div class="card-the-approach-playersnap">
-              <img src="../images/shared/trending-3.svg" loading="lazy" width="70" alt="" class="image-45" />
+              <img src="../images/shared/share-network-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
               <h2 class="title-card-approach" data-i18n="playersnapProjectPage.approach3Title">
                 Distribución en tiempo real
               </h2>
@@ -416,28 +542,28 @@
           <div class="div-block-249">
             <section data-w-id="6b1bc87a-e349-d3f7-3ab7-7659633abfc8" class="container-cards-approach-playersnap">
               <div data-w-id="af95a32a-e213-b5b3-8454-990d7423b500" class="card-the-impact-playersnap">
-                <img src="../images/shared/eye-pink.svg" loading="lazy" width="70" alt="" class="image-45" />
+                <img src="../images/shared/heart-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
                 <p class="impact-card-body-playersnap" data-i18n-html="playersnapProjectPage.imp1Html">
                   <strong class="impact-card-title-playersnap">Más engagement</strong><br />Contenido en el momento
                   preciso que los fans lo esperan.
                 </p>
               </div>
               <div data-w-id="3a9f30f3-f91f-585f-54f2-7ae77ed92a6d" class="card-the-impact-playersnap">
-                <img src="../images/shared/time.svg" loading="lazy" width="70" alt="" class="image-45" />
+                <img src="../images/shared/timer-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
                 <p class="impact-card-body-playersnap" data-i18n-html="playersnapProjectPage.imp2Html">
                   <strong class="impact-card-title-playersnap">Ahorro de tiempo</strong><br />El etiquetado automático
                   elimina horas de trabajo manual por semana.
                 </p>
               </div>
               <div data-w-id="d21f56cc-0a4d-f4f1-421a-58f4da91f3c8" class="card-the-impact-playersnap">
-                <img src="../images/shared/rocket-launch.svg" loading="lazy" width="70" alt="" class="image-45" />
+                <img src="../images/shared/check-circle-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
                 <p class="impact-card-body-playersnap" data-i18n-html="playersnapProjectPage.imp3Html">
                   <strong class="impact-card-title-playersnap">Mejor organización</strong><br />Todos los activos
                   multimedia en un solo lugar, clasificados y listos para usar.
                 </p>
               </div>
               <div class="card-the-impact-playersnap">
-                <img src="../images/shared/check-o-3.svg" loading="lazy" width="70" alt="" class="image-45" />
+                <img src="../images/shared/flag-checkered-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
                 <p class="impact-card-body-playersnap" data-i18n-html="playersnapProjectPage.imp5Html">
                   <strong class="impact-card-title-playersnap">Distribución escalable</strong><br />Un sistema que crece
                   con la organización sin perder velocidad ni calidad.
@@ -453,88 +579,36 @@
           </p>
         </div>
       </section>
-      <section class="section-12-copy">
+      <section class="ps-testimonial-section">
         <h2 class="home-heading-reviews">
-          <strong class="bold-text-7" data-i18n="playersnapProjectPage.reviewsH">Algunos usuarios dijeron</strong>
+          <strong class="bold-text-7" data-i18n="playersnapProjectPage.reviewsH">Confían en PlayerSnap</strong>
         </h2>
-        <div
-          data-delay="4000"
-          data-animation="slide"
-          class="slider w-slider"
-          data-autoplay="false"
-          data-easing="ease"
-          data-hide-arrows="false"
-          data-disable-swipe="false"
-          data-autoplay-limit="0"
-          data-nav-spacing="3"
-          data-duration="500"
-          data-infinite="true"
-        >
-          <div class="mask w-slider-mask">
-            <div class="slide w-slide">
-              <div class="w-layout-vflex flex-block-3">
-                <img
-                  src="../images/shared/persona-constructora.webp"
-                  loading="lazy"
-                  width="78"
-                  alt="Ícono liga deportiva regional."
-                  class="image-53"
-                />
-                <h3 class="heading-36" data-i18n-html="playersnapProjectPage.r1Html">
-                  <strong>Liga deportiva regional</strong>
-                </h3>
-                <p class="paragraph-26">
-                  <em data-i18n="playersnapProjectPage.r1quote"
-                    >"PlayerSnap nos permitió pasar de enviar archivos por correo a tener un sistema centralizado donde
-                    todo el equipo puede encontrar y distribuir contenido en minutos."</em
-                  >
-                </p>
-              </div>
+        <div class="ps-testimonial-card">
+          <span class="ps-quote-mark">"</span>
+          <p class="ps-testimonial-quote" data-i18n-html="playersnapProjectPage.testimonialQuoteHtml">
+            La <em class="ps-highlight">automatización con IA</em>, la organización del material y la distribución en tiempo real son exactamente lo que necesitamos en un club como el Atlético.
+          </p>
+          <div class="ps-testimonial-author">
+            <span class="ps-author-name" data-i18n="playersnapProjectPage.testimonialAuthorName">Débora Saldanha</span>
+            <span class="ps-author-role" data-i18n="playersnapProjectPage.testimonialAuthorRole">Head de Innovación · Clube Atlético Mineiro</span>
+          </div>
+        </div>
+        <div class="ps-teams-logos">
+          <span class="ps-teams-label" data-i18n="playersnapProjectPage.teamsLabel">Equipos que operan con la plataforma</span>
+          <div class="ps-logos-row">
+            <div class="ps-logo-item">
+              <img src="../images/playersnap/clube-atletico-mineiro-logo.svg" alt="Clube Atlético Mineiro" class="ps-team-logo" data-i18n-alt="playersnapProjectPage.logoAtleticoAlt" />
+              <span class="ps-team-name" data-i18n="playersnapProjectPage.logoAtleticoAlt">Clube Atlético Mineiro</span>
             </div>
-            <div class="slide w-slide">
-              <div class="w-layout-vflex flex-block-3">
-                <img
-                  src="../images/shared/persona-industria-alimentos.webp"
-                  loading="lazy"
-                  width="78"
-                  alt="Ícono federación deportiva."
-                  class="image-53"
-                />
-                <h3 class="heading-36" data-i18n-html="playersnapProjectPage.r2Html">
-                  <strong>Federación deportiva</strong>
-                </h3>
-                <p class="paragraph-26">
-                  <em data-i18n="playersnapProjectPage.r2quote"
-                    >"Con el etiquetado automático ahorramos horas cada semana. Ahora podemos publicar highlights en
-                    tiempo real y el engagement de nuestros fans se ha disparado."</em
-                  >
-                </p>
-              </div>
+            <div class="ps-logo-item">
+              <img src="../images/playersnap/club-deportivo-universidad-catolica-logo.svg" alt="Club Deportivo Universidad Católica" class="ps-team-logo" data-i18n-alt="playersnapProjectPage.logoUCAlt" />
+              <span class="ps-team-name" data-i18n="playersnapProjectPage.logoUCAlt">Club Deportivo Universidad Católica</span>
             </div>
-            <div class="slide w-slide">
-              <div class="w-layout-vflex flex-block-3">
-                <img
-                  src="../images/shared/persona-natural.webp"
-                  loading="lazy"
-                  width="78"
-                  alt="Ícono club deportivo profesional."
-                  class="image-53"
-                />
-                <h3 class="heading-36" data-i18n-html="playersnapProjectPage.r3Html">
-                  <strong>Club deportivo profesional</strong>
-                </h3>
-                <p class="paragraph-26">
-                  <em data-i18n="playersnapProjectPage.r3quote"
-                    >"La búsqueda avanzada es increíble. Antes tardábamos 30 minutos en encontrar un clip específico,
-                    ahora lo tenemos en segundos."</em
-                  >
-                </p>
-              </div>
+            <div class="ps-logo-item">
+              <img src="../images/playersnap/san-lorenzo-de-almagro-logo.svg" alt="San Lorenzo de Almagro" class="ps-team-logo" data-i18n-alt="playersnapProjectPage.logoSanLorenzoAlt" />
+              <span class="ps-team-name" data-i18n="playersnapProjectPage.logoSanLorenzoAlt">San Lorenzo de Almagro</span>
             </div>
           </div>
-          <div class="w-slider-arrow-left"><div class="w-icon-slider-left"></div></div>
-          <div class="w-slider-arrow-right"><div class="w-icon-slider-right"></div></div>
-          <div class="slide-nav w-slider-nav w-round w-num"></div>
         </div>
       </section>
       <img
@@ -576,8 +650,7 @@
       />
       <section class="cierre-playersnap">
         <p class="text-cierre-playersnap" data-i18n-html="playersnapProjectPage.creditsHtml">
-          <strong>Compañía</strong> PlayerSnap<br /><strong>Diseñador UX/UI </strong>Erika Pinedo<br /><br />- Todos los
-          derechos reservados -
+          <strong>Compañía</strong> Nnodes<br /><strong>CTO</strong> Pablo Caviedes<br /><strong>Diseñador UX/UI</strong> Erika Pinedo<br /><strong>Desarrolladores</strong> Juan Hayashi<br /><br />- Todos los derechos reservados -
         </p>
       </section>
       <section class="project-nico-other-proyects">
