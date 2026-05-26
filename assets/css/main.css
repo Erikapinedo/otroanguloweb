@@ -10133,6 +10133,8 @@ a {
   .container-bluesphere-brandbook { padding: 70px 40px; gap: 56px; }
   .brandbook-logo-row { grid-template-columns: 1fr; }
   .brandbook-versions-grid { grid-template-columns: 1fr 1fr; }
+  .brandbook-version-card { height: 200px; }
+  .bv-logo { width: 120px; }
   .brandbook-palette-secondary { grid-template-columns: repeat(3, 1fr); }
   .brandbook-typo-grid { grid-template-columns: 1fr; }
   .brandbook-gradients { grid-template-columns: 1fr; }
@@ -10177,6 +10179,9 @@ a {
   .cards-approach-bluesphere { flex-flow: column; padding-left: 0; padding-right: 0; display: flex; }
   .container-bluesphere-impact { padding-left: 20px; padding-right: 20px; }
   .container-cards-approach-bluesphere { flex-flow: column; padding-left: 0; padding-right: 0; display: flex; }
+  .body-project-bluesphere .project-title-problem-bluesphere { white-space: normal; font-size: clamp(28px, 7vw, 50px); }
+  .brandbook-version-card { height: 180px; }
+  .bv-logo { width: 110px; }
 }
 @media screen and (max-width: 479px) {
   .project-bluesphere-hero-section { width: 100vw; height: 100vh; margin-left: auto; margin-right: auto; padding-top: 140px; padding-left: 0; padding-right: 0; }
@@ -10198,6 +10203,11 @@ a {
   .body-project-bluesphere { display: flex; }
   .project-title-user-persona-bluesphere { text-align: center; width: 100%; }
   .project-title-problem-bluesphere { text-align: center; width: 100%; font-size: 35px; }
+  .body-project-bluesphere .project-title-problem-bluesphere { white-space: normal; font-size: clamp(24px, 8vw, 35px); text-align: center; }
+  .brandbook-versions-grid { grid-template-columns: 1fr 1fr; }
+  .brandbook-version-card { height: 160px; padding: 14px; }
+  .bv-logo { width: 80px; }
+  .bv-tag { font-size: 10px; white-space: normal; }
 }
 /* ===== fin BlueSphere ===== */
 
