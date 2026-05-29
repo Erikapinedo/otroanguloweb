@@ -93,4 +93,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/project-playersnap"/>
   </url>
 
+  <url>
+    <loc>https://otroanguloweb.cl/project-matchminders</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/project-matchminders"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/project-matchminders"/>
+  </url>
+
 </urlset>

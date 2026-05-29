@@ -37,6 +37,7 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:image" content="https://otroanguloweb.cl/images/shared/opengraph-erika-pinedo.png" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
     <style>
@@ -179,7 +180,7 @@
         <div class="w-layout-hflex flex-block-7">
           <div class="w-embed w-script">
             <button
-              onclick="document.referrer ? history.back() : (window.location.href = '/')"
+              onclick="window.location.href = document.referrer || '/';"
               style="
                 display: inline-block;
                 padding: 14px 28px;
@@ -238,7 +239,7 @@
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="expedienteProjectPage.roleLabel">Rol</span>
-                <span class="alessandri-stat-label">Diseñadora UX/UI</span>
+                <span class="alessandri-stat-label" data-i18n="expedienteProjectPage.roleValue">Diseñadora UX/UI</span>
               </div>
             </div>
           </div>
@@ -344,9 +345,9 @@
               class="card-the-problem-expediente"
             >
               <img src="../images/expediente/group-9123.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="title-expediente-card" data-i18n="expedienteProjectPage.prob1Title">
+              <h3 class="title-expediente-card" data-i18n="expedienteProjectPage.prob1Title">
                 Gestión ineficiente de documentos físicos
-              </h1>
+              </h3>
               <p class="paragraph-30" data-i18n="expedienteProjectPage.prob1Body">
                 Mantener el expediente en papel implicaba buscar documentos entre carpetas, perder versiones
                 actualizadas y depender de la presencia física para acceder a información crítica del caso.
@@ -358,9 +359,9 @@
               class="card-the-problem-expediente"
             >
               <img src="../images/expediente/group-9122.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="title-nico" data-i18n="expedienteProjectPage.prob2Title">
+              <h3 class="title-nico" data-i18n="expedienteProjectPage.prob2Title">
                 Comunicación y coordinación limitadas
-              </h1>
+              </h3>
               <p class="paragraph-30" data-i18n="expedienteProjectPage.prob2Body">
                 Coordinar árbitros, mediadores y partes involucradas a través de correos y llamadas generaba demoras,
                 confusión sobre acuerdos tomados y falta de trazabilidad en el proceso.
@@ -372,9 +373,9 @@
               class="card-the-problem-expediente"
             >
               <img src="../images/expediente/group-9121.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="title-nico" data-i18n="expedienteProjectPage.prob3Title">
+              <h3 class="title-nico" data-i18n="expedienteProjectPage.prob3Title">
                 Seguridad de la información y confidencialidad
-              </h1>
+              </h3>
               <p class="paragraph-30" data-i18n="expedienteProjectPage.prob3Body">
                 Los documentos físicos y los correos no ofrecen control real sobre quién accede a qué. En un proceso
                 arbitral, esa falta de control representa un riesgo legal y ético para todas las partes.
@@ -505,7 +506,7 @@
 "
                 class="image-45"
               />
-              <h1 class="title-nico" data-i18n="expedienteProjectPage.imp1Title">Digitalizar</h1>
+              <h3 class="title-nico" data-i18n="expedienteProjectPage.imp1Title">Digitalizar</h3>
               <p class="paragraph-30-copy" data-i18n="expedienteProjectPage.imp1Body">
                 Los usuarios de la plataforma podrán ver todas sus arbitrajes y mediaciones 100% de forma digital.
                 Adaptándose a los nuevos desafíos de Legaltech.
@@ -520,14 +521,14 @@
 "
                 class="image-45"
               />
-              <h1 class="title-nico" data-i18n="expedienteProjectPage.imp2Title">Ordenar</h1>
+              <h3 class="title-nico" data-i18n="expedienteProjectPage.imp2Title">Ordenar</h3>
               <p class="paragraph-30-copy" data-i18n="expedienteProjectPage.imp2Body">
                 Podrán ver de manera clara, cronológica y automática el expediente virtual.
               </p>
             </div>
             <div data-w-id="d21f56cc-0a4d-f4f1-421a-58f4da91f3c8" class="card-the-impact-expediente">
               <img src="../images/expediente/article.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="title-nico" data-i18n="expedienteProjectPage.imp3Title">Acelerar</h1>
+              <h3 class="title-nico" data-i18n="expedienteProjectPage.imp3Title">Acelerar</h3>
               <p class="paragraph-30-copy" data-i18n="expedienteProjectPage.imp3Body">
                 El proceso de sus casos será mucho más fácil y rápido, logrando una mejor relación con las partes.
               </p>
@@ -541,7 +542,7 @@
 "
                 class="image-45"
               />
-              <h1 class="title-nico" data-i18n="expedienteProjectPage.imp4Title">Eficiencia</h1>
+              <h3 class="title-nico" data-i18n="expedienteProjectPage.imp4Title">Eficiencia</h3>
               <p class="paragraph-30-copy" data-i18n="expedienteProjectPage.imp4Body">
                 Envía notificaciones automáticas a las direcciones de correo electrónico correspondientes.
               </p>
@@ -554,7 +555,7 @@
                 alt="icon-edit-fade"
                 class="image-45"
               />
-              <h1 class="title-nico" data-i18n="expedienteProjectPage.imp5Title">Transparencia</h1>
+              <h3 class="title-nico" data-i18n="expedienteProjectPage.imp5Title">Transparencia</h3>
               <p class="paragraph-30-copy" data-i18n="expedienteProjectPage.imp5Body">
                 Todos los participantes de la causa tienen acceso a ella desde cualquier parte del mundo. Una vez
                 realizada la actuación, se registra y no puede ser modificada.
@@ -569,7 +570,7 @@
 "
                 class="image-45"
               />
-              <h1 class="title-nico" data-i18n="expedienteProjectPage.imp6Title">Seguridad</h1>
+              <h3 class="title-nico" data-i18n="expedienteProjectPage.imp6Title">Seguridad</h3>
               <p class="paragraph-30-copy" data-i18n="expedienteProjectPage.imp6Body">
                 Almacenamiento de datos del expediente en la nube, con acceso exclusivo para quienes forman parte del
                 caso.

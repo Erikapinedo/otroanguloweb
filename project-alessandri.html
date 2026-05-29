@@ -31,6 +31,7 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:image" content="https://otroanguloweb.cl/images/shared/opengraph-erika-pinedo.png" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
     <style>
@@ -132,7 +133,7 @@
         <div class="w-layout-hflex flex-block-7">
           <div class="w-embed w-script">
             <button
-              onclick="document.referrer ? history.back() : (window.location.href = '/')"
+              onclick="window.location.href = document.referrer || '/';"
               style="
                 display: inline-block;
                 padding: 14px 28px;
@@ -198,7 +199,7 @@
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="alessandriProjectPage.roleLabel">Rol</span>
-                <span class="alessandri-stat-label">Diseñadora UX/UI</span>
+                <span class="alessandri-stat-label" data-i18n="alessandriProjectPage.roleValue">Diseñadora UX/UI</span>
               </div>
             </div>
           </div>

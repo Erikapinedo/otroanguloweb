@@ -31,6 +31,7 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:image" content="https://otroanguloweb.cl/images/shared/opengraph-erika-pinedo.png" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
     <style>
@@ -243,7 +244,7 @@
           <div class="code-embed w-embed w-script">
             <button
               data-i18n="playersnapProjectPage.back"
-              onclick="document.referrer ? history.back() : (window.location.href = '/')"
+              onclick="window.location.href = document.referrer || '/';"
               style="
                 display: inline-block;
                 padding: 14px 28px;
@@ -291,7 +292,7 @@
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="playersnapProjectPage.roleLabel">Rol</span>
-                <span class="alessandri-stat-label">Diseñadora UX/UI</span>
+                <span class="alessandri-stat-label" data-i18n="playersnapProjectPage.roleValue">Diseñadora UX/UI</span>
               </div>
             </div>
           </div>
@@ -376,9 +377,9 @@
           <section class="cards-problems-playersnap">
             <div data-w-id="0c7337f2-2057-878d-bb3f-d3ffb0d524b2" class="card-the-problem-playersnap">
               <img src="../images/shared/x-circle-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-playersnap" data-i18n="playersnapProjectPage.prob1Title">
+              <h3 class="head-card-playersnap" data-i18n="playersnapProjectPage.prob1Title">
                 Etiquetado manual y lento
-              </h1>
+              </h3>
               <p class="paragraph-card-playersnap" data-i18n="playersnapProjectPage.prob1Body">
                 Clasificar y etiquetar jugadores, equipos y eventos a mano requería horas de trabajo, retrasando la
                 distribución y haciendo imposible responder en tiempo real.
@@ -386,7 +387,7 @@
             </div>
             <div class="card-the-problem-playersnap">
               <img src="../images/shared/x-circle-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-playersnap" data-i18n="playersnapProjectPage.prob2Title">Búsqueda ineficiente</h1>
+              <h3 class="head-card-playersnap" data-i18n="playersnapProjectPage.prob2Title">Búsqueda ineficiente</h3>
               <p class="paragraph-card-playersnap" data-i18n="playersnapProjectPage.prob2Body">
                 Sin un sistema de búsqueda inteligente, encontrar el clip o imagen correcta entre miles de archivos se
                 convertía en una tarea frustrante y que consumía tiempo valioso.
@@ -394,9 +395,9 @@
             </div>
             <div class="card-the-problem-playersnap">
               <img src="../images/shared/x-circle-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-playersnap" data-i18n="playersnapProjectPage.prob3Title">
+              <h3 class="head-card-playersnap" data-i18n="playersnapProjectPage.prob3Title">
                 Distribución descoordinada
-              </h1>
+              </h3>
               <p class="paragraph-card-playersnap" data-i18n="playersnapProjectPage.prob3Body">
                 Compartir contenido con medios y socios requería coordinación manual por correo, generando errores,
                 demoras y oportunidades de engagement perdidas.
@@ -648,6 +649,12 @@
         loading="lazy"
         sizes="100vw"
         alt="Componentes y pantallas de la plataforma PlayerSnap."
+        class="wireframes-playersnap"
+      /><img
+        src="../images/playersnap/playersnap-interfaces-varias.webp"
+        loading="lazy"
+        sizes="100vw"
+        alt="Interfaces varias de la plataforma PlayerSnap."
         class="wireframes-playersnap"
       /><img
         src="../images/playersnap/mails-playersnap.webp"

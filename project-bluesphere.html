@@ -25,6 +25,7 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:image" content="https://otroanguloweb.cl/images/shared/opengraph-erika-pinedo.png" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
     <style>
@@ -111,7 +112,7 @@
           <div class="code-embed w-embed w-script">
             <button
               data-i18n="bluesphereProjectPage.back"
-              onclick="document.referrer ? history.back() : (window.location.href = '/')"
+              onclick="window.location.href = document.referrer || '/';"
               style="
                 display: inline-block;
                 padding: 14px 28px;
@@ -159,7 +160,7 @@
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="bluesphereProjectPage.roleLabel">Rol</span>
-                <span class="alessandri-stat-label">Diseñadora UX/UI & Gráfica</span>
+                <span class="alessandri-stat-label" data-i18n="bluesphereProjectPage.roleValue">Diseñadora UX/UI & Gráfica</span>
               </div>
             </div>
           </div>
@@ -370,9 +371,9 @@
           <section class="cards-problems-bluesphere">
             <div data-w-id="0c7337f2-2057-878d-bb3f-d3ffb0d524b2" class="card-the-problem-bluesphere">
               <img src="../images/shared/siren-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-bluesphere" data-i18n="bluesphereProjectPage.prob1Title">
+              <h3 class="head-card-bluesphere" data-i18n="bluesphereProjectPage.prob1Title">
                 Riesgo sin protección adecuada
-              </h1>
+              </h3>
               <p class="paragraph-card-bluesphere" data-i18n="bluesphereProjectPage.prob1Body">
                 Las pymes enfrentan las mismas amenazas que las grandes empresas pero sin los recursos ni herramientas
                 para combatirlas efectivamente, quedando expuestas a ataques cada vez más sofisticados.
@@ -380,7 +381,7 @@
             </div>
             <div class="card-the-problem-bluesphere">
               <img src="../images/shared/eye-closed-bold-2.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-bluesphere" data-i18n="bluesphereProjectPage.prob2Title">Visibilidad cero</h1>
+              <h3 class="head-card-bluesphere" data-i18n="bluesphereProjectPage.prob2Title">Visibilidad cero</h3>
               <p class="paragraph-card-bluesphere" data-i18n="bluesphereProjectPage.prob2Body">
                 Sin monitoreo continuo, los ataques pasan desapercibidos durante meses, generando daños que podrían
                 haberse evitado con detección temprana.
@@ -388,7 +389,7 @@
             </div>
             <div class="card-the-problem-bluesphere">
               <img src="../images/shared/extension-2.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-bluesphere" data-i18n="bluesphereProjectPage.prob3Title">IT fragmentado</h1>
+              <h3 class="head-card-bluesphere" data-i18n="bluesphereProjectPage.prob3Title">IT fragmentado</h3>
               <p class="paragraph-card-bluesphere" data-i18n="bluesphereProjectPage.prob3Body">
                 Gestionar seguridad, infraestructura y cumplimiento con herramientas separadas genera inconsistencias,
                 brechas de protección y costos innecesarios.
@@ -396,9 +397,9 @@
             </div>
             <div class="card-the-problem-bluesphere">
               <img src="../images/shared/trending-down-2.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-bluesphere" data-i18n="bluesphereProjectPage.prob4Title">
+              <h3 class="head-card-bluesphere" data-i18n="bluesphereProjectPage.prob4Title">
                 Adopción tecnológica lenta
-              </h1>
+              </h3>
               <p class="paragraph-card-bluesphere" data-i18n="bluesphereProjectPage.prob4Body">
                 Sin soporte especializado, las empresas no pueden adoptar tecnología moderna a la velocidad que el
                 mercado exige, quedando rezagadas frente a la competencia.
@@ -496,15 +497,11 @@
               </p>
             </div>
             <img
-              src="../images/portfolio/proyecto-bluesphere.webp"
+              src="../images/Bluesphere/phone-bluesphere.webp"
               loading="lazy"
               sizes="100vw"
-              srcset="
-                ../images/portfolio/bluesphere-p-500.webp    500w,
-                ../images/portfolio/bluesphere-p-800.webp    800w,
-                ../images/portfolio/proyecto-bluesphere.webp 853w
-              "
-              alt="Panel de BlueSphere mostrando dashboard de riesgo y alertas de seguridad."
+              srcset="../images/Bluesphere/phone-bluesphere.webp 1244w"
+              alt="Pantalla de la app móvil de BlueSphere mostrando el estado de riesgo en tiempo real."
               class="image-47"
             />
           </div>
@@ -572,34 +569,33 @@
         </div>
       </section>
       <img
-        src="../images/portfolio/proyecto-bluesphere.webp"
+        src="../images/Bluesphere/mockup-macbook-bluesphere.webp"
         loading="lazy"
         sizes="100vw"
-        srcset="
-          ../images/portfolio/bluesphere-p-500.webp     500w,
-          ../images/portfolio/bluesphere-p-800.webp     800w,
-          ../images/portfolio/bluesphere-p-1080.webp   1080w,
-          ../images/portfolio/proyecto-bluesphere.webp 1440w
-        "
-        alt="Pantalla completa de la plataforma BlueSphere mostrando dashboard de ciberseguridad."
+        srcset="../images/Bluesphere/mockup-macbook-bluesphere.webp 7900w"
+        alt="Mockup de MacBook mostrando la plataforma BlueSphere."
         class="colors-bluesphere"
       /><img
-        src="../images/portfolio/proyecto-bluesphere.webp"
+        src="../images/Bluesphere/phone-hand-bluesphere.webp"
         loading="lazy"
         sizes="100vw"
-        srcset="
-          ../images/portfolio/bluesphere-p-500.webp     500w,
-          ../images/portfolio/bluesphere-p-800.webp     800w,
-          ../images/portfolio/bluesphere-p-1080.webp   1080w,
-          ../images/portfolio/proyecto-bluesphere.webp 1440w
-        "
-        alt="Wireframes y pantallas de la plataforma BlueSphere."
+        srcset="../images/Bluesphere/phone-hand-bluesphere.webp 3639w"
+        alt="Mano sosteniendo un teléfono con la app de BlueSphere."
         class="wireframes-bluesphere"
       />
+      <div class="mails-bluesphere">
+        <img
+          src="../images/Bluesphere/Mail-Bluesphere.webp"
+          loading="lazy"
+          sizes="(max-width: 1442px) 100vw, 1442px"
+          srcset="../images/Bluesphere/Mail-Bluesphere.webp 1820w"
+          alt="Sistema de notificaciones y correos electrónicos de la plataforma BlueSphere."
+          class="mails-bluesphere-img"
+        />
+      </div>
       <section class="cierre-bluesphere">
         <p class="text-cierre-bluesphere" data-i18n-html="bluesphereProjectPage.creditsHtml">
-          <strong>Compañía</strong> Simulint / BlueSphere<br /><strong>Diseñador UX/UI </strong>Erika Pinedo<br /><br />-
-          Todos los derechos reservados -
+          <strong>Compañía</strong> Nnodes<br /><strong>CTO </strong>Franco Restaino<br /><strong>Diseñadora UX/UI </strong>Erika Pinedo<br /><strong>Desarrolladores </strong>Juan Francisco Campo, Javier Contreras, Martina M.<br /><br />- Todos los derechos reservados -
         </p>
       </section>
       <section class="project-nico-other-proyects">
@@ -778,6 +774,117 @@
         requestAnimationFrame(raf);
       }
       requestAnimationFrame(raf);
+    </script>
+    <script>
+      (function () {
+        if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
+        gsap.registerPlugin(ScrollTrigger);
+
+        const fadeUp    = { opacity: 0, y: 40,  duration: 0.7, ease: "power2.out" };
+        const fadeLeft  = { opacity: 0, x: -30, duration: 0.6, ease: "power2.out" };
+        const fadeRight = { opacity: 0, x:  50, duration: 0.7, ease: "power2.out" };
+
+        function st(trigger, extra) {
+          return { scrollTrigger: { trigger: trigger, start: "top 85%" }, ...extra };
+        }
+
+        var bs = ".body-project-bluesphere ";
+
+        // Contexto — título y descripción
+        [
+          bs + ".project-title-context",
+          bs + ".description-context-project",
+        ].forEach(function (sel) {
+          var el = document.querySelector(sel);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        // Imágenes 3 columnas — fade up escalonado
+        var heroImgs = gsap.utils.toArray(bs + ".images-bluesphere > *");
+        if (heroImgs.length)
+          gsap.from(heroImgs, st(heroImgs[0], { opacity: 0, y: 50, duration: 0.8, stagger: 0.15, ease: "power2.out" }));
+
+        // Brandbook — título e intro
+        [
+          bs + ".project-title-brandbook-bluesphere",
+          bs + ".description-brandbook-intro",
+        ].forEach(function (sel) {
+          var el = document.querySelector(sel);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        // Brandbook — bloques (logo, versiones, colores, tipografía…) — stagger
+        var brandbookBlocks = gsap.utils.toArray(bs + ".brandbook-block");
+        brandbookBlocks.forEach(function (block) {
+          gsap.from(block, st(block, { opacity: 0, y: 40, duration: 0.7, ease: "power2.out" }));
+        });
+
+        // Brandbook — cards de versiones de logo — stagger
+        var versionCards = gsap.utils.toArray(bs + ".brandbook-version-card");
+        if (versionCards.length)
+          gsap.from(versionCards, st(versionCards[0], { opacity: 0, y: 30, duration: 0.55, stagger: 0.1, ease: "power2.out" }));
+
+        // El Desafío — título, descripción y cards
+        [
+          bs + ".project-title-problem-bluesphere",
+          bs + ".description-problem-project",
+        ].forEach(function (sel) {
+          var el = document.querySelector(sel);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        var problemCards = gsap.utils.toArray(bs + ".card-the-problem-bluesphere");
+        if (problemCards.length)
+          gsap.from(problemCards, st(problemCards[0], { opacity: 0, y: 40, duration: 0.6, stagger: 0.15, ease: "power2.out" }));
+
+        // El Enfoque — título, descripciones y cards
+        [
+          bs + ".project-title-approach-bluesphere",
+          bs + ".description-approach-project",
+          bs + ".description--approach-project-copy-copy",
+        ].forEach(function (sel) {
+          var el = document.querySelector(sel);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        var approachCards = gsap.utils.toArray(bs + ".card-the-approach-bluesphere");
+        if (approachCards.length)
+          gsap.from(approachCards, st(approachCards[0], { opacity: 0, y: 40, duration: 0.6, stagger: 0.15, ease: "power2.out" }));
+
+        // La Solución — título y descripción
+        [
+          bs + ".project-title-problem-alessandri-copy",
+          bs + ".description-problem-project-copy",
+        ].forEach(function (sel) {
+          var el = document.querySelector(sel);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        // La Solución — ítems de lista — slide desde la izquierda, stagger
+        var solItems = gsap.utils.toArray(bs + ".description-problem-project-copy-copy");
+        if (solItems.length)
+          gsap.from(solItems, st(solItems[0], { opacity: 0, x: -30, duration: 0.5, stagger: 0.1, ease: "power2.out" }));
+
+        // Impacto — título, descripción y cards
+        [
+          bs + ".project-title-impact-bluesphere",
+          bs + ".description-impact-project-bluesphere",
+          bs + ".description-impact-project",
+        ].forEach(function (sel) {
+          var el = document.querySelector(sel);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        var impactCards = gsap.utils.toArray(bs + ".card-the-impact-bluesphere");
+        if (impactCards.length)
+          gsap.from(impactCards, st(impactCards[0], { opacity: 0, y: 40, duration: 0.6, stagger: 0.12, ease: "power2.out" }));
+
+        // Imágenes finales (colores, wireframes) — fade up
+        var finalImgs = gsap.utils.toArray(bs + ".colors-bluesphere, " + bs + ".wireframes-bluesphere, " + bs + ".mails-bluesphere-img");
+        finalImgs.forEach(function (img) {
+          gsap.from(img, st(img, { opacity: 0, y: 60, duration: 0.9, ease: "power2.out" }));
+        });
+      })();
     </script>
   </body>
 </html>

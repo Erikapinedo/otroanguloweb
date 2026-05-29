@@ -31,6 +31,7 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:image" content="https://otroanguloweb.cl/images/shared/opengraph-erika-pinedo.png" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
     <style>
@@ -134,7 +135,7 @@
         <div class="w-layout-hflex flex-block-7">
           <div class="w-embed w-script">
             <button
-              onclick="document.referrer ? history.back() : (window.location.href = '/')"
+              onclick="window.location.href = document.referrer || '/';"
               style="
                 display: inline-block;
                 padding: 14px 28px;
@@ -193,7 +194,7 @@
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="nicoProjectPage.roleLabel">Rol</span>
-                <span class="alessandri-stat-label">Diseñadora UX/UI</span>
+                <span class="alessandri-stat-label" data-i18n="nicoProjectPage.roleValue">Diseñadora UX/UI</span>
               </div>
             </div>
           </div>
@@ -289,7 +290,7 @@
           <section class="cards-problems">
             <div data-w-id="0c7337f2-2057-878d-bb3f-d3ffb0d524b2" style="opacity: 0" class="card-the-problem">
               <img src="../images/nico-seguros/extension.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="title-nico" data-i18n="nicoProjectPage.prob1Title">Información Fragmentada</h1>
+              <h3 class="title-nico" data-i18n="nicoProjectPage.prob1Title">Información Fragmentada</h3>
               <p class="paragraph-30" data-i18n="nicoProjectPage.prob1Body">
                 Los datos estaban dispersos en múltiples herramientas, reduciendo la visibilidad sobre el estado de las
                 pólizas, renovaciones, siniestros, deudas, documentos y detalles de cobertura.
@@ -297,7 +298,7 @@
             </div>
             <div data-w-id="42df0698-0810-4942-f8d6-8c54dadc3349" style="opacity: 0" class="card-the-problem">
               <img src="../images/nico-seguros/eye-closed-bold.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="title-nico" data-i18n="nicoProjectPage.prob2Title">Puntos Ciegos Operacionales</h1>
+              <h3 class="title-nico" data-i18n="nicoProjectPage.prob2Title">Puntos Ciegos Operacionales</h3>
               <p class="paragraph-30" data-i18n="nicoProjectPage.prob2Body">
                 Los corredores tenían dificultades para rastrear vencimientos y oportunidades de seguimiento, lo que
                 frecuentemente provocaba renovaciones perdidas y pérdida evitable de clientes.
@@ -305,7 +306,7 @@
             </div>
             <div data-w-id="d3217665-a7d8-05c0-88d9-bd5cccbed62d" style="opacity: 0" class="card-the-problem">
               <img src="../images/nico-seguros/close-o.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="title-nico" data-i18n="nicoProjectPage.prob3Title">Procesos Lentos y Propensos a Errores</h1>
+              <h3 class="title-nico" data-i18n="nicoProjectPage.prob3Title">Procesos Lentos y Propensos a Errores</h3>
               <p class="paragraph-30" data-i18n="nicoProjectPage.prob3Body">
                 Cotizar, emitir, negociar y gestionar pólizas requería pasos manuales repetitivos que dependían de la
                 memoria en lugar de flujos estructurados.
@@ -313,9 +314,9 @@
             </div>
             <div data-w-id="71fe9313-2e16-675e-1f7a-2a2d1e12b81e" style="opacity: 0" class="card-the-problem">
               <img src="../images/nico-seguros/trending-down.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="title-nico" data-i18n="nicoProjectPage.prob4Title">
+              <h3 class="title-nico" data-i18n="nicoProjectPage.prob4Title">
                 Demasiada Administración, Poco Crecimiento
-              </h1>
+              </h3>
               <p class="paragraph-30" data-i18n="nicoProjectPage.prob4Body">
                 La sobrecarga administrativa dejaba a los corredores con poco tiempo para enfocarse en ventas,
                 crecimiento de cartera o mejorar la relación con clientes.

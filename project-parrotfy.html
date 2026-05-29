@@ -31,6 +31,7 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:image" content="https://otroanguloweb.cl/images/shared/opengraph-erika-pinedo.png" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
     <style>
@@ -146,7 +147,7 @@
           <div class="code-embed w-embed w-script">
             <button
               data-i18n="parrotfyProjectPage.back"
-              onclick="document.referrer ? history.back() : (window.location.href = '/')"
+              onclick="window.location.href = document.referrer || '/';"
               style="
                 display: inline-block;
                 padding: 14px 28px;
@@ -204,7 +205,7 @@
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="parrotfyProjectPage.roleLabel">Rol</span>
-                <span class="alessandri-stat-label">Diseñadora UX/UI</span>
+                <span class="alessandri-stat-label" data-i18n="parrotfyProjectPage.roleValue">Diseñadora UX/UI</span>
               </div>
             </div>
           </div>
@@ -303,7 +304,7 @@
           <section class="cards-problems-parrotfy">
             <div data-w-id="0c7337f2-2057-878d-bb3f-d3ffb0d524b2" class="card-the-problem-parrotfy">
               <img src="../images/shared/extension-2.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob1Title">Diferentes Herramientas</h1>
+              <h3 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob1Title">Diferentes Herramientas</h3>
               <p class="paragraph-card-parrotfy" data-i18n="parrotfyProjectPage.prob1Body">
                 Los procesos clave existían en diferentes sistemas, obligando a los equipos a saltar entre plataformas
                 para gestionar ventas, pagos, programación y operaciones.
@@ -311,7 +312,7 @@
             </div>
             <div class="card-the-problem-parrotfy">
               <img src="../images/shared/eye-closed-bold-2.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob2Title">Visibilidad Limitada</h1>
+              <h3 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob2Title">Visibilidad Limitada</h3>
               <p class="paragraph-card-parrotfy" data-i18n="parrotfyProjectPage.prob2Body">
                 No había una vista unificada del estado de los pedidos, la actividad financiera o el rendimiento del
                 equipo, lo que hacía que la toma de decisiones fuera lenta y reactiva.
@@ -319,9 +320,9 @@
             </div>
             <div class="card-the-problem-parrotfy">
               <img src="../images/parrotfy/close-o-2.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob3Title">
+              <h3 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob3Title">
                 Flujos de Trabajo Manuales y Propensos a Errores
-              </h1>
+              </h3>
               <p class="paragraph-card-parrotfy" data-i18n="parrotfyProjectPage.prob3Body">
                 Las hojas de cálculo y los procesos informales creaban retrasos, esfuerzos duplicados y errores
                 frecuentes.
@@ -329,7 +330,7 @@
             </div>
             <div class="card-the-problem-parrotfy">
               <img src="../images/shared/trending-down-2.svg" loading="lazy" width="70" alt="" class="image-45" />
-              <h1 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob4Title">Difícil de Escalar</h1>
+              <h3 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob4Title">Difícil de Escalar</h3>
               <p class="paragraph-card-parrotfy" data-i18n="parrotfyProjectPage.prob4Body">
                 A medida que la empresa crecía, su estructura administrativa seguía siendo básica, lo que hacía
                 imposible apoyar la creciente demanda y la colaboración del equipo.
