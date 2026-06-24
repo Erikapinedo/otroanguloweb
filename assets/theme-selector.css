@@ -1,0 +1,106 @@
+/* theme-selector.css — Dropdown for theme switching */
+
+/* Clip the pill so the button never overflows the navbar boundary */
+.option-lenguage-menu-es {
+  overflow: hidden;
+}
+
+.theme-selector {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 6px;
+}
+
+.theme-selector__trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  transition: border-color 0.2s, background 0.2s;
+  padding: 0;
+}
+
+.theme-selector__trigger:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Menu is moved to <body> by JS — position: fixed, positioned via JS on open */
+.theme-selector__menu {
+  display: none;
+  position: fixed;
+  min-width: 130px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(15, 15, 25, 0.96);
+  z-index: 99999;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  padding: 6px 0;
+}
+
+.theme-selector__menu--visible {
+  display: block;
+}
+
+.theme-selector__option {
+  padding: 8px 14px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+  user-select: none;
+}
+
+.theme-selector__option:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.theme-selector__option--active {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* 8-bit Pastel Garden overrides */
+body.theme-1 .theme-selector__trigger {
+  border: 3px solid var(--t1-accent-1);
+  border-radius: 0;
+  background: var(--t1-bg-alt);
+  box-shadow: 4px 4px 0px #1a3d2e;
+}
+
+body.theme-1 .theme-selector__trigger:hover {
+  border-color: var(--t1-accent-3);
+  background: var(--t1-bg-alt);
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
+
+body.theme-1 .theme-selector__menu {
+  background: var(--t1-bg-alt);
+  border: 3px solid var(--t1-accent-1);
+  border-radius: 0;
+  box-shadow: 4px 4px 0px #1a3d2e;
+}
+
+body.theme-1 .theme-selector__option {
+  color: var(--t1-text-muted);
+}
+
+body.theme-1 .theme-selector__option:hover {
+  color: var(--t1-accent-3);
+  background-color: var(--t1-surface);
+}
+
+body.theme-1 .theme-selector__option--active {
+  color: var(--t1-accent-1);
+  background-color: var(--t1-surface);
+}

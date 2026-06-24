@@ -1,0 +1,33 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/",                      "destination": "/index.html" },
+    { "source": "/index",                 "destination": "/index.html" },
+    { "source": "/about-me-erika-pinedo", "destination": "/about-me-erika-pinedo.html" },
+    { "source": "/portfolio",             "destination": "/portfolio.html" },
+    { "source": "/contact",               "destination": "/contact.html" },
+    { "source": "/project-parrotfy",      "destination": "/project-parrotfy.html" },
+    { "source": "/project-nico-seguros",  "destination": "/project-nico-seguros.html" },
+    { "source": "/project-expediente",    "destination": "/project-expediente.html" },
+    { "source": "/project-alessandri",    "destination": "/project-alessandri.html" },
+    { "source": "/project-bluesphere",    "destination": "/project-bluesphere.html" },
+    { "source": "/project-playersnap",    "destination": "/project-playersnap.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options",        "value": "DENY" },
+        { "key": "Referrer-Policy",        "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}
