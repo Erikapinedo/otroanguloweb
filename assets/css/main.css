@@ -2018,6 +2018,7 @@ a {
   align-items: center;
   width: 100%;
   height: 100vh;
+  height: 100svh;
   margin: 0 auto;
   padding: 100px 60px;
   display: flex;
@@ -10908,6 +10909,13 @@ a {
   transform: scale(1.1);
 }
 
+/* Tablet */
+@media (max-width: 991px) {
+  .vip-grid-featured {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 /* Mobile */
 @media (max-width: 767px) {
   .vip-grid-featured {
@@ -10939,56 +10947,154 @@ a {
   }
 }
 
-/* ===== Mobile — hero: optimización para todos los proyectos ===== */
+/* ===== Mobile — hero: correcciones para todos los proyectos ===== */
 
 @media screen and (max-width: 767px) {
-  /* Todos los heroes: contenido desde arriba del padding-top,
-     evita que justify-content:center baje el contenido de forma variable */
-  .project-alessandri-hero-section,
-  .project-nico-hero-section,
-  .project-bluesphere-hero-section,
-  .project-parrotfy-hero-section,
-  .project-expediente-hero-section,
-  .project-matchminders-hero-section,
-  .project-playersnap-hero-section {
-    justify-content: flex-start;
-    padding-top: 140px;
+  /* matchminders tiene align-items: flex-start en 991px; forzar center para igualar a los demás */
+  .project-matchminders-hero-section {
+    align-items: center;
   }
 
-  /* Botón Volver: justo encima del contenido, alineado a la izquierda del título */
+  /* Botón Volver: resetear margin extra del base y alinear con el padding del container */
   .flex-block-7 {
     margin-left: 0;
     padding-top: 0;
-    inset: 84px auto auto 20px;
+    inset: 14% auto auto 20px;
   }
 
-  /* Bluesphere y PlayerSnap heredaban align-items: center del breakpoint 991px */
-  .project-bluesphere-hero-section,
-  .project-playersnap-hero-section {
-    align-items: flex-start;
+  /* .code-embed tiene margin-left: 20px en base y en 479px — resetearlo dentro del botón Volver */
+  .flex-block-7 .code-embed {
+    margin-left: 0;
   }
 
-  /* HeroSub: izquierda en todos los proyectos (referencia: Alessandri) */
-  .project-nico-hero-section .description-text-hero-nico,
+  /* div-block-245 debe ocupar el ancho completo para que el contenido se alinee con el botón */
+  .div-block-245 {
+    width: 100%;
+  }
+
+  /* Textos de descripción: izquierda en proyectos que lo tenían centrado */
   .project-bluesphere-hero-section .description-text-hero,
   .project-parrotfy-hero-section .description-text-hero,
-  .project-expediente-hero-section .description-text-hero-expediente,
-  .project-playersnap-hero-section .description-text-hero-playersnap {
+  .project-playersnap-hero-section .description-text-hero-playersnap,
+  .project-expediente-hero-section .description-text-hero-expediente {
     text-align: left;
     width: auto;
+  }
+
+  /* mm-hero-red: bajar de 80px a escala del heading-44 en 767px */
+  .mm-hero-red {
+    font-size: 50px;
+    letter-spacing: 0;
+  }
+
+  .description-text-hero-mm {
+    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 479px) {
-  /* Botón Volver: izquierda compacta (coincide con padding-left del container) */
   .flex-block-7 {
     margin-left: 0;
     padding-top: 0;
-    inset: 84px auto auto 10px;
+    inset: 14% auto auto 10px;
+  }
+
+  .flex-block-7 .code-embed {
+    margin-left: 0;
+  }
+
+  .div-block-245 {
+    width: 100%;
+  }
+
+  /* mm-hero-red: escala al heading-44 en 479px */
+  .mm-hero-red {
+    font-size: 35px;
+    letter-spacing: 0;
+  }
+
+  .description-text-hero-mm {
+    font-size: 16px;
   }
 }
 
+/* ===== Hero home: fade-in CSS puro (sin IX2) para párrafo y botones ===== */
+@keyframes hero-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.hero-fade-in {
+  animation: hero-fade 0.7s ease forwards;
+  animation-delay: 0.9s;
+  opacity: 0;
+}
+
+.hero-fade-in--late {
+  animation-delay: 1.2s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-fade-in { animation: none; opacity: 1; }
+}
 /* ===== fin mobile hero ===== */
+
+/* ===== Marquee Gallery ===== */
+.marquee-track {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 20px;
+  width: max-content;
+  height: 420px;
+  margin-bottom: 16px;
+}
+
+.marquee-left {
+  animation: marquee-scroll-left 55s linear infinite;
+}
+
+.marquee-right {
+  animation: marquee-scroll-right 55s linear infinite;
+  margin-bottom: 0;
+}
+
+@keyframes marquee-scroll-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-scroll-right {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.marquee-item {
+  flex-shrink: 0;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-item.waves-small-image-wrap-gallery-3  { width: 280px; height: 100%; }
+.marquee-item.waves-medium-image-wrap-gallery-3 { width: 420px; height: 100%; }
+.marquee-item.waves-big-image-wrap-gallery-3    { width: 560px; height: 100%; }
+
+@media screen and (max-width: 991px) {
+  .marquee-track { height: 300px; gap: 14px; margin-bottom: 12px; }
+  .marquee-item.waves-small-image-wrap-gallery-3  { width: 200px; }
+  .marquee-item.waves-medium-image-wrap-gallery-3 { width: 300px; }
+  .marquee-item.waves-big-image-wrap-gallery-3    { width: 400px; }
+}
+
+@media screen and (max-width: 767px) {
+  .marquee-track { height: 200px; gap: 10px; margin-bottom: 10px; }
+  .marquee-item.waves-small-image-wrap-gallery-3  { width: 150px; }
+  .marquee-item.waves-medium-image-wrap-gallery-3 { width: 220px; }
+  .marquee-item.waves-big-image-wrap-gallery-3    { width: 290px; }
+}
+/* ===== fin marquee ===== */
 
 
 
