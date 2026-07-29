@@ -10935,6 +10935,40 @@ a {
   }
 }
 
+/* ===== Mobile — hero: optimización para todos los proyectos ===== */
+
+@media screen and (max-width: 767px) {
+  /* Botón Volver: alineado con el borde izquierdo del título */
+  .flex-block-7 {
+    inset: 14% auto auto 20px;
+  }
+
+  /* Bluesphere y PlayerSnap heredaban align-items: center del breakpoint 991px */
+  .project-bluesphere-hero-section,
+  .project-playersnap-hero-section {
+    align-items: flex-start;
+  }
+
+  /* HeroSub: izquierda en todos los proyectos (referencia: Alessandri) */
+  .project-nico-hero-section .description-text-hero-nico,
+  .project-bluesphere-hero-section .description-text-hero,
+  .project-parrotfy-hero-section .description-text-hero,
+  .project-expediente-hero-section .description-text-hero-expediente,
+  .project-playersnap-hero-section .description-text-hero-playersnap {
+    text-align: left;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* Botón Volver: izquierda compacta (coincide con padding-left del container) */
+  .flex-block-7 {
+    inset: 14% auto auto 10px;
+  }
+}
+
+/* ===== fin mobile hero ===== */
+
 
 
 
