@@ -590,15 +590,17 @@
 
       requestAnimationFrame(raf);
 
-      document.querySelectorAll('a[href*="#"]').forEach(function(anchor) {
-        anchor.addEventListener('click', function(e) {
-          var href = anchor.getAttribute('href');
-          var hash = href.slice(href.indexOf('#'));
-          var target = document.querySelector(hash);
-          if (!target) return;
-          e.preventDefault();
-          lenis.scrollTo(target, { duration: 1.2 });
-        });
+      // Event delegation: cubre links del navbar inyectado dinámicamente
+      document.addEventListener('click', function(e) {
+        var anchor = e.target.closest('a[href*="#"]');
+        if (!anchor) return;
+        var href = anchor.getAttribute('href');
+        var hash = href.slice(href.indexOf('#'));
+        if (!hash || hash === '#') return;
+        var target = document.querySelector(hash);
+        if (!target) return;
+        e.preventDefault();
+        lenis.scrollTo(target, { duration: 1.2 });
       });
     </script>
   </body>
