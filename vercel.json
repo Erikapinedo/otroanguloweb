@@ -1,6 +1,19 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/index.html",                      "destination": "/",                        "permanent": true },
+    { "source": "/about-me-erika-pinedo.html",      "destination": "/about-me-erika-pinedo",   "permanent": true },
+    { "source": "/portfolio.html",                  "destination": "/portfolio",               "permanent": true },
+    { "source": "/contact.html",                    "destination": "/contact",                 "permanent": true },
+    { "source": "/project-parrotfy.html",           "destination": "/project-parrotfy",        "permanent": true },
+    { "source": "/project-nico-seguros.html",       "destination": "/project-nico-seguros",    "permanent": true },
+    { "source": "/project-expediente.html",         "destination": "/project-expediente",      "permanent": true },
+    { "source": "/project-alessandri.html",         "destination": "/project-alessandri",      "permanent": true },
+    { "source": "/project-bluesphere.html",         "destination": "/project-bluesphere",      "permanent": true },
+    { "source": "/project-playersnap.html",         "destination": "/project-playersnap",      "permanent": true },
+    { "source": "/project-matchminders.html",       "destination": "/project-matchminders",    "permanent": true }
+  ],
   "rewrites": [
     { "source": "/",                      "destination": "/index.html" },
     { "source": "/index",                 "destination": "/index.html" },
