@@ -545,15 +545,6 @@
     </script>
     <script>
       (function () {
-        if (typeof gsap === "undefined") return;
-        var tl = gsap.timeline({ defaults: { ease: "power3.out" } });
-        tl.from(".heading-44", { opacity: 0, y: 50, duration: 0.8 })
-          .from(".description-text-hero-mm", { opacity: 0, y: 30, duration: 0.6 }, "-=0.4")
-          .from(".alessandri-hero-stat-item", { opacity: 0, y: 20, duration: 0.5, stagger: 0.1 }, "-=0.3");
-      })();
-    </script>
-    <script>
-      (function () {
         if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
         gsap.registerPlugin(ScrollTrigger);
 
@@ -595,6 +586,9 @@
 
         // Cierre
         gsap.from(".text-cierre-mm", { opacity: 0, y: 30, duration: 0.8, ease: "power3.out", scrollTrigger: Object.assign({ trigger: ".cierre-matchminders" }, st) });
+
+        // Hero stat items — stagger de entrada
+        gsap.from(".alessandri-hero-stat-item", { opacity: 0, y: 20, duration: 0.5, stagger: 0.1, delay: 0.65, ease: "power3.out" });
       })();
     </script>
   </body>

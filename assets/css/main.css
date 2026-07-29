@@ -5035,6 +5035,7 @@ a {
   max-width: 620px;
   margin: 20px 0 0 0;
   padding: 0;
+  animation: hero-slide-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.45s both;
 }
 .alessandri-hero-stats {
   display: flex;
@@ -7193,37 +7194,38 @@ a {
   max-width: var(--container-lg);
 }
 
-/* ===== Hero load animation — nico + bluesphere ===== */
+/* ===== Hero load animation — todos los proyectos ===== */
 @keyframes hero-slide-up {
   from { opacity: 0; transform: translateY(50px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 .body-project-nico .heading-44,
-.body-project-bluesphere .heading-44 {
+.body-project-bluesphere .heading-44,
+.body-project-parrotfy .heading-44,
+.body-project-expediente .heading-44,
+.body-project-matchminders .heading-44,
+.body-project-playersnap .heading-44 {
   animation: hero-slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 .body-project-nico [class*="description-text-hero"],
-.body-project-bluesphere [class*="description-text-hero"] {
+.body-project-bluesphere [class*="description-text-hero"],
+.body-project-parrotfy [class*="description-text-hero"],
+.body-project-expediente [class*="description-text-hero"],
+.body-project-matchminders [class*="description-text-hero"],
+.body-project-playersnap [class*="description-text-hero"] {
   animation: hero-slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.35s both;
 }
-.body-project-nico .alessandri-hero-stat-item:nth-child(1),
-.body-project-bluesphere .alessandri-hero-stat-item:nth-child(1) {
-  animation: hero-slide-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s both;
-}
-.body-project-nico .alessandri-hero-stat-item:nth-child(2),
-.body-project-bluesphere .alessandri-hero-stat-item:nth-child(2) {
+.body-project-nico .alessandri-hero-stats,
+.body-project-bluesphere .alessandri-hero-stats,
+.body-project-parrotfy .alessandri-hero-stats,
+.body-project-expediente .alessandri-hero-stats,
+.body-project-matchminders .alessandri-hero-stats,
+.body-project-playersnap .alessandri-hero-stats,
+.body-project-alessandri .alessandri-hero-stats {
   animation: hero-slide-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.6s both;
 }
-.body-project-nico .alessandri-hero-stat-item:nth-child(3),
-.body-project-bluesphere .alessandri-hero-stat-item:nth-child(3) {
-  animation: hero-slide-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.7s both;
-}
-.body-project-nico .alessandri-hero-stat-item:nth-child(4),
-.body-project-bluesphere .alessandri-hero-stat-item:nth-child(4) {
-  animation: hero-slide-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.8s both;
-}
 
-/* ===== fin BlueSphere ===== */
+/* ===== fin hero animation ===== */
 
 .description-text-hero-expediente {
   color: #d4ead9;

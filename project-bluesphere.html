@@ -840,5 +840,11 @@
         });
       })();
     </script>
+    <script>
+      (function () {
+        if (typeof gsap === "undefined") return;
+        gsap.from(".alessandri-hero-stat-item", { opacity: 0, y: 20, duration: 0.5, stagger: 0.1, delay: 0.65, ease: "power3.out" });
+      })();
+    </script>
   </body>
 </html>
