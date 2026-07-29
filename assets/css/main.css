@@ -8471,7 +8471,8 @@ a {
   .container-cards-approach-parrotfy {
     grid-template-columns: 1fr 1fr;
   }
-  .waves---nav-link {
+  .waves---nav-link,
+  .waves---nav-link.w--current {
     text-align: center;
     flex-direction: column;
     justify-content: center;
