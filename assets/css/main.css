@@ -10940,6 +10940,7 @@ a {
 @media screen and (max-width: 767px) {
   /* Botón Volver: alineado con el borde izquierdo del título */
   .flex-block-7 {
+    margin-left: 0;
     inset: 14% auto auto 20px;
   }
 
@@ -10963,6 +10964,7 @@ a {
 @media screen and (max-width: 479px) {
   /* Botón Volver: izquierda compacta (coincide con padding-left del container) */
   .flex-block-7 {
+    margin-left: 0;
     inset: 14% auto auto 10px;
   }
 }
