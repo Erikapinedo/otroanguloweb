@@ -2597,6 +2597,15 @@ a {
   opacity: 0.8;
   transform: translateY(-2px);
 }
+.footer-column-2 a {
+  text-decoration: none;
+}
+.footer-column-2 a .title {
+  transition: color 0.2s ease;
+}
+.footer-column-2 a:hover .title {
+  color: var(--pink-100);
+}
 .container-17 {
   background-color: #0000;
   max-width: 1275px;
@@ -5016,6 +5025,16 @@ a {
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
+}
+.alessandri-hero-impact {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 620px;
+  margin: 20px 0 0 0;
+  padding: 0;
 }
 .alessandri-hero-stats {
   display: flex;
@@ -8968,6 +8987,9 @@ a {
   .project-alessandri-hero-section .description-text-hero-parrotfy {
     text-align: left;
     width: auto;
+  }
+  .alessandri-hero-impact {
+    font-size: 16px;
   }
   .alessandri-hero-stats {
     gap: 24px;
