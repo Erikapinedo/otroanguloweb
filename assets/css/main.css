@@ -10636,6 +10636,9 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+  .project-matchminders-hero-section {
+    padding-top: 140px;
+  }
   .container-matchminders-context { padding: 40px 20px; }
   .container-matchminders-problem,
   .container-matchminders-flows,
@@ -10939,10 +10942,11 @@ a {
 /* ===== Mobile — hero: optimización para todos los proyectos ===== */
 
 @media screen and (max-width: 767px) {
-  /* Botón Volver: alineado con el borde izquierdo del título */
+  /* Botón Volver: posición fija para consistencia entre alturas de pantalla */
   .flex-block-7 {
     margin-left: 0;
-    inset: 14% auto auto 20px;
+    padding-top: 0;
+    inset: 90px auto auto 20px;
   }
 
   /* Bluesphere y PlayerSnap heredaban align-items: center del breakpoint 991px */
@@ -10963,10 +10967,11 @@ a {
 }
 
 @media screen and (max-width: 479px) {
-  /* Botón Volver: izquierda compacta (coincide con padding-left del container) */
+  /* Botón Volver: izquierda compacta, top fijo debajo del navbar */
   .flex-block-7 {
     margin-left: 0;
-    inset: 14% auto auto 10px;
+    padding-top: 0;
+    inset: 80px auto auto 10px;
   }
 }
 
