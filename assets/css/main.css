@@ -10942,11 +10942,24 @@ a {
 /* ===== Mobile — hero: optimización para todos los proyectos ===== */
 
 @media screen and (max-width: 767px) {
-  /* Botón Volver: posición fija para consistencia entre alturas de pantalla */
+  /* Todos los heroes: contenido desde arriba del padding-top,
+     evita que justify-content:center baje el contenido de forma variable */
+  .project-alessandri-hero-section,
+  .project-nico-hero-section,
+  .project-bluesphere-hero-section,
+  .project-parrotfy-hero-section,
+  .project-expediente-hero-section,
+  .project-matchminders-hero-section,
+  .project-playersnap-hero-section {
+    justify-content: flex-start;
+    padding-top: 140px;
+  }
+
+  /* Botón Volver: justo encima del contenido, alineado a la izquierda del título */
   .flex-block-7 {
     margin-left: 0;
     padding-top: 0;
-    inset: 90px auto auto 20px;
+    inset: 84px auto auto 20px;
   }
 
   /* Bluesphere y PlayerSnap heredaban align-items: center del breakpoint 991px */
@@ -10967,11 +10980,11 @@ a {
 }
 
 @media screen and (max-width: 479px) {
-  /* Botón Volver: izquierda compacta, top fijo debajo del navbar */
+  /* Botón Volver: izquierda compacta (coincide con padding-left del container) */
   .flex-block-7 {
     margin-left: 0;
     padding-top: 0;
-    inset: 80px auto auto 10px;
+    inset: 84px auto auto 10px;
   }
 }
 
