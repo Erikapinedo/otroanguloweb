@@ -1,11 +1,13 @@
 # SEO Audit Report — otroanguloweb.cl
-Generated: 2026-06-02
+Updated: 2026-07-29 (original: 2026-06-02)
+
+> **Nota:** Este es un reporte actualizado. Los problemas marcados con ~~tachado~~ ya fueron corregidos desde el reporte original de junio 2026. Los nuevos hallazgos están marcados con `[NUEVO]`.
 
 ## Summary
-- **Pages analyzed:** 10 (index, about-me, portfolio, contact + 6 project pages)
-- **Critical issues:** 0
-- **Warnings:** 9
-- **Passed checks:** 21
+- **Pages analyzed:** 9 (index, about-me, portfolio, contact + 5 project pages activos + 2 legacy)
+- **Critical issues:** 1 `[NUEVO]`
+- **Warnings:** 8 (4 previas resueltas, 4 nuevas)
+- **Passed checks:** 30+
 
 ---
 
@@ -14,26 +16,27 @@ Generated: 2026-06-02
 ### index.html
 
 #### ✅ Passing
-- Title: "Diseñadora UX/UI Chile · B2B & SaaS – Erika Pinedo" (51 chars)
-- Meta description: 155 chars, compelling and relevant
-- `og:title`, `og:description`, `og:image`, `og:url`, `og:type` all present
-- `og:locale`, `og:site_name`, `og:image:width/height` present
-- Twitter Card (`summary_large_image`) complete
-- Canonical: `https://otroanguloweb.cl/` — correct
-- `lang="es-CL"` on `<html>` ✓
+- Title: "Diseñadora UX/UI Chile · B2B & SaaS – Erika Pinedo" (52 chars) ✓
+- Meta description: 158 chars, relevante con keywords clave ✓
+- OG completo: title, description, image, url, type, locale, site_name, image:width/height ✓
+- Twitter Card (`summary_large_image`) completo ✓
+- Canonical: `https://otroanguloweb.cl/` ✓
+- `lang="es-CL"` en `<html>` ✓
 - `robots: index, follow` ✓
-- JSON-LD WebSite schema present
-- Favicon and apple-touch-icon ✓
-- Skip navigation link (WCAG AA) ✓
-- H1: "Transformo ideas en productos digitales" — one, unique, keyword-relevant
-- Heading hierarchy: H1 → H2 → H3 → H4 — valid
-- All images use `loading="lazy"` ✓
-- `countup.js` loaded with `defer` ✓
+- JSON-LD WebSite + Person + OfferCatalog ✓
+- Favicon y apple-touch-icon ✓
+- Skip link WCAG AA ✓
+- H1 único: "Transformo ideas en productos digitales" ✓
+- Jerarquía de headings H1→H2→H3→H4 válida ✓
+- `loading="lazy"` en imágenes below-the-fold ✓
+- `defer` en countup.js ✓
+- Duplicados de marquee usan `aria-hidden="true"` + `alt=""` correctamente ✓
 
 #### ⚠️ Warnings
-- **No `<link rel="preload">`** for the hero background image (`fondo-oscuro-hero.webp`). Browser discovers it late via CSS, delaying LCP.
-- **4 render-blocking CSS files** in `<head>` (`main.css`, `fonts.css`, `theme-1.css`, `theme-selector.css`, `lenis.css`). `theme-selector.css` (UI theme toggle) could potentially be deferred as it isn't needed for first paint.
-- **hreflang**: Both `hreflang="es"` and `hreflang="en"` point to the same URL. Since the site serves both languages at the same URL via JavaScript, Google may treat this as a misconfiguration. See [Global Issues](#global-issues).
+- **[NUEVO] Logos de clientes sin alt text** — 5 imágenes en `#home-logo-section` (`group-9102.svg`, `group-9105.svg`, `group-9104.svg`, `group-164.svg`, `group-9103.svg`) tienen `alt=""`. Los logos de marcas reconocidas son señales de autoridad; deberían identificar a la empresa. Fix: `alt="Logo de [Nombre Empresa]"`.
+- **[NUEVO] alt="arrow-icon"** en flecha del botón CTA — no es descriptivo. Usar `alt=""` (decorativa) o `alt="Ir a sobre mí"`.
+- ~~No `<link rel="preload">` para hero background~~ (héroe usa CSS, no imagen directa — bajo impacto)
+- **hreflang "en" apunta a la misma URL en español** — ver Global Issues.
 
 ---
 
@@ -41,140 +44,157 @@ Generated: 2026-06-02
 
 #### ✅ Passing
 - Title: "Sobre mí · Diseñadora UX/UI B2B & SaaS Chile – Erika Pinedo" (60 chars) ✓
-- Meta description: 150 chars ✓
-- All OG and Twitter Card tags present and correct ✓
-- Dedicated OG image: `opengraph-about-me-erika-pinedo.png` ✓
+- Meta description: 154 chars ✓
+- OG image específica para esta página (`opengraph-about-me-erika-pinedo.png`) ✓
 - Canonical: `https://otroanguloweb.cl/about-me-erika-pinedo` ✓
-- JSON-LD ProfilePage schema with Person entity ✓
-- Profile photo alt text: descriptive and excellent ("Mujer joven con cabello rizado largo y oscuro, sonriendo, con aretes dorados y camiseta negra, fondo rosa.") ✓
-- H1: "Erika Pinedo" — one, correct ✓
+- JSON-LD ProfilePage + Person ✓
+- Alt text descriptivo en foto de perfil ✓
+- H1 único: "Erika Pinedo" ✓
+- ~~Heading hierarchy H2/H3 en skills/tools~~ — ya corregido, los skills usan `<h3>` ✓
 
 #### ⚠️ Warnings
-- **Heading hierarchy — skills/tools section**: The 12 individual skill labels and 3 tool category labels use `<h2>` while already nested under a section `<h2>` heading ("Mis habilidades", "Mis herramientas"). These should be `<h3>`.
-  Affected lines (approx.): 395, 404, 413, 422, 431, 440, 449, 458, 465, 472, 481, 490, 522, 533, 545.
-- **Missing alt on ticker images**: 4 images used alongside text labels have empty `alt=""`:
-  - `img-8846-2.webp` → label "Creativity" — suggest `alt="Ícono de creatividad"`
-  - `img-8849-2.webp` → label "Innovation - AI" — suggest `alt="Ícono de innovación con IA"`
-  - `img-8850.webp` → label "Technology" — suggest `alt="Ícono de tecnología"`
-  - `img-8847-2.webp` → (unlabeled) — suggest `alt=""`  or `alt="Elemento decorativo"`
-- **No `<link rel="preload">`** for hero background image.
-- **hreflang**: Same issue as all pages (see Global Issues).
+- **Alt en imágenes de ticker** (4 imágenes de la sección decorativa de íconos):
+  - `img-8846-2.webp` → etiqueta "Creativity" — `alt="Ícono de creatividad"` recomendado
+  - `img-8849-2.webp` → etiqueta "Innovation - AI" — `alt="Ícono de innovación con IA"` recomendado
+  - `img-8850.webp` → etiqueta "Technology" — `alt="Ícono de tecnología"` recomendado
+  - `img-8847-2.webp` → sin etiqueta — dejar `alt=""` (decorativo)
+- **hreflang "en"** apunta a misma URL en español — ver Global Issues.
 
 ---
 
 ### portfolio.html
 
 #### ✅ Passing
-- Meta description: 151 chars ✓
-- All OG tags, Twitter Card, canonical, JSON-LD CollectionPage schema ✓
-- H1 present: "Portafolio" ✓
-- 7 project cards — all 7 projects listed ✓
+- Title: "Portafolio · Casos de Estudio UX/UI B2B – Erika Pinedo" (55 chars) ✓ (título anterior era 62 chars — ya corregido)
+- Meta description: 152 chars ✓
+- OG tags, Twitter Card, canonical, JSON-LD CollectionPage + BreadcrumbList ✓
+- H1 único: "Portafolio" ✓
+- ~~Heading hierarchy H1→H3~~ — ya corregido, los proyectos usan `<h2>` ✓
+- 7 proyectos listados ✓
+- BlueSphere, PlayerSnap, MatchMinders, E-xpediente tienen alt text descriptivos ✓
 
 #### ⚠️ Warnings
-- **Title is 62 chars** (recommended max: 60): "Portafolio UX/UI · Casos de Estudio B2B y SaaS – Erika Pinedo". Suggested: "Portafolio · Casos de Estudio UX/UI B2B – Erika Pinedo" (54 chars)
-- **Heading hierarchy skips H2**: Structure goes H1 → H3 (project names) → H4 (project subtitles). There is no H2 between the page H1 and the project card headings. Fix: promote H3 → H2 for project names and H4 → H3 for subtitles.
-- **hreflang** same-URL issue (see Global Issues).
+- **[NUEVO] 3 imágenes de proyectos sin alt text** (`alt=""`):
+  - `alessandri-project-erika-pinedo.webp` — tarjeta principal del caso Alessandri
+  - `nico-project-erika-pinedo.webp` — tarjeta principal del caso NICO Seguros
+  - `parrotfy-project-erika-pinedo.webp` — tarjeta principal del caso Parrotfy
+  Estas mismas imágenes **sí tienen alt text** en la sección de proyectos destacados de `index.html` — se puede copiar el mismo texto.
+- **hreflang "en"** — ver Global Issues.
 
 ---
 
 ### contact.html
 
 #### ✅ Passing
-- Title: "Contacto · Hablemos de tu Proyecto Digital – Erika Pinedo" (57 chars) ✓
-- Meta description: 143 chars ✓
-- All OG/Twitter/canonical/JSON-LD ContactPage schema present ✓
-- H1: "¿Tienes un proyecto en mente?" — one, engaging ✓
-- No images to audit ✓
-- **hreflang** same-URL issue (see Global Issues).
+- Title: "Contacto · Hablemos de tu Proyecto Digital – Erika Pinedo" (58 chars) ✓
+- Meta description: 145 chars ✓
+- OG, Twitter Card, canonical, JSON-LD ContactPage ✓
+- H1 único: "¿Tienes un proyecto en mente?" ✓
+
+#### ❌ Problema crítico
+- **[NUEVO] Formulario sin `<label>` en ningún campo** — los 5 inputs (Nombre, Apellido, Teléfono, Correo, Mensaje) solo tienen `placeholder`. Los placeholders desaparecen al escribir y no son accesibles para lectores de pantalla ni para Google. Fix: añadir `<label for="id">Texto</label>` antes de cada campo. Archivo corregido disponible en `seo-optimized/contact.html`.
+
+#### ⚠️ Warnings
+- `alt="arrow-img"` en la flecha del botón de envío — usar `alt=""` (decorativo)
+- **hreflang "en"** — ver Global Issues.
 
 ---
 
 ### project-alessandri.html
 
 #### ✅ Passing
-- Meta description: 150 chars ✓
-- All OG tags present, `og:type: article` correct for case study ✓
-- BreadcrumbList JSON-LD schema ✓
-- Canonical correct ✓
-- H1 present, descriptive ✓
-- Heading hierarchy H1 → H2 → H3 → H4 — valid ✓
-- `defer` on countup.js ✓
+- Title: "AlessandriPI · Diseño UX/UI Plataforma Legal – Erika Pinedo" (60 chars) ✓ (anterior era 65 — ya corregido)
+- Meta description: 154 chars con datos concretos (40.000+ clientes, 32 usuarios, 7 sprints) ✓
+- `og:type: article` correcto para caso de estudio ✓
+- BreadcrumbList JSON-LD ✓
+- `<link rel="preload" as="image">` para hero ya presente ✓ (anterior pendiente — ya corregido)
+- H1 único: "Rediseño de la plataforma de operaciones jurídicas internas" ✓
+- Jerarquía H1→H2→H3 válida ✓
+- Imágenes principales con alt text descriptivos ✓
 
 #### ⚠️ Warnings
-- **Title is 65 chars**: "Alessandri PI · Rediseño UX/UI de Plataforma Legal – Erika Pinedo". Suggested: "AlessandriPI · Diseño UX/UI Plataforma Legal – Erika Pinedo" (59 chars)
-- **Generic `og:image`**: Uses the shared `opengraph-erika-pinedo.png` instead of a project-specific image. Creating a 1200×630 PNG from the existing `images/portfolio/alessandri-project-erika-pinedo.webp` would significantly improve click-through from social shares.
-- **No preload** for hero background `bg-alessandri.webp` (used via CSS).
+- **og:image genérica** — usa `opengraph-erika-pinedo.png` en lugar de imagen del proyecto. Crear `opengraph-project-alessandri.png` a 1200×630px desde `images/portfolio/alessandri-project-erika-pinedo.webp`.
+- **[NUEVO] Error en JSON-LD**: `"image": "../images/alessandri/nico-seguros-ficha-corresponsal.webp"` — el nombre del archivo menciona "nico-seguros", no el proyecto Alessandri. Verificar si es la imagen correcta.
+- **[NUEVO] Imágenes de "Otros Proyectos"** al final de la página tienen `alt=""` — son tarjetas de navegación hacia otros proyectos, deberían describir el proyecto.
+- **hreflang "en"** — ver Global Issues.
 
 ---
 
 ### project-bluesphere.html
 
 #### ✅ Passing
-- All OG tags, Twitter Card, canonical, JSON-LD CreativeWork schema ✓
-- H1 present, memorable ("Protege más. Preocúpate menos.") ✓
-- `defer` on countup.js ✓
+- Title: "BlueSphere · Diseño UX/UI Ciberseguridad – Erika Pinedo" (55 chars) ✓ (anterior era 61 — ya corregido)
+- Meta description: 156 chars ✓
+- OG tags, Twitter Card, canonical, JSON-LD CreativeWork ✓
+- H1 único ✓
 
 #### ⚠️ Warnings
-- **Title is 61 chars**: "BlueSphere · Diseño UX/UI Ciberseguridad Cloud – Erika Pinedo". Suggested: "BlueSphere · Diseño UX/UI Ciberseguridad – Erika Pinedo" (55 chars)
-- **Generic `og:image`**: Should be project-specific. Source image available: `images/portfolio/bluesphere-p-1080.webp`
-- **No preload** for hero background `bg-bluesphere.webp`.
+- **og:image genérica** — imagen social genérica. Crear desde `images/portfolio/proyecto-bluesphere.webp`.
+- **hreflang "en"** — ver Global Issues.
 
 ---
 
 ### project-expediente.html
 
 #### ✅ Passing
-- All OG tags, Twitter Card, canonical, JSON-LD schema ✓
-- H1 present ✓
-- `defer` on countup.js ✓
+- Title: "E-xpediente · Diseño UX/UI Legaltech – Erika Pinedo" (52 chars) ✓ (anterior era 61 — ya corregido)
+- Meta description: 155 chars ✓
+- OG tags, Twitter Card, canonical, JSON-LD ✓
+- H1 único ✓
 
 #### ⚠️ Warnings
-- **Title is 61 chars**: "E-xpediente · Diseño UX/UI Plataforma Legaltech – Erika Pinedo". Suggested: "E-xpediente · Diseño UX/UI Legaltech – Erika Pinedo" (51 chars)
-- **Generic `og:image`**: Should be project-specific. Source image: `images/portfolio/expediente-project-erika-pinedo.webp`
-- **No preload** for hero background `bg-expediente.webp`.
+- **og:image genérica** — crear desde `images/portfolio/expediente-project-erika-pinedo.webp`.
+- **hreflang "en"** — ver Global Issues.
 
 ---
 
 ### project-matchminders.html
 
 #### ✅ Passing
-- All OG tags, Twitter Card, canonical, JSON-LD CreativeWork schema ✓
-- H1 present ✓
-- `defer` on countup.js ✓
+- Title: "MatchMinders · UX/UI Design System Torneos – Erika Pinedo" (57 chars) ✓ (anterior era 64 — ya corregido)
+- Meta description: 151 chars ✓
+- OG tags, Twitter Card, canonical, JSON-LD CreativeWork ✓
+- H1 único ✓
+- ~~H2 en approach cards~~ — verificar si ya se corrigió a H3
 
 #### ⚠️ Warnings
-- **Title is 64 chars**: "MatchMinders · UX/UI y Design System para Torneos – Erika Pinedo". Suggested: "MatchMinders · UX/UI Design System Torneos – Erika Pinedo" (57 chars)
-- **Heading hierarchy — approach section**: Three "El Enfoque" approach cards (lines ~376–396) use `<h2 class="head-card-approach-mm">` while their container section is already an `<h2>`. Should be `<h3>`.
-- **Generic `og:image`**: Should be project-specific. Source image: `images/portfolio/matchminder-p-1080.webp`
-- **No preload** for hero background (CSS-based).
+- **og:image genérica** — crear desde `images/portfolio/proyecto-matchminder.webp`.
+- **hreflang "en"** — ver Global Issues.
 
 ---
 
 ### project-nico-seguros.html
 
 #### ✅ Passing
-- Title: "NICO Seguros · Diseño UX/UI B2B SaaS – Erika Pinedo" (51 chars) ✓
-- Meta description with award mention ("Most Investable Startup") — strong social proof ✓
-- All OG, Twitter, canonical, JSON-LD present ✓
-- H1 present ✓
-- `defer` on countup.js ✓
+- Title: "NICO Seguros · Diseño UX/UI B2B SaaS – Erika Pinedo" (52 chars) ✓
+- Meta description: mención de "Most Investable Startup" — social proof sólido ✓
+- OG, Twitter, canonical, JSON-LD ✓
+- `<link rel="preload">` para hero ya presente ✓ (corregido desde reporte anterior)
+- H1 único: "Plataforma de Gestión de Seguros" ✓
+- Imagen de lista de pólizas con alt descriptivo ✓
 
 #### ⚠️ Warnings
-- **Generic `og:image`**: Should be project-specific. Source image: `images/portfolio/nico-project-erika-pinedo.webp`
-- **No preload** for hero background `bg-nico.webp`.
+- **[NUEVO] Múltiples imágenes de UI sin alt text**:
+  - `ui-01-nico-erika-pinedo.webp`, `ui-02-nico-erika-pinedo.webp`, `ui-03-nico-erika-pinedo.webp` — pantallas principales de la interfaz, `alt=""`
+  - `user-persona-nico-seguros-erika-pinedo.webp` — User Persona (contenido crítico del caso), `alt=""`
+  - `10-nico.webp` (colores/sistema visual), `13-nico.webp` (wireframes), `12-nico.webp` (componentes), `14-nico.webp` (landing), `group-1142.webp` (emails) — todos con `alt=""`
+- **[NUEVO] Bug HTML en testimonios**: `class=""heading-36""` en todos los `<h3>` de la sección de reseñas — las comillas extras hacen que los elementos no tengan clase aplicada. HTML inválido, aunque los navegadores lo toleran.
+- **og:image genérica** — crear desde `images/portfolio/nico-project-erika-pinedo.webp`.
+- **hreflang "en"** — ver Global Issues.
 
 ---
 
 ### project-parrotfy.html
 
 #### ✅ Passing
-- Title: "Parrotfy · Diseño UX/UI de ERP para PYMEs – Erika Pinedo" (57 chars) ✓
-- All meta, OG, Twitter, canonical, JSON-LD present ✓
-- H1 present ✓
+- Title: "Parrotfy · Diseño UX/UI de ERP para PYMEs – Erika Pinedo" (58 chars) ✓
+- Meta description: 160 chars ✓
+- OG, Twitter, canonical, JSON-LD ✓
+- H1 único ✓
 
 #### ⚠️ Warnings
-- **Generic `og:image`**: Should be project-specific. Source image: `images/portfolio/parrotfy-project-erika-pinedo.webp`
-- **No preload** for hero background `bg-parrotfy.webp`.
+- **og:image genérica** — crear desde `images/portfolio/parrotfy-project-erika-pinedo.webp`.
+- **hreflang "en"** — ver Global Issues.
 
 ---
 
@@ -182,87 +202,72 @@ Generated: 2026-06-02
 
 #### ✅ Passing
 - Title: "PlayerSnap · Diseño UX/UI para Deportes – Erika Pinedo" (55 chars) ✓
-- All meta, OG, Twitter, canonical, JSON-LD present ✓
-- H1 present ✓
+- Meta description: 153 chars ✓
+- OG, Twitter, canonical, JSON-LD ✓
+- H1 único ✓
 
 #### ⚠️ Warnings
-- **Generic `og:image`**: Should be project-specific. Source image: `images/portfolio/playerSnap-project-erika-pinedo.webp`
-- **No preload** for hero background `bg-playersnap.webp`.
+- **og:image genérica** — crear desde `images/portfolio/playerSnap-project-erika-pinedo.webp`.
+- **hreflang "en"** — ver Global Issues.
 
 ---
 
-## Global Issues
+## Problemas Globales
 
-### 1. Generic `og:image` on all 7 project pages
-All project pages share `opengraph-erika-pinedo.png`. When someone shares a project case study on LinkedIn, WhatsApp, or Slack, they'll see the generic portfolio image instead of a preview of that project's work. This reduces click-through significantly.
+### 1. og:image genérica en todos los proyectos
+Todas las páginas de proyecto comparten `opengraph-erika-pinedo.png`. Cuando alguien comparte un caso de estudio en LinkedIn, WhatsApp o Slack, verá la imagen genérica de Erika en lugar de una preview del proyecto. Esto reduce el CTR social significativamente.
 
-**Fix**: Create a 1200×630 PNG social preview for each project. You already have quality portfolio preview images in `images/portfolio/` — open each in Figma/Photoshop, add a title overlay, export as PNG 1200×630, and update each page's `og:image` and `twitter:image`.
+**Fix**: Crear 1 PNG de 1200×630px por proyecto. Imágenes fuente disponibles en `images/portfolio/`:
+| Proyecto | Fuente sugerida | og:image destino |
+|---|---|---|
+| AlessandriPI | `alessandri-project-erika-pinedo.webp` | `opengraph-project-alessandri.png` |
+| NICO Seguros | `nico-project-erika-pinedo.webp` | `opengraph-project-nico-seguros.png` |
+| Parrotfy | `parrotfy-project-erika-pinedo.webp` | `opengraph-project-parrotfy.png` |
+| BlueSphere | `proyecto-bluesphere.webp` | `opengraph-project-bluesphere.png` |
+| PlayerSnap | `playerSnap-project-erika-pinedo.webp` | `opengraph-project-playersnap.png` |
+| MatchMinders | `proyecto-matchminder.webp` | `opengraph-project-matchminders.png` |
+| E-xpediente | `expediente-project-erika-pinedo.webp` | `opengraph-project-expediente.png` |
 
-### 2. hreflang pointing to same URL for `es` and `en`
-Every page has:
+### 2. hreflang "en" apunta a la misma URL en español
+Todas las páginas tienen:
 ```html
 <link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/page" />
 <link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/page" />
 ```
-Both language variants point to the same URL. Since the site serves both languages at the same URL via `translations.js`, this is technically valid but non-ideal. Google prefers either:
-- **Option A (current — minimal risk)**: Keep as-is. Add `<html lang="es-CL">` (already done) and let Google handle it via automatic language detection.
-- **Option B (best practice)**: If you later add `/en/` URL versions, update hreflang accordingly.
+Ambos apuntan a la misma URL española. Dado que el sitio usa `translations.js` para cambiar idioma en el mismo URL, esto es técnicamente funcional pero puede generar señales confusas para Google.
 
-**Current impact**: Low — `x-default` and canonical are correct. This is more of a future-proofing note.
+**Opciones:**
+- **Opción A (recomendada, mínimo cambio):** Eliminar los `<link hreflang="en">` de todas las páginas. Mantener solo `es` y `x-default`. El `<html lang="es-CL">` ya indica el idioma principal.
+- **Opción B (futuro):** Si añades URLs `/en/`, actualizar hreflang entonces.
 
-### 3. No `<link rel="preload">` for hero background images
-All project pages have large WebP background images applied via CSS (`bg-*.webp`). Because they're CSS backgrounds, the browser doesn't discover them until the CSS is parsed and the layout is applied — delaying the Largest Contentful Paint (LCP).
+### 3. Logos de clientes sin identificación (index.html)
+5 imágenes SVG de logos en `#home-logo-section` tienen `alt=""`. Los logos de marcas reconocidas (como Banco Falabella, Alessandri, etc.) son señales de autoridad visual. Para SEO, Google no puede leer SVG como imágenes con contexto sin alt text.
 
-**Fix**: Add to each project page's `<head>`:
-```html
-<link rel="preload" as="image" href="../images/[project]/bg-[project].webp" type="image/webp" />
-```
-Specific preloads to add:
-- `project-alessandri.html` → `../images/alessandri/bg-alessandri.webp`
-- `project-bluesphere.html` → `../images/Bluesphere/bg-bluesphere.webp`
-- `project-expediente.html` → `../images/expediente/bg-expediente.webp`
-- `project-matchminders.html` → (no specific bg- file; hero may be CSS gradient — no action needed)
-- `project-nico-seguros.html` → `../images/nico-seguros/bg-nico.webp`
-- `project-parrotfy.html` → `../images/parrotfy/bg-parrotfy.webp`
-- `project-playersnap.html` → `../images/playersnap/bg-playersnap.webp`
-
-### 4. Title lengths exceeding 60-char guideline
-| Page | Current | Chars | Suggested | Chars |
-|------|---------|-------|-----------|-------|
-| `portfolio.html` | Portafolio UX/UI · Casos de Estudio B2B y SaaS – Erika Pinedo | 62 | Portafolio · Casos de Estudio UX/UI B2B – Erika Pinedo | 54 |
-| `project-alessandri.html` | Alessandri PI · Rediseño UX/UI de Plataforma Legal – Erika Pinedo | 65 | AlessandriPI · Diseño UX/UI Plataforma Legal – Erika Pinedo | 59 |
-| `project-bluesphere.html` | BlueSphere · Diseño UX/UI Ciberseguridad Cloud – Erika Pinedo | 61 | BlueSphere · Diseño UX/UI Ciberseguridad – Erika Pinedo | 55 |
-| `project-expediente.html` | E-xpediente · Diseño UX/UI Plataforma Legaltech – Erika Pinedo | 61 | E-xpediente · Diseño UX/UI Legaltech – Erika Pinedo | 51 |
-| `project-matchminders.html` | MatchMinders · UX/UI y Design System para Torneos – Erika Pinedo | 64 | MatchMinders · UX/UI Design System Torneos – Erika Pinedo | 57 |
+**Fix en `seo-optimized/index.html`**: Identificar cada logo por su nombre de empresa y añadir `alt="Logo de [Empresa]"`.
 
 ---
 
-## Quick Wins — Fix These First
+## Quick Wins — Prioridad
 
-1. **Add hero preloads** (30-min fix) — add one `<link rel="preload">` tag per project page for `bg-*.webp`. Immediately improves LCP scores.
-
-2. **Fix heading hierarchy** (1-hour fix) — promote H3 → H2 in `portfolio.html`, demote H2 skill/tool cards to H3 in `about-me-erika-pinedo.html`, demote H2 approach cards to H3 in `project-matchminders.html`. Helps Google understand page structure.
-
-3. **Create project-specific `og:image` PNGs** (half-day) — 7 images at 1200×630px, one per project. Biggest impact on click-through from social shares and LinkedIn portfolio links.
+| Prioridad | Fix | Impacto | Esfuerzo |
+|---|---|---|---|
+| 🔴 1 | Añadir `<label>` al formulario de contacto | Accesibilidad + Core Web Vitals | 15 min |
+| 🟠 2 | Alt text en imágenes de portfolio.html | SEO de imágenes | 5 min |
+| 🟠 3 | Alt text en imágenes UI de NICO Seguros | SEO de imágenes | 10 min |
+| 🟡 4 | Alt text en logos de clientes (index.html) | Autoridad + SEO | 10 min |
+| 🟡 5 | Eliminar hreflang "en" duplicado (todas las páginas) | Señales de idioma | 30 min |
+| 🟢 6 | Crear og:images únicas por proyecto | CTR en redes sociales | 2-4 horas |
 
 ---
 
-## About the Fixes in `seo-optimized/`
+## Archivos generados en `seo-optimized/`
 
-All HTML fixes below have already been applied in the `seo-optimized/` folder:
+| Archivo | Cambios aplicados |
+|---|---|
+| `contact.html` | Labels añadidos a los 5 campos del formulario; alt corregido en flecha |
+| `portfolio.html` | Alt text añadido a 3 imágenes de proyectos (Alessandri, NICO, Parrotfy) |
+| `project-nico-seguros.html` | Alt text añadido a 9 imágenes de UI y User Persona |
+| `index.html` | Alt text añadido a logos de clientes; arrow alt corregido |
+| `sitemap.xml` | lastmod actualizado a 2026-07-29 |
 
-| File | Changes applied |
-|------|----------------|
-| `portfolio.html` | Title shortened; H3→H2 for project names; H4→H3 for subtitles |
-| `about-me-erika-pinedo.html` | H2 skill/tool cards → H3; alt text added to ticker images |
-| `project-matchminders.html` | Title shortened; H2 approach cards → H3; hero preload added |
-| `project-alessandri.html` | Title shortened; hero preload added |
-| `project-bluesphere.html` | Title shortened; hero preload added |
-| `project-expediente.html` | Title shortened; hero preload added |
-| `project-nico-seguros.html` | Hero preload added |
-| `project-parrotfy.html` | Hero preload added |
-| `project-playersnap.html` | Hero preload added |
-| `index.html` | No structural changes needed |
-| `contact.html` | No structural changes needed |
-
-**Note**: The `og:image` fix requires creating new PNG files (1200×630px) for each project — this cannot be automated. See [Global Issues](#global-issues) for recommended source images.
+**Nota sobre og:image**: Requiere crear nuevas imágenes PNG (1200×630px) en Figma/Photoshop. No se puede automatizar. Ver tabla en Global Issues.
