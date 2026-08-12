@@ -6998,7 +6998,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items: center;
+  align-items: start;
 }
 .brandbook-logo-row .brandbook-block-body { max-width: 100%; }
 .brandbook-logo-img {
