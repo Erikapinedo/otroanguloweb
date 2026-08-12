@@ -12,7 +12,10 @@
     { "source": "/project-alessandri.html",         "destination": "/project-alessandri",      "permanent": true },
     { "source": "/project-bluesphere.html",         "destination": "/project-bluesphere",      "permanent": true },
     { "source": "/project-playersnap.html",         "destination": "/project-playersnap",      "permanent": true },
-    { "source": "/project-matchminders.html",       "destination": "/project-matchminders",    "permanent": true }
+    { "source": "/project-matchminders.html",       "destination": "/project-matchminders",    "permanent": true },
+    { "source": "/project-portalpehuen.html",       "destination": "/project-portalpehuen",    "permanent": true },
+    { "source": "/project-urbana.html",             "destination": "/project-urbana",          "permanent": true },
+    { "source": "/project-jschile.html",            "destination": "/project-jschile",         "permanent": true }
   ],
   "rewrites": [
     { "source": "/",                      "destination": "/index.html" },
@@ -25,7 +28,11 @@
     { "source": "/project-expediente",    "destination": "/project-expediente.html" },
     { "source": "/project-alessandri",    "destination": "/project-alessandri.html" },
     { "source": "/project-bluesphere",    "destination": "/project-bluesphere.html" },
-    { "source": "/project-playersnap",    "destination": "/project-playersnap.html" }
+    { "source": "/project-playersnap",   "destination": "/project-playersnap.html" },
+    { "source": "/project-matchminders",  "destination": "/project-matchminders.html" },
+    { "source": "/project-portalpehuen", "destination": "/project-portalpehuen.html" },
+    { "source": "/project-urbana",       "destination": "/project-urbana.html" },
+    { "source": "/project-jschile",      "destination": "/project-jschile.html" }
   ],
   "headers": [
     {

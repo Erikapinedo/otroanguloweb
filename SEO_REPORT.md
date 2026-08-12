@@ -1,7 +1,47 @@
 # SEO Audit Report — otroanguloweb.cl
-Updated: 2026-07-29 (original: 2026-06-02)
+Updated: 2026-08-11 (anterior: 2026-07-29 / original: 2026-06-02)
 
-> **Nota:** Este es un reporte actualizado. Los problemas marcados con ~~tachado~~ ya fueron corregidos desde el reporte original de junio 2026. Los nuevos hallazgos están marcados con `[NUEVO]`.
+---
+
+## Actualización 2026-08-11 — Auditoría de alt texts con foco en coherencia imagen/texto
+
+### ❌ Hallazgo crítico: Alt texts completamente erróneos en `project-parrotfy.html`
+Tres imágenes de la página de Parrotfy describen la plataforma **NICO Seguros** (un proyecto distinto):
+
+| Imagen | Problema | Corrección aplicada |
+|---|---|---|
+| `ui-parrotfy-panel-lateral-menu.webp` | Alt describía "aplicación Nico con pólizas, siniestros, deudas" | "Interfaz del ERP Parrotfy con panel lateral de navegación..." |
+| `nico-seguros-control-cuenta.webp` | Alt describía "plataforma Nico con pólizas y notificaciones" | "Panel de control de cuenta en Parrotfy mostrando detalles del cliente..." |
+| `produccion-parrotfy-mockup.webp` | Alt describía "aplicación de seguros con pólizas vigentes, siniestros" | "Vista del módulo de producción en Parrotfy..." |
+
+**Corregido en `seo-optimized/project-parrotfy.html`** ✅
+
+### ❌ Hallazgo: Alt malformado en `project-expediente.html`
+- `book-open-text.svg` tenía `alt="icon-key\n"` — nombre de ícono completamente equivocado (book ≠ key) y con salto de línea
+- MacBook mockup tenía alt en inglés en página en español
+
+**Corregido en `seo-optimized/project-expediente.html`** ✅
+
+### ❌ Hallazgo: Sitemap sin 3 páginas nuevas
+`project-jschile`, `project-portalpehuen` y `project-urbana` no estaban en sitemap.xml.
+
+**Corregido en `seo-optimized/sitemap.xml`** — ahora tiene 14 URLs ✅
+
+### ⚠️ Hallazgo: Fotos de sección decorativa en about-me etiquetadas como "Íconos"
+`img-8846-2.webp`, `img-8849-2.webp`, `img-8850.webp` son **fotografías**, no íconos. Sus alts decían "Ícono de creatividad", "Ícono de innovación", "Ícono de tecnología".
+
+**Corregido en `seo-optimized/about-me-erika-pinedo.html`** ✅
+
+### Archivos actualizados en esta sesión:
+- `seo-optimized/project-parrotfy.html` — 3 alt texts corregidos (NICO → Parrotfy)
+- `seo-optimized/project-nico-seguros.html` — 2 alts vacíos en "Otros proyectos" corregidos
+- `seo-optimized/project-expediente.html` — alt equivocado de book-open-text + alt en inglés corregidos
+- `seo-optimized/about-me-erika-pinedo.html` — 3 fotos renombradas de "Ícono" a "Fotografía"
+- `seo-optimized/sitemap.xml` — 3 páginas nuevas añadidas (jschile, portalpehuen, urbana)
+
+---
+
+> **Nota:** Los problemas marcados con ~~tachado~~ ya fueron corregidos. Los nuevos hallazgos de esta sesión están documentados arriba.
 
 ## Summary
 - **Pages analyzed:** 9 (index, about-me, portfolio, contact + 5 project pages activos + 2 legacy)

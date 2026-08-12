@@ -1,0 +1,874 @@
+<!doctype html>
+<html data-wf-domain="otroanguloweb.cl" data-wf-page="project-portalpehuen" lang="es-CL">
+  <head>
+    <meta charset="utf-8" />
+    <title>Portal Pehuén · Identidad visual – Erika Pinedo</title>
+    <meta
+      content="Identidad visual completa para Portal Pehuén, centro comercial de alto estándar. Logo inspirado en la araucaria, paleta, tipografía y brandbook integral."
+      name="description"
+    />
+    <meta content="Portal Pehuén · Identidad visual – Erika Pinedo" property="og:title" />
+    <meta
+      content="Identidad visual para Portal Pehuén: un centro comercial de alto estándar inspirado en la araucaria. Brandbook completo con logo, paleta y tipografía."
+      property="og:description"
+    />
+    <meta content="https://otroanguloweb.cl/images/shared/opengraph-erika-pinedo.png" property="og:image" />
+    <meta content="Portal Pehuén · Identidad visual – Erika Pinedo" property="twitter:title" />
+    <meta
+      content="Identidad visual para Portal Pehuén: un centro comercial de alto estándar inspirado en la araucaria."
+      property="twitter:description"
+    />
+    <meta property="og:url" content="https://otroanguloweb.cl/project-portalpehuen" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:site_name" content="Otro Ángulo Web – Erika Pinedo" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:image" content="https://otroanguloweb.cl/images/shared/opengraph-erika-pinedo.png" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="robots" content="index, follow" />
+    <link href="../assets/css/main.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets/theme-1.min.css" />
+    <link rel="stylesheet" href="assets/theme-selector.min.css" />
+    <style>
+      html.w-mod-js:not(.w-mod-ix3)
+        :is(
+          .pricing-heading-h2,
+          .c2a-title,
+          .crafting-heading,
+          .testimonial-heading-h2,
+          .navigation-link.for-footer,
+          .heading-20,
+          .achevement-heading-h2,
+          .creative-mind-heading
+        ) {
+        visibility: hidden !important;
+      }
+
+      /* ── Portal Pehuén brand tokens ── */
+      .body-project-portalpehuen {
+        --pp-dark:     #2E3326;
+        --pp-dark-2:   #3B4431;
+        --pp-green:    #89A067;
+        --pp-light:    #B8C6A4;
+        --pp-offwhite: #F3F5F0;
+        --pp-gray:     #82857D;
+        --pp-gray-2:   #EAEBE9;
+        --pp-black:    #0E0E0E;
+      }
+
+      /* Shared brandbook class overrides */
+      .body-project-portalpehuen .brandbook-number         { color: var(--pp-green); }
+      .body-project-portalpehuen .brandbook-block          { border-top-color: rgba(255,255,255,.08); }
+      .body-project-portalpehuen .typo-use-label           { color: var(--pp-green); border-top-color: rgba(255,255,255,.1); }
+      .body-project-portalpehuen .description-text-hero    { color: var(--pp-green); }
+      .body-project-portalpehuen .italic-text-2            { color: var(--pp-green); }
+
+      /* ── Hero ── */
+      .project-portalpehuen-hero-section {
+        position: relative;
+        background-color: var(--pp-dark);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 100px 40px 0;
+        overflow: hidden;
+      }
+
+      .pp-hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      .body-project-portalpehuen .container-main-left-project {
+        position: relative;
+        z-index: 2;
+      }
+
+      .body-project-portalpehuen .flex-block-7 { z-index: 2; }
+
+      /* ── Context ── */
+      .project-portalpehuen-context {
+        background-color: var(--pp-green);
+        width: 100%;
+      }
+
+      .container-portalpehuen-context {
+        width: 100%;
+        max-width: var(--container-lg);
+        padding: 100px 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+      }
+
+      .project-title-context-portalpehuen {
+        width: 100%;
+        color: var(--pp-dark);
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 1;
+        margin: 0;
+      }
+
+      .description-context-portalpehuen {
+        color: rgba(46,51,38,.85);
+        font-size: 18px;
+        line-height: 1.65;
+        margin: 0;
+      }
+
+      /* ── Gallery ── */
+      .images-portalpehuen {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0;
+        width: 100%;
+        overflow: clip;
+      }
+
+      .images-portalpehuen img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      /* ── Brandbook ── */
+      .project-portalpehuen-brandbook {
+        background-color: var(--pp-dark);
+        width: 100%;
+      }
+
+      .container-portalpehuen-brandbook {
+        max-width: var(--container-lg);
+        padding: 90px 60px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+      }
+
+      .project-title-brandbook-portalpehuen {
+        color: var(--pp-green);
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 1;
+        margin: 0;
+      }
+
+      /* Logo version card colors */
+      .pvc-dark     { background-color: var(--pp-dark-2); border: 1px solid rgba(255,255,255,.08); }
+      .pvc-green    { background-color: var(--pp-green); }
+      .pvc-offwhite { background-color: var(--pp-offwhite); }
+      .pvc-black    { background-color: var(--pp-black); }
+
+      .pvc-dark     .bv-tag { color: rgba(255,255,255,.5); }
+      .pvc-green    .bv-tag { color: rgba(255,255,255,.85); }
+      .pvc-offwhite .bv-tag { color: var(--pp-dark); }
+      .pvc-black    .bv-tag { color: rgba(255,255,255,.5); }
+
+      /* Palette grids */
+      .portalpehuen-palette-primary {
+        display: grid;
+        grid-template-columns: 2fr 1.5fr 1fr 1fr;
+        gap: 8px;
+        margin-bottom: 8px;
+      }
+
+      .portalpehuen-palette-secondary {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+      }
+
+      /* Typography display */
+      .typo-display-shree {
+        font-family: 'Shree Devanagari 714', 'Times New Roman', serif;
+        color: var(--pp-green);
+        font-size: 44px;
+        font-weight: 400;
+        margin: 0;
+        line-height: 1;
+        letter-spacing: .01em;
+      }
+
+      .typo-sample-shree {
+        font-family: 'Shree Devanagari 714', 'Times New Roman', serif;
+        color: rgba(255,255,255,.4);
+        font-size: 15px;
+        margin: 0;
+      }
+
+      /* ── Valores ── */
+      .project-portalpehuen-valores {
+        background-color: #B8C6A4;
+        width: 100%;
+      }
+
+      .container-portalpehuen-valores {
+        width: 100%;
+        max-width: var(--container-lg);
+        padding: 100px 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .project-title-valores-portalpehuen {
+        font-size: 70px;
+        font-weight: 900;
+        color: var(--pp-dark);
+        margin: 0 0 -28px;
+        line-height: 1;
+      }
+
+      .description-valores-portalpehuen {
+        font-size: 18px;
+        color: rgba(46,51,38,.75);
+        line-height: 1.65;
+        margin: 0;
+      }
+
+      .pp-valores-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 14px;
+        padding-top: 20px;
+      }
+      .pp-valor-card:nth-child(1) { grid-column: 1 / 3; }
+      .pp-valor-card:nth-child(2) { grid-column: 3 / 5; }
+      .pp-valor-card:nth-child(3) { grid-column: 5 / 7; }
+      .pp-valor-card:nth-child(4) { grid-column: 2 / 4; }
+      .pp-valor-card:nth-child(5) { grid-column: 4 / 6; }
+
+      .pp-valor-card {
+        background-color: var(--pp-dark);
+        border-radius: 32px;
+        padding: 44px 36px 44px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      }
+
+      .pp-valor-icon {
+        font-size: 52px;
+        color: var(--pp-green);
+        line-height: 1;
+      }
+
+      .pp-valor-text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .pp-valor-pill {
+        display: block;
+        color: var(--pp-green);
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+      }
+
+      .pp-valor-body {
+        font-size: 15px;
+        color: rgba(255,255,255,.6);
+        line-height: 1.65;
+        margin: 0;
+      }
+
+      /* ── Full-width image ── */
+      .pp-img-full {
+        width: 100%;
+        height: auto;
+        display: block;
+        background-color: var(--pp-offwhite);
+      }
+
+      /* override global max-widths for brandbook text */
+      .body-project-portalpehuen .description-brandbook-intro { max-width: 100%; }
+      .body-project-portalpehuen .brandbook-block-body { max-width: 100%; }
+
+      /* version cards + palette swatches */
+      .body-project-portalpehuen .brandbook-version-card { border-radius: 40px; }
+      .body-project-portalpehuen .brandbook-swatch-primary { border-radius: 40px; }
+      .body-project-portalpehuen .brandbook-swatch-sm { border-radius: 20px; }
+
+      /* typography cards */
+      .body-project-portalpehuen .brandbook-typo-card {
+        border-radius: 40px;
+      }
+
+      /* ── Closing ── */
+      .cierre-portalpehuen {
+        background-color: var(--pp-dark);
+        padding: 80px 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        text-align: center;
+        width: 100%;
+      }
+
+      .text-cierre-portalpehuen {
+        font-size: 15px;
+        color: rgba(255,255,255,.5);
+        line-height: 2;
+        margin: 0;
+      }
+
+      .text-cierre-portalpehuen strong { color: #fff; font-weight: 600; }
+
+      /* ── Responsive ── */
+      @media (max-width: 991px) {
+        .project-portalpehuen-hero-section { padding-top: 160px; padding-left: 0; padding-right: 0; }
+        .container-portalpehuen-context   { padding: 70px 40px; }
+        .container-portalpehuen-brandbook { padding: 70px 40px; gap: 56px; }
+        .container-portalpehuen-valores   { padding: 70px 40px; }
+        .project-title-context-portalpehuen,
+        .project-title-brandbook-portalpehuen,
+        .project-title-valores-portalpehuen { font-size: 50px; }
+        .portalpehuen-palette-primary     { grid-template-columns: 1fr 1fr; }
+        .portalpehuen-palette-secondary   { grid-template-columns: repeat(2, 1fr); }
+        .pp-valores-grid                  { grid-template-columns: repeat(6, 1fr); }
+      }
+
+      @media (max-width: 767px) {
+        .project-portalpehuen-hero-section { padding-top: 140px; padding-left: 0; padding-right: 0; }
+        .project-portalpehuen-hero-section .description-text-hero { text-align: left; width: auto; }
+        .container-portalpehuen-context    { padding: 50px 20px; }
+        .container-portalpehuen-brandbook  { padding: 50px 20px; gap: 44px; }
+        .container-portalpehuen-valores    { padding: 50px 20px; }
+        .project-title-context-portalpehuen,
+        .project-title-brandbook-portalpehuen,
+        .project-title-valores-portalpehuen { font-size: 36px; }
+        .images-portalpehuen               { grid-template-columns: 1fr; }
+        .pp-valores-grid                   { grid-template-columns: 1fr 1fr; }
+        .pp-valor-card:nth-child(1),
+        .pp-valor-card:nth-child(2),
+        .pp-valor-card:nth-child(3),
+        .pp-valor-card:nth-child(4),
+        .pp-valor-card:nth-child(5)        { grid-column: auto; }
+        .cierre-portalpehuen               { padding: 60px 20px; }
+        .pp-leaf-deco                      { width: 100%; opacity: .5; }
+      }
+      .project-portalpehuen-hero-section .div-block-245 { max-width: 70%; }
+      @media (max-width: 991px) {
+        .project-portalpehuen-hero-section .div-block-245 { max-width: 100%; }
+      }
+    </style>
+    <link href="../assets/css/fonts.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement, t = " w-mod-";
+        ((n.className += t + "js"),
+          ("ontouchstart" in o || (o.DocumentTouch && c instanceof DocumentTouch)) && (n.className += t + "touch"));
+      })(window, document);
+    </script>
+    <link href="../images/shared/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="../images/shared/webclip-apple.webp" rel="apple-touch-icon" />
+    <link href="https://otroanguloweb.cl/project-portalpehuen" rel="canonical" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Portal Pehuén – Identidad visual",
+        "url": "https://otroanguloweb.cl/project-portalpehuen",
+        "inLanguage": "es",
+        "description": "Identidad visual completa para Portal Pehuén, centro comercial de alto estándar. Logo inspirado en la araucaria, paleta, tipografía y brandbook integral.",
+        "dateCreated": "2024",
+        "keywords": ["Branding","Identidad visual","Brandbook","Portal Pehuén","Centro comercial","Diseño gráfico","Figma"],
+        "genre": "Branding · Diseño gráfico",
+        "author": {
+          "@type": "Person",
+          "name": "Erika Pinedo",
+          "url": "https://otroanguloweb.cl/about-me-erika-pinedo",
+          "jobTitle": "Diseñadora UX/UI",
+          "sameAs": "https://www.linkedin.com/in/erika-pinedo-camacho/"
+        },
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Otro Ángulo Web – Erika Pinedo",
+          "url": "https://otroanguloweb.cl"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem","position": 1,"name": "Inicio","item": "https://otroanguloweb.cl/"},
+          {"@type": "ListItem","position": 2,"name": "Portafolio","item": "https://otroanguloweb.cl/portfolio"},
+          {"@type": "ListItem","position": 3,"name": "Portal Pehuén","item": "https://otroanguloweb.cl/project-portalpehuen"}
+        ]
+      }
+    </script>
+    <link rel="stylesheet" href="../vendors/lenis/lenis.css" />
+    <link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/project-portalpehuen" />
+    <link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/project-portalpehuen" />
+    <link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/project-portalpehuen" />
+  </head>
+  <body class="body-project-portalpehuen">
+    <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+    <div class="main" id="main-content" role="main">
+
+      <!-- ===== HERO ===== -->
+      <section id="home" class="project-portalpehuen-hero-section">
+        <img src="../images/portalpehuen/bg-portalpehuen-hero.webp" alt="" aria-hidden="true"
+             class="pp-hero-bg" width="1920" height="986" loading="eager" fetchpriority="high" />
+
+        <div class="w-layout-hflex flex-block-7">
+          <div class="w-embed">
+            <button
+              onclick="window.location.href = document.referrer || '/';"
+              style="
+                display: inline-block;
+                padding: 14px 28px;
+                background: #ffffff;
+                color: #2b2b2b;
+                font-size: 18px;
+                font-weight: 600;
+                border: none;
+                border-radius: 999px;
+                cursor: pointer;
+                box-shadow: 0 4px 10px rgba(0,0,0,.08);
+                transition: all .2s ease;
+                font-family: system-ui, -apple-system, sans-serif;
+              "
+              onmouseover="this.style.transform='translateY(-2px)'"
+              onmouseout="this.style.transform='translateY(0)'"
+            >Volver</button>
+          </div>
+        </div>
+
+        <div class="div-block-245">
+          <div class="w-layout-blockcontainer container-main-left-project w-container">
+            <h1 class="heading-44">
+              Una identidad que crece <em class="italic-text-2">desde sus raíces.</em>
+            </h1>
+            <p class="description-text-hero">Identidad visual + Brandbook</p>
+            <p class="alessandri-hero-impact">
+              Identidad visual completa para un centro comercial de alto estándar, inspirada en la araucaria: tradición local hecha sistema gráfico.
+            </p>
+            <div class="alessandri-hero-stats">
+              <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value">2024</span>
+                <span class="alessandri-stat-label">Inicio</span>
+              </div>
+              <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value">Rol</span>
+                <span class="alessandri-stat-label">Diseñadora Gráfica</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTEXT ===== -->
+      <section id="project-portalpehuen-context" class="project-portalpehuen-context">
+        <div class="w-layout-blockcontainer container-portalpehuen-context w-container">
+          <h2 class="project-title-context-portalpehuen">
+            El portal que conecta al <strong>emprendedor local</strong> con su comunidad.
+          </h2>
+          <p class="description-context-portalpehuen">
+            Portal Pehuén es un centro comercial de alto estándar orientado a emprendedores, pymes y marcas locales, así como a familias que valoran la calidad y la cercanía. El encargo fue construir la identidad de marca desde cero: un sistema visual coherente que combinara tradición y modernidad, con la araucaria como símbolo central de arraigo, solidez y crecimiento.
+          </p>
+        </div>
+      </section>
+
+      <!-- ===== GALLERY ===== -->
+      <section class="images-portalpehuen" aria-label="Galería del proyecto Portal Pehuén">
+        <img
+          src="../images/portalpehuen/pp-mockup-araucaria.webp"
+          alt="Logo de Portal Pehuén superpuesto sobre fotografía de araucaria en paisaje cordillerano."
+          sizes="(max-width: 767px) 100vw, 33vw"
+          loading="lazy"
+          width="784"
+          height="930"
+        />
+        <img
+          src="../images/portalpehuen/pp-mockup-letrero.webp"
+          alt="Letrero exterior con el logo de Portal Pehuén aplicado en señalética urbana."
+          sizes="(max-width: 767px) 100vw, 33vw"
+          loading="lazy"
+          width="784"
+          height="930"
+        />
+        <img
+          src="../images/portalpehuen/pp-patron-ramas.webp"
+          alt="Patrón gráfico con ramas de araucaria, elemento visual de la identidad Portal Pehuén."
+          sizes="(max-width: 767px) 100vw, 33vw"
+          loading="lazy"
+          width="784"
+          height="930"
+        />
+      </section>
+
+      <!-- ===== BRANDBOOK ===== -->
+      <section class="project-portalpehuen-brandbook">
+        <div class="w-layout-blockcontainer container-portalpehuen-brandbook w-container">
+
+          <div class="brandbook-header">
+            <h2 class="project-title-brandbook-portalpehuen">Brandbook</h2>
+            <p class="description-brandbook-intro">
+              La identidad de Portal Pehuén se construyó desde el símbolo más significativo de la región: la araucaria. Cada elemento del sistema visual refleja los valores de la marca: familiaridad, calidad, cercanía y profesionalismo. El brandbook define el sistema completo que da coherencia a cada pieza de comunicación.
+            </p>
+          </div>
+
+          <!-- 2.1 Imagen de marca -->
+          <div class="brandbook-block">
+            <div class="brandbook-block-label">
+              <span class="brandbook-number">2.1</span>
+              <h3 class="brandbook-block-title">Imagen de marca</h3>
+            </div>
+            <div class="brandbook-logo-row">
+              <p class="brandbook-block-body">
+                El diseño de Portal Pehuén se inspira en la forma de la araucaria, un árbol icónico de la región que simboliza tradición, solidez y crecimiento. Su estructura estilizada y simétrica transmite equilibrio y profesionalismo, mientras que sus ramas extendidas evocan un espacio acogedor y de conexión con la comunidad. El uso de una tipografía moderna y limpia refuerza el concepto de calidad y alto estándar, alineándose con la visión del Portal como punto de encuentro central, seguro y familiar.
+              </p>
+              <img
+                src="../images/portalpehuen/pp-logo-principal.svg"
+                alt="Logo principal de Portal Pehuén, isotipo de araucaria estilizada con tipografía limpia"
+                class="brandbook-logo-img"
+                loading="lazy"
+                width="300"
+                height="380"
+              />
+            </div>
+          </div>
+
+          <!-- 2.2 Versiones -->
+          <div class="brandbook-block">
+            <div class="brandbook-block-label">
+              <span class="brandbook-number">2.2</span>
+              <h3 class="brandbook-block-title">Versiones</h3>
+            </div>
+            <p class="brandbook-block-body">
+              La imagen cuenta con distintas versiones cromáticas para adaptarse con precisión a cada pieza o estilo de comunicación, manteniendo siempre la esencia de la marca.
+            </p>
+            <div class="brandbook-versions-grid">
+              <div class="brandbook-version-card pvc-offwhite">
+                <img src="../images/portalpehuen/pp-logo-color-verde.svg" alt="Logo Portal Pehuén versión principal fondo claro" class="bv-logo" loading="lazy" width="120" height="80" />
+                <span class="bv-tag">Principal · fondo claro</span>
+              </div>
+              <div class="brandbook-version-card pvc-dark">
+                <img src="../images/portalpehuen/pp-logo-principal.svg" alt="Logo Portal Pehuén versión fondo oscuro" class="bv-logo" loading="lazy" width="120" height="80" />
+                <span class="bv-tag">Fondo verde oscuro</span>
+              </div>
+              <div class="brandbook-version-card pvc-green">
+                <img src="../images/portalpehuen/pp-logo-color-verde.svg" alt="Logo Portal Pehuén versión fondo verde sage" class="bv-logo" loading="lazy" width="120" height="80" />
+                <span class="bv-tag">Fondo verde Pehuén</span>
+              </div>
+              <div class="brandbook-version-card pvc-offwhite">
+                <img src="../images/portalpehuen/pp-logo-positivo.svg" alt="Logo Portal Pehuén versión positivo" class="bv-logo" loading="lazy" width="120" height="80" />
+                <span class="bv-tag">Versión positivo</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4.0 Colores -->
+          <div class="brandbook-block">
+            <div class="brandbook-block-label">
+              <span class="brandbook-number">4.0</span>
+              <h3 class="brandbook-block-title">Paleta de colores</h3>
+            </div>
+            <p class="brandbook-block-body">
+              El color es uno de los elementos fundamentales de la identidad visual de Portal Pehuén. El verde oscuro, el verde sage y los tonos naturales definen el universo cromático de la marca, evocando la naturaleza, la seriedad y la calidez del entorno.
+            </p>
+
+            <div class="portalpehuen-palette-primary">
+              <div class="brandbook-swatch-primary" style="background:#2E3326;border:1px solid #1a1f14;">
+                <div class="swatch-info">
+                  <span class="swatch-hex" style="color:#89A067;">#2E3326</span>
+                  <span class="swatch-name" style="color:rgba(137,160,103,.6);">Verde oscuro</span>
+                </div>
+              </div>
+              <div class="brandbook-swatch-primary" style="background:#89A067;">
+                <div class="swatch-info">
+                  <span class="swatch-hex" style="color:#fff;">#89A067</span>
+                  <span class="swatch-name" style="color:rgba(255,255,255,.7);">Verde Pehuén</span>
+                </div>
+              </div>
+              <div class="brandbook-swatch-primary" style="background:#FFFFFF;border:1px solid #EAEBE9;">
+                <div class="swatch-info">
+                  <span class="swatch-hex" style="color:#2E3326;">#FFFFFF</span>
+                  <span class="swatch-name" style="color:rgba(46,51,38,.5);">Blanco</span>
+                </div>
+              </div>
+              <div class="brandbook-swatch-primary" style="background:#0E0E0E;">
+                <div class="swatch-info">
+                  <span class="swatch-hex" style="color:rgba(255,255,255,.8);">#0E0E0E</span>
+                  <span class="swatch-name" style="color:rgba(255,255,255,.4);">Negro</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="portalpehuen-palette-secondary">
+              <div class="brandbook-swatch-sm" style="background:#B8C6A4;">
+                <span class="swatch-hex-sm" style="color:#2E3326;">#B8C6A4</span>
+              </div>
+              <div class="brandbook-swatch-sm" style="background:#F3F5F0;border:1px solid #EAEBE9;">
+                <span class="swatch-hex-sm" style="color:#2E3326;">#F3F5F0</span>
+              </div>
+              <div class="brandbook-swatch-sm" style="background:#82857D;">
+                <span class="swatch-hex-sm" style="color:#fff;">#82857D</span>
+              </div>
+              <div class="brandbook-swatch-sm" style="background:#EAEBE9;border:1px solid #d0d2ce;">
+                <span class="swatch-hex-sm" style="color:#2E3326;">#EAEBE9</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5.0 Tipografía -->
+          <div class="brandbook-block">
+            <div class="brandbook-block-label">
+              <span class="brandbook-number">5.0</span>
+              <h3 class="brandbook-block-title">Tipografía</h3>
+            </div>
+            <p class="brandbook-block-body">
+              La tipografía de Portal Pehuén es Shree Devanagari 714. De líneas simples, que proyectan confianza y modernidad, reforzando el concepto de calidad y alto estándar que define al Portal como un punto de encuentro central, seguro y familiar.
+            </p>
+            <div class="brandbook-typo-grid">
+              <div class="brandbook-typo-card">
+                <p class="typo-display-shree">Shree Devanagari 714</p>
+                <p class="typo-sample-shree">The quick brown fox jumps over the lazy dog.</p>
+                <div class="typo-weights-list" style="color:rgba(255,255,255,.5);font-family:'Shree Devanagari 714','Times New Roman',serif;">
+                  <span style="font-weight:400;">Regular</span>
+                  <span style="font-style:italic;">Italic</span>
+                  <span style="font-weight:700;">Bold</span>
+                  <span style="font-weight:700;font-style:italic;">Bold Italic</span>
+                </div>
+                <span class="typo-use-label">Títulos, display e identidad</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- ===== /BRANDBOOK ===== -->
+
+      <img
+        src="../images/portalpehuen/pp-mockup-papeleria.webp"
+        alt="Mockup de papelería corporativa Portal Pehuén: hoja membretada y tarjetas de presentación."
+        class="pp-img-full"
+        loading="lazy"
+        width="3528"
+        height="2112"
+      />
+
+      <!-- ===== VALORES ===== -->
+      <section class="project-portalpehuen-valores">
+        <div class="w-layout-blockcontainer container-portalpehuen-valores w-container">
+          <h2 class="project-title-valores-portalpehuen">Valores de marca</h2>
+          <p class="description-valores-portalpehuen">
+            Cualidades únicas y fundamentales que guían cada decisión visual y comunicacional de Portal Pehuén, apuntando al norte del éxito de la comunidad.
+          </p>
+          <div class="pp-valores-grid">
+            <div class="pp-valor-card">
+              <i class="ph-duotone ph-house pp-valor-icon"></i>
+              <div class="pp-valor-text">
+                <span class="pp-valor-pill">Familiar</span>
+                <p class="pp-valor-body">Un espacio donde emprendedores y familias se sienten en casa desde el primer momento.</p>
+              </div>
+            </div>
+            <div class="pp-valor-card">
+              <i class="ph-duotone ph-handshake pp-valor-icon"></i>
+              <div class="pp-valor-text">
+                <span class="pp-valor-pill">Cercano</span>
+                <p class="pp-valor-body">Trato personalizado y atención comprometida con cada negocio y cada visitante.</p>
+              </div>
+            </div>
+            <div class="pp-valor-card">
+              <i class="ph-duotone ph-medal pp-valor-icon"></i>
+              <div class="pp-valor-text">
+                <span class="pp-valor-pill">Calidad</span>
+                <p class="pp-valor-body">Infraestructura nueva y estándares de alto nivel en cada rincón del Portal.</p>
+              </div>
+            </div>
+            <div class="pp-valor-card">
+              <i class="ph-duotone ph-shield-check pp-valor-icon"></i>
+              <div class="pp-valor-text">
+                <span class="pp-valor-pill">Responsable</span>
+                <p class="pp-valor-body">Un entorno confiable y protegido para locatarios y visitantes por igual.</p>
+              </div>
+            </div>
+            <div class="pp-valor-card">
+              <i class="ph-duotone ph-briefcase pp-valor-icon"></i>
+              <div class="pp-valor-text">
+                <span class="pp-valor-pill">Profesional</span>
+                <p class="pp-valor-body">Gestión seria y comprometida que respalda el crecimiento de cada negocio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CLOSING ===== -->
+      <section class="cierre-portalpehuen">
+        <p class="text-cierre-portalpehuen">
+          <strong>Compañía</strong> Otro Ángulo Web<br /><strong>Diseñadora Gráfica</strong> Erika Pinedo<br /><br />- Todos los derechos reservados -
+        </p>
+      </section>
+
+      <!-- ===== OTHER PROJECTS ===== -->
+      <section class="project-nico-other-proyects">
+        <div class="title-other-projects">
+          <h2 class="home-heading-h2">
+            Otros <span class="span-txt">Proyectos</span>
+          </h2>
+          <a href="portfolio.html" class="button-white-2-copy-copy w-button">Ver todos</a>
+        </div>
+        <div class="w-layout-blockcontainer container-cards-projects w-container">
+          <div class="vip-grid-featured" data-otros-proyectos="portalpehuen">
+            <a href="project-jschile.html" class="vip-card">
+              <div class="div-block-232">
+                <img
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
+                  srcset="../images/portfolio/jschile-project-erika-pinedo.webp 1401w"
+                  alt="Branding e identidad de JSChile, la comunidad de desarrollo más grande de Chile."
+                  src="../images/portfolio/jschile-project-erika-pinedo.webp"
+                  loading="lazy"
+                  class="vip-card__img"
+                  width="1401"
+                  height="940"
+                />
+              </div>
+              <div class="text-content-portfolio">
+                <h3 class="title-name-portfolio-project">JSChile</h3>
+                <h4 class="title-card-portfolio">Identidad visual</h4>
+                <div class="card-pills"><span class="pill-category">Identidad visual</span></div>
+                <p class="paragraph-card-portfolio">Identidad de marca y landing page para la comunidad de desarrollo más grande de Chile.</p>
+              </div>
+            </a>
+            <a href="project-alessandri.html" class="vip-card">
+              <div class="div-block-232">
+                <img
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
+                  srcset="../images/portfolio/alessandri-project-erika-pinedo.webp 1401w"
+                  alt="Plataforma de gestión jurídica AlessandriPI."
+                  src="../images/portfolio/alessandri-project-erika-pinedo.webp"
+                  loading="lazy"
+                  class="vip-card__img"
+                  width="1401"
+                  height="940"
+                />
+              </div>
+              <div class="text-content-portfolio">
+                <h3 class="title-name-portfolio-project">AlessandriPI</h3>
+                <h4 class="title-card-portfolio">Rediseño de Plataforma de Gestión Jurídica</h4>
+                <div class="card-pills"><span class="pill-category">UX/UI</span></div>
+                <p class="paragraph-card-portfolio">Rediseño end-to-end de la plataforma interna de gestión legal para más de 40.000 clientes.</p>
+              </div>
+            </a>
+            <a href="project-urbana.html" class="vip-card">
+              <div class="div-block-232">
+                <img
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
+                  srcset="../images/portfolio/urbana-administracion.webp 1401w"
+                  alt="App móvil administrativa Urbana Administración."
+                  src="../images/portfolio/urbana-administracion.webp"
+                  loading="lazy"
+                  class="vip-card__img"
+                  width="1401"
+                  height="940"
+                />
+              </div>
+              <div class="text-content-portfolio">
+                <h3 class="title-name-portfolio-project">Urbana</h3>
+                <h4 class="title-card-portfolio">App Móvil Administrativa para Edificios</h4>
+                <div class="card-pills"><span class="pill-category">UX/UI</span></div>
+                <p class="paragraph-card-portfolio">App móvil para la gestión transparente de edificios y condominios, diseñada para Nnodes.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div id="navbar"></div>
+    </div>
+    <div id="footer"></div>
+
+
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1" defer></script>
+    <script src="translations.min.js"></script>
+    <script src="components.min.js"></script>
+    <script src="../assets/js/jquery-3.5.1.min.js" type="text/javascript"></script>
+    <script src="../assets/js/webflow.schunk.36b8fb49256177c8.js" type="text/javascript"></script>
+    <script src="../assets/js/webflow.schunk.a77c58ba960b3507.js" type="text/javascript"></script>
+    <script src="../assets/js/webflow.schunk.0ffa0db5861aed55.js" type="text/javascript"></script>
+    <script src="../assets/js/webflow.340042d4.ea871b981f0e26e1.js" type="text/javascript"></script>
+    <script src="../vendors/gsap/gsap.min.js" type="text/javascript"></script>
+    <script src="../vendors/gsap/SplitText.min.js" type="text/javascript"></script>
+    <script src="../vendors/gsap/ScrollTrigger.min.js" type="text/javascript"></script>
+    <script src="../vendors/lenis/lenis.min.js"></script>
+
+    <script>
+      const lenis = new Lenis({ lerp: 0.1 });
+      function raf(time) { lenis.raf(time); requestAnimationFrame(raf); }
+      requestAnimationFrame(raf);
+    </script>
+
+    <!-- GSAP animations -->
+    <script>
+      (function () {
+        if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+        gsap.registerPlugin(ScrollTrigger);
+        var fadeUp = { opacity: 0, y: 40, duration: 0.7, ease: 'power2.out' };
+        function st(trigger, extra) {
+          return { scrollTrigger: { trigger: trigger, start: 'top 85%' }, ...extra };
+        }
+        var p = '.body-project-portalpehuen ';
+
+        gsap.from(p + '.heading-44',            { opacity: 0, y: 30, duration: 0.8, delay: 0.15, ease: 'power3.out' });
+        gsap.from(p + '.alessandri-hero-impact', { opacity: 0, y: 20, duration: 0.7, delay: 0.35, ease: 'power3.out' });
+        gsap.from(p + '.alessandri-hero-stats',  { opacity: 0, y: 20, duration: 0.5, delay: 0.55, ease: 'power3.out' });
+
+        [p + '.project-title-context-portalpehuen', p + '.description-context-portalpehuen'].forEach(function (s) {
+          var el = document.querySelector(s);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        var imgs = gsap.utils.toArray(p + '.images-portalpehuen > *');
+        if (imgs.length) gsap.from(imgs, st(imgs[0], { opacity: 0, y: 50, duration: 0.8, stagger: 0.12, ease: 'power2.out' }));
+
+        [p + '.project-title-brandbook-portalpehuen', p + '.description-brandbook-intro'].forEach(function (s) {
+          var el = document.querySelector(s);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        gsap.utils.toArray(p + '.brandbook-block').forEach(function (b) {
+          gsap.from(b, st(b, { opacity: 0, y: 40, duration: 0.7, ease: 'power2.out' }));
+        });
+
+        var vCards = gsap.utils.toArray(p + '.brandbook-version-card');
+        if (vCards.length) gsap.from(vCards, st(vCards[0], { opacity: 0, y: 30, duration: 0.55, stagger: 0.1, ease: 'power2.out' }));
+
+        [p + '.project-title-valores-portalpehuen', p + '.description-valores-portalpehuen'].forEach(function (s) {
+          var el = document.querySelector(s);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        var vCards2 = gsap.utils.toArray(p + '.pp-valor-card');
+        if (vCards2.length) gsap.from(vCards2, st(vCards2[0], { opacity: 0, y: 40, duration: 0.6, stagger: 0.1, ease: 'power2.out' }));
+
+        var fullImgs = gsap.utils.toArray(p + '.pp-img-full');
+        fullImgs.forEach(function (img) {
+          gsap.from(img, st(img, { opacity: 0, y: 60, duration: 0.9, ease: 'power2.out' }));
+        });
+      })();
+    </script>
+  </body>
+</html>

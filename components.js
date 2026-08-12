@@ -30,6 +30,9 @@
     'project-bluesphere':       'portfolio',
     'project-playersnap':       'portfolio',
     'project-matchminders':     'portfolio',
+    'project-jschile':          'portfolio',
+    'project-portalpehuen':     'portfolio',
+    'project-urbana':           'portfolio',
   };
 
   // Fetch arranca inmediatamente (antes de DOMContentLoaded) para maximizar
@@ -236,7 +239,7 @@
       name: 'BlueSphere',
       titleI18n: 'portfolioPage.bluesphereTitle', titleFallback: 'Plataforma de Ciberseguridad para Pymes',
       descI18n: 'portfolioPage.bluesphereDesc', descFallback: 'Diseño UX/UI de una plataforma cloud-native que integra monitoreo SOC 24/7, gestión de vulnerabilidades y resiliencia operativa para pymes.',
-      pills: ['UX/UI', 'Branding']
+      pills: ['UX/UI', 'Identidad visual']
     },
     {
       id: 'playersnap',
@@ -261,6 +264,30 @@
       name: 'MatchMinders',
       titleI18n: 'portfolioPage.matchmindersTitle', titleFallback: 'Plataforma de Torneos Deportivos',
       descI18n: 'portfolioPage.matchmindersDesc', descFallback: 'Mapeo de flujos, diseño de interfaces y construcción del Design System para una plataforma que permite crear y gestionar torneos deportivos.',
+      pills: ['UX/UI']
+    },
+    {
+      id: 'portalpehuen',
+      href: 'project-portalpehuen.html',
+      imgClass: 'image-alessandri vip-card__img',
+      srcset: '../images/portfolio/portalpehuen-project-erika-pinedo.webp 1401w',
+      src: '../images/portfolio/portalpehuen-project-erika-pinedo.webp',
+      altI18n: 'portfolioPage.portalpImgAlt', altFallback: 'Identidad visual de Portal Pehuén mostrando logotipo, paleta de colores y aplicaciones de marca.',
+      name: 'Portal Pehuén',
+      titleI18n: 'portfolioPage.portalpTitle', titleFallback: 'Identidad Visual para Comunidad de Barrio',
+      descI18n: 'portfolioPage.portalpDesc', descFallback: 'Diseño de identidad visual desde cero para Portal Pehuén: una plataforma de barrio que conecta vecinos con negocios locales.',
+      pills: ['Identidad visual']
+    },
+    {
+      id: 'urbana',
+      href: 'project-urbana.html',
+      imgClass: 'image-alessandri vip-card__img',
+      srcset: '../images/portfolio/urbana-administracion.webp 1401w',
+      src: '../images/portfolio/urbana-administracion.webp',
+      altI18n: 'portfolioPage.urbanaImgAlt', altFallback: 'App móvil Urbana mostrando panel de administración de edificio con módulos de gastos y comunicaciones.',
+      name: 'Urbana',
+      titleI18n: 'portfolioPage.urbanaTitle', titleFallback: 'App Administrativa para Edificios y Condominios',
+      descI18n: 'portfolioPage.urbanaDesc', descFallback: 'Diseño UX/UI de una app móvil que centraliza la gestión administrativa de edificios: gastos, notificaciones, comunicados y transparencia para residentes.',
       pills: ['UX/UI']
     }
   ];
@@ -375,9 +402,14 @@
           document.documentElement.setAttribute('data-theme', t || 'default');
           if (t) document.body.classList.add(t);
           applyThemeToNavbar(t);
+          // Re-aplicar active link: Webflow nav puede diferir su reset al siguiente frame.
+          if (navEl) applyActiveLink(navEl);
         });
         // Segunda pasada a 200 ms — cubre operaciones asíncronas del módulo nav de Webflow.
-        setTimeout(function () { applyThemeToNavbar(localStorage.getItem('site-theme') || ''); }, 200);
+        setTimeout(function () {
+          applyThemeToNavbar(localStorage.getItem('site-theme') || '');
+          if (navEl) applyActiveLink(navEl);
+        }, 200);
       })
       .catch(function (err) {
         console.error('[components.js]', err);

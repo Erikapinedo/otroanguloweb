@@ -1,0 +1,1133 @@
+<!doctype html>
+<html data-wf-domain="otroanguloweb.cl" data-wf-page="jschile" data-wf-site="698749cac56b62cc9304e563" lang="es-CL">
+  <head>
+    <meta charset="utf-8" />
+    <title>JSChile · Branding e identidad de marca – Erika Pinedo</title>
+    <meta
+      content="Branding completo y landing page para JSChile, la comunidad de desarrollo más grande de Chile. Diseño de marca integral: logo, paleta, tipografía y landing."
+      name="description"
+    />
+    <meta content="JSChile · Branding e identidad de marca – Erika Pinedo" property="og:title" />
+    <meta
+      content="Branding completo y landing page para JSChile, la comunidad de desarrollo más grande de Chile."
+      property="og:description"
+    />
+    <meta content="https://otroanguloweb.cl/images/shared/opengraph-erika-pinedo.png" property="og:image" />
+    <meta content="JSChile · Branding e identidad de marca – Erika Pinedo" property="twitter:title" />
+    <meta
+      content="Branding completo y landing page para JSChile, la comunidad de desarrollo más grande de Chile."
+      property="twitter:description"
+    />
+    <meta property="og:url" content="https://otroanguloweb.cl/project-jschile" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:site_name" content="Otro Ángulo Web – Erika Pinedo" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:image" content="https://otroanguloweb.cl/images/shared/opengraph-erika-pinedo.png" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="robots" content="index, follow" />
+    <link href="../assets/css/main.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets/theme-1.min.css">
+    <link rel="stylesheet" href="assets/theme-selector.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet" />
+    <style>
+      html.w-mod-js:not(.w-mod-ix3)
+        :is(
+          .pricing-heading-h2,
+          .c2a-title,
+          .crafting-heading,
+          .testimonial-heading-h2,
+          .navigation-link.for-footer,
+          .heading-20,
+          .achevement-heading-h2,
+          .creative-mind-heading
+        ) {
+        visibility: hidden !important;
+      }
+
+      /* ── JSChile brand tokens ── */
+      .body-project-jschile {
+        --jsc-yellow:   #EBCE17;
+        --jsc-dark:     #1D1D1D;
+        --jsc-dark-2:   #2B2B2B;
+        --jsc-gray:     #636363;
+      }
+
+      /* ────────────────────────────
+         Override shared classes for JSChile context
+      ──────────────────────────── */
+      .body-project-jschile .brandbook-number          { color: var(--jsc-yellow); }
+      .body-project-jschile .brandbook-block           { border-top-color: rgba(255,255,255,.08); }
+      .body-project-jschile .typo-use-label            { color: var(--jsc-yellow); border-top-color: rgba(255,255,255,.1); }
+      .body-project-jschile .description-text-hero     { color: var(--jsc-yellow); }
+
+      /* ── Hero ── */
+      .project-jschile-hero-section {
+        position: relative;
+        background-color: var(--jsc-dark);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 100px 40px 0;
+        overflow: hidden;
+      }
+
+      .jschile-hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      /* hero content rides inside the shared container class */
+      .body-project-jschile .container-main-left-project {
+        position: relative;
+        z-index: 2;
+      }
+
+      .body-project-jschile .flex-block-7 { z-index: 2; }
+
+      .body-project-jschile .italic-text-2 {
+        color: var(--jsc-yellow);
+      }
+
+      /* ── Context ── */
+      .project-jschile-context {
+        background-color: var(--jsc-dark-2);
+        width: 100%;
+      }
+
+      .container-jschile-context {
+        width: 100%;
+        max-width: var(--container-lg);
+        padding: 100px 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+      }
+
+      .project-title-context-jschile {
+        width: 100%;
+        color: var(--jsc-yellow);
+        text-align: left;
+        margin: 0;
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 1;
+      }
+
+      .description-context-jschile {
+        color: rgba(255,255,255,.8);
+        font-size: 18px;
+        line-height: 1.65;
+        margin: 0;
+      }
+
+      /* ── Images ── */
+      .images-jschile {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0;
+        width: 100%;
+        overflow: clip;
+      }
+
+      .images-jschile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      /* ── Brandbook ── */
+      .project-jschile-brandbook {
+        background-color: var(--jsc-dark);
+        background-image: url('../images/JSChile/brandbook-bg.png');
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        width: 100%;
+      }
+
+      .container-jschile-brandbook {
+        max-width: var(--container-lg);
+        padding: 90px 60px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+      }
+
+      .project-title-brandbook-jschile {
+        color: var(--jsc-yellow);
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 1;
+        margin: 0;
+      }
+
+      /* Version card colours for JSChile */
+      .jvc-dark   { background-color: var(--jsc-dark-2); border: 1px solid rgba(255,255,255,.06); }
+      .jvc-yellow { background-color: var(--jsc-yellow); }
+      .jvc-white  { background-color: #F5F5F5; }
+      .jvc-stamp  { background-color: var(--jsc-dark-2); border: 1px solid rgba(255,255,255,.06); }
+      .body-project-jschile .brandbook-versions-grid { grid-template-columns: repeat(3, 1fr); }
+
+      .jvc-dark  .bv-tag,
+      .jvc-stamp .bv-tag { color: rgba(255,255,255,.5); }
+      .jvc-yellow .bv-tag { color: var(--jsc-dark); }
+      .jvc-white  .bv-tag { color: var(--jsc-dark-2); }
+
+      /* Palette grid — 5 primaries + 5 secondary */
+      .jschile-palette-primary {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+        gap: 8px;
+        margin-bottom: 8px;
+      }
+
+      .jschile-palette-secondary {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 8px;
+      }
+
+      /* Typography display classes specific to JSChile */
+      .typo-display-jersey {
+        font-family: 'Jersey 10', monospace;
+        color: #FFFFFF;
+        font-size: 44px;
+        font-weight: 400;
+        margin: 0;
+        line-height: 1;
+        letter-spacing: .02em;
+      }
+
+      .typo-sample-jersey {
+        font-family: 'Jersey 10', monospace;
+        color: rgba(255,255,255,.4);
+        font-size: 15px;
+        margin: 0;
+      }
+
+      .typo-display-inter {
+        font-family: Inter, system-ui, sans-serif;
+        color: #fff;
+        font-size: 44px;
+        font-weight: 700;
+        margin: 0;
+        line-height: 1;
+      }
+
+      /* ── Landing ── */
+      .project-jschile-landing {
+        background-color: var(--jsc-yellow);
+        width: 100%;
+      }
+
+      .container-jschile-landing {
+        width: 100%;
+        max-width: var(--container-lg);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 100px 60px;
+        display: grid;
+        grid-template-columns: 110px 1fr;
+        gap: 60px;
+        align-items: stretch;
+      }
+
+      .jschile-landing-map-col {
+        position: relative;
+      }
+
+      .jschile-landing-map {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        width: auto;
+        max-width: 110px;
+        object-fit: contain;
+        object-position: top center;
+      }
+
+      .jschile-landing-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .project-title-landing-jschile {
+        font-size: 70px;
+        font-weight: 900;
+        color: var(--jsc-dark);
+        margin: 0;
+        line-height: 1;
+      }
+
+      .description-landing-intro-jschile {
+        font-size: 18px;
+        color: rgba(29,29,29,.75);
+        line-height: 1.65;
+        margin: 0;
+      }
+
+      .jschile-challenge-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 20px;
+      }
+
+      .jschile-challenge-title {
+        font-size: 44px;
+        font-weight: 900;
+        color: var(--jsc-dark);
+        margin: 20px 0 8px;
+        line-height: 1.1;
+      }
+
+      .jschile-challenge-body {
+        font-size: 18px;
+        color: rgba(29,29,29,.75);
+        line-height: 1.65;
+        margin: 0;
+      }
+
+      .jschile-values-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+
+      .jschile-value-card {
+        background: linear-gradient(180deg, #1D1D1D 0%, #444028 100%);
+        border-radius: 32px;
+        padding: 44px 36px 44px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      }
+
+      .jschile-value-icon {
+        font-size: 52px;
+        color: var(--jsc-yellow);
+        line-height: 1;
+      }
+
+      .jschile-value-text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .jschile-value-title {
+        font-family: Inter, system-ui, sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+        color: var(--jsc-yellow);
+        margin: 0;
+        line-height: 1.1;
+      }
+
+      .jschile-value-body {
+        font-size: 15px;
+        color: rgba(255,255,255,.65);
+        line-height: 1.65;
+        margin: 0;
+      }
+
+      /* Full-width images */
+      .jschile-img-full {
+        width: 100%;
+        height: auto;
+        display: block;
+        background-color: var(--jsc-dark-2);
+      }
+
+      /* override global max-widths for brandbook text */
+      .body-project-jschile .description-brandbook-intro { max-width: 100%; }
+      .body-project-jschile .brandbook-block-body { max-width: 100%; }
+
+      /* version cards + palette swatches */
+      .body-project-jschile .brandbook-version-card { border-radius: 40px; }
+      .body-project-jschile .brandbook-swatch-primary { border-radius: 40px; }
+      .body-project-jschile .brandbook-swatch-sm { border-radius: 20px; }
+
+      /* typography cards */
+      .body-project-jschile .brandbook-typo-card {
+        background: linear-gradient(180deg, #70650C 0%, #444028 100%);
+        border: none;
+        border-radius: 40px;
+      }
+
+      /* otras versiones */
+      .jschile-alt-versions {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      .jschile-alt-versions-label {
+        font-family: Inter, system-ui, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: rgba(255,255,255,0.45);
+        margin: 0;
+      }
+      .jschile-alt-versions-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+      .jschile-alt-version-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        background: #1D1D1D;
+        border-radius: 24px;
+        padding: 28px 20px 20px;
+      }
+      .jschile-alt-version-logo {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      .jschile-alt-version-item img {
+        max-height: 80px;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+      }
+      .jschile-alt-version-name {
+        font-family: Inter, system-ui, sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgba(255,255,255,0.55);
+        text-align: center;
+        margin: 0;
+      }
+
+      /* ── Solution ── */
+      .jschile-solution-grid .jschile-value-card {
+        background: linear-gradient(180deg, #70650C 0%, #444028 100%);
+      }
+      .project-jschile-solution {
+        background-color: var(--jsc-dark);
+        width: 100%;
+      }
+      .container-jschile-solution {
+        max-width: var(--container-lg);
+        margin: 0 auto;
+        padding: 80px 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+      @media (max-width: 991px) {
+        .container-jschile-solution { padding: 70px 40px; }
+      }
+      @media (max-width: 767px) {
+        .container-jschile-solution { padding: 50px 20px; }
+      }
+
+      /* ── Closing ── */
+      .cierre-jschile {
+        background-color: var(--jsc-dark);
+        padding: 80px 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        text-align: center;
+        width: 100%;
+      }
+
+      .text-cierre-jschile {
+        font-size: 15px;
+        color: rgba(255,255,255,.5);
+        line-height: 2;
+        margin: 0;
+      }
+
+      .text-cierre-jschile strong { color: #fff; font-weight: 600; }
+
+      .btn-visit-jschile {
+        display: inline-block;
+        padding: 14px 32px;
+        background-color: var(--jsc-yellow);
+        color: var(--jsc-dark);
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 999px;
+        transition: opacity .2s ease, transform .2s ease;
+      }
+
+      .btn-visit-jschile:hover { opacity: .88; transform: translateY(-2px); }
+
+      /* ── Responsive ── */
+      @media (max-width: 991px) {
+        .project-jschile-hero-section { padding-top: 160px; padding-left: 0; padding-right: 0; }
+        .container-jschile-context    { padding: 70px 40px; }
+        .container-jschile-brandbook  { padding: 70px 40px; gap: 56px; }
+        .container-jschile-landing    { padding: 70px 40px; grid-template-columns: 1fr; }
+        .jschile-landing-map-col      { display: flex; justify-content: center; }
+        .jschile-landing-map          { position: static; transform: none; height: auto; width: 140px; }
+        .project-title-context-jschile,
+        .project-title-brandbook-jschile,
+        .project-title-landing-jschile { font-size: 50px; }
+        .jschile-palette-primary      { grid-template-columns: 1fr 1fr; }
+        .jschile-palette-secondary    { grid-template-columns: repeat(3, 1fr); }
+        .jschile-values-grid          { grid-template-columns: 1fr 1fr; }
+      }
+
+      @media (max-width: 767px) {
+        .project-jschile-hero-section { padding-top: 140px; padding-left: 0; padding-right: 0; }
+        .project-jschile-hero-section .description-text-hero { text-align: left; width: auto; }
+        .container-jschile-context    { padding: 50px 20px; }
+        .container-jschile-brandbook  { padding: 50px 20px; gap: 44px; }
+        .container-jschile-landing    { padding: 50px 20px; grid-template-columns: 1fr; gap: 32px; }
+        .jschile-landing-map-col      { display: flex; justify-content: center; }
+        .jschile-landing-map          { position: static; transform: none; height: auto; width: 100px; }
+        .project-title-context-jschile,
+        .project-title-brandbook-jschile,
+        .project-title-landing-jschile { font-size: 36px; }
+        .images-jschile               { grid-template-columns: 1fr; }
+        .jschile-values-grid          { grid-template-columns: 1fr; }
+        .cierre-jschile               { padding: 60px 20px; }
+        .jschile-hero-bg              { opacity: .35; }
+      }
+      .project-jschile-hero-section .div-block-245 { max-width: 55%; }
+      @media (max-width: 991px) {
+        .project-jschile-hero-section .div-block-245 { max-width: 100%; }
+      }
+    </style>
+    <link href="../assets/css/fonts.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement, t = " w-mod-";
+        ((n.className += t + "js"),
+          ("ontouchstart" in o || (o.DocumentTouch && c instanceof DocumentTouch)) && (n.className += t + "touch"));
+      })(window, document);
+    </script>
+    <link href="../images/shared/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="../images/shared/webclip-apple.webp" rel="apple-touch-icon" />
+    <link href="https://otroanguloweb.cl/project-jschile" rel="canonical" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "JSChile – Branding e identidad de marca",
+        "url": "https://otroanguloweb.cl/project-jschile",
+        "inLanguage": "es",
+        "description": "Branding completo y landing page para JSChile, la comunidad de desarrollo más grande de Chile. Diseño de marca integral: logo, paleta, tipografía y landing page.",
+        "dateCreated": "2026",
+        "keywords": ["Branding","Identidad visual","Landing page","JSChile","Comunidad dev","Diseño gráfico","Figma"],
+        "genre": "Branding · Diseño gráfico",
+        "author": {
+          "@type": "Person",
+          "name": "Erika Pinedo",
+          "url": "https://otroanguloweb.cl/about-me-erika-pinedo",
+          "jobTitle": "Diseñadora UX/UI",
+          "sameAs": "https://www.linkedin.com/in/erika-pinedo-camacho/"
+        },
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Otro Ángulo Web – Erika Pinedo",
+          "url": "https://otroanguloweb.cl"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem","position": 1,"name": "Inicio","item": "https://otroanguloweb.cl/"},
+          {"@type": "ListItem","position": 2,"name": "Portafolio","item": "https://otroanguloweb.cl/portfolio"},
+          {"@type": "ListItem","position": 3,"name": "JSChile","item": "https://otroanguloweb.cl/project-jschile"}
+        ]
+      }
+    </script>
+    <link rel="stylesheet" href="../vendors/lenis/lenis.css" />
+    <link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/project-jschile" />
+    <link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/project-jschile" />
+    <link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/project-jschile" />
+  </head>
+  <body class="body-project-jschile">
+    <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+    <div class="main" id="main-content" role="main">
+
+      <!-- ===== HERO ===== -->
+      <section id="home" class="project-jschile-hero-section">
+        <img
+          src="../images/JSChile/bg-jschile-hero.webp"
+          alt=""
+          aria-hidden="true"
+          class="jschile-hero-bg"
+          width="1920"
+          height="986"
+          loading="eager"
+          fetchpriority="high"
+        />
+
+        <div class="w-layout-hflex flex-block-7">
+          <div class="w-embed">
+            <button
+              onclick="window.location.href = document.referrer || '/';"
+              style="
+                display: inline-block;
+                padding: 14px 28px;
+                background: #ffffff;
+                color: #2b2b2b;
+                font-size: 18px;
+                font-weight: 600;
+                border: none;
+                border-radius: 999px;
+                cursor: pointer;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+                transition: all 0.2s ease;
+                font-family: system-ui, -apple-system, sans-serif;
+              "
+              onmouseover="this.style.transform = 'translateY(-2px)'"
+              onmouseout="this.style.transform = 'translateY(0)'"
+            ><span data-i18n="jschileProjectPage.back">Volver</span></button>
+          </div>
+        </div>
+
+        <div class="div-block-245">
+          <div class="w-layout-blockcontainer container-main-left-project w-container">
+            <h1 class="heading-44" data-i18n-html="jschileProjectPage.heroH1Html">
+              Píxeles que<br /><em class="italic-text-2">conectan Chile.</em>
+            </h1>
+            <p class="description-text-hero" data-i18n="jschileProjectPage.heroSub">Branding + Landing page</p>
+            <p class="alessandri-hero-impact" data-i18n="jschileProjectPage.heroImpact">
+              Branding y landing page para la comunidad de desarrollo más grande de Chile.
+            </p>
+            <div class="alessandri-hero-stats">
+              <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value">2026</span>
+                <span class="alessandri-stat-label" data-i18n="jschileProjectPage.startLabel">Inicio</span>
+              </div>
+              <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value" data-i18n="jschileProjectPage.roleLabel">Rol</span>
+                <span class="alessandri-stat-label" data-i18n="jschileProjectPage.roleValue">Diseñadora UX/UI & Gráfica · Desarrollo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTEXT ===== -->
+      <section id="project-jschile-context" class="project-jschile-context">
+        <div class="w-layout-blockcontainer container-jschile-context w-container">
+          <h2 class="project-title-context-jschile" data-i18n-html="jschileProjectPage.contextTitleHtml">
+            La comunidad que construye <strong>Chile</strong>, <em class="italic-text-2">pixel a pixel.</em>
+          </h2>
+          <p class="description-context-jschile" data-i18n="jschileProjectPage.contextBody">
+            JSChile es la comunidad de desarrollo más grande de Chile: devs, diseñadores, CTOs y builders de todo el país conectados por la pasión de construir. El encargo fue construir la identidad de marca y diseñar la landing page que comunicara esa esencia: abierta, cercana y orientada al crecimiento colectivo.
+          </p>
+        </div>
+      </section>
+
+      <!-- ===== IMAGES ===== -->
+      <section class="images-jschile" aria-label="Galería del proyecto JSChile">
+        <img
+          src="../images/JSChile/landing-hero.webp"
+          alt="Landing page de JSChile mostrando el hero con fotos de eventos, estadísticas de la comunidad y sección de eventos pasados."
+          sizes="(max-width: 767px) 100vw, 33vw"
+          loading="lazy"
+          width="784"
+          height="930"
+        />
+        <img
+          src="../images/JSChile/landing-seccion.webp"
+          alt="Tarjeta de evento del 1er Meetup 2025 JSChile + Mach sobre fondo oscuro."
+          sizes="(max-width: 767px) 100vw, 33vw"
+          loading="lazy"
+          width="784"
+          height="930"
+        />
+        <img
+          src="../images/JSChile/landing-mobile.webp"
+          alt="Sección de historia de JSChile con línea de tiempo desde 2015 hasta el presente, sobre fondo amarillo."
+          sizes="(max-width: 767px) 100vw, 33vw"
+          loading="lazy"
+          width="784"
+          height="930"
+        />
+      </section>
+
+      <!-- ===== BRANDBOOK ===== -->
+      <section class="project-jschile-brandbook">
+        <div class="w-layout-blockcontainer container-jschile-brandbook w-container">
+
+          <div class="brandbook-header">
+            <h2 class="project-title-brandbook-jschile" data-i18n="jschileProjectPage.brandbookH">Brandbook</h2>
+            <p class="description-brandbook-intro" data-i18n="jschileProjectPage.brandbookIntro">
+              La identidad de JSChile se construyó desde el concepto más esencial de lo digital: el píxel. Cada persona es un píxel y juntos forman algo que ninguno podría ser por su cuenta. El brandbook define el sistema visual completo que da coherencia a toda la comunidad.
+            </p>
+          </div>
+
+          <!-- 1.1 Imagen de marca -->
+          <div class="brandbook-block">
+            <div class="brandbook-block-label">
+              <span class="brandbook-number">1.1</span>
+              <h3 class="brandbook-block-title" data-i18n="jschileProjectPage.brandbookLogoH">Imagen de marca</h3>
+            </div>
+            <div class="brandbook-logo-row">
+              <p class="brandbook-block-body" data-i18n="jschileProjectPage.brandbookLogoBody">
+                El diseño de la identidad de JSChile se inspira en el píxel, la unidad mínima que compone toda imagen digital. El logo materializa esta idea reconstruyendo, píxel a píxel, el territorio de Chile. El uso del pixel art como lenguaje visual refuerza el vínculo con el desarrollo web y JavaScript, donde cada interfaz se construye literalmente, píxel a píxel.
+              </p>
+              <img
+                src="../images/JSChile/logo-jschile-2026.svg"
+                alt="Logo principal de JSChile 2026"
+                class="brandbook-logo-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!-- 1.2 Versiones -->
+          <div class="brandbook-block">
+            <div class="brandbook-block-label">
+              <span class="brandbook-number">1.2</span>
+              <h3 class="brandbook-block-title" data-i18n="jschileProjectPage.brandbookVersionsH">Versiones</h3>
+            </div>
+            <p class="brandbook-block-body" data-i18n="jschileProjectPage.brandbookVersionsBody">
+              La imagen cuenta con versiones cromáticas diferenciadas para adaptarse con precisión a cada pieza o estilo de comunicación.
+            </p>
+            <div class="brandbook-versions-grid">
+              <div class="brandbook-version-card jvc-dark">
+                <img src="../images/JSChile/logo-jschile-2026.svg" alt="Logo JSChile versión fondo oscuro" class="bv-logo" loading="lazy" />
+                <span class="bv-tag" data-i18n="jschileProjectPage.brandbookV1">Principal · fondo oscuro</span>
+              </div>
+              <div class="brandbook-version-card jvc-yellow">
+                <img src="../images/JSChile/logo-black-jschile-2026.svg" alt="Logo JSChile versión fondo amarillo" class="bv-logo" loading="lazy" />
+                <span class="bv-tag" data-i18n="jschileProjectPage.brandbookV2">Fondo amarillo</span>
+              </div>
+              <div class="brandbook-version-card jvc-white">
+                <img src="../images/JSChile/logo-black-jschile-2026.svg" alt="Logo JSChile versión positivo" class="bv-logo" loading="lazy" />
+                <span class="bv-tag" data-i18n="jschileProjectPage.brandbookV3">Versión positivo</span>
+              </div>
+
+            </div>
+
+            <!-- otras versiones permitidas -->
+            <div class="jschile-alt-versions">
+              <p class="jschile-alt-versions-label" data-i18n="jschileProjectPage.brandbookAltVersionsLabel">Otras versiones permitidas</p>
+              <div class="jschile-alt-versions-grid">
+                <div class="jschile-alt-version-item">
+                  <div class="jschile-alt-version-logo">
+                    <img src="../images/JSChile/logo-version-horizontal.svg" alt="Logo JSChile versión horizontal" loading="lazy" />
+                  </div>
+                  <p class="jschile-alt-version-name" data-i18n="jschileProjectPage.brandbookAltV1">Versión horizontal</p>
+                </div>
+                <div class="jschile-alt-version-item">
+                  <div class="jschile-alt-version-logo">
+                    <img src="../images/JSChile/logo-version-icono.svg" alt="Logo JSChile versión ícono" loading="lazy" />
+                  </div>
+                  <p class="jschile-alt-version-name" data-i18n="jschileProjectPage.brandbookAltV2">Versión ícono</p>
+                </div>
+                <div class="jschile-alt-version-item">
+                  <div class="jschile-alt-version-logo">
+                    <img src="../images/JSChile/logo-version-estampado-alt.svg" alt="Logo JSChile versión estampado alternativa" loading="lazy" />
+                  </div>
+                  <p class="jschile-alt-version-name" data-i18n="jschileProjectPage.brandbookAltV3">Versión estampado alternativa</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2.0 Paleta de colores -->
+          <div class="brandbook-block">
+            <div class="brandbook-block-label">
+              <span class="brandbook-number">2.0</span>
+              <h3 class="brandbook-block-title" data-i18n="jschileProjectPage.brandbookColorsH">Paleta de colores</h3>
+            </div>
+            <p class="brandbook-block-body" data-i18n="jschileProjectPage.brandbookColorsBody">
+              El color es uno de los elementos fundamentales de la identidad visual de JSChile. El amarillo vibrante y el negro profundo definen el universo cromático de la marca.
+            </p>
+
+            <div class="jschile-palette-primary">
+              <div class="brandbook-swatch-primary" style="background:#EBCE17;">
+                <div class="swatch-info">
+                  <span class="swatch-hex" style="color:#1D1D1D;">#EBCE17</span>
+                  <span class="swatch-name" style="color:rgba(29,29,29,.6);" data-i18n="jschileProjectPage.swatchYellow">Amarillo CLJS</span>
+                </div>
+              </div>
+              <div class="brandbook-swatch-primary" style="background:#1D1D1D;border:1px solid rgba(255,255,255,.08);">
+                <div class="swatch-info">
+                  <span class="swatch-hex" style="color:#EBCE17;">#1D1D1D</span>
+                  <span class="swatch-name" style="color:rgba(235,206,23,.5);" data-i18n="jschileProjectPage.swatchBlack">Negro profundo</span>
+                </div>
+              </div>
+              <div class="brandbook-swatch-primary" style="background:#2B2B2B;border:1px solid rgba(255,255,255,.08);">
+                <div class="swatch-info">
+                  <span class="swatch-hex">#2B2B2B</span>
+                  <span class="swatch-name" data-i18n="jschileProjectPage.swatchDark">Carbón</span>
+                </div>
+              </div>
+              <div class="brandbook-swatch-primary" style="background:#636363;border:1px solid rgba(255,255,255,.08);">
+                <div class="swatch-info">
+                  <span class="swatch-hex">#636363</span>
+                  <span class="swatch-name" data-i18n="jschileProjectPage.swatchGray">Gris medio</span>
+                </div>
+              </div>
+              <div class="brandbook-swatch-primary" style="background:#FFFFFF;">
+                <div class="swatch-info">
+                  <span class="swatch-hex" style="color:#1D1D1D;">#FFFFFF</span>
+                  <span class="swatch-name" style="color:rgba(29,29,29,.5);" data-i18n="jschileProjectPage.swatchWhite">Blanco</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="jschile-palette-secondary">
+              <div class="brandbook-swatch-sm" style="background:#FAE672;">
+                <span class="swatch-hex-sm" style="color:#1D1D1D;">#FAE672</span>
+              </div>
+              <div class="brandbook-swatch-sm" style="background:#F5C40F;">
+                <span class="swatch-hex-sm" style="color:#1D1D1D;">#F5C40F</span>
+              </div>
+              <div class="brandbook-swatch-sm" style="background:#C8A108;">
+                <span class="swatch-hex-sm">#C8A108</span>
+              </div>
+              <div class="brandbook-swatch-sm" style="background:#70650C;">
+                <span class="swatch-hex-sm" style="color:#EBCE17;">#70650C</span>
+              </div>
+              <div class="brandbook-swatch-sm" style="background:#444028;">
+                <span class="swatch-hex-sm" style="color:#EBCE17;">#444028</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4.0 Tipografía -->
+          <div class="brandbook-block">
+            <div class="brandbook-block-label">
+              <span class="brandbook-number">4.0</span>
+              <h3 class="brandbook-block-title" data-i18n="jschileProjectPage.brandbookTypoH">Tipografía</h3>
+            </div>
+            <p class="brandbook-block-body" data-i18n="jschileProjectPage.brandbookTypoBody">
+              Las tipografías de JSChile son Jersey 10 e Inter. Jersey 10 aporta el carácter pixel art de la marca, ideal para displays y títulos. Inter es la fuente funcional: legible, versátil y pensada para la comunicación en todos los pesos.
+            </p>
+            <div class="brandbook-typo-grid">
+              <div class="brandbook-typo-card">
+                <p class="typo-display-jersey">Jersey 10</p>
+                <p class="typo-sample-jersey">The quick brown fox jumps over the lazy dog.</p>
+                <p class="typo-sample-jersey">· Jersey 10 Regular</p>
+                <span class="typo-use-label" data-i18n="jschileProjectPage.typoUse1">Títulos y display</span>
+              </div>
+              <div class="brandbook-typo-card">
+                <p class="typo-display-inter">Inter</p>
+                <div class="typo-weights-list">
+                  <span style="font-weight:400;">Regular</span>
+                  <span style="font-weight:500;">Medium</span>
+                  <span style="font-weight:600;">SemiBold</span>
+                  <span style="font-weight:700;">Bold</span>
+                  <span style="font-weight:800;">ExtraBold</span>
+                  <span style="font-weight:900;">Black</span>
+                  <span style="font-style:italic;">Italic en todas las versiones</span>
+                </div>
+                <span class="typo-use-label" data-i18n="jschileProjectPage.typoUse2">Interfaz y comunicación</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- ===== /BRANDBOOK ===== -->
+
+      <!-- ===== LANDING ===== -->
+      <section class="project-jschile-landing">
+        <div class="container-jschile-landing">
+          <div class="jschile-landing-map-col">
+            <img
+              src="../images/JSChile/map-chile-jschile.svg"
+              alt="Mapa de Chile en pixel art, símbolo de la identidad de JSChile"
+              class="jschile-landing-map"
+              loading="lazy"
+            />
+          </div>
+          <div class="jschile-landing-text">
+            <h2 class="project-title-landing-jschile" data-i18n="jschileProjectPage.landingH">Landing page</h2>
+            <p class="description-landing-intro-jschile" data-i18n="jschileProjectPage.landingIntro">
+              Una vez definida la identidad, el desafío fue trasladarla a una landing page que convirtiera: que hablara directamente al dev chileno y lo invitara a ser parte de la comunidad.
+            </p>
+
+            <div class="jschile-challenge-grid">
+              <h3 class="jschile-challenge-title" data-i18n="jschileProjectPage.challengeH">El desafío</h3>
+              <p class="jschile-challenge-body" data-i18n="jschileProjectPage.challengeBody">
+                JSChile necesitaba una presencia digital que reflejara su identidad comunitaria, su escala nacional y sus valores de apertura. La landing tenía que funcionar como puerta de entrada para quien recién empieza a programar y para quien lleva años en el rubro.
+              </p>
+            </div>
+
+            <div class="jschile-values-grid">
+              <div class="jschile-value-card">
+                <i class="ph-bold ph-hand-peace jschile-value-icon"></i>
+                <div class="jschile-value-text">
+                  <span class="jschile-value-title" data-i18n="jschileProjectPage.valueTitle1">Comunidad</span>
+                  <p class="jschile-value-body" data-i18n="jschileProjectPage.valueBody1">
+                    Una landing que mostrara la escala real de la comunidad y el valor de ser parte de ella.
+                  </p>
+                </div>
+              </div>
+              <div class="jschile-value-card">
+                <i class="ph-bold ph-heart jschile-value-icon"></i>
+                <div class="jschile-value-text">
+                  <span class="jschile-value-title" data-i18n="jschileProjectPage.valueTitle2">Apertura</span>
+                  <p class="jschile-value-body" data-i18n="jschileProjectPage.valueBody2">
+                    Sin importar el stack, el nivel o la ciudad, el diseño comunica que este es el lugar para todos.
+                  </p>
+                </div>
+              </div>
+              <div class="jschile-value-card">
+                <i class="ph-bold ph-plant jschile-value-icon"></i>
+                <div class="jschile-value-text">
+                  <span class="jschile-value-title" data-i18n="jschileProjectPage.valueTitle3">Crecimiento</span>
+                  <p class="jschile-value-body" data-i18n="jschileProjectPage.valueBody3">
+                    El mensaje central invita a crecer junto a otros, no en solitario.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== SOLUTION ===== -->
+      <section class="project-jschile-solution">
+        <div class="container-jschile-solution">
+          <div class="jschile-challenge-grid" style="padding-top:0;">
+            <h3 class="jschile-challenge-title" style="color:var(--jsc-yellow);" data-i18n="jschileProjectPage.solutionH">La solución</h3>
+            <p class="jschile-challenge-body" style="color:rgba(255,255,255,.75);" data-i18n="jschileProjectPage.solutionIntro">
+              Por eso decidimos actualizar la landing: construir una que contara toda la historia de la comunidad de manera entretenida, con sus números, sus caras y una invitación clara a ser parte.
+            </p>
+          </div>
+          <div class="jschile-values-grid jschile-solution-grid">
+            <div class="jschile-value-card">
+              <i class="ph-bold ph-users-three jschile-value-icon"></i>
+              <div class="jschile-value-text">
+                <span class="jschile-value-title" data-i18n="jschileProjectPage.solTitle1">Comunidad visible</span>
+                <p class="jschile-value-body" data-i18n="jschileProjectPage.solBody1">
+                  Fotos reales de meetups y personas que ya son parte. La pertenencia se siente antes de leer una línea.
+                </p>
+              </div>
+            </div>
+            <div class="jschile-value-card">
+              <i class="ph-bold ph-trend-up jschile-value-icon"></i>
+              <div class="jschile-value-text">
+                <span class="jschile-value-title" data-i18n="jschileProjectPage.solTitle2">Escala que convence</span>
+                <p class="jschile-value-body" data-i18n="jschileProjectPage.solBody2">
+                  Los números no son decorativos, son la respuesta directa a «¿vale la pena unirse?».
+                </p>
+              </div>
+            </div>
+            <div class="jschile-value-card">
+              <i class="ph-bold ph-door-open jschile-value-icon"></i>
+              <div class="jschile-value-text">
+                <span class="jschile-value-title" data-i18n="jschileProjectPage.solTitle3">Entrada sin barreras</span>
+                <p class="jschile-value-body" data-i18n="jschileProjectPage.solBody3">
+                  WhatsApp como puerta de entrada elimina la fricción, y los CTAs múltiples respetan el momento de cada visitante.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Full-width mockup images -->
+      <img
+        src="../images/JSChile/mockup-landing.webp"
+        loading="lazy"
+        sizes="100vw"
+        alt="Mockup de la landing page de JSChile en MacBook Pro sobre banco de madera, con fondo amarillo."
+        class="jschile-img-full"
+        width="2400"
+        height="1800"
+      />
+
+      <!-- ===== CLOSING ===== -->
+      <section class="cierre-jschile">
+        <p class="text-cierre-jschile" data-i18n-html="jschileProjectPage.creditsHtml">
+          <strong>Compañía</strong> Otro Ángulo Web<br /><strong>Diseñadora UX/UI & Gráfica · Desarrollo</strong> Erika Pinedo<br /><br />- Todos los derechos reservados -
+        </p>
+        <a
+          href="https://jschile.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-visit-jschile"
+          data-i18n="jschileProjectPage.visitBtn"
+        >Conoce más de JSChile acá</a>
+      </section>
+
+      <!-- ===== OTHER PROJECTS ===== -->
+      <section class="project-nico-other-proyects">
+        <div class="title-other-projects">
+          <h2 class="home-heading-h2" data-i18n-html="jschileProjectPage.otherHeadingHtml">
+            Otros <span class="span-txt">Proyectos</span>
+          </h2>
+          <a href="portfolio.html" class="button-white-2-copy-copy w-button" data-i18n="jschileProjectPage.seeAll">Ver todos</a>
+        </div>
+        <div class="w-layout-blockcontainer container-cards-projects w-container">
+          <div class="vip-grid-featured" data-otros-proyectos="jschile">
+            <a href="project-bluesphere.html" class="vip-card">
+              <div class="div-block-232">
+                <img
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
+                  srcset="../images/portfolio/bluesphere-project-erika-pinedo.webp 1401w"
+                  alt="Plataforma de ciberseguridad BlueSphere."
+                  src="../images/portfolio/bluesphere-project-erika-pinedo.webp"
+                  loading="lazy"
+                  class="vip-card__img"
+                  width="1401"
+                  height="940"
+                />
+              </div>
+              <div class="text-content-portfolio">
+                <h3 class="title-name-portfolio-project">BlueSphere</h3>
+                <h4 class="title-card-portfolio" data-i18n="jschileProjectPage.bluesphereTitle">Plataforma de Ciberseguridad para Pymes</h4>
+                <div class="card-pills"><span class="pill-category">UX/UI</span><span class="pill-category">Identidad visual</span></div>
+                <p class="paragraph-card-portfolio" data-i18n="jschileProjectPage.bluesphereDesc">Diseño de marca e interfaz para una plataforma de ciberseguridad enterprise pensada para pymes.</p>
+              </div>
+            </a>
+            <a href="project-nico-seguros.html" class="vip-card">
+              <div class="div-block-232">
+                <img
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
+                  srcset="../images/portfolio/nico-project-erika-pinedo.webp 1401w"
+                  alt="Plataforma de seguros NICO."
+                  src="../images/portfolio/nico-project-erika-pinedo.webp"
+                  loading="lazy"
+                  class="image-nico vip-card__img"
+                  width="1401"
+                  height="940"
+                />
+              </div>
+              <div class="text-content-portfolio">
+                <h3 class="title-name-portfolio-project">Nico Seguros</h3>
+                <h4 class="title-card-portfolio" data-i18n="jschileProjectPage.nicoTitle">Plataforma de Seguros desde Cero</h4>
+                <div class="card-pills"><span class="pill-category">UX/UI</span></div>
+                <p class="paragraph-card-portfolio" data-i18n="jschileProjectPage.nicoDesc">Diseño de una plataforma SaaS B2B para corredores de seguros desde cero.</p>
+              </div>
+            </a>
+            <a href="project-parrotfy.html" class="vip-card">
+              <div class="div-block-232">
+                <img
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
+                  srcset="../images/portfolio/parrotfy-project-erika-pinedo.webp 1401w"
+                  alt="Plataforma ERP Parrotfy."
+                  src="../images/portfolio/parrotfy-project-erika-pinedo.webp"
+                  loading="lazy"
+                  class="image-parrotfy vip-card__img"
+                  width="1401"
+                  height="940"
+                />
+              </div>
+              <div class="text-content-portfolio">
+                <h3 class="title-name-portfolio-project">Parrotfy</h3>
+                <h4 class="title-card-portfolio" data-i18n="jschileProjectPage.parrotfyTitle">Organización y Control para Empresas en Crecimiento</h4>
+                <div class="card-pills"><span class="pill-category">UX/UI</span></div>
+                <p class="paragraph-card-portfolio" data-i18n="jschileProjectPage.parrotfyDesc">Diseño end-to-end de un ERP todo en uno para PYMEs.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div id="navbar"></div>
+    </div>
+    <div id="footer"></div>
+
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1" defer></script>
+    <script src="translations.min.js"></script>
+    <script src="components.min.js"></script>
+    <script src="../assets/js/jquery-3.5.1.min.js" type="text/javascript"></script>
+    <script src="../assets/js/webflow.schunk.36b8fb49256177c8.js" type="text/javascript"></script>
+    <script src="../assets/js/webflow.schunk.a77c58ba960b3507.js" type="text/javascript"></script>
+    <script src="../assets/js/webflow.schunk.0ffa0db5861aed55.js" type="text/javascript"></script>
+    <script src="../assets/js/webflow.340042d4.ea871b981f0e26e1.js" type="text/javascript"></script>
+    <script src="../vendors/gsap/gsap.min.js" type="text/javascript"></script>
+    <script src="../vendors/gsap/SplitText.min.js" type="text/javascript"></script>
+    <script src="../vendors/gsap/ScrollTrigger.min.js" type="text/javascript"></script>
+    <script src="../vendors/lenis/lenis.min.js"></script>
+
+    <script>
+      const lenis = new Lenis({ lerp: 0.1 });
+      function raf(time) { lenis.raf(time); requestAnimationFrame(raf); }
+      requestAnimationFrame(raf);
+    </script>
+
+    <!-- GSAP animations -->
+    <script>
+      (function () {
+        if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+        gsap.registerPlugin(ScrollTrigger);
+        var fadeUp = { opacity: 0, y: 40, duration: 0.7, ease: 'power2.out' };
+        function st(trigger, extra) {
+          return { scrollTrigger: { trigger: trigger, start: 'top 85%' }, ...extra };
+        }
+        var p = '.body-project-jschile ';
+
+        /* Hero */
+        gsap.from(p + '.heading-44',            { opacity: 0, y: 30, duration: 0.8, delay: 0.15, ease: 'power3.out' });
+        gsap.from(p + '.alessandri-hero-impact', { opacity: 0, y: 20, duration: 0.7, delay: 0.35, ease: 'power3.out' });
+        gsap.from(p + '.alessandri-hero-stats',  { opacity: 0, y: 20, duration: 0.5, delay: 0.55, ease: 'power3.out' });
+
+        /* Context */
+        [p + '.project-title-context-jschile', p + '.description-context-jschile'].forEach(function (s) {
+          var el = document.querySelector(s);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        /* Images */
+        var imgs = gsap.utils.toArray(p + '.images-jschile > *');
+        if (imgs.length) gsap.from(imgs, st(imgs[0], { opacity: 0, y: 50, duration: 0.8, stagger: 0.12, ease: 'power2.out' }));
+
+        /* Brandbook header */
+        [p + '.project-title-brandbook-jschile', p + '.description-brandbook-intro'].forEach(function (s) {
+          var el = document.querySelector(s);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+
+        /* Brandbook blocks */
+        gsap.utils.toArray(p + '.brandbook-block').forEach(function (b) {
+          gsap.from(b, st(b, { opacity: 0, y: 40, duration: 0.7, ease: 'power2.out' }));
+        });
+        var vCards = gsap.utils.toArray(p + '.brandbook-version-card');
+        if (vCards.length) gsap.from(vCards, st(vCards[0], { opacity: 0, y: 30, duration: 0.55, stagger: 0.1, ease: 'power2.out' }));
+
+        /* Landing */
+        [p + '.project-title-landing-jschile', p + '.description-landing-intro-jschile'].forEach(function (s) {
+          var el = document.querySelector(s);
+          if (el) gsap.from(el, st(el, fadeUp));
+        });
+        var vCards2 = gsap.utils.toArray(p + '.jschile-value-card');
+        if (vCards2.length) gsap.from(vCards2, st(vCards2[0], { opacity: 0, y: 40, duration: 0.6, stagger: 0.15, ease: 'power2.out' }));
+
+        /* Final images */
+        gsap.utils.toArray(p + '.jschile-img-full').forEach(function (img) {
+          gsap.from(img, st(img, { opacity: 0, y: 60, duration: 0.9, ease: 'power2.out' }));
+        });
+      })();
+    </script>
+  </body>
+</html>
