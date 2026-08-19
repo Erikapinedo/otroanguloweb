@@ -366,8 +366,12 @@
         .project-title-beneficios-urbana,
         .project-title-solucion-urbana { font-size: 36px; }
         .images-urbana                { grid-template-columns: 1fr; }
+        .images-urbana img            { height: auto; }
         .urbana-beneficios-grid       { grid-template-columns: 1fr; }
         .cierre-urbana                { padding: 60px 20px; }
+        /* GSAP puede quedarse en opacity:0 si el ScrollTrigger no dispara en mobile */
+        .images-urbana img,
+        .urb-img-full                 { opacity: 1 !important; transform: none !important; }
       }
       .project-urbana-hero-section .div-block-245 { max-width: 55%; }
       @media (max-width: 991px) {
