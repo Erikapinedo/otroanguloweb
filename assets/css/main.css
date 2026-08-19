@@ -9700,7 +9700,7 @@ a {
   }
   .section-21 {
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .description-impact-project {
     text-align: center;
