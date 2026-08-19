@@ -6557,7 +6557,7 @@ a {
     padding-right: 0;
   }
   .images-playersnap {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .container-playersnap-prioblem {
     padding: 60px 0 0;
@@ -7151,7 +7151,7 @@ a {
 
 @media screen and (max-width: 479px) {
   .project-bluesphere-hero-section { width: 100vw; height: 100vh; margin-left: auto; margin-right: auto; padding-top: 140px; padding-left: 0; padding-right: 0; }
-  .images-bluesphere { grid-template-columns: 1fr 1fr 1fr; }
+  .images-bluesphere { grid-template-columns: 1fr; }
   .container-bluesphere-prioblem { padding: 60px 0 0; }
   .container-bluesphere-context,
   .container-bluesphere-problem { padding: 60px 20px 0; }
@@ -9755,7 +9755,7 @@ a {
   }
   .images-alessandri {
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .container-alessandri-problem {
     padding: 60px 20px 0;
@@ -9798,7 +9798,7 @@ a {
     padding-right: 0;
   }
   .images-parrotfy {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .container-parrotfy-prioblem {
     padding: 60px 0 0;
@@ -10907,6 +10907,14 @@ a {
 
 .card-proyecto-vertical:hover .div-block-232 img {
   transform: scale(1.1);
+}
+
+/* Sin padding natural cuando el contenedor llena la pantalla */
+@media (max-width: 1100px) {
+  .vip-grid-featured {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* Tablet */
