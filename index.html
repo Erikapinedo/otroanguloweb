@@ -34,6 +34,9 @@
     <meta name="twitter:image" content="https://otroanguloweb.cl/images/og/og-home.png" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link href="../assets/css/main.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="assets/theme-1.min.css">
     <link rel="stylesheet" href="assets/theme-selector.min.css">
@@ -53,6 +56,25 @@
           .about-card-2
         ) {
         visibility: hidden !important;
+      }
+      @media screen and (max-width: 991px) {
+        .collabrator-txt img {
+          width: 280px !important;
+          height: 280px !important;
+          object-fit: cover !important;
+        }
+      }
+      @media screen and (max-width: 767px) {
+        .collabrator-txt img {
+          width: 220px !important;
+          height: 220px !important;
+        }
+      }
+      @media screen and (max-width: 479px) {
+        .collabrator-txt img {
+          width: 180px !important;
+          height: 180px !important;
+        }
       }
     </style>
     <link
@@ -336,7 +358,7 @@
                 src="../images/about/foto-perfil-erika-pinedo.webp"
                 loading="lazy"
                 width="350" height="350"
-                sizes="(max-width: 479px) 100vw, 350px"
+                sizes="(max-width: 479px) 180px, (max-width: 767px) 220px, (max-width: 991px) 280px, 350px"
                 data-i18n-alt="about.imgAlt"
                 alt="Mujer joven con cabello largo y rizado sonriendo sobre un fondo rosa."
                 srcset="
@@ -449,6 +471,18 @@
           </div>
         </div>
       </div>
+
+      <!-- Card recurso descargable -->
+      <div class="download-resource-wrapper">
+        <div class="download-resource-card">
+          <div class="download-resource-text">
+            <h3 class="download-resource-title">Destacar sobre el resto:<span class="download-resource-subtitle">cómo construir un landing con personalidad usando AI.</span></h3>
+          </div>
+          <a href="assets/files/destacar-sobre-el-resto.pdf" class="download-resource-btn" download="Destacar sobre el resto - Erika Pinedo.pdf">Descargar PDF</a>
+          <p class="download-count-hidden" id="download-count-display">Descargas: <span id="download-count">0</span></p>
+        </div>
+      </div>
+
       <section id="home-my-services" class="my-services">
         <div
           data-w-id="c93714e5-7832-7078-c61e-ba7714825063"

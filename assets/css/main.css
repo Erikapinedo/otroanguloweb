@@ -2074,6 +2074,104 @@ a {
   padding-right: 20px;
   display: flex;
 }
+/* ---- Download resource card ---- */
+.download-resource-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 20px;
+  background-color: transparent;
+}
+.download-resource-card {
+  width: 100%;
+  background-color: #101943;
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
+  background-position: 50% 0;
+  background-repeat: repeat-x;
+  background-size: 100%;
+  border-radius: 28px;
+  padding: 36px 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.download-resource-text {
+  flex: 1;
+}
+.download-resource-title {
+  font-family: var(--instrument);
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.78;
+  color: #ffffff;
+  margin: 0;
+}
+.download-resource-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #ffffff;
+  display: block;
+  margin-top: 4px;
+}
+.download-resource-btn {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  min-width: 162px;
+  height: var(--medium-button-size);
+  border: 1px solid var(--blue-100);
+  background-color: var(--blue-100);
+  font-family: var(--avenir-ok);
+  font-size: var(--regular-medium);
+  color: var(--white-100);
+  text-align: center;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: inline-flex;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+.download-resource-btn:hover {
+  background-color: #090f2b;
+}
+.download-count-hidden {
+  opacity: 0;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0;
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media screen and (max-width: 767px) {
+  .download-resource-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .download-resource-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 32px;
+    gap: 28px;
+  }
+  .download-resource-title {
+    font-size: 30px;
+  }
+  .download-resource-subtitle {
+    font-size: 20px;
+  }
+}
+/* ---- End download resource card ---- */
+
 .container-my-services {
   max-width: var(--container-lg);
   grid-column-gap: 0px;
@@ -8119,10 +8217,7 @@ a {
     border-width: 0;
   }
   .count-block {
-    grid-template-columns: 1fr;
-  }
-  .count-sec-divider {
-    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .plus {
     font-size: 60px;
@@ -8694,6 +8789,12 @@ a {
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+  .count-block {
+    grid-template-columns: 1fr;
+  }
+  .count-sec-divider {
+    display: none;
   }
   .slider {
     width: 100%;
