@@ -11098,6 +11098,47 @@ a {
   }
 }
 
+/* ---- Full-background card variant ---- */
+.vip-card--fullbg {
+  position: relative;
+  min-height: 460px;
+}
+
+.vip-card--fullbg .div-block-232 {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+}
+
+.vip-card--fullbg .vip-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.vip-card--fullbg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.35) 45%, transparent 75%);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.vip-card--fullbg .text-content-portfolio {
+  position: relative;
+  z-index: 2;
+  flex: unset;
+  margin-top: auto;
+  padding: 0 24px 28px;
+  gap: 6px;
+}
+
+.vip-card--fullbg:hover .vip-card__img {
+  transform: scale(1.05);
+}
+
 /* ===== Mobile — hero: correcciones para todos los proyectos ===== */
 
 @media screen and (max-width: 767px) {
