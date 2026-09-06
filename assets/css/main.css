@@ -2285,7 +2285,7 @@ a {
   display: flex;
 }
 .our-work-heading {
-  color: #101944;
+  color: #fff;
   text-align: center;
   max-width: 768px;
   margin-top: 0;
@@ -3562,7 +3562,7 @@ a {
 .container-home-vip-projects {
   background-color: var(--pink-100);
   -webkit-text-fill-color: inherit;
-  background-image: url(../../images/shared/bg-pink-light.webp);
+  background-image: url(../../images/portfolio/hero-portafolio.webp);
   background-position: 50% 100%;
   background-repeat: repeat;
   background-size: cover;
@@ -7772,7 +7772,7 @@ a {
     max-width: none;
   }
   .container-home-vip-projects {
-    background-image: url(../../images/shared/bg-pink-light.webp);
+    background-image: url(../../images/shared/fondo-oscuro-hero.webp);
     background-position: 50% 0;
     background-size: cover;
     background-attachment: fixed;
