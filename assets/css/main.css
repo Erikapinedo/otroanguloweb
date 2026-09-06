@@ -3562,7 +3562,7 @@ a {
 .container-home-vip-projects {
   background-color: var(--pink-100);
   -webkit-text-fill-color: inherit;
-  background-image: url(../../images/portfolio/hero-portafolio.webp);
+  background-image: url(../../images/shared/bg-pink-light.webp);
   background-position: 50% 100%;
   background-repeat: repeat;
   background-size: cover;
