@@ -11100,23 +11100,14 @@ a {
 .vip-card.vip-card--fullbg {
   position: relative;
   min-height: 480px;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s ease;
 }
 
-.vip-card.vip-card--fullbg .div-block-232 {
-  position: absolute;
-  inset: 0;
-}
-
-.vip-card.vip-card--fullbg .div-block-232 img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  max-height: none;
-  max-width: none;
-  object-fit: cover;
-  object-position: top center;
-  border-radius: 0;
+.vip-card.vip-card--fullbg:hover {
+  background-size: 110%;
 }
 
 .vip-card.vip-card--fullbg::after {
@@ -11139,10 +11130,6 @@ a {
 
 .vip-card.vip-card--fullbg .card-pills {
   margin-bottom: 0;
-}
-
-.vip-card.vip-card--fullbg:hover .div-block-232 img {
-  transform: scale(1.05);
 }
 
 /* ===== Mobile — hero: correcciones para todos los proyectos ===== */
