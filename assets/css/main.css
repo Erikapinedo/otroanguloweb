@@ -11099,26 +11099,29 @@ a {
 }
 
 /* ---- Full-background card variant ---- */
-.vip-card--fullbg {
+.vip-card.vip-card--fullbg {
   position: relative;
   min-height: 480px;
 }
 
-.vip-card--fullbg .div-block-232 {
+.vip-card.vip-card--fullbg .div-block-232 {
   position: absolute;
   inset: 0;
   height: 100%;
+  overflow: hidden;
 }
 
-.vip-card--fullbg .vip-card__img {
+.vip-card.vip-card--fullbg .div-block-232 img {
   width: 100%;
   height: 100%;
   max-height: none;
+  max-width: none;
   object-fit: cover;
   object-position: top center;
+  border-radius: 0;
 }
 
-.vip-card--fullbg::after {
+.vip-card.vip-card--fullbg::after {
   content: '';
   position: absolute;
   inset: 0;
@@ -11127,7 +11130,7 @@ a {
   pointer-events: none;
 }
 
-.vip-card--fullbg .text-content-portfolio {
+.vip-card.vip-card--fullbg .text-content-portfolio {
   position: relative;
   z-index: 2;
   flex: unset;
@@ -11136,11 +11139,11 @@ a {
   gap: 6px;
 }
 
-.vip-card--fullbg .card-pills {
+.vip-card.vip-card--fullbg .card-pills {
   margin-bottom: 0;
 }
 
-.vip-card--fullbg:hover .vip-card__img {
+.vip-card.vip-card--fullbg:hover .div-block-232 img {
   transform: scale(1.05);
 }
 
