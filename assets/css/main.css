@@ -11121,7 +11121,7 @@ a {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.35) 45%, transparent 75%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.50) 30%, rgba(0, 0, 0, 0.20) 55%, transparent 75%);
   border-radius: inherit;
   pointer-events: none;
 }
@@ -11131,8 +11131,12 @@ a {
   z-index: 2;
   flex: unset;
   margin-top: auto;
-  padding: 0 24px 28px;
+  padding: 0 24px 20px;
   gap: 6px;
+}
+
+.vip-card--fullbg .card-pills {
+  margin-bottom: 0;
 }
 
 .vip-card--fullbg:hover .vip-card__img {
