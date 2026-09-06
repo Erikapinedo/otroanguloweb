@@ -11105,11 +11105,11 @@ a {
 .vip-card.vip-card--fullbg .div-block-232 {
   position: absolute;
   inset: 0;
-  height: 100%;
-  overflow: hidden;
 }
 
 .vip-card.vip-card--fullbg .div-block-232 img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   max-height: none;
