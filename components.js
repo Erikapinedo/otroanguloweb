@@ -184,110 +184,84 @@
       id: 'alessandri',
       href: 'project-alessandri.html',
       i18nHref: 'links.projectAlessandri',
-      imgClass: 'image-alessandri vip-card__img',
-      srcset: '../images/portfolio/alessandri-project-erika-pinedo.webp 1401w',
-      src: '../images/portfolio/alessandri-project-erika-pinedo.webp',
+      cover: '../images/portfolio/alessandri-cover.webp',
       name: 'Alessandri',
       titleI18n: 'vip.alessandriTitle', titleFallback: 'Rediseño de Plataforma Legal',
-      descI18n: 'vip.alessandriDesc', descFallback: 'Proyecto end-to-end basado en research con usuarios reales para simplificar flujos complejos y centralizar la gestión de información.',
       pills: ['UX/UI']
     },
     {
       id: 'nico',
       href: 'project-nico-seguros.html',
       i18nHref: 'links.projectNico',
-      imgClass: 'image-nico vip-card__img',
-      srcset: '../images/portfolio/nico-project-erika-pinedo.webp 1401w',
-      src: '../images/portfolio/nico-project-erika-pinedo.webp',
+      cover: '../images/portfolio/nico-cover.webp',
       name: 'Nico Seguros',
       titleI18n: 'vip.nicoTitle', titleFallback: 'Plataforma de Seguros desde Cero',
-      descI18n: 'vip.nicoDesc', descFallback: 'Diseño de un SaaS B2B para corredores de seguros que unifica la gestión de pólizas, clientes y renovaciones en un solo sistema.',
       pills: ['UX/UI']
     },
     {
       id: 'parrotfy',
       href: 'project-parrotfy.html',
       i18nHref: 'links.projectParrotfy',
-      imgClass: 'image-parrotfy vip-card__img',
-      srcset: '../images/portfolio/parrotfy-project-erika-pinedo.webp 1401w',
-      src: '../images/portfolio/parrotfy-project-erika-pinedo.webp',
+      cover: '../images/portfolio/parrotfy-cover.webp',
       name: 'Parrotfy',
       titleI18n: 'vip.parrotfyTitle', titleFallback: 'Organización y Control para Empresas en Crecimiento',
-      descI18n: 'vip.parrotfyDesc', descFallback: 'Diseño de producto para un ERP enfocado en pymes que integra finanzas, inventarios, facturación y gestión de proyectos en una sola plataforma.',
       pills: ['UX/UI']
     },
     {
       id: 'expediente',
       href: 'project-expediente.html',
-      i18nHref: 'links.projectExpediente',
-      imgClass: 'image-alessandri vip-card__img',
-      srcset: '../images/portfolio/expediente-plataforma-lista-causas.webp 1401w',
-      src: '../images/portfolio/expediente-plataforma-lista-causas.webp',
-      altI18n: 'portfolioPage.expImgAlt', altFallback: 'Interfaz de expediente virtual que muestra causas, documentos en PDF para descargar y últimos movimientos.',
+      cover: '../images/portfolio/expediente-cover.webp',
       nameI18n: 'portfolioPage.expTitle', name: 'E-xpediente',
       titleI18n: 'portfolioPage.expSubtitle', titleFallback: 'Plataforma abogados',
-      descI18n: 'portfolioPage.expDesc', descFallback: 'Proyecto end-to-end basado en research con usuarios reales para simplificar flujos complejos y centralizar la gestión de información en la plataforma interna del estudio de abogados.',
       pills: ['UX/UI']
     },
     {
       id: 'bluesphere',
       href: 'project-bluesphere.html',
-      imgClass: 'image-alessandri vip-card__img',
-      srcset: '../images/portfolio/proyecto-bluesphere.webp 1401w',
-      src: '../images/portfolio/proyecto-bluesphere.webp',
-      altI18n: 'portfolioPage.bluesphereImgAlt', altFallback: 'Interfaz de BlueSphere mostrando panel de monitoreo de ciberseguridad con puntajes de riesgo y alertas.',
+      cover: '../images/portfolio/bluesphere-cover.webp',
       name: 'BlueSphere',
       titleI18n: 'portfolioPage.bluesphereTitle', titleFallback: 'Plataforma de Ciberseguridad para Pymes',
-      descI18n: 'portfolioPage.bluesphereDesc', descFallback: 'Diseño UX/UI de una plataforma cloud-native que integra monitoreo SOC 24/7, gestión de vulnerabilidades y resiliencia operativa para pymes.',
       pills: ['UX/UI', 'Identidad visual']
+    },
+    {
+      id: 'jschile',
+      href: 'project-jschile.html',
+      cover: '../images/portfolio/jschile-cover.webp',
+      name: 'JSChile',
+      titleI18n: 'portfolioPage.jschileTitle', titleFallback: 'Identidad visual + Landing para Comunidad Dev',
+      pills: ['Identidad visual', 'Landing']
     },
     {
       id: 'playersnap',
       href: 'project-playersnap.html',
-      imgClass: 'image-alessandri vip-card__img',
-      srcset: '../images/portfolio/playerSnap-project-erika-pinedo.webp 1401w',
-      src: '../images/portfolio/playerSnap-project-erika-pinedo.webp',
-      altI18n: 'portfolioPage.playersnapImgAlt', altFallback: 'Interfaz de PlayerSnap mostrando panel de gestión de activos digitales para organizaciones deportivas.',
+      cover: '../images/portfolio/playersnap-cover.webp',
       name: 'PlayerSnap',
-      titleI18n: 'portfolioPage.playersnapTitle', titleFallback: 'Plataforma de Gestión de Activos Multimedia para Deportes',
-      descI18n: 'portfolioPage.playersnapDesc', descFallback: 'Diseño UX/UI de un SaaS impulsado por IA para organizaciones deportivas, que centraliza la gestión, análisis y distribución de contenido multimedia en tiempo real.',
+      titleI18n: 'portfolioPage.playersnapTitle', titleFallback: 'Plataforma de Gestión de Activos Multimedia',
       pills: ['UX/UI']
     },
     {
       id: 'matchminders',
       href: 'project-matchminders.html',
       i18nHref: 'links.projectMatchminders',
-      imgClass: 'image-alessandri vip-card__img',
-      srcset: '../images/portfolio/proyecto-matchminder.webp 1401w',
-      src: '../images/portfolio/proyecto-matchminder.webp',
-      altI18n: 'portfolioPage.matchmindersImgAlt', altFallback: 'Pantalla del sitio web de MatchMinders mostrando torneos deportivos destacados y opciones para jugar u organizar.',
+      cover: '../images/portfolio/matchminder-cover.webp',
       name: 'MatchMinders',
       titleI18n: 'portfolioPage.matchmindersTitle', titleFallback: 'Plataforma de Torneos Deportivos',
-      descI18n: 'portfolioPage.matchmindersDesc', descFallback: 'Mapeo de flujos, diseño de interfaces y construcción del Design System para una plataforma que permite crear y gestionar torneos deportivos.',
       pills: ['UX/UI']
     },
     {
       id: 'portalpehuen',
       href: 'project-portalpehuen.html',
-      imgClass: 'image-alessandri vip-card__img',
-      srcset: '../images/portfolio/portalpehuen-project-erika-pinedo.webp 1401w',
-      src: '../images/portfolio/portalpehuen-project-erika-pinedo.webp',
-      altI18n: 'portfolioPage.portalpImgAlt', altFallback: 'Identidad visual de Portal Pehuén mostrando logotipo, paleta de colores y aplicaciones de marca.',
+      cover: '../images/portfolio/portalpehuen-cover.webp',
       name: 'Portal Pehuén',
       titleI18n: 'portfolioPage.portalpTitle', titleFallback: 'Identidad Visual para Comunidad de Barrio',
-      descI18n: 'portfolioPage.portalpDesc', descFallback: 'Diseño de identidad visual desde cero para Portal Pehuén: una plataforma de barrio que conecta vecinos con negocios locales.',
       pills: ['Identidad visual']
     },
     {
       id: 'urbana',
       href: 'project-urbana.html',
-      imgClass: 'image-alessandri vip-card__img',
-      srcset: '../images/portfolio/urbana-administracion.webp 1401w',
-      src: '../images/portfolio/urbana-administracion.webp',
-      altI18n: 'portfolioPage.urbanaImgAlt', altFallback: 'App móvil Urbana mostrando panel de administración de edificio con módulos de gastos y comunicaciones.',
+      cover: '../images/portfolio/urbana-cover.webp',
       name: 'Urbana',
       titleI18n: 'portfolioPage.urbanaTitle', titleFallback: 'App Administrativa para Edificios y Condominios',
-      descI18n: 'portfolioPage.urbanaDesc', descFallback: 'Diseño UX/UI de una app móvil que centraliza la gestión administrativa de edificios: gastos, notificaciones, comunicados y transparencia para residentes.',
       pills: ['UX/UI']
     }
   ];
@@ -295,26 +269,21 @@
   function buildProjectCard(p) {
     var hrefAttrs = 'href="' + p.href + '"';
     if (p.i18nHref) hrefAttrs += ' data-i18n-href="' + p.i18nHref + '"';
-    var altAttrs = p.altI18n
-      ? 'data-i18n-alt="' + p.altI18n + '" alt="' + p.altFallback + '"'
-      : 'alt=""';
     var nameHtml = p.nameI18n
       ? '<h3 class="title-name-portfolio-project" data-i18n="' + p.nameI18n + '">' + p.name + '</h3>'
       : '<h3 class="title-name-portfolio-project">' + p.name + '</h3>';
     var pillsHtml = p.pills.map(function (pill) {
       return '<span class="pill-category">' + pill + '</span>';
     }).join('');
-    return '<a ' + hrefAttrs + ' class="vip-card">' +
-      '<div class="div-block-232"><img' +
-      ' sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"' +
-      ' srcset="' + p.srcset + '"' +
-      ' ' + altAttrs +
-      ' src="' + p.src + '" loading="lazy" class="' + p.imgClass + '"></div>' +
+    var ariaLabel = 'Ver proyecto ' + p.name + ' – ' + p.titleFallback;
+    return '<a ' + hrefAttrs +
+      ' class="vip-card vip-card--fullbg"' +
+      ' style="background-image: url(\'' + p.cover + '\');"' +
+      ' aria-label="' + ariaLabel + '">' +
       '<div class="text-content-portfolio">' +
       nameHtml +
       '<h4 class="title-card-portfolio" data-i18n="' + p.titleI18n + '">' + p.titleFallback + '</h4>' +
       '<div class="card-pills">' + pillsHtml + '</div>' +
-      '<p class="paragraph-card-portfolio" data-i18n-html="' + p.descI18n + '">' + p.descFallback + '</p>' +
       '</div></a>';
   }
 
