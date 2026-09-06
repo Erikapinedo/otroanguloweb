@@ -11099,7 +11099,7 @@ a {
 /* ---- Full-background card variant ---- */
 .vip-card.vip-card--fullbg {
   position: relative;
-  min-height: 380px;
+  min-height: 440px;
   background-size: auto 100%;
   background-position: top center;
   background-repeat: no-repeat;
