@@ -5724,12 +5724,12 @@ a {
 .image-parrotfy {
   box-sizing: border-box;
   aspect-ratio: auto;
-  object-fit: fill;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
+  object-fit: cover;
+  border-radius: 0;
   width: 100%;
-  max-width: 1136px;
-  max-height: 400px;
+  height: 100%;
+  max-width: none;
+  max-height: none;
 }
 .button-white-project-nico {
   background-color: var(--white-100);
@@ -6437,8 +6437,6 @@ a {
   margin-bottom: 40px;
   display: flex;
 }
-.image-alessandri,
-.image-nico,
 .image-playersnap {
   box-sizing: border-box;
   aspect-ratio: auto;
