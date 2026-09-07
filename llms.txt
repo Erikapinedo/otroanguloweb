@@ -1,0 +1,41 @@
+# Erika Pinedo — Diseñadora UX/UI · Santiago, Chile
+
+> Diseñadora UX/UI con +5 años en productos digitales B2B y SaaS. Trabaja de forma end-to-end: desde el research y la estrategia hasta el handoff a desarrollo. Basada en Santiago de Chile, trabaja con startups y empresas de Latinoamérica.
+
+## Quién es
+
+Erika Pinedo es diseñadora UX/UI especializada en productos digitales B2B y SaaS. Su enfoque combina investigación de usuarios, arquitectura de información y diseño visual para crear experiencias que son claras, funcionales y escalables. Ha trabajado con plataformas legales, insurtech, ERP para PYMEs, ciberseguridad, identidad visual y comunidades tech.
+
+## Servicios
+
+- **UX/UI Design**: diseño de productos digitales de punta a punta — research, arquitectura de información, wireframes, prototipos en Figma, design systems y handoff a desarrollo.
+- **Branding e identidad visual**: diseño de logo, sistemas gráficos, paletas, tipografías y guías de estilo para marcas digitales.
+- **Pitch decks y presentaciones**: diseño de presentaciones para startups, inversionistas y equipos corporativos en PowerPoint o Figma.
+
+## Proyectos destacados
+
+- **Alessandri** — Rediseño de plataforma de gestión legal para estudio de abogados. UX/UI.
+- **Nico Seguros** — Diseño de plataforma insurtech desde cero para contratación y gestión de seguros. UX/UI.
+- **Parrotfy** — Diseño de ERP para organización y control de PYMEs en crecimiento. UX/UI.
+- **BlueSphere** — Diseño de plataforma de ciberseguridad para pymes + identidad visual. UX/UI + Branding.
+- **E-xpediente** — Plataforma de gestión de expedientes para abogados. UX/UI.
+- **JSChile** — Identidad visual y landing page para comunidad de desarrolladores JavaScript. Branding + Landing.
+- **MatchMinders** — Plataforma de gestión de torneos deportivos. UX/UI.
+- **PlayerSnap** — Plataforma de gestión de activos multimedia. UX/UI.
+- **Portal Pehuén** — Identidad visual para comunidad de barrio. Branding.
+- **Urbana** — App administrativa para edificios y condominios. UX/UI.
+
+## Páginas del sitio
+
+- [Inicio](https://otroanguloweb.cl/)
+- [Portafolio completo](https://otroanguloweb.cl/portfolio)
+- [Sobre Erika Pinedo](https://otroanguloweb.cl/about-me-erika-pinedo)
+- [Contacto](https://otroanguloweb.cl/contact)
+
+## Contacto
+
+- Email: pinedoerika.dg@gmail.com
+- LinkedIn: https://www.linkedin.com/in/erika-pinedo-camacho/
+- Behance: https://www.behance.net/ErikaPinedoC
+- Instagram: https://www.instagram.com/otroanguloweb/
+- Sitio web: https://otroanguloweb.cl

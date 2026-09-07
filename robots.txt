@@ -3,3 +3,4 @@ Allow: /
 Disallow: /seo-optimized/
 
 Sitemap: https://otroanguloweb.cl/sitemap.xml
+LLMs: https://otroanguloweb.cl/llms.txt
