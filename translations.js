@@ -87,6 +87,9 @@
         presentationsTitle: 'Presentaciones',
         presentationsBody:
           '<strong>Creo presentaciones visuales que comunican ideas complejas con claridad e impacto.</strong><br/>‍<br/>- Pitch decks para startups e inversionistas<br/>- Presentaciones corporativas y comerciales<br/>- Storytelling visual y estructura narrativa<br/><em><br/>Entrega de diseño en PowerPoint o Figma slides</em>',
+        consultingTitle: 'Consultoría',
+        consultingBody:
+          '<strong>Acompaño a founders y equipos a tomar mejores decisiones de diseño, con visión estratégica y foco en resultados.</strong><br/>‍<br/>- Auditoría de producto o identidad visual<br/>- Estrategia de diseño y hoja de ruta<br/>- Workshops y sesiones de trabajo<br/>- Dirección creativa y feedback para equipos<br/><em><br/>Sesión puntual o acompañamiento continuo</em>',
         contact: 'Trabajemos juntos',
       },
       finalCta: {
@@ -935,6 +938,9 @@
         presentationsTitle: 'Presentations',
         presentationsBody:
           '<strong>I create visual presentations that communicate complex ideas clearly and effectively.</strong><br/>‍<br/>- Pitch decks for startups and investors<br/>- Corporate and sales presentations<br/>- Visual storytelling and narrative structure<br/><em><br/>Delivery of designs in PowerPoint or Figma slides</em>',
+        consultingTitle: 'Consulting',
+        consultingBody:
+          '<strong>I guide founders and teams toward better design decisions, with a strategic perspective and a focus on results.</strong><br/>‍<br/>- Product or visual identity audit<br/>- Design strategy and roadmap<br/>- Workshops and working sessions<br/>- Creative direction and feedback for teams<br/><em><br/>One-off session or ongoing engagement</em>',
         contact: 'Work with me',
       },
       finalCta: {
