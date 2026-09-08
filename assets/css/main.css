@@ -2544,6 +2544,29 @@ a {
   font-weight: 700;
   line-height: 108%;
 }
+.hero-eyebrow {
+  display: block;
+  font-family: var(--avenir);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--white-100);
+  opacity: 0.55;
+  margin-bottom: 20px;
+}
+
+.about-entity-h2 {
+  font-family: var(--avenir);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--white-100);
+  opacity: 0.5;
+  margin: 0 0 8px 0;
+}
+
 .italic-span {
   font-family: var(--instrument);
   letter-spacing: -2px;

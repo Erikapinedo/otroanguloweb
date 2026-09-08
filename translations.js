@@ -35,6 +35,7 @@
       hero: {
         line1: 'Transformo ideas en',
         line2: 'productos digitales',
+        eyebrow: 'Erika Pinedo · Diseñadora UX/UI',
         sub:
           'Experta en B2B y SaaS, ayudando a pequeñas y grandes empresas a optimizar ideas en experiencias intuitivas y atractivas.',
         knowMore: 'Conocer más',
@@ -56,6 +57,7 @@
       about: {
         imgAlt: 'Mujer joven con cabello largo y rizado sonriendo sobre un fondo rosa.',
         greeting: 'Hola!, Acá <strong>Erika Pinedo</strong>',
+        h2: 'Sobre Erika Pinedo, Diseñadora UX/UI',
         p1:
           '<strong><em>Diseñadora UX/UI</em></strong> con +5 años de experiencia en diseño de producto digital y +9 años en el mundo del diseño.<br/><br/>Me especializo en el diseño de software a medida, principalmente productos<em> B2B y SaaS</em>, con alta capacidad de autogestión y liderazgo de proyectos <em>end-to-end.</em>',
         p2:
@@ -885,6 +887,7 @@
       hero: {
         line1: 'I transform ideas into ',
         line2: 'digital products',
+        eyebrow: 'Erika Pinedo · UX/UI Designer',
         sub:
           'An expert in B2B and SaaS, helping small and large companies turn ideas into intuitive and engaging experiences.',
         knowMore: 'Know more',
@@ -907,6 +910,7 @@
         imgAlt:
           'Young woman with long curly dark hair smiling, wearing gold earrings and a black shirt, pink background.',
         greeting: 'Hey there!, i&#x27;m <strong>Erika Pinedo</strong>',
+        h2: 'About Erika Pinedo, UX/UI Designer',
         p1:
           '<strong><em>UX/UI Designer</em></strong> with over 5 years of experience in digital product design and over 9 years in the design industry. <br/><br/>I specialize in custom software design, primarily B2B and SaaS products, and possess strong self-management skills and the ability to lead end-to-end projects.',
         p2:
