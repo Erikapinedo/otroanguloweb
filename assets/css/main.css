@@ -2547,7 +2547,7 @@ a {
 .hero-eyebrow {
   display: block;
   font-family: var(--avenir);
-  font-size: 12px;
+  font-size: 24px;
   line-height: 1.2;
   font-weight: 400;
   color: var(--white-100);
