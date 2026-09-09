@@ -2547,11 +2547,11 @@ a {
 .hero-eyebrow {
   display: block;
   font-family: var(--avenir);
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 700;
   color: var(--white-100);
-  opacity: 0.55;
+  opacity: 1;
   margin-bottom: 5px;
 }
 
