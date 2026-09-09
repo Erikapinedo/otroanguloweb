@@ -2546,12 +2546,12 @@ a {
 }
 .hero-eyebrow {
   display: block;
-  font-family: var(--avenir);
-  font-size: 25px;
-  line-height: 1.2;
-  font-weight: 700;
-  color: var(--white-100);
-  opacity: 1;
+  font-family: var(--avenir) !important;
+  font-size: 25px !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+  color: var(--white-100) !important;
+  opacity: 1 !important;
   margin-bottom: 5px;
 }
 
