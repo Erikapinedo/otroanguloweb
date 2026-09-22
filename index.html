@@ -505,7 +505,7 @@
                 >
               </p>
             </div>
-            <div class="card-skills">
+            <div class="card-skills" id="card-consultoria" style="opacity: 0">
               <h3 class="heading-card-skills" data-i18n="services.consultingTitle">Consultoría</h3>
               <p class="paragraph-28" data-i18n-html="services.consultingBody">
                 <strong>Acompaño a founders y equipos a tomar mejores decisiones de diseño, con visión estratégica y foco en resultados.</strong
@@ -652,6 +652,33 @@
             if (key1) line1.setAttribute('data-i18n', key1);
             if (key2) line2.setAttribute('data-i18n', key2);
           });
+        });
+      }());
+    </script>
+
+    <script>
+      // Consultoría card — replica slideInBottom de Webflow IX2
+      // (opacity 0→1, translateY 100px→0, outQuart, 1000ms)
+      (function () {
+        var card = document.getElementById('card-consultoria');
+        if (!card) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          card.style.opacity = '1';
+          return;
+        }
+        if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
+          card.style.opacity = '1';
+          return;
+        }
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.set(card, { opacity: 0, y: 100 });
+        ScrollTrigger.create({
+          trigger: card,
+          start: 'top bottom',
+          once: true,
+          onEnter: function () {
+            gsap.to(card, { opacity: 1, y: 0, duration: 1, ease: 'power4.out', delay: 0.02 });
+          }
         });
       }());
     </script>
