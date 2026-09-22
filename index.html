@@ -475,7 +475,7 @@
             optimización continua.
           </p>
           <section class="section-13" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
-            <div data-w-id="a1c5fec7-cb33-bffe-81c3-df5a41ae1b8c" style="opacity: 0" class="card-skills">
+            <div style="opacity: 0" class="card-skills">
               <h3 class="heading-card-skills">UX/UI</h3>
               <p class="paragraph-28" data-i18n-html="services.uxBody">
                 <strong
@@ -485,7 +485,7 @@
                 Wireframes y prototipos en Figma<br />- Design system<br />- Optimización de conversión y experiencia
               </p>
             </div>
-            <div data-w-id="d3c3dc08-71f7-00ad-f19d-de7b5d948a35" style="opacity: 0" class="card-skills">
+            <div style="opacity: 0" class="card-skills">
               <h3 class="heading-card-skills">Branding</h3>
               <p class="paragraph-28" data-i18n-html="services.brandingBody">
                 <strong
@@ -495,7 +495,7 @@
                 Aplicaciones digitales y materiales
               </p>
             </div>
-            <div data-w-id="cc5d13c9-cd18-2377-6d6a-28cda0b6a3ca" style="opacity: 0" class="card-skills">
+            <div style="opacity: 0" class="card-skills">
               <h3 class="heading-card-skills" data-i18n="services.presentationsTitle">Presentaciones</h3>
               <p class="paragraph-28" data-i18n-html="services.presentationsBody">
                 <strong>Creo presentaciones visuales que comunican ideas complejas con claridad e impacto.</strong
@@ -505,7 +505,7 @@
                 >
               </p>
             </div>
-            <div class="card-skills" id="card-consultoria" style="opacity: 0">
+            <div style="opacity: 0" class="card-skills">
               <h3 class="heading-card-skills" data-i18n="services.consultingTitle">Consultoría</h3>
               <p class="paragraph-28" data-i18n-html="services.consultingBody">
                 <strong>Acompaño a founders y equipos a tomar mejores decisiones de diseño, con visión estratégica y foco en resultados.</strong
@@ -657,27 +657,32 @@
     </script>
 
     <script>
-      // Consultoría card — replica slideInBottom de Webflow IX2
-      // (opacity 0→1, translateY 100px→0, outQuart, 1000ms)
+      // Service cards — slideInBottom en escalera (stagger)
       (function () {
-        var card = document.getElementById('card-consultoria');
-        if (!card) return;
+        var cards = document.querySelectorAll('#home-my-services .card-skills');
+        if (!cards.length) return;
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-          card.style.opacity = '1';
+          cards.forEach(function (c) { c.style.opacity = '1'; });
           return;
         }
         if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
-          card.style.opacity = '1';
+          cards.forEach(function (c) { c.style.opacity = '1'; });
           return;
         }
         gsap.registerPlugin(ScrollTrigger);
-        gsap.set(card, { opacity: 0, y: 100 });
+        gsap.set(cards, { opacity: 0, y: 100 });
         ScrollTrigger.create({
-          trigger: card,
+          trigger: cards[0],
           start: 'top bottom',
           once: true,
           onEnter: function () {
-            gsap.to(card, { opacity: 1, y: 0, duration: 1, ease: 'power4.out', delay: 0.02 });
+            gsap.to(cards, {
+              opacity: 1,
+              y: 0,
+              duration: 1,
+              ease: 'power4.out',
+              stagger: 0.12
+            });
           }
         });
       }());
