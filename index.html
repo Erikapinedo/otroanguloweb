@@ -51,7 +51,6 @@
           .heading-20,
           .achevement-heading-h2,
           .creative-mind-heading,
-          .hero-heading-h1,
           .small-card,
           .about-card-2
         ) {
@@ -369,7 +368,7 @@
               />
             </div>
             <div class="collabrator-btn-div">
-              <h2 class="about-entity-h2" data-i18n="about.h2">Sobre Erika Pinedo, Diseñadora UX/UI</h2>
+              <h2 class="about-entity-h2" data-i18n="about.h2" style="display:none">Sobre Erika Pinedo, Diseñadora UX/UI</h2>
               <p class="title-2-copy" data-i18n-html="about.greeting">Hola!, Acá <strong>Erika Pinedo</strong></p>
               <p class="title-1-copy-copy" data-i18n-html="about.p1">
                 <strong><em>Diseñadora gráfica certificada en UX/UI,</em></strong> con +5 años de experiencia en diseño
@@ -475,7 +474,7 @@
             resultados reales. Trabajo de forma end-to-end: desde la idea y la investigación hasta la implementación y
             optimización continua.
           </p>
-          <section class="section-13" style="grid-template-columns: 1fr 1fr 1fr;">
+          <section class="section-13" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
             <div data-w-id="a1c5fec7-cb33-bffe-81c3-df5a41ae1b8c" style="opacity: 0" class="card-skills">
               <h3 class="heading-card-skills">UX/UI</h3>
               <p class="paragraph-28" data-i18n-html="services.uxBody">
@@ -506,7 +505,6 @@
                 >
               </p>
             </div>
-            <!-- Consultoría card oculta temporalmente
             <div class="card-skills">
               <h3 class="heading-card-skills" data-i18n="services.consultingTitle">Consultoría</h3>
               <p class="paragraph-28" data-i18n-html="services.consultingBody">
@@ -517,7 +515,6 @@
                 >
               </p>
             </div>
-            -->
           </section>
           <div class="div-block-225">
             <a
@@ -610,6 +607,53 @@
         e.preventDefault();
         lenis.scrollTo(target, { duration: 1.2 });
       });
+    </script>
+
+    <script>
+      // Hero heading GSAP animation
+      (function () {
+        if (typeof gsap === 'undefined' || typeof SplitText === 'undefined') return;
+
+        var h1    = document.querySelector('.hero-heading-h1');
+        var line1 = document.querySelector('.hero-heading-h1 [data-i18n="hero.line1"]');
+        var line2 = document.querySelector('.hero-heading-h1 .typing-text');
+        if (!h1 || !line1 || !line2) return;
+
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        // Ocultar el h1 de inmediato — controlamos la visibilidad, sin depender
+        // del pre-hide de Webflow.
+        gsap.set(h1, { opacity: 0 });
+
+        // translations.js ya aplicó el idioma correcto de forma síncrona al cargar.
+        // Arrancamos en el próximo frame: DOMContentLoaded ya se habrá ejecutado
+        // (y con él cualquier setLang() de translations.js), así que el texto es
+        // definitivo cuando SplitText corre.
+        requestAnimationFrame(function () {
+          gsap.set(h1, { opacity: 1 });
+
+          // Quitar data-i18n temporalmente para que ningún applyI18n() posterior
+          // (el que llega con la inyección de navbar/footer) pueda sobreescribir
+          // el contenido y destruir los nodos de SplitText mientras animan.
+          var key1 = line1.getAttribute('data-i18n');
+          var key2 = line2.getAttribute('data-i18n');
+          line1.removeAttribute('data-i18n');
+          line2.removeAttribute('data-i18n');
+
+          var split1 = new SplitText(line1, { type: 'chars' });
+          var split2 = new SplitText(line2, { type: 'chars' });
+
+          var tl = gsap.timeline();
+          tl.from(split1.chars, { opacity: 0, stagger: 0.04, duration: 0.4, ease: 'power1.inOut' });
+          tl.from(split2.chars, { opacity: 0, stagger: 0.04, duration: 0.4, ease: 'power1.inOut' }, '+=0.06');
+          // Restaurar data-i18n al terminar para que el selector de idioma siga
+          // funcionando después de la animación.
+          tl.call(function () {
+            if (key1) line1.setAttribute('data-i18n', key1);
+            if (key2) line2.setAttribute('data-i18n', key2);
+          });
+        });
+      }());
     </script>
   </body>
 </html>

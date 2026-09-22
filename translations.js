@@ -186,7 +186,10 @@
         "e7t": "Certificado como Diseñador UX UI",
         "e7m": "2021. Digital Talent.<br/>",
         "e8t": "Carrera Diseño Gráfico",
-        "e8m": "2012-2014. Instituto de Diseño Charles Worth.<br/>"
+        "e8m": "2012-2014. Instituto de Diseño Charles Worth.<br/>",
+        "creativity": "Creatividad",
+        "innovationAi": "Innovación - IA",
+        "technology": "Tecnología"
       },
       portfolioPage: {
         "meta": {
@@ -1039,7 +1042,10 @@
         "e7t": "Certified as a UX/UI Designer",
         "e7m": "2021. Digital Talent.<br/>",
         "e8t": "Graphic Design Program",
-        "e8m": "2012-2014. Instituto de Diseño Charles Worth.<br/>"
+        "e8m": "2012-2014. Instituto de Diseño Charles Worth.<br/>",
+        "creativity": "Creativity",
+        "innovationAi": "Innovation - AI",
+        "technology": "Technology"
       },
       portfolioPage: {
         "meta": {

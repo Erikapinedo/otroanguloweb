@@ -354,6 +354,7 @@
         }
 
         applyI18n();
+        document.dispatchEvent(new CustomEvent('i18n:applied'));
         reinitWebflow();
 
         // Aplicar después de reinitWebflow: el módulo nav de Webflow resetea
