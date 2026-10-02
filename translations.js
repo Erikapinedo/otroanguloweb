@@ -10,15 +10,15 @@
   var STRINGS = {
     es: {
       meta: {
-        title: 'Diseñadora UX/UI Chile · B2B & SaaS – Erika Pinedo',
+        title: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
         description:
-          'Diseñadora UX/UI con +5 años en productos digitales B2B y SaaS. Creo experiencias intuitivas para startups y empresas desde Santiago, Chile.',
-        ogTitle: 'Diseñadora UX/UI Chile · B2B & SaaS – Erika Pinedo',
+          'Product Designer con +5 años en productos digitales B2B y SaaS. Creo experiencias intuitivas para startups y empresas desde Santiago, Chile.',
+        ogTitle: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
         ogDescription:
-          'Diseñadora UX/UI con +5 años en productos digitales B2B y SaaS. Creo experiencias intuitivas para startups y empresas desde Santiago, Chile.',
-        twitterTitle: 'Diseñadora UX/UI Chile · B2B & SaaS – Erika Pinedo',
+          'Product Designer con +5 años en productos digitales B2B y SaaS. Creo experiencias intuitivas para startups y empresas desde Santiago, Chile.',
+        twitterTitle: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
         twitterDescription:
-          'Diseñadora UX/UI con +5 años en productos digitales B2B y SaaS. Creo experiencias intuitivas para startups y empresas desde Santiago, Chile.',
+          'Product Designer con +5 años en productos digitales B2B y SaaS. Creo experiencias intuitivas para startups y empresas desde Santiago, Chile.',
       },
       links: {
         contact: 'contact.html',
@@ -35,7 +35,7 @@
       hero: {
         line1: 'Transformo ideas en',
         line2: 'productos digitales',
-        eyebrow: 'Erika Pinedo · Diseñadora UX/UI',
+        eyebrow: 'Erika Pinedo · Product Designer',
         sub:
           'Experta en B2B y SaaS, ayudando a pequeñas y grandes empresas a optimizar ideas en experiencias intuitivas y atractivas.',
         knowMore: 'Conocer más',
@@ -57,9 +57,9 @@
       about: {
         imgAlt: 'Mujer joven con cabello largo y rizado sonriendo sobre un fondo rosa.',
         greeting: 'Hola!, Acá <strong>Erika Pinedo</strong>',
-        h2: 'Sobre Erika Pinedo, Diseñadora UX/UI',
+        h2: 'Sobre Erika Pinedo, Product Designer',
         p1:
-          '<strong><em>Diseñadora UX/UI</em></strong> con +5 años de experiencia en diseño de producto digital y +9 años en el mundo del diseño.<br/><br/>Me especializo en el diseño de software a medida, principalmente productos<em> B2B y SaaS</em>, con alta capacidad de autogestión y liderazgo de proyectos <em>end-to-end.</em>',
+          '<strong><em>Product Designer</em></strong> con +5 años de experiencia en diseño de producto digital y +9 años en el mundo del diseño.<br/><br/>Me especializo en el diseño de software a medida, principalmente productos<em> B2B y SaaS</em>, con alta capacidad de autogestión y liderazgo de proyectos <em>end-to-end.</em>',
         p2:
           '<strong>He colaborado con startups innovadoras como NICO Seguros y grandes marcas como Alessandri Abogados y Banco Falabella.</strong>',
         cta: 'Cuéntame tu proyecto',
@@ -122,15 +122,15 @@
       },
       aboutPage: {
         "meta": {
-          "title": "Erika Pinedo · Diseñadora UX/UI Chile",
+          "title": "Erika Pinedo · Product Designer Chile",
           "description": "Diseñadora gráfica certificada en UX/UI con +5 años en B2B y SaaS. Especializada en research, design systems y branding. Proyectos end-to-end desde Chile.",
-          "ogTitle": "Erika Pinedo · Diseñadora UX/UI Chile",
+          "ogTitle": "Erika Pinedo · Product Designer Chile",
           "ogDescription": "Diseñadora gráfica certificada en UX/UI con +5 años en B2B y SaaS. Especializada en research, design systems y branding. Proyectos end-to-end desde Chile.",
-          "twitterTitle": "Erika Pinedo · Diseñadora UX/UI Chile",
+          "twitterTitle": "Erika Pinedo · Product Designer Chile",
           "twitterDescription": "Diseñadora gráfica certificada en UX/UI con +5 años en B2B y SaaS. Especializada en research, design systems y branding. Proyectos end-to-end desde Chile."
         },
         "heroImgAlt": "Mujer joven con cabello rizado largo y oscuro, sonriendo, con aretes dorados y camiseta negra, fondo rosa.",
-        "heroIntro": "<strong><em>Diseñadora UX/UI</em></strong> con +9 años en el mundo del diseño y +5 especializados en diseño de producto digital.",
+        "heroIntro": "<strong><em>Product Designer</em></strong> con +9 años en el mundo del diseño y +5 especializados en diseño de producto digital.",
         "count1": "proyectos end-to-end<br/>entregados con éxito",
         "count2": "años en UX/UI<br/>y +9 en el área de diseño.",
         "count3": "Ganas de crecer y crear.",
@@ -187,6 +187,8 @@
         "e7m": "2021. Digital Talent.<br/>",
         "e8t": "Carrera Diseño Gráfico",
         "e8m": "2012-2014. Instituto de Diseño Charles Worth.<br/>",
+        "e9t": "Product Analytics Certification",
+        "e9m": "2026. Pendo.<br/>",
         "creativity": "Creatividad",
         "innovationAi": "Innovación - IA",
         "technology": "Tecnología"
@@ -194,11 +196,11 @@
       portfolioPage: {
         "meta": {
           "title": "Portafolio · Diseño UX/UI de Productos Digitales – Erika Pinedo",
-          "description": "Proyectos de diseño UX/UI end-to-end: ERP para PYMEs, SaaS B2B de seguros y rediseño de plataforma jurídica. Casos de estudio reales de Erika Pinedo, diseñadora UX/UI en Chile.",
+          "description": "Proyectos de diseño UX/UI end-to-end: ERP para PYMEs, SaaS B2B de seguros y rediseño de plataforma jurídica. Casos de estudio reales de Erika Pinedo, Product Designer en Chile.",
           "ogTitle": "Portafolio · Diseño UX/UI de Productos Digitales – Erika Pinedo",
-          "ogDescription": "Proyectos de diseño UX/UI end-to-end: ERP para PYMEs, SaaS B2B de seguros y rediseño de plataforma jurídica. Casos de estudio reales de Erika Pinedo, diseñadora UX/UI en Chile.",
+          "ogDescription": "Proyectos de diseño UX/UI end-to-end: ERP para PYMEs, SaaS B2B de seguros y rediseño de plataforma jurídica. Casos de estudio reales de Erika Pinedo, Product Designer en Chile.",
           "twitterTitle": "Portafolio · Diseño UX/UI de Productos Digitales – Erika Pinedo",
-          "twitterDescription": "Proyectos de diseño UX/UI end-to-end: ERP para PYMEs, SaaS B2B de seguros y rediseño de plataforma jurídica. Casos de estudio reales de Erika Pinedo, diseñadora UX/UI en Chile."
+          "twitterDescription": "Proyectos de diseño UX/UI end-to-end: ERP para PYMEs, SaaS B2B de seguros y rediseño de plataforma jurídica. Casos de estudio reales de Erika Pinedo, Product Designer en Chile."
         },
         "pageHeadingHtml": "<em>Portafolio</em>",
         "expTitle": "E-xpediente",
@@ -226,12 +228,12 @@
       },
       alessandriProjectPage:       {
         "meta": {
-          "title": "AlessandriPI · Rediseño UX/UI de Plataforma Jurídica – Erika Pinedo",
-          "description": "Rediseño end-to-end: plataforma interna de gestión legal para 40.000+ clientes. Investigación con 32 usuarios, 7 sprints, arquitectura centrada en el cliente.",
-          "ogTitle": "AlessandriPI · Rediseño UX/UI de Plataforma Jurídica – Erika Pinedo",
-          "ogDescription": "Rediseño end-to-end: plataforma interna de gestión legal para 40.000+ clientes. Investigación con 32 usuarios, 7 sprints, arquitectura centrada en el cliente.",
-          "twitterTitle": "AlessandriPI · Rediseño UX/UI de Plataforma Jurídica – Erika Pinedo",
-          "twitterDescription": "Rediseño end-to-end: plataforma interna de gestión legal para 40.000+ clientes. Investigación con 32 usuarios, 7 sprints, arquitectura centrada en el cliente."
+          "title": "AlessandriPI · Rediseño de Plataforma Jurídica – Product Designer Erika Pinedo",
+          "description": "Rediseño end-to-end por Product Designer Erika Pinedo: plataforma interna de gestión legal para 40.000+ clientes. Investigación con 32 usuarios, 7 sprints, arquitectura centrada en el cliente.",
+          "ogTitle": "AlessandriPI · Rediseño de Plataforma Jurídica – Product Designer Erika Pinedo",
+          "ogDescription": "Rediseño end-to-end por Product Designer Erika Pinedo: plataforma interna de gestión legal para 40.000+ clientes. Investigación con 32 usuarios, 7 sprints, arquitectura centrada en el cliente.",
+          "twitterTitle": "AlessandriPI · Rediseño de Plataforma Jurídica – Product Designer Erika Pinedo",
+          "twitterDescription": "Rediseño end-to-end por Product Designer Erika Pinedo: plataforma interna de gestión legal para 40.000+ clientes. Investigación con 32 usuarios, 7 sprints, arquitectura centrada en el cliente."
         },
         "back": "Volver",
         "heroH1Html": "Rediseño de la plataforma de <em class=\"italic-text-2\">operaciones jurídicas internas</em>",
@@ -244,11 +246,11 @@
         "gal3Alt": "Panel de control de Alessandri PI mostrando fechas fatales para marcas, patentes y juicios, con alertas de vencidos y próximos en un calendario, y listados de casos con colores rojo para fechas próximas y verde para completados.",
         "phase1": "Fase 1",
         "teamLabel": "Equipo",
-        "teamHtml": "<em class=\"italic-text-5\">1 lider de proyecto, 3 desarrolladores, 1 diseñador UX/UI</em>",
+        "teamHtml": "<em class=\"italic-text-5\">1 lider de proyecto, 3 desarrolladores, 1 Product designer</em>",
         "designLabel": "Diseño",
         "totalLabel": "Total",
         "roleLabel": "Rol",
-        "roleValue": "Diseñadora UX/UI",
+        "roleValue": "Product Designer",
         processImgSrc: '../images/alessandri/proceso-investigacion-parrotfy.webp',
         processImgSrcset: '../images/alessandri/group-9108-p-500.webp 500w, ../images/alessandri/group-9108-p-800.webp 800w, ../images/alessandri/group-9108-p-1080.webp 1080w, ../images/alessandri/proceso-investigacion-parrotfy.webp 1269w',
         key1ImgSrc: '../images/alessandri/frame-91901.webp',
@@ -292,18 +294,18 @@
         "imp5": "Reducción del riesgo en torno a plazos críticos",
         "wireAlt": "Varias capturas de pantalla de una aplicación web de gestión de marcas, empresas y patentes con tablas, filtros y opciones para editar información.",
         "mailsAlt": "Tres pantallas de interfaz de AlessandriPI: recuperación de contraseña con botón rojo, notificación de documento por aprobar con botón rojo, y resumen semanal con datos y botón para acceder a AlessandriPI.",
-        "creditsHtml": "<strong>Compañía</strong> Nnodes<strong><br/>Lider proyecto </strong>Pablo Gajardo<br/><strong>Diseñador Sr. UX/UI </strong>Erika Pinedo<br/><strong>Desarrolladores</strong> Benjamin, Joaquin, Pablo Gajardo.<br/><br/>- Todos los derechos reservados-",
+        "creditsHtml": "<strong>Compañía</strong> Nnodes<strong><br/>Lider proyecto </strong>Pablo Gajardo<br/><strong>Product Designer </strong>Erika Pinedo<br/><strong>Desarrolladores</strong> Benjamin, Joaquin, Pablo Gajardo.<br/><br/>- Todos los derechos reservados-",
         "otherHeadingHtml": "Otros <span class=\"span-txt\">Proyectos</span>",
         "seeAll": "Ver todos"
       },
       contactPage: {
         meta: {
           title: 'Contacto · Hablemos de tu Proyecto Digital – Erika Pinedo',
-          description: '¿Tienes un proyecto en mente? Cuéntame tu idea y trabajemos juntos. Diseñadora UX/UI en Chile especializada en productos digitales, SaaS y ERP.',
+          description: '¿Tienes un proyecto en mente? Cuéntame tu idea y trabajemos juntos. Product Designer en Chile especializada en productos digitales, SaaS y ERP.',
           ogTitle: 'Contacto · Hablemos de tu Proyecto Digital – Erika Pinedo',
-          ogDescription: '¿Tienes un proyecto en mente? Cuéntame tu idea y trabajemos juntos. Diseñadora UX/UI en Chile especializada en productos digitales, SaaS y ERP.',
+          ogDescription: '¿Tienes un proyecto en mente? Cuéntame tu idea y trabajemos juntos. Product Designer en Chile especializada en productos digitales, SaaS y ERP.',
           twitterTitle: 'Contacto · Hablemos de tu Proyecto Digital – Erika Pinedo',
-          twitterDescription: '¿Tienes un proyecto en mente? Cuéntame tu idea y trabajemos juntos. Diseñadora UX/UI en Chile especializada en productos digitales, SaaS y ERP.',
+          twitterDescription: '¿Tienes un proyecto en mente? Cuéntame tu idea y trabajemos juntos. Product Designer en Chile especializada en productos digitales, SaaS y ERP.',
         },
         heading: '¿Tienes un proyecto en mente?',
         subheading: 'Cuéntame qué ideas tienes y veamos cómo puedo ayudarte.',
@@ -865,15 +867,15 @@
     },
     en: {
       meta: {
-        title: 'UX/UI Designer Chile · B2B & SaaS – Erika Pinedo',
+        title: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
         description:
-          'Certified UX/UI designer with 5+ years in B2B and SaaS products. I turn ideas into clear, intuitive digital experiences. Based in Santiago, Chile.',
-        ogTitle: 'UX/UI Designer Chile · B2B & SaaS – Erika Pinedo',
+          'Certified Product Designer with 5+ years in B2B and SaaS products. I turn ideas into clear, intuitive digital experiences. Based in Santiago, Chile.',
+        ogTitle: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
         ogDescription:
-          'Certified UX/UI designer with 5+ years in B2B and SaaS products. I turn ideas into clear, intuitive digital experiences. Based in Santiago, Chile.',
-        twitterTitle: 'UX/UI Designer Chile · B2B & SaaS – Erika Pinedo',
+          'Certified Product Designer with 5+ years in B2B and SaaS products. I turn ideas into clear, intuitive digital experiences. Based in Santiago, Chile.',
+        twitterTitle: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
         twitterDescription:
-          'Certified UX/UI designer with 5+ years in B2B and SaaS products. I turn ideas into clear, intuitive digital experiences. Based in Santiago, Chile.',
+          'Certified Product Designer with 5+ years in B2B and SaaS products. I turn ideas into clear, intuitive digital experiences. Based in Santiago, Chile.',
       },
       links: {
         contact: 'contact.html',
@@ -890,7 +892,7 @@
       hero: {
         line1: 'I transform ideas into ',
         line2: 'digital products',
-        eyebrow: 'Erika Pinedo · UX/UI Designer',
+        eyebrow: 'Erika Pinedo · Product Designer',
         sub:
           'An expert in B2B and SaaS, helping small and large companies turn ideas into intuitive and engaging experiences.',
         knowMore: 'Know more',
@@ -913,9 +915,9 @@
         imgAlt:
           'Young woman with long curly dark hair smiling, wearing gold earrings and a black shirt, pink background.',
         greeting: 'Hey there!, i&#x27;m <strong>Erika Pinedo</strong>',
-        h2: 'About Erika Pinedo, UX/UI Designer',
+        h2: 'About Erika Pinedo, Product Designer',
         p1:
-          '<strong><em>UX/UI Designer</em></strong> with over 5 years of experience in digital product design and over 9 years in the design industry. <br/><br/>I specialize in custom software design, primarily B2B and SaaS products, and possess strong self-management skills and the ability to lead end-to-end projects.',
+          '<strong><em>Product Designer</em></strong> with over 5 years of experience in digital product design and over 9 years in the design industry. <br/><br/>I specialize in custom software design, primarily B2B and SaaS products, and possess strong self-management skills and the ability to lead end-to-end projects.',
         p2:
           '<strong>I have worked with innovative startups such as NICO Seguros and major brands such as Alessandri Abogados and Banco Falabella.</strong>',
         cta: 'Tell me about your project',
@@ -978,15 +980,15 @@
       },
       aboutPage: {
         "meta": {
-          "title": "Erika Pinedo · UX/UI Designer Chile",
-          "description": "Meet Erika Pinedo: certified UX/UI designer with 5+ years in B2B and SaaS. Specialized in user research, design systems, and branding. Based in Santiago, Chile.",
-          "ogTitle": "Erika Pinedo · UX/UI Designer Chile",
-          "ogDescription": "Meet Erika Pinedo: certified UX/UI designer with 5+ years in B2B and SaaS. Specialized in user research, design systems, and branding. Based in Santiago, Chile.",
-          "twitterTitle": "Erika Pinedo · UX/UI Designer Chile",
-          "twitterDescription": "Meet Erika Pinedo: certified UX/UI designer with 5+ years in B2B and SaaS. Specialized in user research, design systems, and branding. Based in Santiago, Chile."
+          "title": "Erika Pinedo · Product Designer Chile",
+          "description": "Meet Erika Pinedo: certified Product Designer with 5+ years in B2B and SaaS. Specialized in user research, design systems, and branding. Based in Santiago, Chile.",
+          "ogTitle": "Erika Pinedo · Product Designer Chile",
+          "ogDescription": "Meet Erika Pinedo: certified Product Designer with 5+ years in B2B and SaaS. Specialized in user research, design systems, and branding. Based in Santiago, Chile.",
+          "twitterTitle": "Erika Pinedo · Product Designer Chile",
+          "twitterDescription": "Meet Erika Pinedo: certified Product Designer with 5+ years in B2B and SaaS. Specialized in user research, design systems, and branding. Based in Santiago, Chile."
         },
         "heroImgAlt": "Young woman with long curly dark hair smiling, wearing gold earrings and a black shirt, pink background.",
-        "heroIntro": "<strong><em>UX/UI Designer</em></strong> with 9+ years in the design industry and 5+ specialized in digital product design.",
+        "heroIntro": "<strong><em>Product Designer</em></strong> with 9+ years in the design industry and 5+ specialized in digital product design.",
         "count1": "end-to-end projects<br/>successfully delivered",
         "count2": "years in UX/UI and<br/>over 9 years in design",
         "count3": "A desire to grow and create",
@@ -1039,10 +1041,12 @@
         "e5m": "2022. CoderHouse.<br/>",
         "e6t": "Inclusive Design for Digital Platforms",
         "e6m": "2021. Universidad del Desarrollo.<br/>",
-        "e7t": "Certified as a UX/UI Designer",
+        "e7t": "Certified as a Product Designer",
         "e7m": "2021. Digital Talent.<br/>",
         "e8t": "Graphic Design Program",
         "e8m": "2012-2014. Instituto de Diseño Charles Worth.<br/>",
+        "e9t": "Product Analytics Certification",
+        "e9m": "2026. Pendo.<br/>",
         "creativity": "Creativity",
         "innovationAi": "Innovation - AI",
         "technology": "Technology"
@@ -1050,11 +1054,11 @@
       portfolioPage: {
         "meta": {
           "title": "Portfolio · UX/UI Design for Digital Products – Erika Pinedo",
-          "description": "End-to-end UX/UI design case studies: SMB ERP, B2B insurance SaaS, and legal management platform redesign. Real projects by Erika Pinedo, UX/UI designer based in Chile.",
+          "description": "End-to-end UX/UI design case studies: SMB ERP, B2B insurance SaaS, and legal management platform redesign. Real projects by Erika Pinedo, Product Designer based in Chile.",
           "ogTitle": "Portfolio · UX/UI Design for Digital Products – Erika Pinedo",
-          "ogDescription": "End-to-end UX/UI design case studies: SMB ERP, B2B insurance SaaS, and legal management platform redesign. Real projects by Erika Pinedo, UX/UI designer based in Chile.",
+          "ogDescription": "End-to-end UX/UI design case studies: SMB ERP, B2B insurance SaaS, and legal management platform redesign. Real projects by Erika Pinedo, Product Designer based in Chile.",
           "twitterTitle": "Portfolio · UX/UI Design for Digital Products – Erika Pinedo",
-          "twitterDescription": "End-to-end UX/UI design case studies: SMB ERP, B2B insurance SaaS, and legal management platform redesign. Real projects by Erika Pinedo, UX/UI designer based in Chile."
+          "twitterDescription": "End-to-end UX/UI design case studies: SMB ERP, B2B insurance SaaS, and legal management platform redesign. Real projects by Erika Pinedo, Product Designer based in Chile."
         },
         "pageHeadingHtml": "<em>Portfolio</em>",
         "expTitle": "E-xpediente",
@@ -1082,12 +1086,12 @@
       },
       alessandriProjectPage:       {
         "meta": {
-          "title": "AlessandriPI · Legal Operations Platform UX/UI Redesign – Erika Pinedo",
-          "description": "End-to-end UX/UI redesign: an internal legal management platform for 40,000+ clients across trademarks, patents, litigation, and domains. Research with 32 users across 7 sprints.",
-          "ogTitle": "AlessandriPI · Legal Operations Platform UX/UI Redesign – Erika Pinedo",
-          "ogDescription": "End-to-end UX/UI redesign: an internal legal management platform for 40,000+ clients across trademarks, patents, litigation, and domains. Research with 32 users across 7 sprints.",
-          "twitterTitle": "AlessandriPI · Legal Operations Platform UX/UI Redesign – Erika Pinedo",
-          "twitterDescription": "End-to-end UX/UI redesign: an internal legal management platform for 40,000+ clients across trademarks, patents, litigation, and domains. Research with 32 users across 7 sprints."
+          "title": "AlessandriPI · Legal Operations Platform Redesign – Product Designer Erika Pinedo",
+          "description": "End-to-end redesign by Product Designer Erika Pinedo: internal legal management platform for 40,000+ clients across trademarks, patents, litigation, and domains. Research with 32 users across 7 sprints.",
+          "ogTitle": "AlessandriPI · Legal Operations Platform Redesign – Product Designer Erika Pinedo",
+          "ogDescription": "End-to-end redesign by Product Designer Erika Pinedo: internal legal management platform for 40,000+ clients across trademarks, patents, litigation, and domains. Research with 32 users across 7 sprints.",
+          "twitterTitle": "AlessandriPI · Legal Operations Platform Redesign – Product Designer Erika Pinedo",
+          "twitterDescription": "End-to-end redesign by Product Designer Erika Pinedo: internal legal management platform for 40,000+ clients across trademarks, patents, litigation, and domains. Research with 32 users across 7 sprints."
         },
         "back": "Back",
         "heroH1Html": "Redesign of the <em class=\"italic-text-2\">internal legal operations platform</em>",
@@ -1100,11 +1104,11 @@
         "gal3Alt": "Panel de control de Alessandri PI mostrando fechas fatales para marcas, patentes y juicios, con alertas de vencidos y próximos en un calendario, y listados de casos con colores rojo para fechas próximas y verde para completados.",
         "phase1": "Phase 1",
         "teamLabel": "Team",
-        "teamHtml": "<em class=\"italic-text-5\">1 project manager, 3 developers, 1 UX/UI designer</em>",
+        "teamHtml": "<em class=\"italic-text-5\">1 project manager, 3 developers, 1 Product designer</em>",
         "designLabel": "Design",
         "totalLabel": "Total",
         "roleLabel": "Role",
-        "roleValue": "UX/UI Designer",
+        "roleValue": "Product Designer",
         processImgSrc: '../images/shared/group-9113.webp',
         processImgSrcset: '../images/shared/group-9113-p-500.webp 500w, ../images/shared/group-9113-p-800.webp 800w, ../images/shared/group-9113-p-1080.webp 1080w, ../images/shared/group-9113.webp 1269w',
         key1ImgSrc: '../images/shared/frame-91970.webp',
@@ -1148,18 +1152,18 @@
         "imp5": "Reduced risk around critical deadlines",
         "wireAlt": "Several screenshots of a web application for managing trademarks, companies, and patents with tables, filters, and options to edit information.",
         "mailsAlt": "Three AlessandriPI interface screens: password recovery with red button, document pending approval notification with red button, and weekly summary with data and button to access AlessandriPI.",
-        "creditsHtml": "<strong>Company</strong> Nnodes<strong><br/>Project Lead </strong>Pablo Gajardo<br/><strong>Sr. UX/UI Designer </strong>Erika Pinedo<br/><strong>Developers</strong> Benjamin, Joaquin, Pablo Gajardo.<br/><br/>- All rights reserved -",
+        "creditsHtml": "<strong>Company</strong> Nnodes<strong><br/>Project Lead </strong>Pablo Gajardo<br/><strong>Product Designer </strong>Erika Pinedo<br/><strong>Developers</strong> Benjamin, Joaquin, Pablo Gajardo.<br/><br/>- All rights reserved -",
         "otherHeadingHtml": "Other <span class=\"span-txt\">Projects</span>",
         "seeAll": "See all"
       },
       contactPage: {
         meta: {
           title: "Contact · Let's Talk About Your Digital Project – Erika Pinedo",
-          description: "Got a project in mind? Tell me your idea and let's work together. UX/UI designer in Chile specializing in digital products, SaaS, and ERP platforms.",
+          description: "Got a project in mind? Tell me your idea and let's work together. Product Designer in Chile specializing in digital products, SaaS, and ERP platforms.",
           ogTitle: "Contact · Let's Talk About Your Digital Project – Erika Pinedo",
-          ogDescription: "Got a project in mind? Tell me your idea and let's work together. UX/UI designer in Chile specializing in digital products, SaaS, and ERP platforms.",
+          ogDescription: "Got a project in mind? Tell me your idea and let's work together. Product Designer in Chile specializing in digital products, SaaS, and ERP platforms.",
           twitterTitle: "Contact · Let's Talk About Your Digital Project – Erika Pinedo",
-          twitterDescription: "Got a project in mind? Tell me your idea and let's work together. UX/UI designer in Chile specializing in digital products, SaaS, and ERP platforms.",
+          twitterDescription: "Got a project in mind? Tell me your idea and let's work together. Product Designer in Chile specializing in digital products, SaaS, and ERP platforms.",
         },
         heading: 'Do you have a project in mind?',
         subheading: "Tell me what ideas you have, and let's see how I can help you.",
