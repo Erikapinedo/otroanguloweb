@@ -1041,7 +1041,7 @@
         "e5m": "2022. CoderHouse.<br/>",
         "e6t": "Inclusive Design for Digital Platforms",
         "e6m": "2021. Universidad del Desarrollo.<br/>",
-        "e7t": "Certified as a Product Designer",
+        "e7t": "Certified as a UX/UI Designer",
         "e7m": "2020. AIEP (Bootcamp de 402 horas, beca SENCE).<br/>",
         "e8t": "Graphic Design Program",
         "e8m": "2012-2014. Instituto de Diseño Charles Worth.<br/>",
