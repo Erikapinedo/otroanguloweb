@@ -31,21 +31,8 @@
     { "source": "/project-urbana",                  "destination": "/proyectos/urbana",        "permanent": true }
   ],
   "rewrites": [
-    { "source": "/",                           "destination": "/index.html" },
-    { "source": "/index",                      "destination": "/index.html" },
-    { "source": "/sobre-mi",                   "destination": "/sobre-mi.html" },
-    { "source": "/portafolio",                 "destination": "/portafolio.html" },
-    { "source": "/contacto",                   "destination": "/contacto.html" },
-    { "source": "/proyectos/alessandri",       "destination": "/proyectos/alessandri.html" },
-    { "source": "/proyectos/nico-seguros",     "destination": "/proyectos/nico-seguros.html" },
-    { "source": "/proyectos/parrotfy",         "destination": "/proyectos/parrotfy.html" },
-    { "source": "/proyectos/expediente",       "destination": "/proyectos/expediente.html" },
-    { "source": "/proyectos/matchminders",     "destination": "/proyectos/matchminders.html" },
-    { "source": "/proyectos/jschile",          "destination": "/proyectos/jschile.html" },
-    { "source": "/proyectos/bluesphere",       "destination": "/proyectos/bluesphere.html" },
-    { "source": "/proyectos/playersnap",       "destination": "/proyectos/playersnap.html" },
-    { "source": "/proyectos/portalpehuen",     "destination": "/proyectos/portalpehuen.html" },
-    { "source": "/proyectos/urbana",           "destination": "/proyectos/urbana.html" }
+    { "source": "/",      "destination": "/index.html" },
+    { "source": "/index", "destination": "/index.html" }
   ],
   "headers": [
     {
