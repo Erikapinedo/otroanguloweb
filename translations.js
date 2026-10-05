@@ -23,7 +23,7 @@
       links: {
         contact: '/contacto',
         about: '/sobre-mi',
-        portfolio: '/portafolio',
+        portfolio: '/proyectos',
         projectAlessandri: '/proyectos/alessandri',
         projectNico: '/proyectos/nico-seguros',
         projectParrotfy: '/proyectos/parrotfy',
@@ -106,7 +106,7 @@
       nav: {
         home: 'Inicio',
         about: 'Sobre mi',
-        portfolio: 'Portafolio',
+        portfolio: 'Proyectos',
         cta: 'Conversemos!',
         dropdown: 'Dropdown',
         link1: 'Link 1',
@@ -195,14 +195,14 @@
       },
       portfolioPage: {
         "meta": {
-          "title": "Portafolio · Diseño UX/UI de Productos Digitales – Erika Pinedo",
+          "title": "Proyectos · Diseño UX/UI de Productos Digitales – Erika Pinedo",
           "description": "Proyectos de diseño UX/UI end-to-end: ERP para PYMEs, SaaS B2B de seguros y rediseño de plataforma jurídica. Casos de estudio reales de Erika Pinedo, Product Designer en Chile.",
-          "ogTitle": "Portafolio · Diseño UX/UI de Productos Digitales – Erika Pinedo",
+          "ogTitle": "Proyectos · Diseño UX/UI de Productos Digitales – Erika Pinedo",
           "ogDescription": "Proyectos de diseño UX/UI end-to-end: ERP para PYMEs, SaaS B2B de seguros y rediseño de plataforma jurídica. Casos de estudio reales de Erika Pinedo, Product Designer en Chile.",
-          "twitterTitle": "Portafolio · Diseño UX/UI de Productos Digitales – Erika Pinedo",
+          "twitterTitle": "Proyectos · Diseño UX/UI de Productos Digitales – Erika Pinedo",
           "twitterDescription": "Proyectos de diseño UX/UI end-to-end: ERP para PYMEs, SaaS B2B de seguros y rediseño de plataforma jurídica. Casos de estudio reales de Erika Pinedo, Product Designer en Chile."
         },
-        "pageHeadingHtml": "<em>Portafolio</em>",
+        "pageHeadingHtml": "<em>Proyectos</em>",
         "expTitle": "E-xpediente",
         "expSubtitle": "Plataforma abogados",
         "expDesc": "Diseño end-to-end de una plataforma legaltech para digitalizar la gestión de arbitrajes y mediaciones: expediente virtual, acceso remoto y notificaciones automáticas.<br/>",
@@ -880,7 +880,7 @@
       links: {
         contact: '/contacto',
         about: '/sobre-mi',
-        portfolio: '/portafolio',
+        portfolio: '/proyectos',
         projectAlessandri: '/proyectos/alessandri',
         projectNico: '/proyectos/nico-seguros',
         projectParrotfy: '/proyectos/parrotfy',
@@ -964,7 +964,7 @@
       nav: {
         home: 'Home',
         about: 'About Me',
-        portfolio: 'Portfolio',
+        portfolio: 'Projects',
         cta: 'Lets Talk!',
         dropdown: 'Dropdown',
         link1: 'Link 1',
@@ -1053,14 +1053,14 @@
       },
       portfolioPage: {
         "meta": {
-          "title": "Portfolio · UX/UI Design for Digital Products – Erika Pinedo",
+          "title": "Projects · UX/UI Design for Digital Products – Erika Pinedo",
           "description": "End-to-end UX/UI design case studies: SMB ERP, B2B insurance SaaS, and legal management platform redesign. Real projects by Erika Pinedo, Product Designer based in Chile.",
-          "ogTitle": "Portfolio · UX/UI Design for Digital Products – Erika Pinedo",
+          "ogTitle": "Projects · UX/UI Design for Digital Products – Erika Pinedo",
           "ogDescription": "End-to-end UX/UI design case studies: SMB ERP, B2B insurance SaaS, and legal management platform redesign. Real projects by Erika Pinedo, Product Designer based in Chile.",
-          "twitterTitle": "Portfolio · UX/UI Design for Digital Products – Erika Pinedo",
+          "twitterTitle": "Projects · UX/UI Design for Digital Products – Erika Pinedo",
           "twitterDescription": "End-to-end UX/UI design case studies: SMB ERP, B2B insurance SaaS, and legal management platform redesign. Real projects by Erika Pinedo, Product Designer based in Chile."
         },
-        "pageHeadingHtml": "<em>Portfolio</em>",
+        "pageHeadingHtml": "<em>Projects</em>",
         "expTitle": "E-xpediente",
         "expSubtitle": "Lawyers platform",
         "expDesc": "End-to-end design of a legaltech platform to digitize arbitration and mediation management: virtual case file, remote access, and automatic notifications.<br/>",

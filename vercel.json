@@ -4,7 +4,7 @@
   "redirects": [
     { "source": "/index.html",                      "destination": "/",                        "permanent": true },
     { "source": "/about-me-erika-pinedo.html",      "destination": "/sobre-mi",                "permanent": true },
-    { "source": "/portfolio.html",                  "destination": "/portafolio",              "permanent": true },
+    { "source": "/portfolio.html",                  "destination": "/proyectos",               "permanent": true },
     { "source": "/contact.html",                    "destination": "/contacto",                "permanent": true },
     { "source": "/project-parrotfy.html",           "destination": "/proyectos/parrotfy",      "permanent": true },
     { "source": "/project-nico-seguros.html",       "destination": "/proyectos/nico-seguros",  "permanent": true },
@@ -17,7 +17,8 @@
     { "source": "/project-urbana.html",             "destination": "/proyectos/urbana",        "permanent": true },
     { "source": "/project-jschile.html",            "destination": "/proyectos/jschile",       "permanent": true },
     { "source": "/about-me-erika-pinedo",           "destination": "/sobre-mi",                "permanent": true },
-    { "source": "/portfolio",                       "destination": "/portafolio",              "permanent": true },
+    { "source": "/portafolio",                      "destination": "/proyectos",               "permanent": true },
+    { "source": "/portfolio",                       "destination": "/proyectos",               "permanent": true },
     { "source": "/contact",                         "destination": "/contacto",                "permanent": true },
     { "source": "/project-alessandri",              "destination": "/proyectos/alessandri",    "permanent": true },
     { "source": "/project-nico-seguros",            "destination": "/proyectos/nico-seguros",  "permanent": true },
