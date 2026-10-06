@@ -11164,9 +11164,15 @@ a {
 
 @media (max-width: 767px) {
   .vip-card.vip-card--fullbg {
-    justify-content: flex-end;
     background-size: cover;
     background-position: center top;
+  }
+  .vip-card.vip-card--fullbg .text-content-portfolio {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0;
   }
   .vip-card.vip-card--fullbg::after {
     background: linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.68) 32%, rgba(0,0,0,0.32) 60%, rgba(0,0,0,0.08) 80%, transparent 94%);
