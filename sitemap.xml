@@ -84,6 +84,16 @@
   </url>
 
   <url>
+    <loc>https://otroanguloweb.cl/proyectos/falabella</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/falabella"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/falabella"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/falabella"/>
+  </url>
+
+  <url>
     <loc>https://otroanguloweb.cl/proyectos/bluesphere</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>yearly</changefreq>
