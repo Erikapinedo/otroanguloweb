@@ -11156,6 +11156,17 @@ a {
   background-color: #ffffff38;
 }
 
+@media (max-width: 767px) {
+  .vip-card.vip-card--fullbg {
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center top;
+  }
+  .vip-card.vip-card--fullbg::after {
+    background: linear-gradient(to top, rgba(0,0,0,0.97) 0%, rgba(0,0,0,0.92) 40%, rgba(0,0,0,0.70) 65%, rgba(0,0,0,0.20) 85%, transparent 100%);
+  }
+}
+
 /* ===== Mobile — hero: correcciones para todos los proyectos ===== */
 
 @media screen and (max-width: 767px) {
