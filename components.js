@@ -21,6 +21,10 @@
   var PAGE_MAP = {
     '':                         'home',
     'index':                    'home',
+    // URLs españolas (actuales)
+    'sobre-mi':                 'about',
+    'proyectos':                'portfolio',
+    // URLs inglesas legacy (redirigidas por Vercel, pero por si acaso)
     'about-me-erika-pinedo':    'about',
     'portfolio':                'portfolio',
     'project-alessandri':       'portfolio',
@@ -48,7 +52,10 @@
 
   function getActivePage() {
     var segment = window.location.pathname.replace(/^\/|\/$/g, '').replace(/\.html$/, '');
-    return PAGE_MAP[segment] || null;
+    if (PAGE_MAP[segment]) return PAGE_MAP[segment];
+    // Sub-paths de proyectos (p.ej. proyectos/falabella, proyectos/alessandri…)
+    if (segment.indexOf('proyectos/') === 0) return 'portfolio';
+    return null;
   }
 
   function applyActiveLink(navbarEl) {
