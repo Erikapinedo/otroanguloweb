@@ -255,48 +255,17 @@
       }
       .falabella-objectives { counter-reset: obj; }
 
-      /* ── Alertas (embebidas en Decisiones) ── */
-      .falabella-alerts-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 16px;
-        margin-top: 20px;
-        margin-bottom: 0;
+      /* ── La solución (estructura PlayerSnap) ── */
+      .body-project-falabella .div-solution-container {
+        background-color: #0b2119;
       }
-      .falabella-alert-card {
-        border-radius: 16px;
-        padding: 28px 24px;
-        border: 1px solid rgba(255,255,255,0.1);
+      .body-project-falabella .container-playersnap-prioblem {
+        background-color: #0b2119;
       }
-      .falabella-alert-card.alert-carencias { background: rgba(245,158,11,0.08); border-color: rgba(245,158,11,0.25); }
-      .falabella-alert-card.alert-danos     { background: rgba(251,146,60,0.08);  border-color: rgba(251,146,60,0.25); }
-      .falabella-alert-card.alert-docs      { background: rgba(250,204,21,0.08);  border-color: rgba(250,204,21,0.25); }
-      .falabella-alert-card.alert-cumpl     { background: rgba(195,213,0,0.08); border-color: rgba(195,213,0,0.25); }
-      .falabella-alert-card h3 {
-        font-size: 16px;
+      .text-solution-falabella {
+        color: #C3D500;
+        font-size: 22px;
         font-weight: 700;
-        margin: 0 0 10px;
-        text-transform: uppercase;
-        letter-spacing: 0.04em;
-      }
-      .alert-carencias h3 { color: #F59E0B; }
-      .alert-danos h3     { color: #fb923c; }
-      .alert-docs h3      { color: #facc15; }
-      .alert-cumpl h3     { color: #C3D500; }
-      .falabella-alert-card p {
-        color: rgba(255,255,255,0.7);
-        font-size: 14px;
-        line-height: 1.55;
-        margin: 0 0 10px;
-      }
-      .falabella-alert-card .alert-signal {
-        font-size: 13px;
-        font-style: italic;
-        color: rgba(255,255,255,0.5);
-        margin: 0;
-      }
-      @media (max-width: 767px) {
-        .falabella-alerts-grid { grid-template-columns: 1fr; }
       }
 
       /* ── Laptop mockup ── */
@@ -309,53 +278,6 @@
         height: auto;
         display: block;
         object-fit: cover;
-      }
-
-      /* ── Decisiones de diseño ── */
-      .project-falabella-decisions {
-        background-color: #144633;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
-      .falabella-decisions-list {
-        margin-top: 40px;
-        display: flex;
-        flex-direction: column;
-        gap: 28px;
-        margin-bottom: 40px;
-      }
-      .falabella-decision {
-        display: grid;
-        grid-template-columns: 48px 1fr;
-        gap: 20px;
-        align-items: flex-start;
-      }
-      .falabella-decision-num {
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
-        background: rgba(195,213,0,0.15);
-        border: 1px solid #C3D500;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 18px;
-        font-weight: 700;
-        color: #C3D500;
-        flex-shrink: 0;
-      }
-      .falabella-decision-content h3 {
-        color: #fff;
-        font-size: 18px;
-        font-weight: 700;
-        margin: 4px 0 8px;
-      }
-      .falabella-decision-content p {
-        color: rgba(255,255,255,0.70);
-        font-size: 16px;
-        line-height: 1.6;
-        margin: 0;
       }
 
       /* ── Galería 3 imágenes post-hero ── */
@@ -727,88 +649,47 @@
       </section>
 
       <!-- ══════════════════════════════════════════
-           IMAGEN LAPTOP MOCKUP
+           LA SOLUCIÓN (estructura PlayerSnap)
       ══════════════════════════════════════════ -->
-      <div class="falabella-laptop-mockup">
-        <img
-          src="../images/falabella/falabella-laptop-mockup.webp"
-          srcset="../images/falabella/falabella-laptop-mockup-p-800.webp 800w, ../images/falabella/falabella-laptop-mockup.webp 1920w"
-          sizes="100vw"
-          loading="lazy"
-          alt="Diseñadora trabajando en IPS, el sistema de información de sucursales de Banco Falabella"
-        />
-      </div>
-
-      <!-- ══════════════════════════════════════════
-           DECISIONES DE DISEÑO
-      ══════════════════════════════════════════ -->
-      <section class="project-falabella-decisions">
-        <div class="w-layout-blockcontainer container-alessandri-context w-container">
-          <div class="w-layout-grid context-title">
-            <h2 class="project-title-context">La solución</h2>
+      <div class="div-solution-container">
+        <div class="w-layout-blockcontainer container-playersnap-prioblem w-container">
+          <div class="div-block-239">
+            <div class="w-layout-grid the-problem-title-copy">
+              <h2 class="project-title-problem-alessandri-copy">La solución</h2>
+            </div>
+            <p class="description-problem-project-copy">
+              IPS centraliza la información dispersa de las sucursales en una plataforma compartida que permite actuar antes de que los problemas escalen.
+            </p>
           </div>
-
-          <div class="falabella-decisions-list">
-            <div class="falabella-decision">
-              <div class="falabella-decision-num">1</div>
-              <div class="falabella-decision-content">
-                <h3>Ficha única por sucursal</h3>
-                <p>Tres pestañas (Infraestructura, Prevención, Servicios Generales) que convergen en una sola vista. Cada área ve los datos de las otras sin tener que pedirlos.</p>
-              </div>
+          <div class="div-block-239-copy">
+            <div class="div-block-244">
+              <p class="description-problem-project-copy-copy">
+                <strong class="text-solution-falabella">Ficha única por sucursal</strong><br />Tres pestañas (Infraestructura, Prevención, Servicios Generales) que convergen en una sola vista. Cada área ve los datos de las otras sin pedirlos.
+              </p>
+              <p class="description-problem-project-copy-copy">
+                <strong class="text-solution-falabella">Listados especializados por área</strong><br />Dashboard para la red; columnas propias por área: contratos y vencimientos, riesgo y accidentes, características y documentos. Mismo componente de tabla, distinta lectura.
+              </p>
+              <p class="description-problem-project-copy-copy">
+                <strong class="text-solution-falabella">Alertas integradas</strong><br />Carencias, daños, vencimientos y cumplimiento normativo visibles donde hay que actuar. Acceso desde la campana de notificaciones en todas las pantallas.
+              </p>
+              <p class="description-problem-project-copy-copy">
+                <strong class="text-solution-falabella">Documentos a un clic</strong><br />Planos, permisos y contratos descargables desde listados y fichas. Estados SÍ/NO con color, icono y texto para cumplir WCAG AA.
+              </p>
+              <p class="description-problem-project-copy-copy">
+                <strong class="text-solution-falabella">Compatibilidad con Excel</strong><br />Importar y exportar en todos los módulos para facilitar la migración sin romper los flujos existentes.
+              </p>
             </div>
-            <div class="falabella-decision">
-              <div class="falabella-decision-num">2</div>
-              <div class="falabella-decision-content">
-                <h3>Listados especializados por área</h3>
-                <p>Dashboard para la red completa; listados con columnas propias por área: contratos y vencimientos, riesgo y accidentes, características y documentos. Mismo componente de tabla, distinta lectura.</p>
-              </div>
-            </div>
-            <div class="falabella-decision">
-              <div class="falabella-decision-num">3</div>
-              <div class="falabella-decision-content">
-                <h3>Alertas integradas</h3>
-                <p>Las alertas traen los problemas desde las planillas al lugar donde hay que actuar. El acceso es desde la campana de notificaciones, visible en todas las pantallas.</p>
-                <div class="falabella-alerts-grid">
-                  <div class="falabella-alert-card alert-carencias">
-                    <h3>Carencias de sucursal</h3>
-                    <p>Respaldo, continuidad operacional, comedor, destrabe manual: carencias que antes no tenían señal visible.</p>
-                    <p class="alert-signal">Chip rojo con icono cuando falta; chip verde cuando cumple.</p>
-                  </div>
-                  <div class="falabella-alert-card alert-danos">
-                    <h3>Daños e incidentes</h3>
-                    <p>Último accidente registrado, investigación adjunta, observaciones pendientes y riesgos naturales: inundación, volcánico, sísmico, aluvión, incendio.</p>
-                    <p class="alert-signal">Historial de accidentes, tarjetas de riesgo con estado y caja de observaciones.</p>
-                  </div>
-                  <div class="falabella-alert-card alert-docs">
-                    <h3>Contratos y documentos por vencer</h3>
-                    <p>Arriendos, fecha término, aviso de renovación, patente y certificados con fecha de expiración.</p>
-                    <p class="alert-signal">Badge amarillo con conteo en dashboard; columna de vencimiento en listados.</p>
-                  </div>
-                  <div class="falabella-alert-card alert-cumpl">
-                    <h3>Cumplimiento normativo</h3>
-                    <p>Porcentaje por norma (CMF/bancaria, seguridad, estructura, documentos, servicios) y protocolos MINSAL.</p>
-                    <p class="alert-signal">Semáforo rojo, amarillo o verde con porcentaje o estado.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="falabella-decision">
-              <div class="falabella-decision-num">4</div>
-              <div class="falabella-decision-content">
-                <h3>Documentos a un clic</h3>
-                <p>Planos, permisos y contratos descargables desde listados y fichas. Estados SÍ/NO con color, icono y texto para cumplir WCAG AA sin depender solo del color.</p>
-              </div>
-            </div>
-            <div class="falabella-decision">
-              <div class="falabella-decision-num">5</div>
-              <div class="falabella-decision-content">
-                <h3>Compatibilidad con Excel</h3>
-                <p>Importar y exportar en todos los módulos para facilitar la migración sin romper los flujos existentes. Los equipos adoptan la plataforma sin perder sus procesos actuales.</p>
-              </div>
-            </div>
+            <img
+              src="../images/falabella/falabella-laptop-mockup.webp"
+              srcset="../images/falabella/falabella-laptop-mockup-p-800.webp 800w, ../images/falabella/falabella-laptop-mockup.webp 1920w"
+              sizes="(max-width: 767px) 100vw, 50vw"
+              loading="lazy"
+              alt="Diseñadora trabajando en IPS, el sistema de información de sucursales de Banco Falabella"
+              class="image-47"
+            />
           </div>
         </div>
-      </section>
+      </div>
 
       <!-- ══════════════════════════════════════════
            IMPACTO
@@ -968,9 +849,10 @@
         gsap.from(".project-falabella-users .project-title-context", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-users" }) }));
         gsap.from(".falabella-objectives li", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".falabella-objectives" }) }));
 
-        // Alertas y decisiones
-        gsap.from(".project-falabella-decisions .project-title-context", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-decisions" }) }));
-        gsap.from(".falabella-alert-card", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".falabella-alerts-grid" }) }));
+        // La solución
+        gsap.from(".div-solution-container .project-title-problem-alessandri-copy", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".div-solution-container" }) }));
+        gsap.from(".div-solution-container .description-problem-project-copy-copy", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".div-block-244" }) }));
+        gsap.from(".div-solution-container .image-47", Object.assign({}, { opacity: 0, x: 40, duration: 0.8, ease: "power3.out" }, { scrollTrigger: Object.assign({}, st, { trigger: ".div-block-239-copy" }) }));
 
         // Impacto
         gsap.from(".project-falabella-impact .falabella-impact-title", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-impact" }) }));
