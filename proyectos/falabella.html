@@ -145,12 +145,28 @@
         .falabella-areas-grid { grid-template-columns: 1fr 1fr; }
       }
 
-      /* ── Usuarios ── */
+      /* ── Objetivos ── */
       .project-falabella-users {
         background-color: #0b2119;
         width: 100%;
         display: flex;
         justify-content: center;
+      }
+      .project-falabella-users .project-title-context {
+        color: #C3D500;
+      }
+      .falabella-obj-cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      .falabella-obj-cards .card-the-approach {
+        background-color: rgba(195,213,0,0.08);
+        border: 1px solid rgba(195,213,0,0.18);
+      }
+      @media (max-width: 991px) {
+        .falabella-obj-cards { grid-template-columns: 1fr 1fr; }
+      }
+      @media (max-width: 767px) {
+        .falabella-obj-cards { grid-template-columns: 1fr; }
       }
       .falabella-users-grid {
         display: grid;
@@ -647,16 +663,28 @@
            OBJETIVOS DE PRODUCTO
       ══════════════════════════════════════════ -->
       <section class="project-falabella-users">
-        <div class="w-layout-blockcontainer container-alessandri-context w-container">
-          <div class="w-layout-grid context-title">
+        <div class="w-layout-blockcontainer container-nico-approach w-container">
+          <div class="w-layout-grid the-approach-title">
             <h2 class="project-title-context">Objetivos de producto</h2>
           </div>
-          <ol class="falabella-objectives">
-            <li>Una sola fuente de verdad por sucursal, accesible para las tres áreas.</li>
-            <li>Información al día, con trazabilidad (última actualización, autor, historial de cambios).</li>
-            <li>Pasar de detección reactiva a alertas proactivas sobre carencias, daños y vencimientos.</li>
-            <li>Mantener la compatibilidad con el flujo actual: importar y exportar Excel.</li>
-          </ol>
+          <section class="cards-approach falabella-obj-cards">
+            <div class="card-the-approach">
+              <h3 class="title-card-approach-nico">Una sola fuente</h3>
+              <p class="paragraph-approach-nico">Una ficha por sucursal compartida entre Infraestructura, Prevención y Servicios Generales.</p>
+            </div>
+            <div class="card-the-approach">
+              <h3 class="title-card-approach-nico">Datos al día</h3>
+              <p class="paragraph-approach-nico">Trazabilidad con última actualización, autor e historial de cambios por bloque.</p>
+            </div>
+            <div class="card-the-approach">
+              <h3 class="title-card-approach-nico">Alertas proactivas</h3>
+              <p class="paragraph-approach-nico">Detectar carencias, daños y vencimientos antes de que sea tarde para actuar.</p>
+            </div>
+            <div class="card-the-approach">
+              <h3 class="title-card-approach-nico">Sin romper el flujo</h3>
+              <p class="paragraph-approach-nico">Importar y exportar Excel para mantener compatibilidad con los procesos existentes.</p>
+            </div>
+          </section>
         </div>
       </section>
 
