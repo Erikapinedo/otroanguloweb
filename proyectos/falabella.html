@@ -345,6 +345,23 @@
         margin: 0;
       }
 
+      /* ── Galería 3 imágenes post-hero ── */
+      .images-falabella {
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        height: 480px;
+        display: grid;
+        overflow: clip;
+      }
+      .image-1-falabella { background-color: #144633; width: 100%; height: 100%; display: block; object-fit: cover; }
+      .image-2-falabella { background-color: #0b2119; width: 100%; height: 100%; display: block; object-fit: cover; }
+      .image-3-falabella { background-color: #007833; width: 100%; height: 100%; display: block; object-fit: cover; }
+      @media (max-width: 767px) {
+        .images-falabella { grid-template-columns: 1fr; height: auto; }
+      }
+
       /* ── Override sección "El Problema" (heredada de Alessandri) ── */
       .body-project-falabella .project-alessandri-the-problem {
         background-color: #0b2119;
@@ -524,6 +541,15 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════
+           GALERÍA 3 IMÁGENES
+      ══════════════════════════════════════════ -->
+      <section class="images-falabella">
+        <img class="image-1-falabella" src="../images/falabella/falabella-screen-1.webp" loading="lazy" width="100%" alt="Pantalla principal de IPS – Banco Falabella" />
+        <img class="image-2-falabella" src="../images/falabella/falabella-screen-2.webp" loading="lazy" width="100%" alt="Vista de ficha de sucursal en IPS" />
+        <img class="image-3-falabella" src="../images/falabella/falabella-screen-3.webp" loading="lazy" width="100%" alt="Panel de alertas en IPS – Banco Falabella" />
       </section>
 
       <!-- ══════════════════════════════════════════
