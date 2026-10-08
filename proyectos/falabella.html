@@ -71,9 +71,24 @@
         display: flex;
         position: relative;
       }
-      .project-falabella-hero-section .div-block-245 { max-width: 80%; }
+      .project-falabella-hero-section .div-block-245 { max-width: 55%; }
+      .falabella-hero-mockup {
+        position: absolute;
+        right: -20px;
+        bottom: 0;
+        height: 92%;
+        width: auto;
+        object-fit: contain;
+        z-index: 1;
+        pointer-events: none;
+      }
       @media (max-width: 991px) {
+        .project-falabella-hero-section .div-block-245 { max-width: 65%; }
+        .falabella-hero-mockup { height: 60%; opacity: 0.55; }
+      }
+      @media (max-width: 767px) {
         .project-falabella-hero-section .div-block-245 { max-width: 100%; }
+        .falabella-hero-mockup { display: none; }
       }
 
       /* ── Context ── */
@@ -541,6 +556,14 @@
             </div>
           </div>
         </div>
+        <img
+          class="falabella-hero-mockup"
+          src="../images/falabella/falabella-hero.webp"
+          srcset="../images/falabella/falabella-hero-p-500.webp 500w, ../images/falabella/falabella-hero.webp 2002w"
+          sizes="(max-width: 991px) 40vw, 45vw"
+          alt="Mockup de la plataforma IPS de Banco Falabella"
+          loading="eager"
+        />
       </section>
 
       <!-- ══════════════════════════════════════════
