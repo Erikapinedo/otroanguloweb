@@ -913,5 +913,42 @@
           .from(".alessandri-hero-stat-item", { opacity: 0, y: 20, duration: 0.5, stagger: 0.1 }, "-=0.3");
       })();
     </script>
+    <script>
+      (function () {
+        if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
+        gsap.registerPlugin(ScrollTrigger);
+
+        var st = { start: "top 82%", toggleActions: "play none none none" };
+        var fadeUp = { opacity: 0, y: 40, duration: 0.7, ease: "power3.out" };
+        var fadeUpFast = { opacity: 0, y: 24, duration: 0.55, ease: "power3.out" };
+
+        // Contexto
+        gsap.from(".project-falabella-context .project-title-context", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-context" }) }));
+        gsap.from(".project-falabella-context .description-context-project", Object.assign({}, fadeUp, { delay: 0.15, scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-context" }) }));
+
+        // Galería
+        gsap.from(".images-falabella img", Object.assign({}, fadeUpFast, { stagger: 0.12, scrollTrigger: Object.assign({}, st, { trigger: ".images-falabella" }) }));
+
+        // El Problema
+        gsap.from(".project-falabella-context ~ .project-alessandri-the-problem .project-title-problem", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-alessandri-the-problem" }) }));
+        gsap.from(".project-alessandri-the-problem .description-problem-project-alessandri", Object.assign({}, fadeUpFast, { delay: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".project-alessandri-the-problem" }) }));
+        gsap.from(".card-the-problem-alessandri", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".cards-problems-alessandri" }) }));
+
+        // Objetivos
+        gsap.from(".project-falabella-users .project-title-context", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-users" }) }));
+        gsap.from(".falabella-objectives li", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".falabella-objectives" }) }));
+
+        // Solución, alertas, decisiones — cualquier título de sección
+        gsap.utils.toArray(".project-falabella-solution .project-title-context, .project-falabella-alerts .project-title-context, .project-falabella-decisions .project-title-context").forEach(function (el) {
+          gsap.from(el, Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: el }) }));
+        });
+        gsap.utils.toArray(".project-falabella-solution .description-context-project, .project-falabella-alerts .description-context-project, .project-falabella-decisions .description-context-project").forEach(function (el) {
+          gsap.from(el, Object.assign({}, fadeUpFast, { delay: 0.12, scrollTrigger: Object.assign({}, st, { trigger: el }) }));
+        });
+
+        // Créditos
+        gsap.from(".cierre-falabella", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".cierre-falabella" }) }));
+      })();
+    </script>
   </body>
 </html>
