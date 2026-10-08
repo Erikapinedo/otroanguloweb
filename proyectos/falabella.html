@@ -255,20 +255,13 @@
       }
       .falabella-objectives { counter-reset: obj; }
 
-      /* ── Solución: pantallas ── */
-      /* ── Alertas ── */
-      .project-falabella-alerts {
-        background-color: #0b2119;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
+      /* ── Alertas (embebidas en Decisiones) ── */
       .falabella-alerts-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        gap: 16px;
+        margin-top: 20px;
+        margin-bottom: 0;
       }
       .falabella-alert-card {
         border-radius: 16px;
@@ -736,43 +729,6 @@
       </div>
 
       <!-- ══════════════════════════════════════════
-           SISTEMA DE ALERTAS
-      ══════════════════════════════════════════ -->
-      <section class="project-falabella-alerts">
-        <div class="w-layout-blockcontainer container-alessandri-context w-container">
-          <div class="w-layout-grid context-title">
-            <h2 class="project-title-context">Sistema de alertas</h2>
-          </div>
-          <p class="description-context-project">
-            Las alertas traen los problemas desde las planillas al lugar donde hay que actuar. El acceso es desde la campana de notificaciones, visible en todas las pantallas.
-          </p>
-
-          <div class="falabella-alerts-grid">
-            <div class="falabella-alert-card alert-carencias">
-              <h3>Carencias de sucursal</h3>
-              <p>Respaldo, continuidad operacional, comedor, destrabe manual: carencias que antes no tenían señal visible.</p>
-              <p class="alert-signal">Chip rojo con icono cuando falta; chip verde cuando cumple.</p>
-            </div>
-            <div class="falabella-alert-card alert-danos">
-              <h3>Daños e incidentes</h3>
-              <p>Último accidente registrado, investigación adjunta, observaciones pendientes y riesgos naturales: inundación, volcánico, sísmico, aluvión, incendio.</p>
-              <p class="alert-signal">Historial de accidentes, tarjetas de riesgo con estado y caja de observaciones.</p>
-            </div>
-            <div class="falabella-alert-card alert-docs">
-              <h3>Contratos y documentos por vencer</h3>
-              <p>Arriendos, fecha término, aviso de renovación, patente y certificados con fecha de expiración.</p>
-              <p class="alert-signal">Badge amarillo con conteo en dashboard; columna de vencimiento en listados.</p>
-            </div>
-            <div class="falabella-alert-card alert-cumpl">
-              <h3>Cumplimiento normativo</h3>
-              <p>Porcentaje por norma (CMF/bancaria, seguridad, estructura, documentos, servicios) y protocolos MINSAL.</p>
-              <p class="alert-signal">Semáforo rojo, amarillo o verde con porcentaje o estado.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ══════════════════════════════════════════
            DECISIONES DE DISEÑO
       ══════════════════════════════════════════ -->
       <section class="project-falabella-decisions">
@@ -800,7 +756,29 @@
               <div class="falabella-decision-num">3</div>
               <div class="falabella-decision-content">
                 <h3>Alertas integradas</h3>
-                <p>Badge "por vencer" en contratos, semáforo de cumplimiento normativo y trazabilidad por bloque: quién actualizó qué y cuándo. Respuesta directa al dolor de los Excel sin historial.</p>
+                <p>Las alertas traen los problemas desde las planillas al lugar donde hay que actuar. El acceso es desde la campana de notificaciones, visible en todas las pantallas.</p>
+                <div class="falabella-alerts-grid">
+                  <div class="falabella-alert-card alert-carencias">
+                    <h3>Carencias de sucursal</h3>
+                    <p>Respaldo, continuidad operacional, comedor, destrabe manual: carencias que antes no tenían señal visible.</p>
+                    <p class="alert-signal">Chip rojo con icono cuando falta; chip verde cuando cumple.</p>
+                  </div>
+                  <div class="falabella-alert-card alert-danos">
+                    <h3>Daños e incidentes</h3>
+                    <p>Último accidente registrado, investigación adjunta, observaciones pendientes y riesgos naturales: inundación, volcánico, sísmico, aluvión, incendio.</p>
+                    <p class="alert-signal">Historial de accidentes, tarjetas de riesgo con estado y caja de observaciones.</p>
+                  </div>
+                  <div class="falabella-alert-card alert-docs">
+                    <h3>Contratos y documentos por vencer</h3>
+                    <p>Arriendos, fecha término, aviso de renovación, patente y certificados con fecha de expiración.</p>
+                    <p class="alert-signal">Badge amarillo con conteo en dashboard; columna de vencimiento en listados.</p>
+                  </div>
+                  <div class="falabella-alert-card alert-cumpl">
+                    <h3>Cumplimiento normativo</h3>
+                    <p>Porcentaje por norma (CMF/bancaria, seguridad, estructura, documentos, servicios) y protocolos MINSAL.</p>
+                    <p class="alert-signal">Semáforo rojo, amarillo o verde con porcentaje o estado.</p>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="falabella-decision">
@@ -967,12 +945,8 @@
         gsap.from(".falabella-objectives li", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".falabella-objectives" }) }));
 
         // Alertas y decisiones
-        gsap.utils.toArray(".project-falabella-alerts .project-title-context, .project-falabella-decisions .project-title-context").forEach(function (el) {
-          gsap.from(el, Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: el }) }));
-        });
-        gsap.utils.toArray(".project-falabella-alerts .description-context-project, .project-falabella-decisions .description-context-project").forEach(function (el) {
-          gsap.from(el, Object.assign({}, fadeUpFast, { delay: 0.12, scrollTrigger: Object.assign({}, st, { trigger: el }) }));
-        });
+        gsap.from(".project-falabella-decisions .project-title-context", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-decisions" }) }));
+        gsap.from(".falabella-alert-card", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".falabella-alerts-grid" }) }));
 
         // Impacto
         gsap.from(".project-falabella-impact .falabella-impact-title", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-impact" }) }));
