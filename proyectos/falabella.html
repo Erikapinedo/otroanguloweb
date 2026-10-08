@@ -256,48 +256,6 @@
       .falabella-objectives { counter-reset: obj; }
 
       /* ── Solución: pantallas ── */
-      .project-falabella-solution {
-        background-color: #0b2119;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
-      .falabella-screens-list {
-        margin-top: 40px;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-      }
-      .falabella-screen-row {
-        display: grid;
-        grid-template-columns: 200px 1fr 1fr;
-        gap: 16px;
-        background: rgba(255,255,255,0.04);
-        border: 1px solid rgba(255,255,255,0.08);
-        border-radius: 12px;
-        padding: 20px 24px;
-        align-items: start;
-      }
-      .falabella-screen-row .screen-name {
-        color: #C3D500;
-        font-size: 15px;
-        font-weight: 700;
-        margin: 0;
-      }
-      .falabella-screen-row .screen-what,
-      .falabella-screen-row .screen-solves {
-        color: rgba(255,255,255,0.75);
-        font-size: 14px;
-        line-height: 1.5;
-        margin: 0;
-      }
-      .falabella-screen-row .screen-solves {
-        color: rgba(195,213,0,0.85);
-      }
-      @media (max-width: 767px) {
-        .falabella-screen-row { grid-template-columns: 1fr; gap: 8px; }
-      }
-
       /* ── Alertas ── */
       .project-falabella-alerts {
         background-color: #0b2119;
@@ -710,78 +668,6 @@
       </section>
 
       <!-- ══════════════════════════════════════════
-           SOLUCIÓN: PANTALLAS
-      ══════════════════════════════════════════ -->
-      <section class="project-falabella-solution">
-        <div class="w-layout-blockcontainer container-alessandri-context w-container">
-          <div class="w-layout-grid context-title">
-            <h2 class="project-title-context">Solución: qué resuelve cada pantalla</h2>
-          </div>
-          <p class="description-context-project">
-            La arquitectura gira en torno a la sucursal: cada área tiene su listado con las columnas que le importan, y todas convergen en una ficha única con una pestaña por área.
-          </p>
-
-          <div class="falabella-screens-list">
-            <div class="falabella-screen-row">
-              <p class="screen-name">Dashboard</p>
-              <p class="screen-what">KPIs de red (ubicaciones, contratos de arriendo, m² totales, canon total), top regiones con mapa, indicadores de dotación, accidentabilidad y siniestralidad.</p>
-              <p class="screen-solves">Panorama de la red en una pantalla; badge "por vencer" en contratos como primera alerta.</p>
-            </div>
-            <div class="falabella-screen-row">
-              <p class="screen-name">Sucursales (listado)</p>
-              <p class="screen-what">Tabla maestra con código de oficina y nombre.</p>
-              <p class="screen-solves">Punto de entrada común a las tres áreas.</p>
-            </div>
-            <div class="falabella-screen-row">
-              <p class="screen-name">Ficha — Info. Sucursal</p>
-              <p class="screen-what">Información general, características, información operacional (respaldo, continuidad, central de incendios, luz y agua), observaciones, dotaciones.</p>
-              <p class="screen-solves">Datos base compartidos; última actualización con autor y fecha.</p>
-            </div>
-            <div class="falabella-screen-row">
-              <p class="screen-name">Ficha — Infraestructura</p>
-              <p class="screen-what">Clasificación, características en chips SÍ/NO, planos, RF, POM, TE1, galería interior/fachada.</p>
-              <p class="screen-solves">Reemplaza carpetas y Excel de infraestructura; documentos a un clic.</p>
-            </div>
-            <div class="falabella-screen-row">
-              <p class="screen-name">Ficha — Prevención</p>
-              <p class="screen-what">Último accidente e investigación, PCI, plan de emergencias, mapa de riesgo, cumplimiento normativo, protocolos MINSAL (CEAL/SM, PREXOR, TMERT, RUV).</p>
-              <p class="screen-solves">Riesgo y cumplimiento de la sucursal en una vista, con historial por bloque.</p>
-            </div>
-            <div class="falabella-screen-row">
-              <p class="screen-name">Ficha — Servicios Generales</p>
-              <p class="screen-what">Arriendo (canon UF, ratio UF/m², vencimiento, renovación), documentación con historial, cláusulas, información financiera, servicios (aseo, valija), uniformes.</p>
-              <p class="screen-solves">Contratos y fechas críticas visibles; trazabilidad de cambios de canon.</p>
-            </div>
-            <div class="falabella-screen-row">
-              <p class="screen-name">Infraestructura (listado)</p>
-              <p class="screen-what">Sucursales con características en iconos y descarga directa de planos, RF y POM.</p>
-              <p class="screen-solves">Comparar sucursales y bajar documentos sin entrar a cada ficha.</p>
-            </div>
-            <div class="falabella-screen-row">
-              <p class="screen-name">Prevención (listado)</p>
-              <p class="screen-what">Indicadores de red editables, mapa de inundación SENAPRED por región, dotaciones, tabla con fecha de último accidente y mapa de riesgo por sucursal.</p>
-              <p class="screen-solves">Vista de red para priorizar sucursales con riesgo.</p>
-            </div>
-            <div class="falabella-screen-row">
-              <p class="screen-name">Servicios Generales (listado)</p>
-              <p class="screen-what">m², canon UF, ratio UF/m², fecha de vencimiento, filtro por rango de fechas.</p>
-              <p class="screen-solves">Detectar contratos próximos a vencer en toda la red.</p>
-            </div>
-            <div class="falabella-screen-row">
-              <p class="screen-name">Proveedores</p>
-              <p class="screen-what">Maestro filtrable por tipo de servicio y área responsable, contrato vigente, subcontrato.</p>
-              <p class="screen-solves">Un registro de proveedores compartido entre las tres áreas.</p>
-            </div>
-            <div class="falabella-screen-row">
-              <p class="screen-name">Licitaciones BF</p>
-              <p class="screen-what">Categoría, área, fechas de inicio y término, bases descargables.</p>
-              <p class="screen-solves">Seguimiento de licitaciones fuera de correos y planillas.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ══════════════════════════════════════════
            SISTEMA DE ALERTAS
       ══════════════════════════════════════════ -->
       <section class="project-falabella-alerts">
@@ -831,57 +717,36 @@
             <div class="falabella-decision">
               <div class="falabella-decision-num">1</div>
               <div class="falabella-decision-content">
-                <h3>La sucursal como objeto central</h3>
-                <p>Una ficha con pestañas por área (Info. Sucursal, Infraestructura, Prevención, Servicios Generales) en vez de tres sistemas paralelos. Cada área ve su información y la de las otras sin pedirla.</p>
+                <h3>Ficha única por sucursal</h3>
+                <p>Tres pestañas (Infraestructura, Prevención, Servicios Generales) que convergen en una sola vista. Cada área ve los datos de las otras sin tener que pedirlos.</p>
               </div>
             </div>
             <div class="falabella-decision">
               <div class="falabella-decision-num">2</div>
               <div class="falabella-decision-content">
-                <h3>Listados por área con columnas propias</h3>
-                <p>Infraestructura ve características y documentos; Prevención, fecha de accidente y mapa de riesgo; Servicios Generales, canon y vencimientos. Mismo componente de tabla, distinta lectura.</p>
+                <h3>Listados especializados por área</h3>
+                <p>Dashboard para la red completa; listados con columnas propias por área: contratos y vencimientos, riesgo y accidentes, características y documentos. Mismo componente de tabla, distinta lectura.</p>
               </div>
             </div>
             <div class="falabella-decision">
               <div class="falabella-decision-num">3</div>
               <div class="falabella-decision-content">
-                <h3>Estados binarios como chips con icono</h3>
-                <p>Las características SÍ/NO usan color + icono + texto, legibles de un vistazo y sin depender solo del color. Cumple accesibilidad WCAG AA.</p>
+                <h3>Alertas integradas</h3>
+                <p>Badge "por vencer" en contratos, semáforo de cumplimiento normativo y trazabilidad por bloque: quién actualizó qué y cuándo. Respuesta directa al dolor de los Excel sin historial.</p>
               </div>
             </div>
             <div class="falabella-decision">
               <div class="falabella-decision-num">4</div>
               <div class="falabella-decision-content">
-                <h3>Semáforos para cumplimiento</h3>
-                <p>Porcentajes y estados en rojo/amarillo/verde para priorizar dónde actuar. Acompañados siempre de texto o número para no depender únicamente del color.</p>
+                <h3>Documentos a un clic</h3>
+                <p>Planos, permisos y contratos descargables desde listados y fichas. Estados SÍ/NO con color, icono y texto para cumplir WCAG AA sin depender solo del color.</p>
               </div>
             </div>
             <div class="falabella-decision">
               <div class="falabella-decision-num">5</div>
               <div class="falabella-decision-content">
-                <h3>Trazabilidad visible</h3>
-                <p>"Últ. actualización – autor – fecha" en cada ficha y modales de historial por bloque (accidentes, cumplimiento, protocolos, infraestructura, documentos). Responde directamente al dolor: "los Excel no estaban al día".</p>
-              </div>
-            </div>
-            <div class="falabella-decision">
-              <div class="falabella-decision-num">6</div>
-              <div class="falabella-decision-content">
-                <h3>Importar/Exportar en todos los módulos</h3>
-                <p>Facilita la migración desde los Excel existentes y baja la resistencia al cambio. Los equipos pueden seguir exportando para sus flujos sin perder la plataforma como fuente de verdad.</p>
-              </div>
-            </div>
-            <div class="falabella-decision">
-              <div class="falabella-decision-num">7</div>
-              <div class="falabella-decision-content">
-                <h3>Documentos a un clic</h3>
-                <p>Descargar y previsualizar planos, permisos y contratos directamente desde listados y fichas, sin navegar a otra herramienta ni pedir acceso a otra área.</p>
-              </div>
-            </div>
-            <div class="falabella-decision">
-              <div class="falabella-decision-num">8</div>
-              <div class="falabella-decision-content">
-                <h3>Design system propio</h3>
-                <p>Estilos de texto (h1–h6, subtítulos, párrafos, botón, detalle), paleta (principales, secundarios, botones, estados) y librería de componentes con iconografía por característica: comedor, accesible, respaldo, baños, destrabe, reciclaje, extintores, sísmico, cajeros.</p>
+                <h3>Compatibilidad con Excel</h3>
+                <p>Importar y exportar en todos los módulos para facilitar la migración sin romper los flujos existentes. Los equipos adoptan la plataforma sin perder sus procesos actuales.</p>
               </div>
             </div>
           </div>
@@ -993,11 +858,11 @@
         gsap.from(".project-falabella-users .project-title-context", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-users" }) }));
         gsap.from(".falabella-objectives li", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".falabella-objectives" }) }));
 
-        // Solución, alertas, decisiones — cualquier título de sección
-        gsap.utils.toArray(".project-falabella-solution .project-title-context, .project-falabella-alerts .project-title-context, .project-falabella-decisions .project-title-context").forEach(function (el) {
+        // Alertas y decisiones
+        gsap.utils.toArray(".project-falabella-alerts .project-title-context, .project-falabella-decisions .project-title-context").forEach(function (el) {
           gsap.from(el, Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: el }) }));
         });
-        gsap.utils.toArray(".project-falabella-solution .description-context-project, .project-falabella-alerts .description-context-project, .project-falabella-decisions .description-context-project").forEach(function (el) {
+        gsap.utils.toArray(".project-falabella-alerts .description-context-project, .project-falabella-decisions .description-context-project").forEach(function (el) {
           gsap.from(el, Object.assign({}, fadeUpFast, { delay: 0.12, scrollTrigger: Object.assign({}, st, { trigger: el }) }));
         });
 

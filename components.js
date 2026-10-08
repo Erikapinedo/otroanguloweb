@@ -216,7 +216,7 @@
     },
     {
       id: 'expediente',
-      href: 'project-expediente.html',
+      href: '/proyectos/expediente',
       cover: '../images/portfolio/expediente-cover.webp',
       nameI18n: 'portfolioPage.expTitle', name: 'E-xpediente',
       titleI18n: 'portfolioPage.expSubtitle', titleFallback: 'Plataforma abogados',
@@ -224,7 +224,7 @@
     },
     {
       id: 'bluesphere',
-      href: 'project-bluesphere.html',
+      href: '/proyectos/bluesphere',
       cover: '../images/portfolio/bluesphere-cover.webp',
       name: 'BlueSphere',
       titleI18n: 'portfolioPage.bluesphereTitle', titleFallback: 'Plataforma de Ciberseguridad para Pymes',
@@ -232,7 +232,7 @@
     },
     {
       id: 'jschile',
-      href: 'project-jschile.html',
+      href: '/proyectos/jschile',
       cover: '../images/portfolio/jschile-cover.webp',
       name: 'JSChile',
       titleI18n: 'portfolioPage.jschileTitle', titleFallback: 'Identidad visual + Landing para Comunidad Dev',
@@ -240,7 +240,7 @@
     },
     {
       id: 'playersnap',
-      href: 'project-playersnap.html',
+      href: '/proyectos/playersnap',
       cover: '../images/portfolio/playersnap-cover.webp',
       name: 'PlayerSnap',
       titleI18n: 'portfolioPage.playersnapTitle', titleFallback: 'Plataforma de Gestión de Activos Multimedia',
@@ -248,7 +248,7 @@
     },
     {
       id: 'matchminders',
-      href: 'project-matchminders.html',
+      href: '/proyectos/matchminders',
       i18nHref: 'links.projectMatchminders',
       cover: '../images/portfolio/matchminder-cover.webp',
       name: 'MatchMinders',
@@ -257,7 +257,7 @@
     },
     {
       id: 'portalpehuen',
-      href: 'project-portalpehuen.html',
+      href: '/proyectos/portalpehuen',
       cover: '../images/portfolio/portalpehuen-cover.webp',
       name: 'Portal Pehuén',
       titleI18n: 'portfolioPage.portalpTitle', titleFallback: 'Identidad Visual para Comunidad de Barrio',
@@ -265,7 +265,7 @@
     },
     {
       id: 'urbana',
-      href: 'project-urbana.html',
+      href: '/proyectos/urbana',
       cover: '../images/portfolio/urbana-cover.webp',
       name: 'Urbana',
       titleI18n: 'portfolioPage.urbanaTitle', titleFallback: 'App Administrativa para Edificios y Condominios',
