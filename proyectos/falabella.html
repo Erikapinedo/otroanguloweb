@@ -431,6 +431,49 @@
         vertical-align: middle;
       }
 
+      /* ── Impacto ── */
+      .project-falabella-impact {
+        background-color: #F3F7CC;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .falabella-impact-title {
+        color: #0b2119 !important;
+      }
+      .falabella-impact-intro {
+        color: #144633 !important;
+        max-width: 680px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .falabella-impact-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .falabella-impact-card {
+        background-color: #0b2119 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+      }
+      .falabella-impact-card-text {
+        color: rgba(255,255,255,0.9) !important;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.4;
+        margin: 0;
+      }
+      .falabella-impact-card img {
+        filter: brightness(0) saturate(100%) invert(79%) sepia(64%) saturate(500%) hue-rotate(21deg) brightness(103%);
+      }
+      @media (max-width: 991px) {
+        .falabella-impact-cards { grid-template-columns: 1fr 1fr; }
+      }
+      @media (max-width: 479px) {
+        .falabella-impact-cards { grid-template-columns: 1fr; }
+      }
+
       /* ── Cierre (credits) ── */
       .cierre-falabella {
         background-color: #0b2119;
@@ -701,29 +744,29 @@
             <h2 class="project-title-context">Sistema de alertas</h2>
           </div>
           <p class="description-context-project">
-            Las alertas sacan los problemas de las planillas y los muestran donde hay que actuar. Punto de entrada: campana de notificaciones en el header de todas las pantallas.
+            Las alertas traen los problemas desde las planillas al lugar donde hay que actuar. El acceso es desde la campana de notificaciones, visible en todas las pantallas.
           </p>
 
           <div class="falabella-alerts-grid">
             <div class="falabella-alert-card alert-carencias">
               <h3>Carencias de sucursal</h3>
-              <p>Sin sistema de respaldo, sin continuidad operacional, sin comedor, sin destrabe manual, riesgos asociados.</p>
-              <p class="alert-signal">Chip rojo "NO" con icono; chip verde "SÍ" cuando cumple.</p>
+              <p>Respaldo, continuidad operacional, comedor, destrabe manual: carencias que antes no tenían señal visible.</p>
+              <p class="alert-signal">Chip rojo con icono cuando falta; chip verde cuando cumple.</p>
             </div>
             <div class="falabella-alert-card alert-danos">
               <h3>Daños e incidentes</h3>
-              <p>Último accidente registrado, investigación adjunta, observaciones pendientes, riesgos naturales (inundación/cota 30, volcánico, sísmico, aluvión, incendio).</p>
-              <p class="alert-signal">Bloque de accidente con historial; tarjetas de riesgo con estado; caja de observaciones.</p>
+              <p>Último accidente registrado, investigación adjunta, observaciones pendientes y riesgos naturales: inundación, volcánico, sísmico, aluvión, incendio.</p>
+              <p class="alert-signal">Historial de accidentes, tarjetas de riesgo con estado y caja de observaciones.</p>
             </div>
             <div class="falabella-alert-card alert-docs">
-              <h3>Documentos y contratos por vencer</h3>
-              <p>Contratos de arriendo, fecha término, aviso de renovación, patente, certificados.</p>
-              <p class="alert-signal">Badge amarillo "X por vencer" en dashboard; columna de vencimiento en listados.</p>
+              <h3>Contratos y documentos por vencer</h3>
+              <p>Arriendos, fecha término, aviso de renovación, patente y certificados con fecha de expiración.</p>
+              <p class="alert-signal">Badge amarillo con conteo en dashboard; columna de vencimiento en listados.</p>
             </div>
             <div class="falabella-alert-card alert-cumpl">
               <h3>Cumplimiento normativo</h3>
-              <p>% por norma (CMF/bancaria, seguridad, estructura, documentos, servicios), protocolos MINSAL.</p>
-              <p class="alert-signal">Semáforo rojo / amarillo / verde con porcentaje o estado.</p>
+              <p>Porcentaje por norma (CMF/bancaria, seguridad, estructura, documentos, servicios) y protocolos MINSAL.</p>
+              <p class="alert-signal">Semáforo rojo, amarillo o verde con porcentaje o estado.</p>
             </div>
           </div>
         </div>
@@ -775,6 +818,46 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════
+           IMPACTO
+      ══════════════════════════════════════════ -->
+      <section class="project-falabella-impact">
+        <div class="w-layout-blockcontainer container-nico-impact w-container">
+          <div class="the-approach-title-copy">
+            <h2 class="project-title-impact falabella-impact-title">Impacto</h2>
+          </div>
+          <p class="description-impact-project falabella-impact-intro">
+            IPS pasó de tres Excel sin historial a una plataforma compartida donde las tres áreas ven, actualizan y auditan la información de cada sucursal.
+          </p>
+          <section class="cards-approach-copy-copy falabella-impact-cards">
+            <div class="card-the-impact falabella-impact-card">
+              <img src="../images/alessandri/check-o-2.svg" loading="lazy" width="44" height="44" alt="" />
+              <p class="text-card-impact falabella-impact-card-text">Un solo lugar para tres áreas</p>
+            </div>
+            <div class="card-the-impact falabella-impact-card">
+              <img src="../images/alessandri/check-o-2.svg" loading="lazy" width="44" height="44" alt="" />
+              <p class="text-card-impact falabella-impact-card-text">Alertas antes de que sea tarde</p>
+            </div>
+            <div class="card-the-impact falabella-impact-card">
+              <img src="../images/alessandri/check-o-2.svg" loading="lazy" width="44" height="44" alt="" />
+              <p class="text-card-impact falabella-impact-card-text">Trazabilidad completa de cambios</p>
+            </div>
+            <div class="card-the-impact falabella-impact-card">
+              <img src="../images/alessandri/check-o-2.svg" loading="lazy" width="44" height="44" alt="" />
+              <p class="text-card-impact falabella-impact-card-text">Documentos sin pedir acceso</p>
+            </div>
+            <div class="card-the-impact falabella-impact-card">
+              <img src="../images/alessandri/check-o-2.svg" loading="lazy" width="44" height="44" alt="" />
+              <p class="text-card-impact falabella-impact-card-text">Menos coordinación por correo</p>
+            </div>
+            <div class="card-the-impact falabella-impact-card">
+              <img src="../images/alessandri/check-o-2.svg" loading="lazy" width="44" height="44" alt="" />
+              <p class="text-card-impact falabella-impact-card-text">Decisiones con datos al día</p>
+            </div>
+          </section>
         </div>
       </section>
 
@@ -890,6 +973,11 @@
         gsap.utils.toArray(".project-falabella-alerts .description-context-project, .project-falabella-decisions .description-context-project").forEach(function (el) {
           gsap.from(el, Object.assign({}, fadeUpFast, { delay: 0.12, scrollTrigger: Object.assign({}, st, { trigger: el }) }));
         });
+
+        // Impacto
+        gsap.from(".project-falabella-impact .falabella-impact-title", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-impact" }) }));
+        gsap.from(".falabella-impact-intro", Object.assign({}, fadeUpFast, { delay: 0.12, scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-impact" }) }));
+        gsap.from(".falabella-impact-card", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".falabella-impact-cards" }) }));
 
         // Créditos
         gsap.from(".cierre-falabella", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".cierre-falabella" }) }));
