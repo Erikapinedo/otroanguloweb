@@ -163,7 +163,7 @@
       .project-pagination__link { flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 40px; text-decoration: none; transition: background .2s ease; }
       .project-pagination__link--next { text-align: right; border-left: 1px solid rgba(255,255,255,.1); }
       .project-pagination__link:hover { background: rgba(255,255,255,.04); }
-      .project-pagination__dir { font-size: 13px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: rgba(255,255,255,.4); }
+      .project-pagination__dir { font-size: 13px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: rgba(255,255,255,.4); white-space: nowrap; }
       .project-pagination__name { font-size: 20px; font-weight: 700; color: #fff; transition: color .2s ease; }
       .project-pagination__link:hover .project-pagination__name { color: var(--pink-100); }
       @media (max-width: 767px) {
@@ -804,6 +804,17 @@
         </p>
         <a href="https://www.nicoseguros.com/" target="_blank" rel="noopener noreferrer" class="btn-visit-project" data-i18n="projectPage.visitBtn">puedes saber más de este proyecto acá</a>
       </section>
+
+      <section class="project-pagination">
+        <a href="/proyectos/alessandri" class="project-pagination__link project-pagination__link--prev">
+          <span class="project-pagination__dir" data-i18n="nav.prevProject">← Proyecto anterior</span>
+          <span class="project-pagination__name">Alessandri</span>
+        </a>
+        <a href="/proyectos/parrotfy" class="project-pagination__link project-pagination__link--next">
+          <span class="project-pagination__dir" data-i18n="nav.nextProject">Siguiente proyecto →</span>
+          <span class="project-pagination__name">Parrotfy</span>
+        </a>
+      </section>
       <section class="project-nico-other-proyects">
         <div class="title-other-projects">
           <h2 class="home-heading-h2" data-i18n-html="nicoProjectPage.otherHeadingHtml">
@@ -838,16 +849,6 @@
             </a>
           </div>
         </div>
-      </section>
-      <section class="project-pagination">
-        <a href="/proyectos/alessandri" class="project-pagination__link project-pagination__link--prev">
-          <span class="project-pagination__dir" data-i18n="nav.prevProject">← Proyecto anterior</span>
-          <span class="project-pagination__name">Alessandri</span>
-        </a>
-        <a href="/proyectos/parrotfy" class="project-pagination__link project-pagination__link--next">
-          <span class="project-pagination__dir" data-i18n="nav.nextProject">Siguiente proyecto →</span>
-          <span class="project-pagination__name">Parrotfy</span>
-        </a>
       </section>
       <div id="navbar"></div>
     </div>
