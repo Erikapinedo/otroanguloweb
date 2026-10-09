@@ -116,6 +116,7 @@
       footer: {
         tagline: 'Transformo ideas en <em>productos digitales</em>',
         linksHeading: 'Links',
+        projectsHeading: 'Proyectos',
         contactHeading: 'Contactar',
         copyright:
           '©2026 Otro Ángulo Web. Todos los derechos reservados. Hecho por Erika Pinedo con 💗',
@@ -1042,6 +1043,7 @@
       footer: {
         tagline: 'I transform ideas into <em>digital products</em>',
         linksHeading: 'Links',
+        projectsHeading: 'Projects',
         contactHeading: 'Contact me',
         copyright:
           '©2026 Otro Ángulo Web. All rights reserved. Created by Erika Pinedo with 💗',
