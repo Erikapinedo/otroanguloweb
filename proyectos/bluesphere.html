@@ -132,16 +132,16 @@
       defer
     ></script>
     <style>
-      .project-pagination { display: flex; border-top: 1px solid rgba(255,255,255,.1); }
+      .project-pagination { display: flex; border-top: 1px solid var(--pag-border, rgba(255,255,255,.1)); background-color: var(--pag-bg); }
       .project-pagination__link { flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 40px; text-decoration: none; transition: background .2s ease; }
-      .project-pagination__link--next { text-align: right; border-left: 1px solid rgba(255,255,255,.1); }
-      .project-pagination__link:hover { background: rgba(255,255,255,.04); }
-      .project-pagination__dir { font-size: 13px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: rgba(255,255,255,.4); white-space: nowrap; }
-      .project-pagination__name { font-size: 20px; font-weight: 700; color: #fff; transition: color .2s ease; }
-      .project-pagination__link:hover .project-pagination__name { color: var(--pink-100); }
+      .project-pagination__link--next { text-align: right; border-left: 1px solid var(--pag-border, rgba(255,255,255,.1)); }
+      .project-pagination__link:hover { background: var(--pag-hover-bg, rgba(255,255,255,.04)); }
+      .project-pagination__dir { font-size: 13px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--pag-label, rgba(255,255,255,.4)); white-space: nowrap; }
+      .project-pagination__name { font-size: 20px; font-weight: 700; color: var(--pag-text, #fff); transition: color .2s ease; }
+      .project-pagination__link:hover .project-pagination__name { color: var(--pag-text-hover, var(--pink-100)); }
       @media (max-width: 767px) {
         .project-pagination { flex-direction: column; }
-        .project-pagination__link--next { text-align: left; border-left: none; border-top: 1px solid rgba(255,255,255,.1); }
+        .project-pagination__link--next { text-align: left; border-left: none; border-top: 1px solid var(--pag-border, rgba(255,255,255,.1)); }
         .project-pagination__link { padding: 28px 24px; }
       }
     </style>
@@ -638,7 +638,7 @@
         <a href="https://www.bluesphere.co/" target="_blank" rel="noopener noreferrer" class="btn-visit-project" data-i18n="projectPage.visitBtn">puedes saber más de este proyecto acá</a>
       </section>
 
-      <section class="project-pagination">
+      <section class="project-pagination" style="--pag-bg:#76b7cd;--pag-text:#111;--pag-label:rgba(0,0,0,.5);--pag-border:rgba(0,0,0,.12);--pag-hover-bg:rgba(0,0,0,.05);--pag-text-hover:#000">
         <a href="/proyectos/banco-falabella" class="project-pagination__link project-pagination__link--prev">
           <span class="project-pagination__dir" data-i18n="nav.prevProject">← Proyecto anterior</span>
           <span class="project-pagination__name">Banco Falabella</span>
