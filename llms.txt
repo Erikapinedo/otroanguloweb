@@ -4,7 +4,7 @@
 
 ## Quién es
 
-Erika Pinedo es diseñadora UX/UI especializada en productos digitales B2B y SaaS. Su enfoque combina investigación de usuarios, arquitectura de información y diseño visual para crear experiencias que son claras, funcionales y escalables. Ha trabajado con plataformas legales, insurtech, ERP para PYMEs, ciberseguridad, identidad visual y comunidades tech.
+Erika Pinedo es diseñadora UX/UI especializada en productos digitales B2B y SaaS. Su enfoque combina investigación de usuarios, arquitectura de información y diseño visual para crear experiencias que son claras, funcionales y escalables. Ha trabajado con plataformas legales, insurtech, ERP para PYMEs, ciberseguridad, banca interna, identidad visual y comunidades tech.
 
 ## Servicios
 
@@ -14,23 +14,24 @@ Erika Pinedo es diseñadora UX/UI especializada en productos digitales B2B y Saa
 
 ## Proyectos destacados
 
-- **Alessandri** — Rediseño de plataforma de gestión legal para estudio de abogados. UX/UI.
-- **Nico Seguros** — Diseño de plataforma insurtech desde cero para contratación y gestión de seguros. UX/UI.
-- **Parrotfy** — Diseño de ERP para organización y control de PYMEs en crecimiento. UX/UI.
-- **BlueSphere** — Diseño de plataforma de ciberseguridad para pymes + identidad visual. UX/UI + Branding.
-- **E-xpediente** — Plataforma de gestión de expedientes para abogados. UX/UI.
-- **JSChile** — Identidad visual y landing page para comunidad de desarrolladores JavaScript. Branding + Landing.
-- **MatchMinders** — Plataforma de gestión de torneos deportivos. UX/UI.
-- **PlayerSnap** — Plataforma de gestión de activos multimedia. UX/UI.
-- **Portal Pehuén** — Identidad visual para comunidad de barrio. Branding.
-- **Urbana** — App administrativa para edificios y condominios. UX/UI.
+- **Banco Falabella · IPS** — Plataforma web interna de gestión de sucursales para Infraestructura, Prevención de Riesgos y Servicios Generales. UX/UI. [Ver proyecto](https://otroanguloweb.cl/proyectos/banco-falabella)
+- **Alessandri** — Rediseño de plataforma de gestión legal para estudio de abogados. UX/UI. [Ver proyecto](https://otroanguloweb.cl/proyectos/alessandri)
+- **Nico Seguros** — Diseño de plataforma insurtech desde cero para contratación y gestión de seguros. UX/UI. [Ver proyecto](https://otroanguloweb.cl/proyectos/nico-seguros)
+- **Parrotfy** — Diseño de ERP para organización y control de PYMEs en crecimiento. UX/UI. [Ver proyecto](https://otroanguloweb.cl/proyectos/parrotfy)
+- **BlueSphere** — Diseño de plataforma de ciberseguridad para pymes + identidad visual. UX/UI + Branding. [Ver proyecto](https://otroanguloweb.cl/proyectos/bluesphere)
+- **E-xpediente** — Plataforma de gestión de expedientes para abogados. UX/UI. [Ver proyecto](https://otroanguloweb.cl/proyectos/expediente)
+- **JSChile** — Identidad visual y landing page para comunidad de desarrolladores JavaScript. Branding + Landing. [Ver proyecto](https://otroanguloweb.cl/proyectos/jschile)
+- **MatchMinders** — Plataforma de gestión de torneos deportivos. UX/UI. [Ver proyecto](https://otroanguloweb.cl/proyectos/matchminders)
+- **PlayerSnap** — Plataforma de gestión de activos multimedia. UX/UI. [Ver proyecto](https://otroanguloweb.cl/proyectos/playersnap)
+- **Portal Pehuén** — Identidad visual para comunidad de barrio. Branding. [Ver proyecto](https://otroanguloweb.cl/proyectos/portalpehuen)
+- **Urbana** — App administrativa para edificios y condominios. UX/UI. [Ver proyecto](https://otroanguloweb.cl/proyectos/urbana)
 
 ## Páginas del sitio
 
 - [Inicio](https://otroanguloweb.cl/)
-- [Portafolio completo](https://otroanguloweb.cl/portfolio)
-- [Sobre Erika Pinedo](https://otroanguloweb.cl/about-me-erika-pinedo)
-- [Contacto](https://otroanguloweb.cl/contact)
+- [Portafolio completo](https://otroanguloweb.cl/proyectos)
+- [Sobre Erika Pinedo](https://otroanguloweb.cl/sobre-mi)
+- [Contacto](https://otroanguloweb.cl/contacto)
 
 ## Contacto
 
