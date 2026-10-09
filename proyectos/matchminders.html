@@ -487,17 +487,18 @@
       </section>
 
       <!-- ========== OTROS PROYECTOS ========== -->
-
-
-      <section class="home-solution-section">
-        <div class="w-layout-blockcontainer container-12 w-container">
-          <div class="c2a-main">
-            <div class="c2a-wrapper">
-              <h2 class="heading-40" data-i18n-html="finalCta.heading">Tu próximo proyecto<br /><span class="text-span-17">empieza aquí</span></h2>
-              <p class="subtext" data-i18n-html="finalCta.sub">Trabajo con startups y empresas diseñando productos digitales claros, funcionales y pensados para escalar.<br/>Si tienes una idea, un producto en desarrollo o una plataforma que necesita mejorar, conversemos.</p>
-              <a href="/contacto" data-i18n-href="links.contact" class="c2a-button-copy w-inline-block"><div class="text-block-5-copy" data-i18n="finalCta.btn">Empecemos</div><div class="btn-icon"><img src="../images/shared/flecha-arriba-derecha.webp" loading="lazy" width="8" height="8" alt="" /></div></a>
-            </div>
-          </div>
+      <style>
+        .project-cta-section { width: 100%; align-self: stretch; background-color: var(--cta-bg); padding: 80px 40px; display: flex; justify-content: center; text-align: center; }
+        .project-cta-inner { max-width: 680px; display: flex; flex-direction: column; align-items: center; gap: 24px; }
+        .project-cta-heading { font-size: clamp(36px, 5vw, 52px); font-weight: 800; color: var(--cta-text); line-height: 1.1; margin: 0; }
+        .project-cta-sub { color: var(--cta-sub); font-size: 17px; line-height: 1.5; margin: 0; max-width: 560px; }
+        @media (max-width: 767px) { .project-cta-section { padding: 60px 24px; } }
+      </style>
+      <section class="project-cta-section" style="--cta-bg:#020c1f;--cta-text:#fff;--cta-sub:rgba(255,255,255,.75)">
+        <div class="project-cta-inner">
+          <h2 class="project-cta-heading" data-i18n-html="finalCta.heading">Tu próximo proyecto<br /><span class="text-span-17">empieza aquí</span></h2>
+          <p class="project-cta-sub" data-i18n-html="finalCta.sub">Trabajo con startups y empresas diseñando productos digitales claros, funcionales y pensados para escalar.<br/>Si tienes una idea, un producto en desarrollo o una plataforma que necesita mejorar, conversemos.</p>
+          <a href="/contacto" data-i18n-href="links.contact" class="c2a-button-copy w-inline-block"><div class="text-block-5-copy" data-i18n="finalCta.btn">Empecemos</div><div class="btn-icon"><img src="../images/shared/flecha-arriba-derecha.webp" loading="lazy" width="8" height="8" alt="" /></div></a>
         </div>
       </section>
       <section class="project-pagination" style="--pag-bg:#020c1f;--pag-text:#fff;--pag-label:rgba(255,255,255,.5);--pag-border:rgba(255,255,255,.15);--pag-hover-bg:rgba(255,255,255,.07);--pag-text-hover:#fff">
