@@ -78,6 +78,12 @@
       @media (max-width: 991px) {
         .project-expediente-hero-section .div-block-245 { max-width: 100%; }
       }
+      .image-expediente-1,
+      .image-expediente-2,
+      .image-expediente-3 {
+        height: auto;
+      }
+      .flex-block-7 { margin-left: 10px; }
     </style>
     <link
       href="../assets/css/fonts.min.css"
@@ -209,43 +215,26 @@
     <div class="main" id="main-content" role="main">
       <section id="home" class="project-expediente-hero-section">
         <div class="w-layout-hflex flex-block-7">
-          <div class="w-embed w-script">
-            <button
-              onclick="window.location.href = document.referrer || '/';"
-              style="
-                display: inline-block;
-                padding: 14px 28px;
-                background: #ffffff;
-                color: #2b2b2b;
-                font-size: 18px;
-                font-weight: 600;
-                border: none;
-                border-radius: 999px;
-                cursor: pointer;
-                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-                transition: all 0.2s ease;
-                font-family:
-                  system-ui,
-                  -apple-system,
-                  sans-serif;
-              "
-              onmouseover="this.style.transform = 'translateY(-2px)'"
-              onmouseout="this.style.transform = 'translateY(0)'"
-              data-i18n="expedienteProjectPage.back"
-            >
-              Volver
-            </button>
-
-            <script>
-              document.getElementById("backButton").addEventListener("click", function () {
-                if (document.referrer) {
-                  history.back();
-                } else {
-                  window.location.href = "/";
-                }
-              });
-            </script>
-          </div>
+          <button
+            onclick="window.location.href = document.referrer || '/';"
+            style="
+              display: inline-block;
+              padding: 14px 28px;
+              background: #ffffff;
+              color: #2b2b2b;
+              font-size: 18px;
+              font-weight: 600;
+              border: none;
+              border-radius: 999px;
+              cursor: pointer;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+              transition: all 0.2s ease;
+              font-family: system-ui, -apple-system, sans-serif;
+            "
+            onmouseover="this.style.transform = 'translateY(-2px)'"
+            onmouseout="this.style.transform = 'translateY(0)'"
+            data-i18n="expedienteProjectPage.back"
+          >Volver</button>
         </div>
         <div class="div-block-245">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
@@ -262,16 +251,20 @@
             <p class="alessandri-hero-impact" data-i18n="expedienteProjectPage.heroImpact">Diseño end-to-end de una plataforma legaltech para digitalizar la gestión completa de arbitrajes y mediaciones.</p>
             <div class="alessandri-hero-stats">
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">2022</span>
-                <span class="alessandri-stat-label" data-i18n="expedienteProjectPage.startLabel">Inicio</span>
+                <span class="alessandri-stat-value">Cliente</span>
+                <span class="alessandri-stat-label">E-xpediente</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value" data-i18n="expedienteProjectPage.teamLabel">Equipo</span>
-                <span class="alessandri-stat-label" data-i18n="expedienteProjectPage.teamDesc">1 diseñadora UX/UI, 1 desarrollador</span>
+                <span class="alessandri-stat-value">Año</span>
+                <span class="alessandri-stat-label">2022</span>
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="expedienteProjectPage.roleLabel">Rol</span>
                 <span class="alessandri-stat-label" data-i18n="expedienteProjectPage.roleValue">Diseñadora UX/UI</span>
+              </div>
+              <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value" data-i18n="expedienteProjectPage.teamLabel">Equipo</span>
+                <span class="alessandri-stat-label" data-i18n="expedienteProjectPage.teamDesc">1 diseñadora UX/UI, 1 desarrollador</span>
               </div>
             </div>
           </div>
@@ -308,6 +301,7 @@
           src="../images/expediente/expediente-arbitraje-virtual-menu.webp"
           alt="Interfaz de Expediente arbitraje virtual mostrando menú con opciones y lista de causas con documentos adjuntos."
           style="opacity: 0"
+          width="784" height="930"
           sizes="(max-width: 784px) 100vw, 784px"
           data-w-id="b5e38e23-9b81-5bdf-38eb-861826b165b3"
           loading="lazy"
@@ -320,6 +314,7 @@
           src="../images/expediente/expediente-panel-usuario-causas.webp"
           alt="Panel de usuario con foto y nombre, últimas acciones, historial de pagos y gráfico de causas activas y cerradas."
           style="opacity: 0"
+          width="784" height="930"
           sizes="(max-width: 784px) 100vw, 784px"
           data-w-id="45574019-7697-a64d-f102-0fd76cf66bf5"
           id="w-node-_45574019-7697-a64d-f102-0fd76cf66bf5-b7620f86"
@@ -333,6 +328,7 @@
           src="../images/expediente/expediente-grupo-usuarios-estadisticas.webp"
           alt="Interfaz de grupo con 10 usuarios, 0 causas activas, 10 categorías, y tabla de causas con categoría, rol, fecha y estado."
           style="opacity: 0"
+          width="784" height="930"
           sizes="(max-width: 784px) 100vw, 784px"
           data-w-id="a186bd94-f433-5a1b-b7d3-c05684bf5c0f"
           loading="lazy"

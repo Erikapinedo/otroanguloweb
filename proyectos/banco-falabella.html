@@ -22,7 +22,7 @@
       content="Diseño UX/UI a mi cargo en Nnodes. IPS unifica la gestión de sucursales de Banco Falabella: una sola ficha por sucursal con alertas proactivas, trazabilidad y compatibilidad con Excel."
       property="twitter:description"
     />
-    <meta property="og:url" content="https://otroanguloweb.cl/proyectos/falabella" />
+    <meta property="og:url" content="https://otroanguloweb.cl/proyectos/banco-falabella" />
     <meta property="og:type" content="article" />
     <meta property="og:locale" content="es_CL" />
     <meta property="og:site_name" content="Otro Ángulo Web – Erika Pinedo" />
@@ -81,12 +81,33 @@
             linear-gradient(180deg, #0b2119cc 0%, #0b211988 50%, #0b2119cc 100%),
             url('../images/falabella/falabella-bg.webp');
           background-position: 0 0, center center;
+          padding-top: 160px;
+          align-items: flex-start;
         }
         .project-falabella-hero-section .div-block-245 { max-width: 100%; }
       }
       @media (max-width: 767px) {
-        .project-falabella-hero-section .div-block-245 { max-width: 100%; }
+        .project-falabella-hero-section {
+          padding-top: 50%;
+          padding-left: 0;
+          padding-right: 0;
+          align-items: flex-start;
+        }
+        .project-falabella-hero-section .div-block-245 { max-width: 100%; width: 100%; }
+        .project-falabella-hero-section .description-text-hero-parrotfy {
+          text-align: left;
+          width: auto;
+        }
       }
+      @media (max-width: 479px) {
+        .project-falabella-hero-section {
+          padding-top: 140px;
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      .flex-block-7 { margin-left: 10px; }
 
       /* ── Context ── */
       .project-falabella-context {
@@ -107,6 +128,15 @@
       .falabella-instrument {
         font-family: var(--instrument);
         font-size: 72px;
+      }
+      @media (max-width: 991px) {
+        .falabella-instrument { font-size: 52px; }
+      }
+      @media (max-width: 767px) {
+        .falabella-instrument { font-size: 40px; }
+      }
+      @media (max-width: 479px) {
+        .falabella-instrument { font-size: 32px; }
       }
 
       /* ── Tabla de áreas ── */
@@ -303,8 +333,20 @@
       .image-1-falabella { background-color: #144633; width: 100%; height: 100%; display: block; object-fit: cover; }
       .image-2-falabella { background-color: #0b2119; width: 100%; height: 100%; display: block; object-fit: cover; }
       .image-3-falabella { background-color: #007833; width: 100%; height: 100%; display: block; object-fit: cover; }
-      @media (max-width: 767px) {
-        .images-falabella { grid-template-columns: 1fr; height: auto; }
+      @media (max-width: 991px) {
+        .images-falabella {
+          height: auto;
+        }
+        .image-1-falabella,
+        .image-2-falabella,
+        .image-3-falabella {
+          height: auto;
+        }
+      }
+      @media (max-width: 479px) {
+        .images-falabella {
+          grid-template-columns: 1fr;
+        }
       }
 
       /* ── Override sección "El Problema" (heredada de Alessandri) ── */
@@ -446,13 +488,13 @@
     </script>
     <link href="../images/shared/favicon.png" rel="shortcut icon" type="image/x-icon" />
     <link href="../images/shared/webclip-apple.webp" rel="apple-touch-icon" />
-    <link href="https://otroanguloweb.cl/proyectos/falabella" rel="canonical" />
+    <link href="https://otroanguloweb.cl/proyectos/banco-falabella" rel="canonical" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "CreativeWork",
         "name": "IPS – Plataforma de Gestión de Sucursales · Banco Falabella",
-        "url": "https://otroanguloweb.cl/proyectos/falabella",
+        "url": "https://otroanguloweb.cl/proyectos/banco-falabella",
         "inLanguage": "es",
         "description": "Diseño UX/UI de IPS, plataforma web interna para Banco Falabella que unifica la gestión de sucursales de Infraestructura, Prevención de Riesgos y Servicios Generales en una sola ficha por sucursal con alertas y trazabilidad.",
         "dateCreated": "2026",
@@ -481,9 +523,9 @@
       }
     </script>
     <link rel="stylesheet" href="../vendors/lenis/lenis.css" />
-    <link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/falabella" />
-    <link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/falabella" />
-    <link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/falabella" />
+    <link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/banco-falabella" />
+    <link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/banco-falabella" />
+    <link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/banco-falabella" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -491,7 +533,7 @@
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://otroanguloweb.cl/"},
           {"@type": "ListItem", "position": 2, "name": "Proyectos", "item": "https://otroanguloweb.cl/proyectos"},
-          {"@type": "ListItem", "position": 3, "name": "IPS · Banco Falabella", "item": "https://otroanguloweb.cl/proyectos/falabella"}
+          {"@type": "ListItem", "position": 3, "name": "Banco Falabella", "item": "https://otroanguloweb.cl/proyectos/banco-falabella"}
         ]
       }
     </script>
@@ -506,29 +548,25 @@
       ══════════════════════════════════════════ -->
       <section id="home" class="project-falabella-hero-section">
         <div class="w-layout-hflex flex-block-7">
-          <div class="w-embed w-script">
-            <button
-              onclick="window.location.href = document.referrer || '/proyectos';"
-              style="
-                display: inline-block;
-                padding: 14px 28px;
-                background: #ffffff;
-                color: #2b2b2b;
-                font-size: 18px;
-                font-weight: 600;
-                border: none;
-                border-radius: 999px;
-                cursor: pointer;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-                transition: all 0.2s ease;
-                font-family: system-ui, -apple-system, sans-serif;
-              "
-              onmouseover="this.style.transform='translateY(-2px)'"
-              onmouseout="this.style.transform='translateY(0)'"
-            >
-              <span data-i18n="alessandriProjectPage.back">Volver</span>
-            </button>
-          </div>
+          <button
+            onclick="window.location.href = document.referrer || '/proyectos';"
+            style="
+              display: inline-block;
+              padding: 14px 28px;
+              background: #ffffff;
+              color: #2b2b2b;
+              font-size: 18px;
+              font-weight: 600;
+              border: none;
+              border-radius: 999px;
+              cursor: pointer;
+              box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+              transition: all 0.2s ease;
+              font-family: system-ui, -apple-system, sans-serif;
+            "
+            onmouseover="this.style.transform='translateY(-2px)'"
+            onmouseout="this.style.transform='translateY(0)'"
+          ><span data-i18n="alessandriProjectPage.back">Volver</span></button>
         </div>
         <div class="div-block-245">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
@@ -545,8 +583,8 @@
                 <span class="alessandri-stat-label">Banco Falabella</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">2026</span>
-                <span class="alessandri-stat-label">Año</span>
+                <span class="alessandri-stat-value">Año</span>
+                <span class="alessandri-stat-label">2026</span>
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value">Rol</span>
@@ -582,9 +620,9 @@
            GALERÍA 3 IMÁGENES
       ══════════════════════════════════════════ -->
       <section class="images-falabella">
-        <img class="image-1-falabella" src="../images/falabella/falabella-screen-1.webp" loading="lazy" width="100%" alt="Pantalla principal de IPS – Banco Falabella" />
-        <img class="image-2-falabella" src="../images/falabella/falabella-screen-2.webp" loading="lazy" width="100%" alt="Vista de ficha de sucursal en IPS" />
-        <img class="image-3-falabella" src="../images/falabella/falabella-screen-3.webp" loading="lazy" width="100%" alt="Panel de alertas en IPS – Banco Falabella" />
+        <img class="image-1-falabella" src="../images/falabella/falabella-screen-1.webp" loading="lazy" width="1603" height="1902" alt="Dashboard de IPS con listado de sucursales de Banco Falabella, filtros por área, columnas de datos y acciones de exportación" />
+        <img class="image-2-falabella" src="../images/falabella/falabella-screen-2.webp" loading="lazy" width="1603" height="1902" alt="Ficha de sucursal en IPS con pestañas de Infraestructura, Prevención de Riesgos y Servicios Generales unificadas en una sola vista" />
+        <img class="image-3-falabella" src="../images/falabella/falabella-screen-3.webp" loading="lazy" width="1603" height="1902" alt="Panel de alertas de IPS con notificaciones proactivas de vencimientos, carencias y cumplimiento normativo por sucursal" />
       </section>
 
       <!-- ══════════════════════════════════════════
@@ -797,7 +835,7 @@
           <a href="/proyectos" class="button-white-2-copy-copy w-button" data-i18n="alessandriProjectPage.seeAll">Ver todos</a>
         </div>
         <div class="w-layout-blockcontainer container-cards-projects w-container">
-          <div class="vip-grid-featured" data-otros-proyectos="falabella">
+          <div class="vip-grid-featured" data-otros-proyectos="banco-falabella">
             <a href="/proyectos/alessandri" data-i18n-href="links.projectAlessandri" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/alessandri-cover.webp');" aria-label="Ver proyecto Alessandri – Rediseño de Plataforma Legal">
               <div class="text-content-portfolio">
                 <h3 class="title-name-portfolio-project">Alessandri</h3>
@@ -858,9 +896,9 @@
         if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
         gsap.registerPlugin(ScrollTrigger);
 
-        var st = { start: "top 82%", toggleActions: "play none none none" };
-        var fadeUp = { opacity: 0, y: 40, duration: 0.7, ease: "power3.out" };
-        var fadeUpFast = { opacity: 0, y: 24, duration: 0.55, ease: "power3.out" };
+        var st = { start: "top 92%", toggleActions: "play none none none" };
+        var fadeUp = { opacity: 0, y: 40, duration: 0.8, ease: "power3.out" };
+        var fadeUpFast = { opacity: 0, y: 24, duration: 0.65, ease: "power3.out" };
 
         // Contexto
         gsap.from(".project-falabella-context .project-title-context", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-context" }) }));
@@ -876,17 +914,25 @@
 
         // Objetivos
         gsap.from(".project-falabella-users .project-title-context", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-users" }) }));
-        gsap.from(".falabella-objectives li", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".falabella-objectives" }) }));
+        gsap.from(".project-falabella-users .description-approach-project-nico", Object.assign({}, fadeUpFast, { delay: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-users" }) }));
+        gsap.from(".falabella-obj-cards .card-the-approach", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".falabella-obj-cards" }) }));
+
+        // Laptop mockup
+        gsap.from(".falabella-laptop-mockup img", Object.assign({}, { opacity: 0, y: 30, duration: 0.9, ease: "power3.out" }, { scrollTrigger: Object.assign({}, st, { trigger: ".falabella-laptop-mockup" }) }));
 
         // La solución
         gsap.from(".div-solution-container .project-title-problem-alessandri-copy", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".div-solution-container" }) }));
+        gsap.from(".div-solution-container .description-problem-project-copy", Object.assign({}, fadeUpFast, { delay: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".div-solution-container" }) }));
         gsap.from(".div-solution-container .description-problem-project-copy-copy", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".div-block-244" }) }));
-        gsap.from(".div-solution-container .image-47", Object.assign({}, { opacity: 0, x: 40, duration: 0.8, ease: "power3.out" }, { scrollTrigger: Object.assign({}, st, { trigger: ".div-block-239-copy" }) }));
+        gsap.from(".div-solution-container .image-47", Object.assign({}, { opacity: 0, x: 40, duration: 0.9, ease: "power3.out" }, { scrollTrigger: Object.assign({}, st, { trigger: ".div-block-239-copy" }) }));
 
         // Impacto
         gsap.from(".project-falabella-impact .falabella-impact-title", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-impact" }) }));
         gsap.from(".falabella-impact-intro", Object.assign({}, fadeUpFast, { delay: 0.12, scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-impact" }) }));
         gsap.from(".falabella-impact-card", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".falabella-impact-cards" }) }));
+
+        // Wireframes
+        gsap.from(".falabella-wireframes-img img", Object.assign({}, { opacity: 0, y: 30, duration: 0.9, ease: "power3.out" }, { scrollTrigger: Object.assign({}, st, { trigger: ".falabella-wireframes-img" }) }));
 
         // Créditos
         gsap.from(".cierre-falabella", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".cierre-falabella" }) }));

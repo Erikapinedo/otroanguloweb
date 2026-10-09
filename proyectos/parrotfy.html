@@ -72,6 +72,7 @@
       @media (max-width: 991px) {
         .project-parrotfy-hero-section .div-block-245 { max-width: 100%; }
       }
+      .flex-block-7 { margin-left: 10px; }
     </style>
     <link
       href="../assets/css/fonts.min.css"
@@ -163,6 +164,13 @@
       .body-project-parrotfy .paragraph-approach {
         color: #2844b4;
       }
+      /* height: auto previene distorsión al usar width+height attrs para CLS */
+      .body-project-parrotfy .image-46,
+      .body-project-parrotfy .colors-parrotfy,
+      .body-project-parrotfy .wireframes-parrotfy,
+      .body-project-parrotfy .image-48 {
+        height: auto;
+      }
     </style>
   </head>
   <body class="body-project-parrotfy">
@@ -175,43 +183,26 @@
     <div class="main" id="main-content" role="main">
       <section id="home" class="project-parrotfy-hero-section">
         <div class="w-layout-hflex flex-block-7">
-          <div class="code-embed w-embed w-script">
-            <button
-              data-i18n="parrotfyProjectPage.back"
-              onclick="window.location.href = document.referrer || '/';"
-              style="
-                display: inline-block;
-                padding: 14px 28px;
-                background: #ffffff;
-                color: #2b2b2b;
-                font-size: 18px;
-                font-weight: 600;
-                border: none;
-                border-radius: 999px;
-                cursor: pointer;
-                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-                transition: all 0.2s ease;
-                font-family:
-                  system-ui,
-                  -apple-system,
-                  sans-serif;
-              "
-              onmouseover="this.style.transform = 'translateY(-2px)'"
-              onmouseout="this.style.transform = 'translateY(0)'"
-            >
-              Volver
-            </button>
-
-            <script>
-              document.getElementById("backButton").addEventListener("click", function () {
-                if (document.referrer) {
-                  history.back();
-                } else {
-                  window.location.href = "/";
-                }
-              });
-            </script>
-          </div>
+          <button
+            data-i18n="parrotfyProjectPage.back"
+            onclick="window.location.href = document.referrer || '/';"
+            style="
+              display: inline-block;
+              padding: 14px 28px;
+              background: #ffffff;
+              color: #2b2b2b;
+              font-size: 18px;
+              font-weight: 600;
+              border: none;
+              border-radius: 999px;
+              cursor: pointer;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+              transition: all 0.2s ease;
+              font-family: system-ui, -apple-system, sans-serif;
+            "
+            onmouseover="this.style.transform = 'translateY(-2px)'"
+            onmouseout="this.style.transform = 'translateY(0)'"
+          >Volver</button>
         </div>
         <div class="div-block-245">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
@@ -228,16 +219,20 @@
             <p class="alessandri-hero-impact" data-i18n="parrotfyProjectPage.heroImpact">Diseño end-to-end de un ERP desde cero, adoptado por +300 empresas y +2.000 usuarios.</p>
             <div class="alessandri-hero-stats">
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">2021</span>
-                <span class="alessandri-stat-label" data-i18n="parrotfyProjectPage.startLabel">Inicio</span>
+                <span class="alessandri-stat-value">Cliente</span>
+                <span class="alessandri-stat-label">Nnodes</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value" data-i18n="parrotfyProjectPage.teamLabel">Equipo</span>
-                <span class="alessandri-stat-label" data-i18n="parrotfyProjectPage.teamDesc">1 diseñadora UX/UI, 3 desarrolladores</span>
+                <span class="alessandri-stat-value">Año</span>
+                <span class="alessandri-stat-label">2021</span>
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="parrotfyProjectPage.roleLabel">Rol</span>
                 <span class="alessandri-stat-label" data-i18n="parrotfyProjectPage.roleValue">Diseñadora UX/UI</span>
+              </div>
+              <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value" data-i18n="parrotfyProjectPage.teamLabel">Equipo</span>
+                <span class="alessandri-stat-label" data-i18n="parrotfyProjectPage.teamDesc">1 diseñadora UX/UI, 3 desarrolladores</span>
               </div>
             </div>
           </div>
@@ -275,6 +270,7 @@
           src="../images/parrotfy/ui-parrotfy-panel-lateral-menu.webp"
           alt="Interfaz de usuario de la aplicación Nico con panel lateral azul, mostrando resumen de clientes, pólizas, siniestros, deudas y gráficos de prima vendida y comisión estimada."
           style="opacity: 0"
+          width="784" height="930"
           sizes="(max-width: 784px) 100vw, 784px"
           data-w-id="45574019-7697-a64d-f102-0fd76cf66bf5"
           id="w-node-_45574019-7697-a64d-f102-0fd76cf66bf5-6b56de0c"
@@ -288,6 +284,7 @@
           src="../images/parrotfy/parrotfy-control-cuenta.webp"
           alt="Panel de control de cuenta en plataforma Nico mostrando detalles de cuenta, contacto principal, pólizas y notificaciones en español."
           style="opacity: 0"
+          width="784" height="930"
           sizes="(max-width: 784px) 100vw, 784px"
           data-w-id="b5e38e23-9b81-5bdf-38eb-861826b165b3"
           loading="lazy"
@@ -300,6 +297,7 @@
           src="../images/parrotfy/ui-parrotfy-dos-pantallas.webp"
           alt="Interfaz de usuario de Parrotfy con menú lateral y paneles de control que muestran rentabilidad, gastos y detalles del cliente."
           style="opacity: 0"
+          width="784" height="930"
           sizes="(max-width: 784px) 100vw, 784px"
           data-w-id="a186bd94-f433-5a1b-b7d3-c05684bf5c0f"
           loading="lazy"
@@ -385,6 +383,7 @@
             <img
               src="../images/parrotfy/user-persona-parrotfy-2.webp"
               loading="lazy"
+              width="2686" height="1580"
               data-w-id="04fdbc9c-83f8-f8bb-f975-13cf0058ad8a"
               sizes="100vw"
               alt="Perfil de Sofía Farías, emprendedora de 50 años en Santiago, con metas, frustraciones, personalidad y breve historia."
@@ -407,6 +406,7 @@
             <img
               src="../images/shared/user-persona-parrotfy-1.webp"
               loading="lazy"
+              width="2686" height="1580"
               sizes="100vw"
               srcset="
                 ../images/shared/es-user-persona-1-p-500.webp    500w,
@@ -517,6 +517,7 @@
             <img
               src="../images/parrotfy/produccion-parrotfy-mockup.webp"
               loading="lazy"
+              width="740" height="609"
               sizes="100vw"
               srcset="
                 ../images/parrotfy/production-parrotfy-1-p-500.webp 500w,
@@ -657,6 +658,7 @@
       <img
         src="../images/parrotfy/mockup-movil-parrotfy-en-mano.webp"
         loading="lazy"
+        width="2160" height="1508"
         sizes="100vw"
         srcset="
           ../images/parrotfy/mobile-in-hand-mockup-2-p-500.webp   500w,
@@ -671,6 +673,7 @@
       /><img
         src="../images/parrotfy/parrotfy-gestion-llamadas.webp"
         loading="lazy"
+        width="2160" height="2634"
         sizes="100vw"
         srcset="
           ../images/parrotfy/13-behance-parrotfy-p-500.webp   500w,
@@ -688,6 +691,7 @@
         <img
           src="../images/parrotfy/parrotfy-boletines-correos.webp"
           loading="lazy"
+          width="2160" height="1557"
           sizes="100vw"
           srcset="
             ../images/parrotfy/14-behance-parrotfy-p-500.webp   500w,

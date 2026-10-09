@@ -73,6 +73,7 @@
       @media (max-width: 991px) {
         .project-matchminders-hero-section .div-block-245 { max-width: 100%; }
       }
+      .flex-block-7 { margin-left: 10px; }
     </style>
 
 
@@ -150,30 +151,26 @@
       <!-- ========== HERO ========== -->
       <section id="home" class="project-matchminders-hero-section">
         <div class="w-layout-hflex flex-block-7">
-          <div class="code-embed w-embed w-script">
-            <button
-              data-i18n="matchmindersProjectPage.back"
-              onclick="window.location.href = document.referrer || '/';"
-              style="
-                display: inline-block;
-                padding: 14px 28px;
-                background: #ffffff;
-                color: #2b2b2b;
-                font-size: 18px;
-                font-weight: 600;
-                border: none;
-                border-radius: 999px;
-                cursor: pointer;
-                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-                transition: all 0.2s ease;
-                font-family: system-ui, -apple-system, sans-serif;
-              "
-              onmouseover="this.style.transform = 'translateY(-2px)'"
-              onmouseout="this.style.transform = 'translateY(0)'"
-            >
-              Volver
-            </button>
-          </div>
+          <button
+            data-i18n="matchmindersProjectPage.back"
+            onclick="window.location.href = document.referrer || '/';"
+            style="
+              display: inline-block;
+              padding: 14px 28px;
+              background: #ffffff;
+              color: #2b2b2b;
+              font-size: 18px;
+              font-weight: 600;
+              border: none;
+              border-radius: 999px;
+              cursor: pointer;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+              transition: all 0.2s ease;
+              font-family: system-ui, -apple-system, sans-serif;
+            "
+            onmouseover="this.style.transform = 'translateY(-2px)'"
+            onmouseout="this.style.transform = 'translateY(0)'"
+          >Volver</button>
         </div>
         <div class="div-block-245">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
@@ -189,16 +186,20 @@
             <p class="alessandri-hero-impact" data-i18n="matchmindersProjectPage.heroImpact">Dos perfiles, un solo sistema. Flujos completos y Design System para torneos deportivos, desde cero.</p>
             <div class="alessandri-hero-stats">
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">2025</span>
-                <span class="alessandri-stat-label" data-i18n="matchmindersProjectPage.startLabel">Inicio</span>
+                <span class="alessandri-stat-value">Cliente</span>
+                <span class="alessandri-stat-label">MatchMinders</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value" data-i18n="matchmindersProjectPage.teamLabel">Equipo</span>
-                <span class="alessandri-stat-label" data-i18n="matchmindersProjectPage.teamDesc">1 diseñadora UX/UI, equipo de desarrollo</span>
+                <span class="alessandri-stat-value">Año</span>
+                <span class="alessandri-stat-label">2025</span>
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="matchmindersProjectPage.roleLabel">Rol</span>
                 <span class="alessandri-stat-label" data-i18n="matchmindersProjectPage.roleValue">Diseñadora UX/UI</span>
+              </div>
+              <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value" data-i18n="matchmindersProjectPage.teamLabel">Equipo</span>
+                <span class="alessandri-stat-label" data-i18n="matchmindersProjectPage.teamDesc">1 diseñadora UX/UI, equipo de desarrollo</span>
               </div>
             </div>
           </div>

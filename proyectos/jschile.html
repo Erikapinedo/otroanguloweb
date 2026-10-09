@@ -114,7 +114,7 @@
         z-index: 2;
       }
 
-      .body-project-jschile .flex-block-7 { z-index: 2; }
+      .body-project-jschile .flex-block-7 { z-index: 2; margin-left: 10px; }
 
       .body-project-jschile .italic-text-2 {
         color: var(--jsc-yellow);
@@ -503,7 +503,7 @@
 
       /* ── Responsive ── */
       @media (max-width: 991px) {
-        .project-jschile-hero-section { padding-top: 160px; padding-left: 0; padding-right: 0; }
+        .project-jschile-hero-section { padding-top: 160px; }
         .container-jschile-context    { padding: 70px 40px; }
         .container-jschile-brandbook  { padding: 70px 40px; gap: 56px; }
         .container-jschile-landing    { padding: 70px 40px; grid-template-columns: 1fr; }
@@ -614,27 +614,25 @@
         />
 
         <div class="w-layout-hflex flex-block-7">
-          <div class="w-embed">
-            <button
-              onclick="window.location.href = document.referrer || '/';"
-              style="
-                display: inline-block;
-                padding: 14px 28px;
-                background: #ffffff;
-                color: #2b2b2b;
-                font-size: 18px;
-                font-weight: 600;
-                border: none;
-                border-radius: 999px;
-                cursor: pointer;
-                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-                transition: all 0.2s ease;
-                font-family: system-ui, -apple-system, sans-serif;
-              "
-              onmouseover="this.style.transform = 'translateY(-2px)'"
-              onmouseout="this.style.transform = 'translateY(0)'"
-            ><span data-i18n="jschileProjectPage.back">Volver</span></button>
-          </div>
+          <button
+            onclick="window.location.href = document.referrer || '/';"
+            style="
+              display: inline-block;
+              padding: 14px 28px;
+              background: #ffffff;
+              color: #2b2b2b;
+              font-size: 18px;
+              font-weight: 600;
+              border: none;
+              border-radius: 999px;
+              cursor: pointer;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+              transition: all 0.2s ease;
+              font-family: system-ui, -apple-system, sans-serif;
+            "
+            onmouseover="this.style.transform = 'translateY(-2px)'"
+            onmouseout="this.style.transform = 'translateY(0)'"
+          ><span data-i18n="jschileProjectPage.back">Volver</span></button>
         </div>
 
         <div class="div-block-245">
@@ -648,8 +646,12 @@
             </p>
             <div class="alessandri-hero-stats">
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">2026</span>
-                <span class="alessandri-stat-label" data-i18n="jschileProjectPage.startLabel">Inicio</span>
+                <span class="alessandri-stat-value">Cliente</span>
+                <span class="alessandri-stat-label">JSChile</span>
+              </div>
+              <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value">Año</span>
+                <span class="alessandri-stat-label">2026</span>
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="jschileProjectPage.roleLabel">Rol</span>

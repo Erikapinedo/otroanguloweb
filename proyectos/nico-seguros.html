@@ -75,6 +75,7 @@
       @media (max-width: 767px) {
         .project-nico-hero-section .description-text-hero-nico { text-align: left; width: auto; }
       }
+      .flex-block-7 { margin-left: 10px; }
     </style>
     <link
       href="../assets/css/fonts.min.css"
@@ -167,34 +168,26 @@
     <div class="main" id="main-content" role="main">
       <section id="home" class="project-nico-hero-section">
         <div class="w-layout-hflex flex-block-7">
-          <div class="w-embed w-script">
-            <button
-              onclick="window.location.href = document.referrer || '/';"
-              style="
-                display: inline-block;
-                padding: 14px 28px;
-                background: #ffffff;
-                color: #2b2b2b;
-                font-size: 18px;
-                font-weight: 600;
-                border: none;
-                border-radius: 999px;
-                cursor: pointer;
-                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-                transition: all 0.2s ease;
-                font-family:
-                  system-ui,
-                  -apple-system,
-                  sans-serif;
-              "
-              onmouseover="this.style.transform = 'translateY(-2px)'"
-              onmouseout="this.style.transform = 'translateY(0)'"
-              data-i18n="nicoProjectPage.back"
-            >
-              Volver
-            </button>
-
-          </div>
+          <button
+            onclick="window.location.href = document.referrer || '/';"
+            style="
+              display: inline-block;
+              padding: 14px 28px;
+              background: #ffffff;
+              color: #2b2b2b;
+              font-size: 18px;
+              font-weight: 600;
+              border: none;
+              border-radius: 999px;
+              cursor: pointer;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+              transition: all 0.2s ease;
+              font-family: system-ui, -apple-system, sans-serif;
+            "
+            onmouseover="this.style.transform = 'translateY(-2px)'"
+            onmouseout="this.style.transform = 'translateY(0)'"
+            data-i18n="nicoProjectPage.back"
+          >Volver</button>
         </div>
         <div class="div-block-245">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
@@ -213,16 +206,20 @@
             </p>
             <div class="alessandri-hero-stats">
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">2021</span>
-                <span class="alessandri-stat-label" data-i18n="nicoProjectPage.startLabel">Inicio</span>
+                <span class="alessandri-stat-value">Cliente</span>
+                <span class="alessandri-stat-label">Nico Seguros</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value" data-i18n="nicoProjectPage.teamLabel">Equipo</span>
-                <span class="alessandri-stat-label" data-i18n="nicoProjectPage.teamDesc">1 diseñadora UX/UI, 3 desarrolladores</span>
+                <span class="alessandri-stat-value">Año</span>
+                <span class="alessandri-stat-label">2021</span>
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="nicoProjectPage.roleLabel">Rol</span>
                 <span class="alessandri-stat-label" data-i18n="nicoProjectPage.roleValue">Diseñadora UX/UI</span>
+              </div>
+              <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value" data-i18n="nicoProjectPage.teamLabel">Equipo</span>
+                <span class="alessandri-stat-label" data-i18n="nicoProjectPage.teamDesc">1 diseñadora UX/UI, 3 desarrolladores</span>
               </div>
             </div>
           </div>

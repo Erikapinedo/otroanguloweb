@@ -29,7 +29,8 @@
     { "source": "/project-bluesphere",              "destination": "/proyectos/bluesphere",    "permanent": true },
     { "source": "/project-playersnap",              "destination": "/proyectos/playersnap",    "permanent": true },
     { "source": "/project-portalpehuen",            "destination": "/proyectos/portalpehuen",  "permanent": true },
-    { "source": "/project-urbana",                  "destination": "/proyectos/urbana",        "permanent": true }
+    { "source": "/project-urbana",                  "destination": "/proyectos/urbana",        "permanent": true },
+    { "source": "/proyectos/falabella",              "destination": "/proyectos/banco-falabella", "permanent": true }
   ],
   "rewrites": [
     { "source": "/",      "destination": "/index.html" },

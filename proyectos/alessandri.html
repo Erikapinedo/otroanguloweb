@@ -72,6 +72,7 @@
       @media (max-width: 991px) {
         .project-alessandri-hero-section .div-block-245 { max-width: 100%; }
       }
+      .flex-block-7 { margin-left: 10px; }
     </style>
     <link
       href="../assets/css/fonts.min.css"
@@ -162,42 +163,27 @@
     <div class="main" id="main-content" role="main">
       <section id="home" class="project-alessandri-hero-section">
         <div class="w-layout-hflex flex-block-7">
-          <div class="w-embed w-script">
-            <button
-              onclick="window.location.href = document.referrer || '/';"
-              style="
-                display: inline-block;
-                padding: 14px 28px;
-                background: #ffffff;
-                color: #2b2b2b;
-                font-size: 18px;
-                font-weight: 600;
-                border: none;
-                border-radius: 999px;
-                cursor: pointer;
-                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-                transition: all 0.2s ease;
-                font-family:
-                  system-ui,
-                  -apple-system,
-                  sans-serif;
-              "
-              onmouseover="this.style.transform = 'translateY(-2px)'"
-              onmouseout="this.style.transform = 'translateY(0)'"
-            >
-              <span data-i18n="alessandriProjectPage.back">Volver</span>
-            </button>
-
-            <script>
-              document.getElementById("backButton").addEventListener("click", function () {
-                if (document.referrer) {
-                  history.back();
-                } else {
-                  window.location.href = "/";
-                }
-              });
-            </script>
-          </div>
+          <button
+            onclick="window.location.href = document.referrer || '/';"
+            style="
+              display: inline-block;
+              padding: 14px 28px;
+              background: #ffffff;
+              color: #2b2b2b;
+              font-size: 18px;
+              font-weight: 600;
+              border: none;
+              border-radius: 999px;
+              cursor: pointer;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+              transition: all 0.2s ease;
+              font-family: system-ui, -apple-system, sans-serif;
+            "
+            onmouseover="this.style.transform = 'translateY(-2px)'"
+            onmouseout="this.style.transform = 'translateY(0)'"
+          >
+            <span data-i18n="alessandriProjectPage.back">Volver</span>
+          </button>
         </div>
         <div class="div-block-245">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
@@ -216,24 +202,20 @@
             </p>
             <div class="alessandri-hero-stats">
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">2025</span>
-                <span class="alessandri-stat-label">Inicio</span>
+                <span class="alessandri-stat-value">Cliente</span>
+                <span class="alessandri-stat-label">Alessandri</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">7 Sprint</span>
-                <span class="alessandri-stat-label" data-i18n="alessandriProjectPage.phase1">Fase 1</span>
-              </div>
-              <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value" data-i18n="alessandriProjectPage.teamLabel">Equipo</span>
-                <span class="alessandri-stat-label" data-i18n-html="alessandriProjectPage.teamHtml">1 lider de proyecto, 3 desarrolladores, 1 diseñador UX/UI</span>
-              </div>
-              <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">335hrs</span>
-                <span class="alessandri-stat-label" data-i18n="alessandriProjectPage.designLabel">Diseño</span>
+                <span class="alessandri-stat-value">Año</span>
+                <span class="alessandri-stat-label">2025</span>
               </div>
               <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value" data-i18n="alessandriProjectPage.roleLabel">Rol</span>
                 <span class="alessandri-stat-label" data-i18n="alessandriProjectPage.roleValue">Product Designer</span>
+              </div>
+              <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value" data-i18n="alessandriProjectPage.teamLabel">Equipo</span>
+                <span class="alessandri-stat-label" data-i18n-html="alessandriProjectPage.teamHtml">1 lider de proyecto, 3 desarrolladores, 1 diseñador UX/UI</span>
               </div>
             </div>
           </div>

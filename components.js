@@ -270,6 +270,14 @@
       name: 'Urbana',
       titleI18n: 'portfolioPage.urbanaTitle', titleFallback: 'App Administrativa para Edificios y Condominios',
       pills: ['UX/UI']
+    },
+    {
+      id: 'banco-falabella',
+      href: '/proyectos/banco-falabella',
+      cover: '../images/portfolio/falabella-cover.webp',
+      name: 'Banco Falabella',
+      titleFallback: 'Plataforma de Gestión de Sucursales',
+      pills: ['UX/UI']
     }
   ];
 
