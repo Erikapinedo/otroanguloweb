@@ -97,24 +97,54 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "ContactPage",
-        "name": "Contacto – Erika Pinedo",
-        "url": "https://otroanguloweb.cl/contacto",
-        "inLanguage": "es",
-        "description": "Página de contacto de Erika Pinedo, diseñadora UX/UI en Chile. Disponible para proyectos de productos digitales, SaaS, ERP y consultoría UX.",
-        "author": {
-          "@type": "Person",
-          "name": "Erika Pinedo",
-          "url": "https://otroanguloweb.cl/sobre-mi",
-          "jobTitle": "Product Designer",
-          "email": "pinedoerika.dg@gmail.com",
-          "sameAs": "https://www.linkedin.com/in/erika-pinedo-camacho/"
-        },
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "Otro Ángulo Web – Erika Pinedo",
-          "url": "https://otroanguloweb.cl"
-        }
+        "@graph": [
+          {
+            "@type": "ContactPage",
+            "@id": "https://otroanguloweb.cl/contacto#webpage",
+            "name": "Contacto – Erika Pinedo",
+            "url": "https://otroanguloweb.cl/contacto",
+            "inLanguage": "es",
+            "description": "Página de contacto de Erika Pinedo, diseñadora UX/UI en Chile. Disponible para proyectos de productos digitales, SaaS, ERP y consultoría UX.",
+            "isPartOf": {
+              "@type": "WebSite",
+              "@id": "https://otroanguloweb.cl/#website",
+              "name": "Otro Ángulo Web – Erika Pinedo",
+              "url": "https://otroanguloweb.cl"
+            },
+            "about": { "@id": "https://otroanguloweb.cl/#person" },
+            "potentialAction": {
+              "@type": "CommunicateAction",
+              "name": "Contactar a Erika Pinedo",
+              "target": "mailto:pinedoerika.dg@gmail.com"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://otroanguloweb.cl/#person",
+            "name": "Erika Pinedo",
+            "alternateName": "Erika Pinedo Camacho",
+            "url": "https://otroanguloweb.cl/",
+            "image": "https://otroanguloweb.cl/images/about/foto-perfil-erika-pinedo.webp",
+            "jobTitle": "Product Designer",
+            "email": "pinedoerika.dg@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Santiago",
+              "addressCountry": "CL"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "freelance inquiries",
+              "email": "pinedoerika.dg@gmail.com",
+              "availableLanguage": ["Spanish", "English"]
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/erika-pinedo-camacho/",
+              "https://www.instagram.com/otroanguloweb/",
+              "https://www.behance.net/ErikaPinedoC"
+            ]
+          }
+        ]
       }
     </script>
     <link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/contacto" />
