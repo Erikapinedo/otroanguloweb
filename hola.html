@@ -49,38 +49,42 @@
         display: block;
       }
 
-      /* ── Perfil: imagen izquierda + texto derecha ── */
+      /* ── Perfil ── */
       .profile {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        gap: 16px;
+        gap: 14px;
+        text-align: center;
+      }
+      .profile-row {
+        display: flex;
+        align-items: center;
+        gap: 14px;
       }
       .avatar {
-        width: 72px;
-        height: 72px;
+        width: 64px;
+        height: 64px;
         border-radius: 50%;
         object-fit: cover;
-        /* WCAG 1.4.11: borde con contraste ≥3:1 contra el fondo (#101943) */
         border: 2.5px solid #ff507d;
         flex-shrink: 0;
         display: block;
       }
-      .profile-text { display: flex; flex-direction: column; gap: 3px; }
+      .profile-text { display: flex; flex-direction: column; gap: 3px; text-align: left; }
       .profile-name {
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 700;
-        color: #fff;                   /* 15.8:1 sobre fondo */
+        color: #fff;
         line-height: 1.2;
       }
       .profile-role {
         font-size: 13px;
-        /* rgba(255,255,255,0.72) ≈ #b9b9cc sobre #101943 → 7.1:1 ✓ WCAG AA */
         color: rgba(255, 255, 255, 0.72);
         line-height: 1.4;
       }
       .profile-location {
         font-size: 12px;
-        /* rgba(255,255,255,0.5) ≈ #888 sobre #101943 → 4.6:1 ✓ WCAG AA */
         color: rgba(255, 255, 255, 0.50);
         line-height: 1.4;
       }
@@ -117,8 +121,8 @@
       .btn:active { transform: scale(0.97); }
       .btn svg { flex-shrink: 0; }
 
-      /* #c41252 con texto blanco → 5.7:1 ✓ WCAG AA */
-      .btn-pink { background: #c41252; color: #fff; }
+      /* blanco con texto azul #101943 → 15:1 ✓ WCAG AAA */
+      .btn-pink { background: #fff; color: #101943; }
 
       /* #25d366 es claro → texto oscuro #0c2b14 → 7.9:1 ✓ WCAG AA */
       .btn-wa   { background: #25d366; color: #0c2b14; }
@@ -155,18 +159,20 @@
 
       <!-- Perfil -->
       <div class="profile">
-        <img
-          src="/images/about/foto-perfil-erika-pinedo.webp"
-          alt="Foto de perfil de Erika Pinedo"
-          class="avatar"
-          width="72"
-          height="72"
-        />
-        <div class="profile-text">
-          <p class="profile-name">Erika Pinedo</p>
-          <p class="profile-role">Product Designer · UX/UI &amp; Branding</p>
-          <p class="profile-location">Santiago, Chile</p>
+        <div class="profile-row">
+          <img
+            src="/images/about/foto-perfil-erika-pinedo.webp"
+            alt="Foto de perfil de Erika Pinedo"
+            class="avatar"
+            width="64"
+            height="64"
+          />
+          <div class="profile-text">
+            <p class="profile-name">Erika Pinedo</p>
+            <p class="profile-role">Product Designer · UX/UI &amp; Branding</p>
+          </div>
         </div>
+        <p class="profile-location">Santiago, Chile</p>
       </div>
 
       <!-- Botones -->
