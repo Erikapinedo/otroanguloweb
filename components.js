@@ -366,6 +366,15 @@
         }
         if (footEl) {
           footEl.innerHTML = results[1];
+          var copyBtn = footEl.querySelector('.copy-email');
+          if (copyBtn) {
+            copyBtn.addEventListener('click', function () {
+              navigator.clipboard.writeText(copyBtn.dataset.email).then(function () {
+                copyBtn.classList.add('copied');
+                setTimeout(function () { copyBtn.classList.remove('copied'); }, 2000);
+              });
+            });
+          }
         }
 
         applyI18n();

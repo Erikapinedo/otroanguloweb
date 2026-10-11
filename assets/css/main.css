@@ -11332,3 +11332,49 @@ a {
 
 
 
+
+/* ===== copy email footer ===== */
+.copy-email {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.copy-email__text {
+  transition: opacity 0.15s;
+}
+.copy-email:hover .copy-email__text {
+  opacity: 0.7;
+}
+.copy-email__tooltip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--white-100, #fff);
+  color: #111;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.copy-email__tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: var(--white-100, #fff);
+}
+.copy-email.copied .copy-email__tooltip {
+  opacity: 1;
+}
+/* ===== fin copy email footer ===== */
