@@ -2723,6 +2723,7 @@ a {
 }
 .footer-column-2 a .title,
 .footer-column-3 a .title {
+  font-size: 15px;
   font-weight: 600;
   transition: color 0.2s ease;
 }
