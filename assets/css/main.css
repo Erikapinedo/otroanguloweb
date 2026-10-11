@@ -2721,6 +2721,11 @@ a {
 .footer-column-2 a {
   text-decoration: none;
 }
+.footer-column-2 > .title,
+.footer-column-3 > .title,
+.footer-column-4 > .title {
+  font-size: 18px;
+}
 .footer-column-2 a .title,
 .footer-column-3 a .title {
   font-size: 15px;
