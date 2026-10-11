@@ -2396,7 +2396,7 @@ a {
 .title {
   color: var(--white-100);
   margin-bottom: 16px;
-  font-size: 1rem;
+  font-size: 1.0625rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -2721,10 +2721,13 @@ a {
 .footer-column-2 a {
   text-decoration: none;
 }
-.footer-column-2 a .title {
+.footer-column-2 a .title,
+.footer-column-3 a .title {
+  font-weight: 600;
   transition: color 0.2s ease;
 }
-.footer-column-2 a:hover .title {
+.footer-column-2 a:hover .title,
+.footer-column-3 a:hover .title {
   color: var(--pink-100);
 }
 .container-17 {
