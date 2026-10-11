@@ -9440,8 +9440,8 @@ a {
     padding-right: 0;
   }
   .hero-heading-h1 {
-    font-size: var(--heading-h3-desktop);
-    line-height: 100%;
+    font-size: clamp(28px, 8.5vw, 40px);
+    line-height: 105%;
   }
   .italic-span.typing-text {
     letter-spacing: 4px;
@@ -11332,6 +11332,15 @@ a {
 
 
 
+
+/* ===== hero eyebrow responsive ===== */
+@media screen and (max-width: 767px) {
+  .hero-eyebrow { font-size: 16px !important; }
+}
+@media screen and (max-width: 479px) {
+  .hero-eyebrow { font-size: 13px !important; }
+}
+/* ===== fin hero eyebrow responsive ===== */
 
 /* ===== copy email footer ===== */
 .copy-email {
