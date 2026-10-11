@@ -3609,24 +3609,25 @@ a {
 }
 .button-white-2-copy-copy {
   width: auto;
-  height: var(--medium-button-size);
   font-family: var(--avenir-ok);
   color: #fff;
-  background-color: #0000;
-  border: 1px solid #fe517d;
-  border-radius: 33px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
   justify-content: center;
   align-items: center;
-  padding: 30px;
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 20px;
+  padding: 14px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
   text-decoration: none;
   display: flex;
+  transition: transform 0.14s ease, opacity 0.14s ease;
+  -webkit-tap-highlight-color: transparent;
 }
 .button-white-2-copy-copy:hover {
-  border: 1px solid
-    var(--violet-100\<deleted\|variable-4d41b7ec-e023-f314-c529-ee435c54e7a2\>);
+  transform: translateY(-2px);
+  opacity: 0.88;
 }
 .button-white-2-copy-copy.center {
   border-color: var(--white-100);
