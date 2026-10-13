@@ -262,9 +262,12 @@
       (function () {
         var tabs  = document.querySelectorAll('.portfolio-tab');
         var cards = document.querySelectorAll('#portfolio-grid .vip-card');
+        var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
         tabs.forEach(function (tab) {
           tab.addEventListener('click', function () {
+            if (tab.classList.contains('active')) return;
+
             tabs.forEach(function (t) {
               t.classList.remove('active');
               t.setAttribute('aria-selected', 'false');
@@ -273,10 +276,31 @@
             tab.setAttribute('aria-selected', 'true');
 
             var filter = tab.dataset.filter;
+            var visibleCards = [];
             cards.forEach(function (card) {
               var cats = card.dataset.categories || '';
               var show = filter === 'all' || cats.split(' ').indexOf(filter) !== -1;
-              card.style.display = show ? '' : 'none';
+              if (show) {
+                card.style.display = '';
+                visibleCards.push(card);
+              } else {
+                card.style.display = 'none';
+                card.classList.remove('card-visible');
+                card.style.animationDelay = '';
+              }
+            });
+
+            if (reduceMotion) return;
+
+            visibleCards.forEach(function (card) {
+              card.classList.remove('card-visible');
+              card.style.animationDelay = '';
+            });
+            // Force reflow so removing + re-adding the class restarts the animation
+            void document.getElementById('portfolio-grid').offsetWidth;
+            visibleCards.forEach(function (card, i) {
+              card.style.animationDelay = (i * 0.08) + 's';
+              card.classList.add('card-visible');
             });
           });
         });
