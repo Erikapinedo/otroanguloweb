@@ -11368,9 +11368,10 @@ a {
   gap: 8px;
   justify-content: flex-end;
   flex: 1;
+  min-width: 0;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  padding-bottom: 2px;
 }
 .portfolio-tabs::-webkit-scrollbar {
   display: none;
