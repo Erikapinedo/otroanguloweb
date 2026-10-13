@@ -11376,6 +11376,7 @@ a {
   font-family: var(--avenir-ok);
   font-size: 14px;
   font-weight: 600;
+  white-space: nowrap;
   cursor: pointer;
   transition: background 0.2s ease, border-color 0.2s ease, transform 0.14s ease;
   -webkit-tap-highlight-color: transparent;
