@@ -206,6 +206,11 @@
           "twitterDescription": "Proyectos de diseño UX/UI end-to-end: ERP para PYMEs, SaaS B2B de seguros y rediseño de plataforma jurídica. Casos de estudio reales de Erika Pinedo, Product Designer en Chile."
         },
         "pageHeadingHtml": "<em>Proyectos</em>",
+        "tabsAriaLabel": "Filtrar proyectos",
+        "tabAll": "Todos",
+        "tabUxUi": "UX/UI",
+        "tabLanding": "Landing",
+        "tabIdentity": "Identidad visual",
         "expTitle": "E-xpediente",
         "expSubtitle": "Plataforma abogados",
         "expDesc": "Diseño end-to-end de una plataforma legaltech para digitalizar la gestión de arbitrajes y mediaciones: expediente virtual, acceso remoto y notificaciones automáticas.<br/>",
@@ -1135,6 +1140,11 @@
           "twitterDescription": "End-to-end UX/UI design case studies: SMB ERP, B2B insurance SaaS, and legal management platform redesign. Real projects by Erika Pinedo, Product Designer based in Chile."
         },
         "pageHeadingHtml": "<em>Projects</em>",
+        "tabsAriaLabel": "Filter projects",
+        "tabAll": "All",
+        "tabUxUi": "UX/UI",
+        "tabLanding": "Landing",
+        "tabIdentity": "Visual identity",
         "expTitle": "E-xpediente",
         "expSubtitle": "Lawyers platform",
         "expDesc": "End-to-end design of a legaltech platform to digitize arbitration and mediation management: virtual case file, remote access, and automatic notifications.<br/>",
@@ -1984,6 +1994,12 @@
       var key = el.getAttribute('data-i18n-value');
       var val = resolve(lang, key);
       if (val != null) el.setAttribute('value', val);
+    });
+
+    document.querySelectorAll('[data-i18n-aria-label]').forEach(function (el) {
+      var key = el.getAttribute('data-i18n-aria-label');
+      var val = resolve(lang, key);
+      if (val != null) el.setAttribute('aria-label', val);
     });
 
     document.querySelectorAll('[data-lang-btn]').forEach(function (btn) {

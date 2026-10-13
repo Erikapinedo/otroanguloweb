@@ -287,8 +287,11 @@
     var nameHtml = p.nameI18n
       ? '<h3 class="title-name-portfolio-project" data-i18n="' + p.nameI18n + '">' + p.name + '</h3>'
       : '<h3 class="title-name-portfolio-project">' + p.name + '</h3>';
+    var PILL_I18N = { 'UX/UI': 'portfolioPage.tabUxUi', 'Landing': 'portfolioPage.tabLanding', 'Identidad visual': 'portfolioPage.tabIdentity' };
     var pillsHtml = p.pills.map(function (pill) {
-      return '<span class="pill-category">' + pill + '</span>';
+      var key = PILL_I18N[pill];
+      var attr = key ? ' data-i18n="' + key + '"' : '';
+      return '<span class="pill-category"' + attr + '>' + pill + '</span>';
     }).join('');
     var ariaLabel = 'Ver proyecto ' + p.name + ' – ' + p.titleFallback;
     return '<a ' + hrefAttrs +
