@@ -11363,9 +11363,11 @@ a {
 }
 .portfolio-tabs {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   gap: 8px;
   justify-content: flex-end;
+  flex: 1;
 }
 .portfolio-tab {
   background: rgba(255, 255, 255, 0.08);
