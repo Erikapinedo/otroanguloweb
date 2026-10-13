@@ -11345,16 +11345,14 @@ a {
 
 /* ===== portfolio filter tabs ===== */
 .portfolio-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: max-content 1fr;
   align-items: center;
-  justify-content: space-between;
   gap: 24px;
   margin-bottom: 32px;
-  flex-wrap: nowrap;
 }
 .portfolio-header .div-block-222 {
   margin-bottom: 0;
-  flex-shrink: 0;
 }
 .portfolio-header .home-heading-h2 {
   width: auto;
@@ -11367,11 +11365,8 @@ a {
   flex-wrap: nowrap;
   gap: 8px;
   justify-content: flex-end;
-  flex: 1;
-  min-width: 0;
   overflow-x: auto;
   scrollbar-width: none;
-  padding-bottom: 2px;
 }
 .portfolio-tabs::-webkit-scrollbar {
   display: none;
