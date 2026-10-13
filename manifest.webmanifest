@@ -1,0 +1,12 @@
+{
+  "name": "Otro Ángulo Web — Erika Pinedo",
+  "short_name": "Otro Ángulo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101944",
+  "theme_color": "#101944",
+  "icons": [
+    { "src": "/images/shared/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/shared/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
