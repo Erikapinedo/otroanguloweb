@@ -11344,11 +11344,21 @@ a {
 
 
 /* ===== portfolio filter tabs ===== */
+.portfolio-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+.portfolio-header .div-block-222 {
+  margin-bottom: 0;
+}
 .portfolio-tabs {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 32px;
 }
 .portfolio-tab {
   background: rgba(255, 255, 255, 0.08);
@@ -11368,9 +11378,16 @@ a {
   transform: translateY(-1px);
 }
 .portfolio-tab.active {
-  background: var(--pink-100);
-  border-color: var(--pink-100);
+  background: var(--blue-100);
+  border-color: var(--blue-100);
   color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .portfolio-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
 }
 /* ===== fin portfolio filter tabs ===== */
 
