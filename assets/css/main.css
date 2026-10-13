@@ -11345,14 +11345,14 @@ a {
 
 /* ===== portfolio filter tabs ===== */
 .portfolio-header {
-  display: grid;
-  grid-template-columns: max-content 1fr;
+  display: flex;
   align-items: center;
   gap: 24px;
   margin-bottom: 32px;
 }
 .portfolio-header .div-block-222 {
   margin-bottom: 0;
+  flex-shrink: 0;
 }
 .portfolio-header .home-heading-h2 {
   width: auto;
@@ -11364,7 +11364,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 8px;
-  justify-content: flex-end;
+  margin-left: auto;
 }
 .portfolio-tab {
   background: rgba(255, 255, 255, 0.08);
@@ -11391,13 +11391,14 @@ a {
 }
 @media screen and (max-width: 767px) {
   .portfolio-header {
-    grid-template-columns: 1fr;
+    flex-wrap: wrap;
     gap: 16px;
   }
   .portfolio-header .home-heading-h2 {
     white-space: normal;
   }
   .portfolio-tabs {
+    margin-left: 0;
     justify-content: flex-start;
   }
 }
