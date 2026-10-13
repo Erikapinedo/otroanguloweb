@@ -164,78 +164,84 @@
           <div data-w-id="bfdfa825-da8e-6860-f8ef-7666530b3d74" style="opacity: 0" class="div-block-222">
             <h1 class="home-heading-h2" data-i18n-html="portfolioPage.pageHeadingHtml"><em>Proyectos</em></h1>
           </div>
-          <div class="vip-grid-featured">
-            <a href="/proyectos/alessandri" data-i18n-href="links.projectAlessandri" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/alessandri-cover.webp');" aria-label="Ver proyecto Alessandri – Rediseño de Plataforma Legal">
+          <div class="portfolio-tabs" role="tablist" aria-label="Filtrar proyectos">
+            <button class="portfolio-tab active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+            <button class="portfolio-tab" data-filter="ux-ui" role="tab" aria-selected="false">UX/UI</button>
+            <button class="portfolio-tab" data-filter="landing" role="tab" aria-selected="false">Landing</button>
+            <button class="portfolio-tab" data-filter="identidad-visual" role="tab" aria-selected="false">Identidad visual</button>
+          </div>
+          <div class="vip-grid-featured" id="portfolio-grid">
+            <a href="/proyectos/alessandri" data-i18n-href="links.projectAlessandri" data-categories="ux-ui" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/alessandri-cover.webp');" aria-label="Ver proyecto Alessandri – Rediseño de Plataforma Legal">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">Alessandri</h2>
                 <h3 class="title-card-portfolio" data-i18n="vip.alessandriTitle">Rediseño de Plataforma Legal</h3>
                 <div class="card-pills"><span class="pill-category">UX/UI</span></div>
               </div>
             </a>
-            <a href="/proyectos/nico-seguros" data-i18n-href="links.projectNico" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/nico-cover.webp');" aria-label="Ver proyecto Nico Seguros – Plataforma de Seguros desde Cero">
+            <a href="/proyectos/nico-seguros" data-i18n-href="links.projectNico" data-categories="ux-ui landing" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/nico-cover.webp');" aria-label="Ver proyecto Nico Seguros – Plataforma de Seguros desde Cero">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">Nico Seguros</h2>
                 <h3 class="title-card-portfolio" data-i18n="vip.nicoTitle">Plataforma de Seguros desde Cero</h3>
                 <div class="card-pills"><span class="pill-category">UX/UI</span><span class="pill-category">Landing</span></div>
               </div>
             </a>
-            <a href="/proyectos/parrotfy" data-i18n-href="links.projectParrotfy" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/parrotfy-cover.webp');" aria-label="Ver proyecto Parrotfy – Organización y Control para Empresas en Crecimiento">
+            <a href="/proyectos/parrotfy" data-i18n-href="links.projectParrotfy" data-categories="ux-ui" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/parrotfy-cover.webp');" aria-label="Ver proyecto Parrotfy – Organización y Control para Empresas en Crecimiento">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">Parrotfy</h2>
                 <h3 class="title-card-portfolio" data-i18n="vip.parrotfyTitle">Organización y Control para Empresas en Crecimiento</h3>
                 <div class="card-pills"><span class="pill-category">UX/UI</span></div>
               </div>
             </a>
-            <a href="/proyectos/banco-falabella" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/falabella-cover.webp');" aria-label="Ver proyecto Banco Falabella – Plataforma de Gestión de Sucursales">
+            <a href="/proyectos/banco-falabella" data-categories="ux-ui" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/falabella-cover.webp');" aria-label="Ver proyecto Banco Falabella – Plataforma de Gestión de Sucursales">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">Banco Falabella</h2>
                 <h3 class="title-card-portfolio">Plataforma de Gestión de Sucursales</h3>
                 <div class="card-pills"><span class="pill-category">UX/UI</span></div>
               </div>
             </a>
-            <a href="/proyectos/bluesphere" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/bluesphere-cover.webp');" aria-label="Ver proyecto BlueSphere – Plataforma de Ciberseguridad para Pymes">
+            <a href="/proyectos/bluesphere" data-categories="ux-ui identidad-visual landing" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/bluesphere-cover.webp');" aria-label="Ver proyecto BlueSphere – Plataforma de Ciberseguridad para Pymes">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">BlueSphere</h2>
                 <h3 class="title-card-portfolio" data-i18n="portfolioPage.bluesphereTitle">Plataforma de Ciberseguridad para Pymes</h3>
                 <div class="card-pills"><span class="pill-category">UX/UI</span><span class="pill-category">Identidad visual</span><span class="pill-category">Landing</span></div>
               </div>
             </a>
-            <a href="/proyectos/jschile" data-i18n-href="links.projectJschile" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/jschile-cover.webp');" aria-label="Ver proyecto JSChile – Identidad visual y Landing para Comunidad Dev">
+            <a href="/proyectos/jschile" data-i18n-href="links.projectJschile" data-categories="identidad-visual landing" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/jschile-cover.webp');" aria-label="Ver proyecto JSChile – Identidad visual y Landing para Comunidad Dev">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">JSChile</h2>
                 <h3 class="title-card-portfolio" data-i18n="portfolioPage.jschileTitle">Identidad visual + Landing para Comunidad Dev</h3>
                 <div class="card-pills"><span class="pill-category">Identidad visual</span><span class="pill-category">Landing</span></div>
               </div>
             </a>
-            <a href="/proyectos/urbana" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/urbana-cover.webp');" aria-label="Ver proyecto Urbana – App Administrativa para Edificios y Condominios">
+            <a href="/proyectos/urbana" data-categories="ux-ui" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/urbana-cover.webp');" aria-label="Ver proyecto Urbana – App Administrativa para Edificios y Condominios">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">Urbana</h2>
                 <h3 class="title-card-portfolio" data-i18n="portfolioPage.urbanaTitle">App Administrativa para Edificios y Condominios</h3>
                 <div class="card-pills"><span class="pill-category">UX/UI</span></div>
               </div>
             </a>
-            <a href="/proyectos/playersnap" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/playersnap-cover.webp');" aria-label="Ver proyecto PlayerSnap – Plataforma de Gestión de Activos Multimedia">
+            <a href="/proyectos/playersnap" data-categories="ux-ui" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/playersnap-cover.webp');" aria-label="Ver proyecto PlayerSnap – Plataforma de Gestión de Activos Multimedia">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">PlayerSnap</h2>
                 <h3 class="title-card-portfolio" data-i18n="portfolioPage.playersnapTitle">Plataforma de Gestión de Activos Multimedia</h3>
                 <div class="card-pills"><span class="pill-category">UX/UI</span></div>
               </div>
             </a>
-            <a href="/proyectos/matchminders" data-i18n-href="links.projectMatchminders" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/matchminder-cover.webp');" aria-label="Ver proyecto MatchMinders – Plataforma de Torneos Deportivos">
+            <a href="/proyectos/matchminders" data-i18n-href="links.projectMatchminders" data-categories="ux-ui landing" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/matchminder-cover.webp');" aria-label="Ver proyecto MatchMinders – Plataforma de Torneos Deportivos">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">MatchMinders</h2>
                 <h3 class="title-card-portfolio" data-i18n="portfolioPage.matchmindersTitle">Plataforma de Torneos Deportivos</h3>
                 <div class="card-pills"><span class="pill-category">UX/UI</span><span class="pill-category">Landing</span></div>
               </div>
             </a>
-            <a href="/proyectos/expediente" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/expediente-cover.webp');" aria-label="Ver proyecto E-xpediente – Plataforma para Abogados">
+            <a href="/proyectos/expediente" data-categories="ux-ui" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/expediente-cover.webp');" aria-label="Ver proyecto E-xpediente – Plataforma para Abogados">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project" data-i18n="portfolioPage.expTitle">E-xpediente</h2>
                 <h3 class="title-card-portfolio" data-i18n="portfolioPage.expSubtitle">Plataforma abogados</h3>
                 <div class="card-pills"><span class="pill-category">UX/UI</span></div>
               </div>
             </a>
-            <a href="/proyectos/portalpehuen" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/portalpehuen-cover.webp');" aria-label="Ver proyecto Portal Pehuén – Identidad Visual para Comunidad de Barrio">
+            <a href="/proyectos/portalpehuen" data-categories="identidad-visual" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/portalpehuen-cover.webp');" aria-label="Ver proyecto Portal Pehuén – Identidad Visual para Comunidad de Barrio">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">Portal Pehuén</h2>
                 <h3 class="title-card-portfolio" data-i18n="portfolioPage.portalpTitle">Identidad Visual para Comunidad de Barrio</h3>
@@ -250,6 +256,30 @@
     <div id="footer"></div>
     <script src="translations.min.js"></script>
     <script src="components.min.js"></script>
+    <script>
+      (function () {
+        var tabs  = document.querySelectorAll('.portfolio-tab');
+        var cards = document.querySelectorAll('#portfolio-grid .vip-card');
+
+        tabs.forEach(function (tab) {
+          tab.addEventListener('click', function () {
+            tabs.forEach(function (t) {
+              t.classList.remove('active');
+              t.setAttribute('aria-selected', 'false');
+            });
+            tab.classList.add('active');
+            tab.setAttribute('aria-selected', 'true');
+
+            var filter = tab.dataset.filter;
+            cards.forEach(function (card) {
+              var cats = card.dataset.categories || '';
+              var show = filter === 'all' || cats.split(' ').indexOf(filter) !== -1;
+              card.style.display = show ? '' : 'none';
+            });
+          });
+        });
+      })();
+    </script>
     <script
       src="assets/js/jquery-3.5.1.min.js"
       type="text/javascript"
