@@ -11362,7 +11362,7 @@ a {
 .portfolio-tabs {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 8px;
   margin-left: auto;
 }
