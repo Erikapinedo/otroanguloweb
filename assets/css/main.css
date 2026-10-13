@@ -11368,6 +11368,12 @@ a {
   gap: 8px;
   justify-content: flex-end;
   flex: 1;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.portfolio-tabs::-webkit-scrollbar {
+  display: none;
 }
 .portfolio-tab {
   background: rgba(255, 255, 255, 0.08);
