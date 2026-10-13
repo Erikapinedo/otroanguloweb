@@ -11365,6 +11365,7 @@ a {
   flex-wrap: nowrap;
   gap: 8px;
   justify-content: flex-end;
+  width: 100%;
   overflow-x: auto;
   scrollbar-width: none;
 }
@@ -11394,10 +11395,9 @@ a {
   border-color: var(--blue-100);
   color: #fff;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
   .portfolio-header {
-    flex-direction: column;
-    align-items: flex-start;
+    grid-template-columns: 1fr;
     gap: 16px;
   }
   .portfolio-header .home-heading-h2 {
