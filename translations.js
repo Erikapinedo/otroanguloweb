@@ -10,15 +10,15 @@
   var STRINGS = {
     es: {
       meta: {
-        title: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
+        title: 'Otro Ángulo Web · Diseño UX/UI y Branding – Erika Pinedo',
         description:
-          'Product Designer con +5 años en productos digitales B2B y SaaS. Creo experiencias intuitivas para startups y empresas desde Santiago, Chile.',
-        ogTitle: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
+          'Otro Ángulo Web es el estudio de Erika Pinedo. Diseño UX/UI y branding para productos B2B y SaaS con +9 años de experiencia desde Santiago, Chile.',
+        ogTitle: 'Otro Ángulo Web · Diseño UX/UI y Branding – Erika Pinedo',
         ogDescription:
-          'Product Designer con +5 años en productos digitales B2B y SaaS. Creo experiencias intuitivas para startups y empresas desde Santiago, Chile.',
-        twitterTitle: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
+          'Otro Ángulo Web es el estudio de Erika Pinedo. Diseño UX/UI y branding para productos B2B y SaaS con +9 años de experiencia desde Santiago, Chile.',
+        twitterTitle: 'Otro Ángulo Web · Diseño UX/UI y Branding – Erika Pinedo',
         twitterDescription:
-          'Product Designer con +5 años en productos digitales B2B y SaaS. Creo experiencias intuitivas para startups y empresas desde Santiago, Chile.',
+          'Otro Ángulo Web es el estudio de Erika Pinedo. Diseño UX/UI y branding para productos B2B y SaaS con +9 años de experiencia desde Santiago, Chile.',
       },
       links: {
         contact: '/contacto',
@@ -951,15 +951,15 @@
     },
     en: {
       meta: {
-        title: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
+        title: 'Otro Ángulo Web · UX/UI Design & Branding – Erika Pinedo',
         description:
-          'Certified Product Designer with 5+ years in B2B and SaaS products. I turn ideas into clear, intuitive digital experiences. Based in Santiago, Chile.',
-        ogTitle: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
+          'Otro Ángulo Web is Erika Pinedo\'s studio. UX/UI design and branding for B2B and SaaS products, with 9+ years of experience based in Santiago, Chile.',
+        ogTitle: 'Otro Ángulo Web · UX/UI Design & Branding – Erika Pinedo',
         ogDescription:
-          'Certified Product Designer with 5+ years in B2B and SaaS products. I turn ideas into clear, intuitive digital experiences. Based in Santiago, Chile.',
-        twitterTitle: 'Product Designer Chile · B2B & SaaS – Erika Pinedo',
+          'Otro Ángulo Web is Erika Pinedo\'s studio. UX/UI design and branding for B2B and SaaS products, with 9+ years of experience based in Santiago, Chile.',
+        twitterTitle: 'Otro Ángulo Web · UX/UI Design & Branding – Erika Pinedo',
         twitterDescription:
-          'Certified Product Designer with 5+ years in B2B and SaaS products. I turn ideas into clear, intuitive digital experiences. Based in Santiago, Chile.',
+          'Otro Ángulo Web is Erika Pinedo\'s studio. UX/UI design and branding for B2B and SaaS products, with 9+ years of experience based in Santiago, Chile.',
       },
       links: {
         contact: '/contacto',
