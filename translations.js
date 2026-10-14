@@ -78,6 +78,14 @@
         knowMore: 'Conocer más',
         ctaAll: 'Ver todos los proyectos',
       },
+      oaSkills: {
+        word1: 'Estrategia',
+        word2: 'Diseño',
+        word3: 'Front-end',
+        leadHtml:
+          'No solo diseño interfaces que se ven bien: entiendo el negocio, diseño la experiencia y <strong>la llevo a código listo para lanzar.</strong>',
+        arcLabel: 'Proyectos de Otro Ángulo',
+      },
       services: {
         heading: 'Mis <span class="span-txt">Servicios</span>',
         intro:
@@ -1011,6 +1019,14 @@
           'End-to-end design of an all-in-one ERP for SMBs: quotes, sales, payments, work orders, and invoicing in a single workflow.<br/>',
         knowMore: 'Know more',
         ctaAll: 'View all projects',
+      },
+      oaSkills: {
+        word1: 'Strategy',
+        word2: 'Design',
+        word3: 'Front-end',
+        leadHtml:
+          'I don\'t just design interfaces that look good: I understand the business, design the experience, and <strong>take it to code ready to ship.</strong>',
+        arcLabel: 'Otro Ángulo projects',
       },
       services: {
         heading: 'My <span class="span-txt">Services</span>',

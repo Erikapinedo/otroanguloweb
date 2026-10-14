@@ -239,7 +239,7 @@
     <div class="main" id="main-content" role="main">
       <section id="home-hero-section" class="section">
         <div class="w-layout-blockcontainer container-main w-container">
-          <p class="hero-eyebrow hero-fade-in" style="font-size:18px;font-weight:700;color:#ffffff;line-height:1.2;margin-bottom:5px;display:block" data-i18n="hero.eyebrow">Erika Pinedo · Product Designer</p>
+          <p class="hero-eyebrow hero-fade-in" style="font-size:18px;font-weight:700;color:#ffffff;line-height:1.2;margin-bottom:5px;display:block;opacity:0" data-i18n="hero.eyebrow">Erika Pinedo · Product Designer</p>
           <h1 class="hero-heading-h1">
             <span role="text" data-i18n="hero.line1">Transformo ideas en</span
             ><br />‍<span
@@ -249,11 +249,11 @@
               >productos digitales</span
             >
           </h1>
-          <p class="para-txt hero-fade-in" data-i18n="hero.sub">
+          <p class="para-txt hero-fade-in" style="opacity:0" data-i18n="hero.sub">
             Experta en B2B y SaaS, ayudando a pequeñas y grandes empresas a optimizar ideas en experiencias intuitivas y
             atractivas.
           </p>
-          <div class="w-layout-grid grid-21 hero-fade-in hero-fade-in--late">
+          <div class="w-layout-grid grid-21 hero-fade-in hero-fade-in--late" style="opacity:0">
             <div class="getstarted-btn">
               <a href="/#home-about-me" class="button-blue-big center w-inline-block"
                 ><div class="text-button-blue" data-i18n="hero.knowMore">Conocer más</div></a
@@ -267,6 +267,7 @@
           </div>
         </div>
       </section>
+      <div class="oa-overlap-wrap">
       <section
         id="home-logo-section"
         data-w-id="422040dd-3a35-75c6-5142-4aa8aaca3833"
@@ -295,100 +296,49 @@
           /><img src="../images/portfolio/parrotfy-logo.svg" loading="lazy" width="144" height="40" alt="Logo de Parrotfy" />
         </div>
       </section>
-      <section
-        id="home-college-projects"
-        data-w-id="95e095d5-affa-489e-0500-fb03cb495e21"
-        style="opacity: 0"
-        class="projects"
-      >
-        <div class="waves-master-gallery-3">
-
-          <!-- FILA 1: scroll hacia la izquierda → -->
-          <div class="marquee-track marquee-left">
-            <!-- Set original -->
-            <div class="marquee-item waves-small-image-wrap-gallery-3">
-              <img src="../images/portfolio/proyecto-matchminder.webp" loading="lazy" width="1401" height="942" data-i18n-alt="gallery.matchminder" alt="Pantalla del sitio web de MatchMinders" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-big-image-wrap-gallery-3">
-              <img src="../images/portfolio/alessandri-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="Pantalla de la plataforma jurídica AlessandriPI rediseñada por Erika Pinedo" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-medium-image-wrap-gallery-3">
-              <img src="../images/portfolio/nico-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="Pantalla de la plataforma SaaS B2B de NICO Seguros diseñada por Erika Pinedo" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-small-image-wrap-gallery-3">
-              <img src="../images/portfolio/parrotfy-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="Pantalla del ERP Parrotfy para PYMEs diseñado por Erika Pinedo" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-big-image-wrap-gallery-3">
-              <img src="../images/portfolio/playerSnap-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="Pantalla de PlayerSnap diseñada por Erika Pinedo" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-medium-image-wrap-gallery-3">
-              <img src="../images/portfolio/proyecto-fastpass.webp" loading="lazy" width="1401" height="942" data-i18n-alt="gallery.fastpass" alt="Página web de FastPass" class="waves-image-gallery-3" />
-            </div>
-            <!-- Duplicado para loop continuo -->
-            <div class="marquee-item waves-small-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/proyecto-matchminder.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-big-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/alessandri-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-medium-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/nico-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-small-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/parrotfy-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-big-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/playerSnap-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-medium-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/proyecto-fastpass.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-          </div>
-
-          <!-- FILA 2: scroll hacia la derecha ← -->
-          <div class="marquee-track marquee-right">
-            <!-- Set original -->
-            <div class="marquee-item waves-big-image-wrap-gallery-3">
-              <img src="../images/portfolio/expediente-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="Pantalla de E-xpediente, plataforma legaltech para gestión de arbitrajes diseñada por Erika Pinedo" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-small-image-wrap-gallery-3">
-              <img src="../images/portfolio/proyecto-bluesphere.webp" loading="lazy" width="1401" height="942" data-i18n-alt="gallery.bluesphere" alt="Pantalla de software BlueSphere" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-medium-image-wrap-gallery-3">
-              <img src="../images/portfolio/parrotfy-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="Pantalla del ERP Parrotfy para PYMEs diseñado por Erika Pinedo" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-big-image-wrap-gallery-3">
-              <img src="../images/portfolio/urbana-administracion.webp" loading="lazy" width="1401" height="942" data-i18n-alt="gallery.urbana" alt="Interfaz móvil de la aplicación Urbana Administración" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-small-image-wrap-gallery-3">
-              <img src="../images/portfolio/playerSnap-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="Pantalla de PlayerSnap diseñada por Erika Pinedo" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-medium-image-wrap-gallery-3">
-              <img src="../images/portfolio/alessandri-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="Pantalla de la plataforma jurídica AlessandriPI" class="waves-image-gallery-3" />
-            </div>
-            <!-- Duplicado para loop continuo -->
-            <div class="marquee-item waves-big-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/expediente-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-small-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/proyecto-bluesphere.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-medium-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/parrotfy-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-big-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/urbana-administracion.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-small-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/playerSnap-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-            <div class="marquee-item waves-medium-image-wrap-gallery-3" aria-hidden="true">
-              <img src="../images/portfolio/alessandri-project-erika-pinedo.webp" loading="lazy" width="1401" height="942" alt="" class="waves-image-gallery-3" />
-            </div>
-          </div>
-
+      <section id="oa-skills" class="oa-skills" aria-labelledby="oa-skills-title">
+        <h2 id="oa-skills-title" class="oa-skills__title">
+          <span class="oa-skills__word" data-i18n="oaSkills.word1">Estrategia</span>
+          <svg class="oa-skills__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          <span class="oa-skills__word" data-i18n="oaSkills.word2">Diseño</span>
+          <svg class="oa-skills__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          <span class="oa-skills__word" data-i18n="oaSkills.word3">Front-end</span>
+        </h2>
+        <p class="oa-skills__lead" data-i18n-html="oaSkills.leadHtml">
+          No solo diseño interfaces que se ven bien: entiendo el negocio, diseño la experiencia y <strong>la llevo a código listo para lanzar.</strong>
+        </p>
+        <div class="oa-arc" data-speed="0.0015" data-gap="60" aria-label="Proyectos de Otro Ángulo" data-i18n-aria-label="oaSkills.arcLabel">
+          <a class="oa-arc__card" href="/proyectos/alessandri" data-i18n-href="links.projectAlessandri">
+            <img src="../images/portfolio/alessandri-cover.webp" alt="Alessandri" loading="lazy">
+            <div class="oa-arc__meta"><b>Alessandri</b><span><span data-i18n="portfolioPage.tabUxUi">UX/UI</span></span></div>
+          </a>
+          <a class="oa-arc__card" href="/proyectos/nico-seguros" data-i18n-href="links.projectNico">
+            <img src="../images/portfolio/nico-cover.webp" alt="Nico Seguros" loading="lazy">
+            <div class="oa-arc__meta"><b>Nico Seguros</b><span><span data-i18n="portfolioPage.tabUxUi">UX/UI</span> · <span data-i18n="portfolioPage.tabLanding">Landing</span></span></div>
+          </a>
+          <a class="oa-arc__card" href="/proyectos/parrotfy" data-i18n-href="links.projectParrotfy">
+            <img src="../images/portfolio/parrotfy-cover.webp" alt="Parrotfy" loading="lazy">
+            <div class="oa-arc__meta"><b>Parrotfy</b><span><span data-i18n="portfolioPage.tabUxUi">UX/UI</span></span></div>
+          </a>
+          <a class="oa-arc__card" href="/proyectos/bluesphere">
+            <img src="../images/portfolio/bluesphere-cover.webp" alt="BlueSphere" loading="lazy">
+            <div class="oa-arc__meta"><b>BlueSphere</b><span><span data-i18n="portfolioPage.tabUxUi">UX/UI</span> · <span data-i18n="portfolioPage.tabIdentity">Identidad visual</span></span></div>
+          </a>
+          <a class="oa-arc__card" href="/proyectos/jschile" data-i18n-href="links.projectJschile">
+            <img src="../images/portfolio/jschile-cover.webp" alt="JSChile" loading="lazy">
+            <div class="oa-arc__meta"><b>JSChile</b><span><span data-i18n="portfolioPage.tabIdentity">Identidad visual</span> · <span data-i18n="portfolioPage.tabLanding">Landing</span></span></div>
+          </a>
+          <a class="oa-arc__card" href="/proyectos/portalpehuen">
+            <img src="../images/portfolio/portalpehuen-cover.webp" alt="Portal Pehuén" loading="lazy">
+            <div class="oa-arc__meta"><b>Portal Pehuén</b><span><span data-i18n="portfolioPage.tabIdentity">Identidad visual</span></span></div>
+          </a>
+          <a class="oa-arc__card" href="/proyectos/urbana">
+            <img src="../images/portfolio/urbana-cover.webp" alt="Urbana" loading="lazy">
+            <div class="oa-arc__meta"><b>Urbana</b><span><span data-i18n="portfolioPage.tabUxUi">UX/UI</span></span></div>
+          </a>
         </div>
       </section>
+      </div>
       <section
         id="home-about-me"
         data-w-id="3917669e-ab40-e1f5-3998-37c86965b998"
@@ -477,6 +427,7 @@
           </div>
         </div>
       </div>
+
 
       <!-- Card recurso descargable (oculto) -->
       <div class="download-resource-wrapper" style="display:none;" aria-hidden="true">
@@ -654,7 +605,7 @@
     </script>
 
     <script>
-      // Hero heading GSAP animation
+      // Hero heading GSAP animation + encadenado del eyebrow/subtexto/botones
       (function () {
         if (typeof gsap === 'undefined' || typeof SplitText === 'undefined') return;
 
@@ -665,20 +616,16 @@
 
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-        // Ocultar el h1 de inmediato — controlamos la visibilidad, sin depender
-        // del pre-hide de Webflow.
+        // Takeover: desactivar la fade-in CSS para que GSAP maneje el encadenado
+        var fades = document.querySelectorAll('.hero-fade-in');
+        fades.forEach(function (el) { el.style.animation = 'none'; });
+        gsap.set(fades, { opacity: 0, y: 20 });
+
         gsap.set(h1, { opacity: 0 });
 
-        // translations.js ya aplicó el idioma correcto de forma síncrona al cargar.
-        // Arrancamos en el próximo frame: DOMContentLoaded ya se habrá ejecutado
-        // (y con él cualquier setLang() de translations.js), así que el texto es
-        // definitivo cuando SplitText corre.
         requestAnimationFrame(function () {
           gsap.set(h1, { opacity: 1 });
 
-          // Quitar data-i18n temporalmente para que ningún applyI18n() posterior
-          // (el que llega con la inyección de navbar/footer) pueda sobreescribir
-          // el contenido y destruir los nodos de SplitText mientras animan.
           var key1 = line1.getAttribute('data-i18n');
           var key2 = line2.getAttribute('data-i18n');
           line1.removeAttribute('data-i18n');
@@ -687,11 +634,23 @@
           var split1 = new SplitText(line1, { type: 'chars' });
           var split2 = new SplitText(line2, { type: 'chars' });
 
+          var eyebrow = document.querySelector('.hero-eyebrow');
+          var subtext = document.querySelector('.para-txt.hero-fade-in');
+          var buttons = document.querySelector('.grid-21.hero-fade-in');
+
           var tl = gsap.timeline();
           tl.from(split1.chars, { opacity: 0, stagger: 0.04, duration: 0.4, ease: 'power1.inOut' });
           tl.from(split2.chars, { opacity: 0, stagger: 0.04, duration: 0.4, ease: 'power1.inOut' }, '+=0.06');
-          // Restaurar data-i18n al terminar para que el selector de idioma siga
-          // funcionando después de la animación.
+          // Al terminar el h1: eyebrow, subtexto y botones aparecen en cascada
+          if (eyebrow) {
+            tl.to(eyebrow, { opacity: 1, y: 0, duration: 0.6, ease: 'power3.out' }, '+=0.15');
+          }
+          if (subtext) {
+            tl.to(subtext, { opacity: 1, y: 0, duration: 0.6, ease: 'power3.out' }, '-=0.35');
+          }
+          if (buttons) {
+            tl.to(buttons, { opacity: 1, y: 0, duration: 0.6, ease: 'power3.out' }, '-=0.35');
+          }
           tl.call(function () {
             if (key1) line1.setAttribute('data-i18n', key1);
             if (key2) line2.setAttribute('data-i18n', key2);
@@ -729,6 +688,254 @@
             });
           }
         });
+      }());
+    </script>
+
+    <script>
+      // Skills — dispara animación secuencial de palabras y flechas al entrar al viewport
+      (function () {
+        var section = document.querySelector('.oa-skills');
+        if (!section || !window.IntersectionObserver) {
+          if (section) section.classList.add('is-animated');
+          return;
+        }
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+            section.classList.add('is-animated');
+            io.unobserve(section);
+          });
+        }, { threshold: 0.25 });
+        io.observe(section);
+      }());
+    </script>
+
+    <script>
+      // Skills — parallax scroll-linked del título y bajada
+      (function () {
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        var targets = document.querySelectorAll('.oa-skills__title, .oa-skills__lead');
+        if (!targets.length) return;
+
+        var ticking = false;
+        function update() {
+          ticking = false;
+          var vh = window.innerHeight || document.documentElement.clientHeight;
+          targets.forEach(function (el) {
+            var rect = el.getBoundingClientRect();
+            // p = 0 cuando el elemento está en la parte inferior del viewport, p = 1 cuando llega al centro
+            var start = vh;              // elemento recién entrando por abajo
+            var end = vh * 0.5;          // elemento en el centro
+            var p = (start - rect.top) / (start - end);
+            if (p < 0) p = 0;
+            if (p > 1) p = 1;
+            el.style.setProperty('--oa-p', p.toFixed(3));
+          });
+        }
+        function onScroll() {
+          if (ticking) return;
+          ticking = true;
+          requestAnimationFrame(update);
+        }
+        update();
+        addEventListener('scroll', onScroll, { passive: true });
+        addEventListener('resize', onScroll);
+      }());
+    </script>
+
+    <script>
+      // Skills arc — carrusel infinito en arco (vanilla, sin libs)
+      (function () {
+        var arc = document.querySelector('.oa-arc');
+        if (!arc) return;
+
+        var tints = [
+          'linear-gradient(160deg,#FF507D,#4928FD)',
+          'linear-gradient(160deg,#4928FD,#101943)',
+          'linear-gradient(160deg,#FF8FAE,#FF507D)',
+          'linear-gradient(160deg,#2A2F6B,#FF507D)',
+          'linear-gradient(160deg,#7B5CFF,#FF507D)',
+          'linear-gradient(160deg,#FF507D,#101943)'
+        ];
+
+        // Placeholder si falta imagen
+        arc.querySelectorAll('.oa-arc__card').forEach(function (card, i) {
+          var img = card.querySelector('img');
+          if (img && !img.getAttribute('src')) {
+            card.style.background = tints[i % tints.length];
+            var ph = document.createElement('div');
+            ph.className = 'oa-arc__ph';
+            var b = card.querySelector('b');
+            ph.textContent = b ? b.textContent : 'Proyecto';
+            img.replaceWith(ph);
+          }
+        });
+
+        // Duplica cards hasta llenar el arco (al menos 2x los originales)
+        var originals = Array.prototype.slice.call(arc.children);
+        var minCards = Math.max(14, originals.length * 2);
+        while (arc.children.length < minCards) {
+          originals.forEach(function (c) { arc.appendChild(c.cloneNode(true)); });
+        }
+        Array.prototype.slice.call(arc.children, originals.length).forEach(function (c) {
+          c.setAttribute('aria-hidden', 'true');
+          c.tabIndex = -1;
+        });
+
+        var cards = Array.prototype.slice.call(arc.children);
+        var cssVars = getComputedStyle(document.documentElement);
+        var r, step, span, offset = 0, paused = false, last = performance.now();
+        var speed = parseFloat(arc.dataset.speed) || 0.003;
+        var fallbackGap = parseFloat(arc.dataset.gap) || 60;
+        var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        function measure() {
+          r = parseFloat(cssVars.getPropertyValue('--oa-arc-r'));
+          var gap = parseFloat(cssVars.getPropertyValue('--oa-arc-gap')) || fallbackGap;
+          var w = cards[0].offsetWidth;
+          step = (w + gap) / r * 180 / Math.PI;
+          span = step * cards.length;
+        }
+        function place() {
+          cards.forEach(function (c, i) {
+            var a = ((i * step + offset) % span + span) % span - span / 2;
+            c.style.transform = 'rotate(' + a + 'deg)';
+            c.style.visibility = Math.abs(a) > 40 ? 'hidden' : 'visible';
+          });
+        }
+        function tick(now) {
+          if (!paused) offset -= (now - last) * speed;
+          last = now;
+          place();
+          requestAnimationFrame(tick);
+        }
+
+        measure();
+        place();
+        addEventListener('resize', function () { measure(); place(); });
+        cards.forEach(function (card) {
+          card.addEventListener('mouseenter', function () { paused = true; });
+          card.addEventListener('mouseleave', function () { paused = false; });
+        });
+        arc.addEventListener('focusin', function () { paused = true; });
+        arc.addEventListener('focusout', function () { paused = false; });
+        if (!reduce) requestAnimationFrame(tick);
+      }());
+    </script>
+
+    <script>
+      // Inicio — animaciones de scroll con GSAP (sin tocar hero)
+      (function () {
+        if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        // About-me: foto pop-in con scale + rotación sutil, texto en cascada
+        var aboutPhoto = document.querySelector('#home-about-me .collabrator-txt img');
+        if (aboutPhoto) {
+          gsap.set(aboutPhoto, { opacity: 0, scale: 0.75, rotation: -6 });
+          ScrollTrigger.create({
+            trigger: '#home-about-me',
+            start: 'top 75%',
+            once: true,
+            onEnter: function () {
+              gsap.to(aboutPhoto, {
+                opacity: 1,
+                scale: 1,
+                rotation: 0,
+                duration: 1,
+                ease: 'back.out(1.6)'
+              });
+            }
+          });
+        }
+        var aboutText = document.querySelectorAll('#home-about-me .collabrator-btn-div > *');
+        if (aboutText.length) {
+          gsap.set(aboutText, { opacity: 0, y: 30 });
+          ScrollTrigger.create({
+            trigger: '#home-about-me',
+            start: 'top 75%',
+            once: true,
+            onEnter: function () {
+              gsap.to(aboutText, {
+                opacity: 1,
+                y: 0,
+                duration: 0.7,
+                ease: 'power3.out',
+                stagger: 0.12,
+                delay: 0.2
+              });
+            }
+          });
+        }
+
+        // Final CTA: heading pop con back, subtext y botón fade-up
+        var ctaHeading = document.querySelector('#home-final-section .heading-40');
+        var ctaRest = document.querySelectorAll('#home-final-section .subtext, #home-final-section .c2a-button-copy');
+        if (ctaHeading) {
+          gsap.set(ctaHeading, { opacity: 0, scale: 0.85, y: 40 });
+          ScrollTrigger.create({
+            trigger: '#home-final-section',
+            start: 'top 80%',
+            once: true,
+            onEnter: function () {
+              gsap.to(ctaHeading, {
+                opacity: 1,
+                scale: 1,
+                y: 0,
+                duration: 1,
+                ease: 'back.out(1.5)'
+              });
+            }
+          });
+        }
+        if (ctaRest.length) {
+          gsap.set(ctaRest, { opacity: 0, y: 30 });
+          ScrollTrigger.create({
+            trigger: '#home-final-section',
+            start: 'top 80%',
+            once: true,
+            onEnter: function () {
+              gsap.to(ctaRest, {
+                opacity: 1,
+                y: 0,
+                duration: 0.8,
+                ease: 'power3.out',
+                stagger: 0.15,
+                delay: 0.3
+              });
+            }
+          });
+        }
+
+        // Heading "Proyectos destacados" — fade up
+        var vipHeading = document.querySelector('#vip-projects .our-work-heading');
+        if (vipHeading) {
+          gsap.set(vipHeading, { opacity: 0, y: 40 });
+          ScrollTrigger.create({
+            trigger: vipHeading,
+            start: 'top 85%',
+            once: true,
+            onEnter: function () {
+              gsap.to(vipHeading, { opacity: 1, y: 0, duration: 0.9, ease: 'power3.out' });
+            }
+          });
+        }
+
+        // Heading "Mis Servicios" — fade up
+        var servicesHeading = document.querySelector('#home-my-services h2');
+        if (servicesHeading) {
+          gsap.set(servicesHeading, { opacity: 0, y: 40 });
+          ScrollTrigger.create({
+            trigger: servicesHeading,
+            start: 'top 85%',
+            once: true,
+            onEnter: function () {
+              gsap.to(servicesHeading, { opacity: 1, y: 0, duration: 0.9, ease: 'power3.out' });
+            }
+          });
+        }
       }());
     </script>
   </body>

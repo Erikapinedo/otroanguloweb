@@ -331,5 +331,43 @@
     <script src="../vendors/gsap/gsap.min.js" type="text/javascript"></script>
     <script src="../vendors/gsap/SplitText.min.js" type="text/javascript"></script>
     <script src="../vendors/gsap/ScrollTrigger.min.js" type="text/javascript"></script>
+
+    <script>
+      // Proyectos — animaciones de entrada del header + tabs
+      (function () {
+        if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        var heading = document.querySelector('.portfolio-header .home-heading-h2');
+        var tabs = document.querySelectorAll('.portfolio-tab');
+
+        if (heading) {
+          gsap.set(heading, { opacity: 0, y: 50, scale: 0.9 });
+          gsap.to(heading, {
+            opacity: 1,
+            y: 0,
+            scale: 1,
+            duration: 1.1,
+            ease: 'back.out(1.6)',
+            delay: 0.1
+          });
+        }
+
+        if (tabs.length) {
+          gsap.set(tabs, { opacity: 0, y: 20, scale: 0.9 });
+          gsap.to(tabs, {
+            opacity: 1,
+            y: 0,
+            scale: 1,
+            duration: 0.6,
+            ease: 'back.out(1.8)',
+            stagger: 0.08,
+            delay: 0.5
+          });
+        }
+      }());
+    </script>
   </body>
 </html>

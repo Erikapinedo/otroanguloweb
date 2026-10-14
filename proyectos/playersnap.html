@@ -890,5 +890,131 @@
         gsap.from(".alessandri-hero-stat-item", { opacity: 0, y: 20, duration: 0.5, stagger: 0.1, delay: 0.65, ease: "power3.out" });
       })();
     </script>
+
+    <script>
+      // Proyecto — animaciones de scroll (sin tocar el hero)
+      (function () {
+        if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        // 1. Headings de sección: fade up
+        var titles = document.querySelectorAll(
+          '[class*="project-title-"]:not(.heading-44), ' +
+          '.title-other-projects .home-heading-h2, ' +
+          '.home-heading-h2.other-projects-heading'
+        );
+        titles.forEach(function (el) {
+          gsap.set(el, { opacity: 0, y: 40 });
+          ScrollTrigger.create({
+            trigger: el,
+            start: 'top 85%',
+            once: true,
+            onEnter: function () {
+              gsap.to(el, { opacity: 1, y: 0, duration: 0.9, ease: 'power3.out' });
+            }
+          });
+        });
+
+        // 2. Párrafos descriptivos: fade up suave
+        var descs = document.querySelectorAll(
+          '[class*="description-"]:not([class*="description-text-hero"]):not(.alessandri-hero-impact)'
+        );
+        descs.forEach(function (el) {
+          gsap.set(el, { opacity: 0, y: 24 });
+          ScrollTrigger.create({
+            trigger: el,
+            start: 'top 88%',
+            once: true,
+            onEnter: function () {
+              gsap.to(el, { opacity: 1, y: 0, duration: 0.7, ease: 'power2.out' });
+            }
+          });
+        });
+
+        // 3. Grids de cards (problem/approach/impact/solution): pop con stagger
+        var cardGroups = document.querySelectorAll(
+          '[class*="cards-problems"], [class*="cards-approach"], ' +
+          '[class*="cards-impact"], [class*="cards-solution"], ' +
+          '.container-cards-projects, .container-cards-tools'
+        );
+        cardGroups.forEach(function (group) {
+          var items = group.children;
+          if (!items.length) return;
+          gsap.set(items, { opacity: 0, y: 40, scale: 0.9 });
+          ScrollTrigger.create({
+            trigger: group,
+            start: 'top 85%',
+            once: true,
+            onEnter: function () {
+              gsap.to(items, {
+                opacity: 1,
+                y: 0,
+                scale: 1,
+                duration: 0.7,
+                ease: 'back.out(1.4)',
+                stagger: 0.1
+              });
+            }
+          });
+        });
+
+        // 4. User persona containers / insights
+        var insights = document.querySelectorAll(
+          '[class*="container-"][class*="-user-persona"], ' +
+          '[class*="container-"][class*="-key-insights"], ' +
+          '[class*="container-"][class*="-solution"]'
+        );
+        insights.forEach(function (el) {
+          gsap.set(el, { opacity: 0, y: 50 });
+          ScrollTrigger.create({
+            trigger: el,
+            start: 'top 85%',
+            once: true,
+            onEnter: function () {
+              gsap.to(el, { opacity: 1, y: 0, duration: 0.9, ease: 'power3.out' });
+            }
+          });
+        });
+
+        // 5. Imágenes grandes de secciones: fade + scale sutil
+        var images = document.querySelectorAll(
+          '.image-user-nico, .image-user-expediente, .image-50, ' +
+          '[class*="image-46"], [class*="image-user-"]'
+        );
+        images.forEach(function (el) {
+          gsap.set(el, { opacity: 0, scale: 0.92 });
+          ScrollTrigger.create({
+            trigger: el,
+            start: 'top 90%',
+            once: true,
+            onEnter: function () {
+              gsap.to(el, { opacity: 1, scale: 1, duration: 1, ease: 'power2.out' });
+            }
+          });
+        });
+
+        // 6. Pagination links (siguiente/anterior proyecto): fade up
+        var pags = document.querySelectorAll('.project-pagination__link');
+        if (pags.length) {
+          gsap.set(pags, { opacity: 0, y: 30 });
+          ScrollTrigger.create({
+            trigger: pags[0],
+            start: 'top 90%',
+            once: true,
+            onEnter: function () {
+              gsap.to(pags, {
+                opacity: 1,
+                y: 0,
+                duration: 0.7,
+                ease: 'power3.out',
+                stagger: 0.12
+              });
+            }
+          });
+        }
+      }());
+    </script>
   </body>
 </html>
