@@ -2619,7 +2619,7 @@ a {
   padding-right: 20px;
   display: flex;
 }
-.grid-21 {
+.hero-cta-grid {
   grid-column-gap: 10px;
   grid-row-gap: 16px;
   flex-flow: wrap;
@@ -2646,7 +2646,7 @@ a {
   align-items: center;
   display: flex;
 }
-.div-block-190 {
+.about-count-item {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   border: 1px #000;
@@ -2696,7 +2696,7 @@ a {
   line-height: 100%;
 }
 .count-div,
-.div-block-194 {
+.about-count-badge {
   justify-content: flex-start;
   align-items: flex-start;
   padding-right: 40px;
@@ -2765,7 +2765,7 @@ a {
   padding-top: 190px;
   padding-bottom: 0;
 }
-.heading-29 {
+.contact-heading {
   color: var(--white-100);
   text-align: center;
   margin-top: 0;
@@ -2887,7 +2887,7 @@ a {
   display: flex;
 }
 .div-block-201,
-.section-11 {
+.contact-main {
   position: relative;
 }
 .portfolio-section {
@@ -3568,7 +3568,7 @@ a {
   margin-right: auto;
   padding: 20px;
 }
-.div-block-224 {
+.page-main {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
@@ -3852,7 +3852,7 @@ a {
 .div-block-237 {
   max-width: 900px;
 }
-.paragraph-29 {
+.contact-subheading {
   font-family: var(--instrument);
   color: var(--white-100);
   text-align: center;
@@ -5602,7 +5602,7 @@ a {
   line-height: 16px;
   display: flex;
 }
-.div-block-253 {
+.about-process-step {
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   flex-flow: column;
@@ -7632,7 +7632,7 @@ a {
     font-size: 18px;
     line-height: 22px;
   }
-  .div-block-224 {
+  .page-main {
     max-width: none;
   }
   .title-2-copy {
@@ -7777,7 +7777,7 @@ a {
     font-size: 18px;
     line-height: 26px;
   }
-  .div-block-224 {
+  .page-main {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
@@ -8219,7 +8219,7 @@ a {
     grid-column-gap: 50px;
     grid-row-gap: 50px;
   }
-  .div-block-190 {
+  .about-count-item {
     border-style: none;
     border-width: 0;
   }
@@ -8234,7 +8234,7 @@ a {
     padding-top: 140px;
     padding-bottom: 40px;
   }
-  .heading-29 {
+  .contact-heading {
     font-size: 36px;
   }
   .contact_message-field::placeholder,
@@ -8839,7 +8839,7 @@ a {
     padding-right: 0;
     display: flex;
   }
-  .div-block-224 {
+  .page-main {
     width: 100vw;
     margin-left: auto;
     margin-right: auto;
@@ -9267,10 +9267,10 @@ a {
   .div-block-200 {
     height: auto;
   }
-  .heading-29 {
+  .contact-heading {
     font-size: 30px;
   }
-  .paragraph-29 {
+  .contact-subheading {
     font-size: 22px;
     line-height: 28px;
   }
@@ -9438,7 +9438,7 @@ a {
   }
   .creativity-txt,
   .innovation-txt,
-  .div-block-190 {
+  .about-count-item {
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -9477,10 +9477,10 @@ a {
   .div-block-200 {
     height: auto;
   }
-  .heading-29 {
+  .contact-heading {
     font-size: 24px;
   }
-  .paragraph-29 {
+  .contact-subheading {
     font-size: 18px;
     line-height: 24px;
   }
@@ -9583,7 +9583,7 @@ a {
   .card-skills {
     width: 100%;
   }
-  .div-block-224 {
+  .page-main {
     width: 100vw;
     position: relative;
   }
