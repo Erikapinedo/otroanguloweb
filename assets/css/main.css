@@ -4297,12 +4297,12 @@ a {
   font-size: 25px;
   line-height: 30px;
 }
-.div-block-239 {
+.project-section-header {
   margin-bottom: 20px;
   padding-left: 60px;
   padding-right: 60px;
 }
-.div-block-239-copy {
+.project-section-cards {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   grid-template-rows: auto;
@@ -4313,7 +4313,7 @@ a {
   margin-bottom: 20px;
   display: grid;
 }
-.image-47 {
+.project-section-image {
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -4436,7 +4436,7 @@ a {
   width: 100%;
   display: flex;
 }
-.div-block-244 {
+.project-section-card {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   flex-flow: column;
@@ -7068,8 +7068,8 @@ a {
 .body-project-bluesphere .description-problem-project { color: #ffffff; }
 .body-project-bluesphere .project-title-problem-bluesphere { white-space: nowrap; font-size: clamp(35px, 5.5vw, 80px); }
 .body-project-bluesphere .div-block-251 { background-color: #2A324126; }
-.body-project-bluesphere .image-47 { width: 70%; max-width: 70%; display: block; margin: 0 auto; }
-.body-project-matchminders .image-47 { width: 70%; max-width: 70%; display: block; margin: 0 auto; }
+.body-project-bluesphere .project-section-image { width: 70%; max-width: 70%; display: block; margin: 0 auto; }
+.body-project-matchminders .project-section-image { width: 70%; max-width: 70%; display: block; margin: 0 auto; }
 
 /* ===== BRANDBOOK ===== */
 .project-bluesphere-brandbook { background-color: #0B0B0B; width: 100%; }
@@ -8391,11 +8391,11 @@ a {
   .container-nico-prioblem-copy {
     padding: 40px 20px;
   }
-  .div-block-239 {
+  .project-section-header {
     padding-left: 0;
     padding-right: 20px;
   }
-  .div-block-239-copy {
+  .project-section-cards {
     flex-flow: column-reverse;
     padding-left: 0;
     padding-right: 0;
@@ -8521,7 +8521,7 @@ a {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .div-block-239-copy {
+  .project-section-cards {
     padding-left: 0;
     padding-right: 20px;
   }
@@ -8949,10 +8949,10 @@ a {
     width: 100%;
     font-size: 20px;
   }
-  .div-block-239 {
+  .project-section-header {
     padding-left: 20px;
   }
-  .div-block-239-copy {
+  .project-section-cards {
     flex-flow: column-reverse;
     display: flex;
   }
@@ -8963,7 +8963,7 @@ a {
     flex-flow: column;
     display: block;
   }
-  .div-block-244,
+  .project-section-card,
   .container-nico-impact {
     padding-left: 20px;
     padding-right: 20px;
@@ -9108,7 +9108,7 @@ a {
     font-size: 20px;
   }
   .paragraph-31,
-  .div-block-239-copy,
+  .project-section-cards,
   .div-pic-solution {
     padding-left: 20px;
   }
@@ -9788,7 +9788,7 @@ a {
   .description-problem-project-copy {
     text-align: center;
   }
-  .div-block-239-copy {
+  .project-section-cards {
     padding-left: 0;
     padding-right: 0;
   }

@@ -754,7 +754,7 @@
       ══════════════════════════════════════════ -->
       <div class="div-solution-container">
         <div class="w-layout-blockcontainer container-playersnap-prioblem w-container">
-          <div class="div-block-239">
+          <div class="project-section-header">
             <div class="w-layout-grid the-problem-title-copy">
               <h2 class="project-title-problem-alessandri-copy" data-i18n="bancoFalabellaProjectPage.solutionH">La solución</h2>
             </div>
@@ -762,8 +762,8 @@
               IPS centraliza la información dispersa de las sucursales en una plataforma compartida que permite actuar antes de que los problemas escalen.
             </p>
           </div>
-          <div class="div-block-239-copy">
-            <div class="div-block-244">
+          <div class="project-section-cards">
+            <div class="project-section-card">
               <p class="description-problem-project-copy-copy" data-i18n-html="bancoFalabellaProjectPage.sol1Html">
                 <strong class="text-solution-falabella">Ficha única por sucursal</strong><br />Tres pestañas (Infraestructura, Prevención, Servicios Generales) que convergen en una sola vista. Cada área ve los datos de las otras sin pedirlos.
               </p>
@@ -787,7 +787,7 @@
               loading="lazy"
               alt="Vista del módulo de Proveedores en IPS, listado con filtros y tabla de contratos de Banco Falabella"
               data-i18n-alt="bancoFalabellaProjectPage.proveedoresAlt"
-              class="image-47"
+              class="project-section-image"
             />
           </div>
         </div>
@@ -980,8 +980,8 @@
         // La solución
         gsap.from(".div-solution-container .project-title-problem-alessandri-copy", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".div-solution-container" }) }));
         gsap.from(".div-solution-container .description-problem-project-copy", Object.assign({}, fadeUpFast, { delay: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".div-solution-container" }) }));
-        gsap.from(".div-solution-container .description-problem-project-copy-copy", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".div-block-244" }) }));
-        gsap.from(".div-solution-container .image-47", Object.assign({}, { opacity: 0, x: 40, duration: 0.9, ease: "power3.out" }, { scrollTrigger: Object.assign({}, st, { trigger: ".div-block-239-copy" }) }));
+        gsap.from(".div-solution-container .description-problem-project-copy-copy", Object.assign({}, fadeUpFast, { stagger: 0.1, scrollTrigger: Object.assign({}, st, { trigger: ".project-section-card" }) }));
+        gsap.from(".div-solution-container .project-section-image", Object.assign({}, { opacity: 0, x: 40, duration: 0.9, ease: "power3.out" }, { scrollTrigger: Object.assign({}, st, { trigger: ".project-section-cards" }) }));
 
         // Impacto
         gsap.from(".project-falabella-impact .falabella-impact-title", Object.assign({}, fadeUp, { scrollTrigger: Object.assign({}, st, { trigger: ".project-falabella-impact" }) }));

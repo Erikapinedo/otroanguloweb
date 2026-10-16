@@ -509,7 +509,7 @@
           data-w-id="44e6bd22-e8bd-ea2b-10e2-d2f466273165"
           class="w-layout-blockcontainer container-playersnap-prioblem w-container"
         >
-          <div class="div-block-239">
+          <div class="project-section-header">
             <div class="w-layout-grid the-problem-title-copy">
               <h2 class="project-title-problem-alessandri-copy" data-i18n="playersnapProjectPage.solutionH">
                 La Solución
@@ -520,8 +520,8 @@
               automatizado y medible que permite a las organizaciones conectar mejor con sus fans.
             </p>
           </div>
-          <div class="div-block-239-copy">
-            <div class="div-block-244">
+          <div class="project-section-cards">
+            <div class="project-section-card">
               <p class="description-problem-project-copy-copy" data-i18n-html="playersnapProjectPage.sol1Html">
                 <strong class="text-solution-playersnap">Etiquetado IA</strong><br />Reconocimiento automático de
                 jugadores, equipos y eventos para clasificar el contenido sin esfuerzo manual.
@@ -553,7 +553,7 @@
               sizes="(max-width: 767px) 100vw, 50vw"
               loading="lazy"
               alt="Vista móvil de PlayerSnap mostrando la interfaz de distribución de contenido deportivo."
-              class="image-47"
+              class="project-section-image"
             />
           </div>
         </div>
@@ -863,7 +863,7 @@
           gsap.from(solItems, st(solItems[0], { opacity: 0, x: -30, duration: 0.5, stagger: 0.1, ease: "power2.out" }));
 
         // Teléfono La Solución — slide desde la derecha
-        var phone = document.querySelector(".body-project-playersnap .image-47");
+        var phone = document.querySelector(".body-project-playersnap .project-section-image");
         if (phone) gsap.from(phone, st(phone, fadeRight));
 
         // Cards de impacto — stagger

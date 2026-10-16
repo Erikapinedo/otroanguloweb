@@ -358,7 +358,7 @@
       <!-- ========== LA SOLUCIÓN ========== -->
       <section class="project-matchminders-solution-wrapper">
         <div class="w-layout-blockcontainer container-nico-prioblem-copy w-container">
-          <div class="div-block-239">
+          <div class="project-section-header">
             <div class="w-layout-grid the-problem-title-copy">
               <h2 class="project-title-problem-copy" data-i18n="matchmindersProjectPage.solutionH">La Solución</h2>
             </div>
@@ -367,8 +367,8 @@
               un Design System sólido que asegura coherencia en toda la plataforma.
             </p>
           </div>
-          <div class="div-block-239-copy">
-            <div class="div-block-244">
+          <div class="project-section-cards">
+            <div class="project-section-card">
               <p class="description-problem-project-copy-copy" data-i18n-html="matchmindersProjectPage.sol1Html">
                 <strong class="bold-text-5">Crear Torneos</strong><br />Flujo guiado para que los organizadores
                 configuren un torneo completo en minutos.
@@ -398,7 +398,7 @@
               src="../images/Matchminder/circulo-interfaz.webp"
               loading="lazy"
               alt="Interfaces de MatchMinders mostrando las principales pantallas de la plataforma de torneos deportivos."
-              class="image-47"
+              class="project-section-image"
             />
           </div>
         </div>
@@ -589,8 +589,8 @@
         // Solución
         gsap.from(".project-title-problem-copy",           { opacity: 0, y: 40, duration: 0.7, ease: "power3.out", scrollTrigger: Object.assign({ trigger: ".project-matchminders-solution-wrapper" }, st) });
         gsap.from(".description-problem-project-copy",     { opacity: 0, y: 30, duration: 0.6, ease: "power3.out", delay: 0.1, scrollTrigger: Object.assign({ trigger: ".project-matchminders-solution-wrapper" }, st) });
-        gsap.from(".description-problem-project-copy-copy",{ opacity: 0, y: 25, duration: 0.5, ease: "power3.out", stagger: 0.1, scrollTrigger: { trigger: ".div-block-239-copy", start: "top 85%", toggleActions: "play none none none" } });
-        gsap.from(".image-47",                             { opacity: 0, scale: 0.95, duration: 0.8, ease: "power3.out", scrollTrigger: { trigger: ".image-47", start: "top 85%", toggleActions: "play none none none" } });
+        gsap.from(".description-problem-project-copy-copy",{ opacity: 0, y: 25, duration: 0.5, ease: "power3.out", stagger: 0.1, scrollTrigger: { trigger: ".project-section-cards", start: "top 85%", toggleActions: "play none none none" } });
+        gsap.from(".project-section-image",                             { opacity: 0, scale: 0.95, duration: 0.8, ease: "power3.out", scrollTrigger: { trigger: ".project-section-image", start: "top 85%", toggleActions: "play none none none" } });
 
         // Components image
         gsap.from(".components-mm", { opacity: 0, y: 40, duration: 0.8, ease: "power3.out", scrollTrigger: { trigger: ".components-mm-wrapper", start: "top 85%", toggleActions: "play none none none" } });
