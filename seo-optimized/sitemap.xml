@@ -9,7 +9,6 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/"/>
   </url>
 
@@ -19,7 +18,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos"/>
   </url>
 
@@ -29,7 +27,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/sobre-mi"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/sobre-mi"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/sobre-mi"/>
   </url>
 
@@ -39,7 +36,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/contacto"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/contacto"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/contacto"/>
   </url>
 
@@ -49,7 +45,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/alessandri"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/alessandri"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/alessandri"/>
   </url>
 
@@ -59,7 +54,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/nico-seguros"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/nico-seguros"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/nico-seguros"/>
   </url>
 
@@ -69,7 +63,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/parrotfy"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/parrotfy"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/parrotfy"/>
   </url>
 
@@ -79,7 +72,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/expediente"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/expediente"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/expediente"/>
   </url>
 
@@ -89,7 +81,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/banco-falabella"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/banco-falabella"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/banco-falabella"/>
   </url>
 
@@ -99,7 +90,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/bluesphere"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/bluesphere"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/bluesphere"/>
   </url>
 
@@ -109,7 +99,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/playersnap"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/playersnap"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/playersnap"/>
   </url>
 
@@ -119,7 +108,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/matchminders"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/matchminders"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/matchminders"/>
   </url>
 
@@ -129,7 +117,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/jschile"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/jschile"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/jschile"/>
   </url>
 
@@ -139,7 +126,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/portalpehuen"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/portalpehuen"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/portalpehuen"/>
   </url>
 
@@ -149,7 +135,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/urbana"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://otroanguloweb.cl/proyectos/urbana"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/urbana"/>
   </url>
 
