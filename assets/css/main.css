@@ -2275,7 +2275,7 @@ a {
 .let-s-collaborate:hover {
   border: 1px solid var(--white-100);
 }
-.text-block-13 {
+.about-cta-label {
   text-decoration: none;
 }
 .about-cta-stack {
@@ -3028,7 +3028,7 @@ a {
 .button-pink.center:active {
   box-shadow: inset 0 2px 5px #0003;
 }
-.container-19 {
+.home-logos-container {
   grid-column-gap: 40px;
   grid-row-gap: 19px;
   background-color: transparent;
@@ -3141,7 +3141,7 @@ a {
 .button-pink-secondary.center:active {
   box-shadow: inset 0 2px 5px #0003;
 }
-.paragraph-24,
+.about-skills-intro,
 .paragraph-24-copy {
   color: var(--white-100);
   margin-bottom: 20px;
@@ -3255,7 +3255,7 @@ a {
   padding-top: 0;
   font-weight: 400;
 }
-.flex-block-3 {
+.testimonial-slide {
   justify-content: center;
   align-items: center;
   max-width: none;
@@ -3528,7 +3528,7 @@ a {
   padding-right: 0;
   display: grid;
 }
-.heading-40 {
+.final-cta-heading {
   font-size: 60px;
   line-height: 50px;
 }
@@ -3838,7 +3838,7 @@ a {
 .image-37-copy {
   width: 80px;
 }
-.div-block-233 {
+.about-skills-header {
   width: 100%;
   max-width: 1100px;
   flex-flow: column;
@@ -3904,7 +3904,7 @@ a {
   font-weight: 700;
   line-height: 130%;
 }
-.image-40 {
+.about-memoji {
   width: 70%;
   max-width: none;
   overflow: visible;
@@ -4533,7 +4533,7 @@ a {
   display: grid;
   overflow: clip;
 }
-.image-53 {
+.testimonial-avatar {
   padding-top: 10px;
 }
 .description-impact-project {
@@ -5757,7 +5757,7 @@ a {
   align-items: center;
   display: flex;
 }
-.link-block-4,
+.footer-link,
 .image-alessandri,
 .image-nico,
 .image-parrotfy {
@@ -7750,7 +7750,7 @@ a {
     justify-content: center;
     align-items: center;
   }
-  .container-19 {
+  .home-logos-container {
     grid-column-gap: 40px;
     grid-row-gap: 20px;
   }
@@ -7813,7 +7813,7 @@ a {
     object-fit: fill;
     max-width: 600px;
   }
-  .div-block-233 {
+  .about-skills-header {
     max-width: 1100px;
   }
   .hero-heading-h1-projects,
@@ -7907,7 +7907,7 @@ a {
   }
 }
 @media screen and (min-width: 1920px) {
-  .div-block-233 {
+  .about-skills-header {
     flex-flow: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -8253,7 +8253,7 @@ a {
     grid-column-gap: 40px;
     grid-row-gap: 40px;
   }
-  .container-19 {
+  .home-logos-container {
     grid-row-gap: 19px;
     background-color: #293057;
     border-radius: 40px;
@@ -8784,11 +8784,11 @@ a {
   .submit-button-wrapper {
     margin-top: 0;
   }
-  .container-19 {
+  .home-logos-container {
     border-radius: 50px;
     width: 80%;
   }
-  .paragraph-24 {
+  .about-skills-intro {
     width: 100%;
   }
   .about-us-numbers {
@@ -8805,7 +8805,7 @@ a {
   .slider {
     width: 100%;
   }
-  .flex-block-3 {
+  .testimonial-slide {
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -8830,7 +8830,7 @@ a {
     font-size: 25px;
     line-height: 25px;
   }
-  .heading-40 {
+  .final-cta-heading {
     font-size: 40px;
   }
   .home-services-section {
@@ -9498,7 +9498,7 @@ a {
     margin-right: auto;
     display: flex;
   }
-  .container-19 {
+  .home-logos-container {
     grid-column-gap: 19px;
     grid-row-gap: 19px;
     border-radius: 40px;
@@ -9509,7 +9509,7 @@ a {
     margin-top: 20px;
     display: flex;
   }
-  .paragraph-24 {
+  .about-skills-intro {
     text-align: center;
   }
   .button-white-2 {
@@ -9672,7 +9672,7 @@ a {
     margin-top: 40px;
     display: flex;
   }
-  .image-40 {
+  .about-memoji {
     width: 50%;
     height: auto;
   }
