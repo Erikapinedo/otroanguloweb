@@ -27,6 +27,7 @@
         projectAlessandri: '/proyectos/alessandri',
         projectNico: '/proyectos/nico-seguros',
         projectParrotfy: '/proyectos/parrotfy',
+        // TODO: cablear data-i18n-href en los HTML que linkeen a expediente
         projectExpediente: '/proyectos/expediente',
         projectMatchminders: '/proyectos/matchminders',
         projectJschile: '/proyectos/jschile',
@@ -75,7 +76,6 @@
         parrotfyTitle: 'Organización y Control para Empresas en Crecimiento',
         parrotfyDesc:
           'Diseño end-to-end de un ERP todo en uno para PYMEs: cotizaciones, ventas, pagos, órdenes de trabajo y facturación en un solo flujo.<br/>',
-        knowMore: 'Conocer más',
         ctaAll: 'Ver todos los proyectos',
       },
       oaSkills: {
@@ -98,11 +98,15 @@
         brandingFor: 'Para marcas nuevas o rebrands que quieren verse coherentes en todos los puntos de contacto.',
         brandingList:
           '<li>Logo e identidad visual</li><li>Guía de marca y sistema gráfico</li><li>Aplicaciones digitales y papelería</li>',
+        brandingBody:
+          'Construyo identidades visuales coherentes y escalables: desde el logo y el sistema gráfico hasta las guías de estilo y las aplicaciones digitales. Marcas que transmiten valor, personalidad y diferenciación en cada punto de contacto.',
         presentationsTitle: 'Presentaciones',
         presentationsHeadline: '<strong>Pitch decks que levantan capital.</strong>',
         presentationsFor: 'Para founders que necesitan contar su historia a inversionistas o clientes.',
         presentationsList:
           '<li>Pitch decks para startups</li><li>Decks comerciales y corporativos</li><li>Estructura narrativa y storytelling</li>',
+        presentationsBody:
+          'Creo presentaciones que comunican ideas complejas con claridad e impacto: pitch decks para startups e inversionistas, presentaciones corporativas y storytelling visual. Entrega en PowerPoint o Figma slides.',
         consultingTitle: 'Consultoría',
         consultingHeadline: '<strong>Dirección de diseño para equipos sin designer in-house.</strong>',
         consultingFor: 'Para founders y equipos que necesitan criterio estratégico sin contratar full-time.',
@@ -246,13 +250,19 @@
         "matchmindersDesc": "Diseño de flujos de usuario, interfaces y Design System para una plataforma que simplifica la organización y participación en torneos deportivos.<br/>",
         "matchmindersImgAlt": "Pantalla del sitio web de MatchMinders mostrando torneos deportivos destacados y opciones para jugar u organizar.",
         "jschileTitle": "Identidad visual + Landing para Comunidad Dev",
+        // TODO: cablear en proyectos.html si quieres description/alt propios
         "jschileDesc": "Identidad visual y landing page para JSChile, la comunidad de desarrollo más grande de Chile.",
+        // TODO: cablear en proyectos.html si quieres description/alt propios
         "jschileImgAlt": "Landing page de JSChile mostrando la identidad visual de la comunidad de desarrollo más grande de Chile.",
         "portalpTitle": "Identidad Visual para Comunidad de Barrio",
+        // TODO: cablear en proyectos.html si quieres description/alt propios
         "portalpDesc": "Diseño de identidad visual desde cero para Portal Pehuén: una plataforma de barrio que conecta vecinos con negocios locales.",
+        // TODO: cablear en proyectos.html si quieres description/alt propios
         "portalpImgAlt": "Identidad visual de Portal Pehuén mostrando logotipo, paleta de colores y aplicaciones de marca.",
         "urbanaTitle": "App Administrativa para Edificios y Condominios",
+        // TODO: cablear en proyectos.html si quieres description/alt propios
         "urbanaDesc": "Diseño UX/UI de una app móvil que centraliza la gestión administrativa de edificios: gastos, notificaciones, comunicados y transparencia para residentes.",
+        // TODO: cablear en proyectos.html si quieres description/alt propios
         "urbanaImgAlt": "App móvil Urbana mostrando panel de administración de edificio con módulos de gastos y comunicaciones."
       },
       alessandriProjectPage:       {
@@ -277,6 +287,7 @@
         "teamLabel": "Equipo",
         "teamHtml": "<em class=\"italic-text-5\">1 lider de proyecto, 3 desarrolladores, 1 Product designer</em>",
         "designLabel": "Diseño",
+        // TODO: cablear si decides mostrar el total en la ficha
         "totalLabel": "Total",
         "roleLabel": "Rol",
         "roleValue": "Product Designer",
@@ -433,7 +444,6 @@
         parrotfyDesc: 'Diseño end-to-end de un ERP todo en uno para PYMEs: cotizaciones, ventas, pagos, órdenes de trabajo y facturación en un solo flujo.<br/>',
         expTitle: 'Plataforma abogados',
         expDesc: 'Diseño end-to-end de una plataforma legaltech para digitalizar la gestión de arbitrajes y mediaciones: expediente virtual, acceso remoto y notificaciones automáticas.<br/>',
-        knowMore: 'Conocer más',
       },
       parrotfyProjectPage: {
         meta: {
@@ -513,7 +523,6 @@
         alessandriDesc: 'Rediseño end-to-end basado en research con usuarios reales para simplificar flujos complejos en la plataforma interna de un estudio de abogados.<br/>',
         expTitle: 'Plataforma abogados',
         expDesc: 'Diseño end-to-end de una plataforma legaltech para digitalizar la gestión de arbitrajes y mediaciones: expediente virtual, acceso remoto y notificaciones automáticas.<br/>',
-        knowMore: 'Conocer más',
       },
       expedienteProjectPage: {
         meta: {
@@ -574,7 +583,6 @@
         parrotfyDesc: 'Diseño end-to-end de un ERP todo en uno para PYMEs: cotizaciones, ventas, pagos, órdenes de trabajo y facturación en un solo flujo.<br/>',
         nicoTitle: 'Plataforma de Seguros desde Cero',
         nicoDesc: 'Diseño de una plataforma SaaS B2B para corredores de seguros desde cero: gestión centralizada de pólizas, clientes y renovaciones para reemplazar planillas y correos.<br/>',
-        knowMore: 'Conocer más',
       },
       bluesphereProjectPage: {
         meta: {
@@ -605,6 +613,7 @@
         prob3Body: 'Gestionar seguridad, infraestructura y cumplimiento con herramientas separadas genera inconsistencias, brechas de protección y costos innecesarios.',
         prob4Title: 'Adopción tecnológica lenta',
         prob4Body: 'Sin soporte especializado, las empresas no pueden adoptar tecnología moderna a la velocidad que el mercado exige, quedando rezagadas frente a la competencia.',
+        // TODO: cablear si va subtítulo en el bloque de persona
         personaSubtitle: 'El perfil principal de BlueSphere es el directivo o responsable IT de una pyme que necesita protección enterprise sin la complejidad ni el costo de soluciones para grandes empresas.',
         approachH: 'El Enfoque',
         approachBody1Html: 'Para diseñar una plataforma que simplifique la ciberseguridad para pymes, el diseño se estructuró en torno al ciclo de protección:<br/><strong>Proteger → Monitorear → Responder → Crecer</strong>',
@@ -634,7 +643,6 @@
         creditsHtml: '<strong>Compañía</strong> Nnodes<br/><strong>CTO </strong>Franco Restaino<br/><strong>Diseñadora UX/UI </strong>Erika Pinedo<br/><strong>Desarrolladores </strong>Juan Francisco Campo, Javier Contreras, Martina M.<br/><br/>- Todos los derechos reservados -',
         otherHeadingHtml: 'Otros <span class="span-txt">Proyectos</span>',
         seeAll: 'Ver todos',
-        knowMore: 'Conocer más',
         nicoTitle: 'Plataforma de Seguros desde Cero',
         nicoDesc: 'Diseño de una plataforma SaaS B2B para corredores de seguros desde cero: gestión centralizada de pólizas, clientes y renovaciones para reemplazar planillas y correos.<br/>',
         playersnapTitle: 'Plataforma de Gestión de Activos Multimedia para Deportes',
@@ -675,7 +683,9 @@
         heroH1Html: 'Píxeles que<br/><em class="italic-text-2">conectan Chile.</em>',
         heroSub: 'Identidad visual + Landing page',
         heroImpact: 'Identidad visual y landing page para la comunidad de desarrollo más grande de Chile.',
+        // TODO: cablear si decides mostrar fecha de inicio en la ficha
         startLabel: 'Inicio',
+        // TODO: cablear si decides mostrar label de empresa en la ficha
         companyLabel: 'Comunidad',
         roleLabel: 'Rol',
         roleValue: 'Diseñadora UX/UI & Gráfica · Desarrollo',
@@ -690,6 +700,7 @@
         brandbookV1: 'Principal · fondo oscuro',
         brandbookV2: 'Fondo amarillo',
         brandbookV3: 'Versión positivo',
+        // TODO: revisar: parece asset descartado
         brandbookV4: 'Versión estampado',
         brandbookAltVersionsLabel: 'Otras versiones permitidas',
         brandbookAltV1: 'Versión horizontal',
@@ -729,10 +740,13 @@
         otherHeadingHtml: 'Otros <span class="span-txt">Proyectos</span>',
         seeAll: 'Ver todos',
         bluesphereTitle: 'Plataforma de Ciberseguridad para Pymes',
+        // TODO: cablear si quieres variante propia para el bloque "otros proyectos"
         bluesphereDesc: 'Diseño de marca e interfaz para una plataforma de ciberseguridad enterprise pensada para pymes: SOC 24/7, Zero Trust y gestión IT unificada.',
         nicoTitle: 'Plataforma de Seguros desde Cero',
+        // TODO: cablear si quieres variante propia para el bloque "otros proyectos"
         nicoDesc: 'Diseño de una plataforma SaaS B2B para corredores de seguros desde cero: gestión centralizada de pólizas, clientes y renovaciones.',
         parrotfyTitle: 'Organización y Control para Empresas en Crecimiento',
+        // TODO: cablear si quieres variante propia para el bloque "otros proyectos"
         parrotfyDesc: 'Diseño end-to-end de un ERP todo en uno para PYMEs: cotizaciones, ventas, pagos, órdenes de trabajo y facturación en un solo flujo.',
       },
       matchmindersProjectPage: {
@@ -755,7 +769,6 @@
         roleValue: 'Diseñadora UX/UI',
         contextTitleHtml: 'Torneos deportivos. <em>Sin la plataforma</em> que lo haga fácil.',
         contextBody: 'Organizar un torneo deportivo hoy implica planillas, grupos de WhatsApp y pagos en efectivo. Del lado del jugador, encontrar dónde participar depende casi siempre del boca a boca. El encargo fue diseñar MatchMinders desde cero: una plataforma que resolviera ambos lados del problema, con flujos diferenciados para el Organizador y el Jugador, y un Design System que sostuviera toda la experiencia.',
-        heroImgAlt: 'Pantalla del sitio web de MatchMinders que invita a desatar el espíritu competitivo creando y gestionando torneos de deportes favoritos como fútbol, tenis, básquetbol y e-sports.',
         problemH: 'El Desafío',
         problemBodyHtml: 'Organizar un torneo deportivo sigue siendo una tarea caótica: planillas de Excel, grupos de WhatsApp y pagos en efectivo. Y del lado del jugador, encontrar un torneo donde participar es casi imposible sin conocer a alguien ya inscrito.<br/><br/><strong>El reto fue diseñar una plataforma que simplifique radicalmente la organización y convierta la participación en algo fácil y accesible para todos.</strong>',
         prob1Title: 'Gestión manual y caótica',
@@ -766,22 +779,6 @@
         prob3Body: 'Cobrar inscripciones implica transferencias manuales y confirmaciones por mensaje, con el riesgo constante de errores y disputas sin registro formal.',
         prob4Title: 'Sin visibilidad de resultados',
         prob4Body: 'Los rankings y resultados se publican de forma manual y tardía, sin que jugadores ni organizadores tengan una visión actualizada del torneo en tiempo real.',
-        flowsH: 'Flujos de Usuario',
-        flowsSubtitle: 'Antes de diseñar cualquier pantalla, se mapearon los flujos completos de los dos perfiles principales de la plataforma.',
-        flow1Badge: 'Organizador',
-        flow1Title: 'Crea y gestiona torneos',
-        flow1Step1: 'Crear torneo (deporte, formato, reglas)',
-        flow1Step2: 'Publicar y configurar inscripciones',
-        flow1Step3: 'Recibir participantes y cobrar',
-        flow1Step4: 'Gestionar partidos y comunicar novedades',
-        flow1Step5: 'Publicar resultados y rankings',
-        flow2Badge: 'Jugador',
-        flow2Title: 'Descubre y participa',
-        flow2Step1: 'Explorar torneos por deporte y ciudad',
-        flow2Step2: 'Ver detalles del torneo y requisitos',
-        flow2Step3: 'Inscribirse y pagar de forma segura',
-        flow2Step4: 'Recibir confirmación y detalles del partido',
-        flow2Step5: 'Seguir resultados y clasificación',
         approachH: 'El Enfoque',
         approachBodyHtml: 'Para simplificar la gestión y participación en torneos deportivos, el diseño se estructuró en torno al ciclo completo del torneo:<br/><strong>Crear → Inscribir → Jugar → Seguir</strong>',
         approachBody2: 'El diseño se basó en tres pilares:',
@@ -799,8 +796,6 @@
         sol4Html: '<strong class="text-solution-mm">Descubrir Torneos</strong><br/>Los jugadores encuentran torneos cercanos con filtros por deporte, ciudad y formato.',
         sol5Html: '<strong class="text-solution-mm">Design System</strong><br/>Biblioteca de componentes y tokens que unifica la experiencia visual en toda la plataforma.',
         sol6Html: '<strong class="text-solution-mm">Rankings en Tiempo Real</strong><br/>Resultados y clasificaciones actualizados durante y después de cada torneo.',
-        imgPlaceholder1: 'Pantallas UI · Próximamente',
-        imgPlaceholder2: 'Design System · Próximamente',
         impactH: 'Impacto',
         impactBodyHtml: '<strong>Con MatchMinders, organizar un torneo completo ya no requiere planillas ni apps externas. Y encontrar uno donde jugar es tan simple como una búsqueda.</strong>',
         imp1Html: '<strong>Torneos en minutos</strong>Los organizadores configuran y publican un torneo completo sin planillas ni apps externas.',
@@ -811,7 +806,6 @@
         creditsHtml: '<strong>Compañía</strong> Otro Ángulo Web<br/><strong>Diseñadora UX/UI</strong> Erika Pinedo<br/><br/>- Todos los derechos reservados -',
         otherHeadingHtml: 'Otros <span class="span-txt">Proyectos</span>',
         seeAll: 'Ver todos',
-        knowMore: 'Conocer más',
         playersnapTitle: 'Plataforma de Gestión de Activos Multimedia para Deportes',
         playersnapDesc: 'Diseño end-to-end de una plataforma SaaS con IA para organizaciones deportivas: etiquetado automático, búsqueda inteligente y distribución de contenido en tiempo real.<br/>',
         parrotfyTitle: 'Organización y Control para Empresas en Crecimiento',
@@ -885,7 +879,6 @@
         creditsHtml: '<strong>Compañía</strong> Nnodes<br/><strong>CTO</strong> Pablo Caviedes<br/><strong>Diseñadora UX/UI</strong> Erika Pinedo<br/><strong>Desarrolladores</strong> Juan Hayashi, Joaquin S., Martina M.<br/><br/>- Todos los derechos reservados -',
         otherHeadingHtml: 'Otros <span class="span-txt">Proyectos</span>',
         seeAll: 'Ver todos',
-        knowMore: 'Conocer más',
         bluesphereTitle: 'Plataforma de Ciberseguridad para Pymes',
         bluesphereDesc: 'Diseño de marca e interfaz para una plataforma de ciberseguridad enterprise dirigida a PYMEs: SOC 24/7, Zero Trust y gestión IT unificada.<br/>',
         nicoTitle: 'Plataforma de Seguros desde Cero',
@@ -1030,7 +1023,6 @@
         parrotfyTitle: 'Organization and Control for Growing Businesses',
         parrotfyDesc:
           'End-to-end design of an all-in-one ERP for SMBs: quotes, sales, payments, work orders, and invoicing in a single workflow.<br/>',
-        knowMore: 'Know more',
         ctaAll: 'View all projects',
       },
       oaSkills: {
@@ -1053,11 +1045,15 @@
         brandingFor: 'For new brands or rebrands that want consistency across every touchpoint.',
         brandingList:
           '<li>Logo and visual identity</li><li>Brand guidelines and graphic system</li><li>Digital applications and collateral</li>',
+        brandingBody:
+          'I build coherent, scalable visual identities: from logo and graphic system to brand guidelines and digital applications. Brands that convey value, personality, and clear differentiation at every touchpoint.',
         presentationsTitle: 'Presentations',
         presentationsHeadline: '<strong>Pitch decks that raise capital.</strong>',
         presentationsFor: 'For founders who need to tell their story to investors or clients.',
         presentationsList:
           '<li>Pitch decks for startups</li><li>Corporate and sales decks</li><li>Narrative structure and storytelling</li>',
+        presentationsBody:
+          'I design presentations that communicate complex ideas with clarity and impact: pitch decks for startups and investors, corporate presentations, and visual storytelling. Delivered in PowerPoint or Figma slides.',
         consultingTitle: 'Consulting',
         consultingHeadline: '<strong>Design direction for teams without an in-house designer.</strong>',
         consultingFor: 'For founders and teams that need strategic design judgment without hiring full-time.',
@@ -1388,7 +1384,6 @@
         parrotfyDesc: 'End-to-end design of an all-in-one ERP for SMBs: quotes, sales, payments, work orders, and invoicing in a single workflow.<br/>',
         expTitle: 'Lawyers platform',
         expDesc: 'End-to-end design of a legaltech platform to digitize arbitration and mediation management: virtual case file, remote access, and automatic notifications.<br/>',
-        knowMore: 'Know more',
       },
       parrotfyProjectPage: {
         meta: {
@@ -1468,7 +1463,6 @@
         alessandriDesc: "End-to-end redesign based on research with real users to simplify complex workflows on a law firm’s internal platform.<br/>",
         expTitle: 'Lawyers platform',
         expDesc: 'End-to-end design of a legaltech platform to digitize arbitration and mediation management: virtual case file, remote access, and automatic notifications.<br/>',
-        knowMore: 'Know more',
       },
       expedienteProjectPage: {
         meta: {
@@ -1529,7 +1523,6 @@
         parrotfyDesc: 'End-to-end design of an all-in-one ERP for SMBs: quotes, sales, payments, work orders, and invoicing in a single workflow.<br/>',
         nicoTitle: 'Insurance Platform from Scratch',
         nicoDesc: 'Design of a B2B SaaS platform for insurance brokers from scratch: centralized policy, client, and renewal management to replace spreadsheets and emails.<br/>',
-        knowMore: 'Know more',
       },
       bluesphereProjectPage: {
         meta: {
@@ -1589,7 +1582,6 @@
         creditsHtml: '<strong>Company</strong> Nnodes<br/><strong>CTO </strong>Franco Restaino<br/><strong>UX/UI Designer </strong>Erika Pinedo<br/><strong>Developers </strong>Juan Francisco Campo, Javier Contreras, Martina M.<br/><br/>- All rights reserved -',
         otherHeadingHtml: 'Other <span class="span-txt">Projects</span>',
         seeAll: 'See All',
-        knowMore: 'Know more',
         nicoTitle: 'Insurance Platform from Scratch',
         nicoDesc: 'Design of a B2B SaaS platform for insurance brokers from scratch: centralized policy, client, and renewal management to replace spreadsheets and emails.<br/>',
         playersnapTitle: 'Sports Media Digital Asset Management Platform',
@@ -1710,7 +1702,6 @@
         roleValue: 'UX/UI Designer',
         contextTitleHtml: 'Sports tournaments. <em>Without the platform</em> to make it easy.',
         contextBody: 'Organizing a sports tournament today means spreadsheets, WhatsApp groups, and cash payments. On the player side, finding where to compete almost always depends on word of mouth. The brief was to design MatchMinders from scratch: a platform that solved both sides of the problem, with differentiated flows for the Organizer and the Player, and a Design System to support the entire experience.',
-        heroImgAlt: 'MatchMinders website inviting users to unleash their competitive spirit, with buttons to play or organize, platform description, and sport selection for tournaments.',
         problemH: 'The Challenge',
         problemBodyHtml: 'Running sports tournaments is still a chaotic task: Excel spreadsheets, WhatsApp groups, and cash payments. On the player side, finding a tournament to join is nearly impossible without knowing someone already in it.<br/><br/><strong>The challenge was to design a platform that radically simplifies tournament management and makes participation easy and accessible for everyone.</strong>',
         prob1Title: 'Manual and chaotic management',
@@ -1721,22 +1712,6 @@
         prob3Body: 'Collecting registration fees means manual transfers and confirmation messages, with the constant risk of errors and disputes with no formal record.',
         prob4Title: 'No real-time visibility',
         prob4Body: 'Rankings and results are published manually and late, leaving players and organizers without an up-to-date view of the tournament.',
-        flowsH: 'User Flows',
-        flowsSubtitle: 'Before designing any screen, the complete flows for the two main user profiles were mapped.',
-        flow1Badge: 'Organizer',
-        flow1Title: 'Create and manage tournaments',
-        flow1Step1: 'Create tournament (sport, format, rules)',
-        flow1Step2: 'Publish and set up registrations',
-        flow1Step3: 'Receive participants and collect payments',
-        flow1Step4: 'Manage matches and communicate updates',
-        flow1Step5: 'Publish results and rankings',
-        flow2Badge: 'Player',
-        flow2Title: 'Discover and participate',
-        flow2Step1: 'Explore tournaments by sport and city',
-        flow2Step2: 'View tournament details and requirements',
-        flow2Step3: 'Register and pay securely',
-        flow2Step4: 'Receive confirmation and match details',
-        flow2Step5: 'Follow results and standings',
         approachH: 'The Approach',
         approachBodyHtml: 'To simplify tournament management and participation in sports, the design was structured around the complete tournament cycle:<br/><strong>Create → Register → Play → Follow</strong>',
         approachBody2: 'The design was built around three pillars:',
@@ -1754,8 +1729,6 @@
         sol4Html: '<strong class="text-solution-mm">Discover Tournaments</strong><br/>Players find nearby tournaments with filters by sport, city, and format.',
         sol5Html: '<strong class="text-solution-mm">Design System</strong><br/>Component library and tokens that unify the visual experience across the platform.',
         sol6Html: '<strong class="text-solution-mm">Real-time Rankings</strong><br/>Results and standings updated during and after each tournament.',
-        imgPlaceholder1: 'UI Screens · Coming Soon',
-        imgPlaceholder2: 'Design System · Coming Soon',
         impactH: 'Impact',
         impactBodyHtml: '<strong>With MatchMinders, running a complete tournament no longer requires spreadsheets or external tools. And finding one to play in is as simple as a search.</strong>',
         imp1Html: '<strong>Tournaments in minutes</strong>Organizers set up and publish a complete tournament without spreadsheets or external tools.',
@@ -1766,7 +1739,6 @@
         creditsHtml: '<strong>Company</strong> Otro Ángulo Web<br/><strong>UX/UI Designer</strong> Erika Pinedo<br/><br/>- All rights reserved -',
         otherHeadingHtml: 'Other <span class="span-txt">Projects</span>',
         seeAll: 'See All',
-        knowMore: 'Know more',
         playersnapTitle: 'Sports Digital Asset Management Platform',
         playersnapDesc: 'End-to-end design of an AI-powered SaaS for sports organizations: automatic tagging, intelligent search, and real-time content distribution.<br/>',
         parrotfyTitle: 'Organization and Control for Growing Businesses',
@@ -1840,7 +1812,6 @@
         creditsHtml: '<strong>Company</strong> Nnodes<br/><strong>CTO</strong> Pablo Caviedes<br/><strong>UX/UI Designer</strong> Erika Pinedo<br/><strong>Developers</strong> Juan Hayashi, Joaquin S., Martina M.<br/><br/>- All rights reserved -',
         otherHeadingHtml: 'Other <span class="span-txt">Projects</span>',
         seeAll: 'See All',
-        knowMore: 'Know more',
         bluesphereTitle: 'Cybersecurity Platform for SMBs',
         bluesphereDesc: 'Brand and interface design for an enterprise cybersecurity platform built for SMBs: 24/7 SOC, Zero Trust, and unified IT management.<br/>',
         nicoTitle: 'Insurance Platform from Scratch',
