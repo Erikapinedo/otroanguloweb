@@ -4189,7 +4189,7 @@ a {
   padding: 60px 0 100px;
   display: flex;
 }
-.image-46 {
+.project-persona-visual {
   width: 100%;
   padding-top: 20px;
   display: block;
@@ -4405,7 +4405,7 @@ a {
 .bold-text-6 {
   color: #1f2e4f;
 }
-.image-48 {
+.parrotfy-visual-image {
   width: 80%;
   max-width: var(--container-lg);
   background-color: #fdf8f8;
@@ -4424,7 +4424,7 @@ a {
   margin-right: auto;
   display: flex;
 }
-.image-50 {
+.project-content-image {
   background-color: #0000;
   width: 80%;
   max-width: none;
@@ -4589,16 +4589,16 @@ a {
   background-color: #d2dbf7;
   width: 100%;
 }
-.image-52-copy {
+.nico-gallery-image-1 {
   background-color: #2ce4f5;
   width: 100%;
 }
-.image-52-copy-copy {
+.nico-gallery-image-2 {
   background-color: #b9c5f2;
   width: 100%;
   height: auto;
 }
-.image-52-copy-copy-copy {
+.nico-gallery-image-3 {
   background-color: #b7e0f3;
   width: 100%;
   height: auto;
@@ -5338,7 +5338,7 @@ a {
   width: 100%;
   display: flex;
 }
-.image-48-copy {
+.expediente-visual-image {
   width: 80%;
   max-width: var(--container-lg);
   background-color: #d7ecda;
@@ -5415,14 +5415,14 @@ a {
   font-size: 20px;
   line-height: 30px;
 }
-.image-46-copy {
+.project-persona-visual-alt {
   width: 50%;
   padding-top: 20px;
   padding-left: 60px;
   padding-right: 60px;
   display: block;
 }
-.image-46-copy-copy {
+.project-persona-visual-alt-2 {
   width: 100%;
   padding-top: 20px;
   padding-left: 60px;
@@ -5572,7 +5572,7 @@ a {
   font-size: 20px;
   line-height: 25px;
 }
-.image-48-copy-copy {
+.nico-visual-image {
   width: 80%;
   max-width: var(--container-lg);
   background-color: #c5fafdd9;
@@ -6369,7 +6369,7 @@ a {
   font-weight: 900;
   line-height: 100%;
 }
-.body-project-playersnap .image-46 {
+.body-project-playersnap .project-persona-visual {
   padding-bottom: 80px;
 }
 .project-title-problem-playersnap {
@@ -6972,7 +6972,7 @@ a {
   align-items: center;
   display: flex;
 }
-.body-project-bluesphere .image-46 { padding-bottom: 80px; }
+.body-project-bluesphere .project-persona-visual { padding-bottom: 80px; }
 .project-title-problem-bluesphere {
   width: 100%;
   max-width: 1000px;
@@ -7942,7 +7942,7 @@ a {
     width: 100%;
     display: flex;
   }
-  .image-50 {
+  .project-content-image {
     max-width: var(--container-lg);
   }
   .project-hero-content {
@@ -7981,7 +7981,7 @@ a {
   .design-process {
     width: 100%;
   }
-  .image-48-copy {
+  .expediente-visual-image {
     background-color: #c4fcfc;
   }
   .my-skills-es {
@@ -8033,7 +8033,7 @@ a {
   .components-nico {
     max-width: none;
   }
-  .image-48-copy-copy {
+  .nico-visual-image {
     background-color: #c4fcfc;
   }
   .expediente-visual-wrapper {
@@ -8376,7 +8376,7 @@ a {
   .container-nico-user-persona {
     padding: 40px 20px;
   }
-  .image-46,
+  .project-persona-visual,
   .user-persona-title-copy {
     padding-left: 0;
     padding-right: 0;
@@ -8404,7 +8404,7 @@ a {
   .body-project-nico {
     background-repeat: repeat-x;
   }
-  .image-50 {
+  .project-content-image {
     width: 100%;
   }
   .container-nico-impact {
@@ -8552,8 +8552,8 @@ a {
   .project-title-approach-parrotfy {
     font-size: 50px;
   }
-  .image-46-copy,
-  .image-46-copy-copy {
+  .project-persona-visual-alt,
+  .project-persona-visual-alt-2 {
     padding-left: 0;
     padding-right: 0;
   }

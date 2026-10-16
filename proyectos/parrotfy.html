@@ -157,10 +157,10 @@
         color: #2844b4;
       }
       /* height: auto previene distorsión al usar width+height attrs para CLS */
-      .body-project-parrotfy .image-46,
+      .body-project-parrotfy .project-persona-visual,
       .body-project-parrotfy .colors-parrotfy,
       .body-project-parrotfy .wireframes-parrotfy,
-      .body-project-parrotfy .image-48 {
+      .body-project-parrotfy .parrotfy-visual-image {
         height: auto;
       }
     </style>
@@ -402,7 +402,7 @@
                 ../images/parrotfy/es-user-persona-2-p-2600.png 2600w,
                 ../images/parrotfy/user-persona-parrotfy-2.webp 2686w
               "
-              class="image-46"
+              class="project-persona-visual"
               data-i18n-src="parrotfyProjectPage.persona1ImgSrc"
               data-i18n-srcset="parrotfyProjectPage.persona1ImgSrcset"
               data-i18n-alt="parrotfyProjectPage.persona1ImgAlt"
@@ -424,7 +424,7 @@
                 ../images/shared/user-persona-parrotfy-1.webp   2686w
               "
               alt="Perfil de Claudio Muñoz, emprendedor de 30 años en Santiago, con metas y frustraciones sobre crecimiento y clientes."
-              class="image-46"
+              class="project-persona-visual"
               data-i18n-src="parrotfyProjectPage.persona2ImgSrc"
               data-i18n-srcset="parrotfyProjectPage.persona2ImgSrcset"
               data-i18n-alt="parrotfyProjectPage.persona2ImgAlt"
@@ -708,7 +708,7 @@
             ../images/parrotfy/parrotfy-boletines-correos.webp 2160w
           "
           alt="Ejemplo de boletines de Parrotfy mostrando correos para cambio de contraseña, bienvenida y beneficios para pymes."
-          class="image-48"
+          class="parrotfy-visual-image"
         />
       </div>
       <section class="cierre-parrotfy">
@@ -918,8 +918,8 @@
 
         // 5. Imágenes grandes de secciones: fade + scale sutil
         var images = document.querySelectorAll(
-          '.image-user-nico, .image-user-expediente, .image-50, ' +
-          '[class*="image-46"], [class*="image-user-"]'
+          '.image-user-nico, .image-user-expediente, .project-content-image, ' +
+          '[class*="project-persona-visual"], [class*="image-user-"]'
         );
         images.forEach(function (el) {
           gsap.set(el, { opacity: 0, scale: 0.92 });

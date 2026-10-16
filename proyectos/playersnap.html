@@ -475,7 +475,7 @@
                 ../images/playersnap/user-playersnap-es.webp        2459w
               "
               alt="Perfil de usuario objetivo de PlayerSnap: director de contenido o comunicaciones de una organización deportiva."
-              class="image-46"
+              class="project-persona-visual"
               data-i18n-src="playersnapProjectPage.personaImgSrc"
               data-i18n-srcset="playersnapProjectPage.personaImgSrcset"
               data-i18n-alt="playersnapProjectPage.personaImgAlt"
@@ -876,7 +876,7 @@
           gsap.from(impactCards, st(impactCards[0], { opacity: 0, y: 40, duration: 0.6, stagger: 0.12, ease: "power2.out" }));
 
         // User persona image — fade up
-        var persona = document.querySelector(".body-project-playersnap .image-46");
+        var persona = document.querySelector(".body-project-playersnap .project-persona-visual");
         if (persona) gsap.from(persona, st(persona, { opacity: 0, y: 40, duration: 0.8, ease: "power2.out" }));
 
         // Imágenes finales (colors, components, mails) — fade up escalonado
@@ -979,8 +979,8 @@
 
         // 5. Imágenes grandes de secciones: fade + scale sutil
         var images = document.querySelectorAll(
-          '.image-user-nico, .image-user-expediente, .image-50, ' +
-          '[class*="image-46"], [class*="image-user-"]'
+          '.image-user-nico, .image-user-expediente, .project-content-image, ' +
+          '[class*="project-persona-visual"], [class*="image-user-"]'
         );
         images.forEach(function (el) {
           gsap.set(el, { opacity: 0, scale: 0.92 });
