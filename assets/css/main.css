@@ -3129,7 +3129,8 @@ a {
 .button-pink-secondary.center:active {
   box-shadow: inset 0 2px 5px #0003;
 }
-.paragraph-24 {
+.paragraph-24,
+.paragraph-24-copy {
   color: var(--white-100);
   margin-bottom: 20px;
   font-size: 20px;
@@ -3808,12 +3809,6 @@ a {
   width: 100%;
   max-height: 400px;
 }
-.paragraph-24-copy {
-  color: var(--white-100);
-  margin-bottom: 20px;
-  font-size: 20px;
-  line-height: 25px;
-}
 .card-tools {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
@@ -3888,11 +3883,8 @@ a {
   display: flex;
 }
 .descp-copy {
-  min-width: 150px;
   font-family: var(--avenir-ok);
   color: var(--white-100);
-  text-align: center;
-  text-align: center;
   min-width: 105px;
   text-align: center;
   margin-bottom: 0;
@@ -6015,13 +6007,7 @@ a {
   line-height: 32px;
 }
 .paragraph-28-copy-copy-copy-copy {
-  font-family: var(--avenir-ok);
   color: var(--blue-100);
-  letter-spacing: 1px;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
   font-family: var(--avenir-ok);
   letter-spacing: 1px;
   flex-flow: column;
@@ -6054,10 +6040,6 @@ a {
 .heading-41-copy-copy-copy-copy {
   font-family: var(--instrument);
   color: var(--blue-100);
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 25px;
-  font-family: var(--instrument);
   margin-top: 0;
   margin-bottom: 5px;
   font-size: 25px;
