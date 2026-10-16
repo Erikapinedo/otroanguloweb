@@ -2426,7 +2426,7 @@ a {
   font-size: var(--regular-medium);
   line-height: 140%;
 }
-.list-5 {
+.footer-contact-list {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
   color: var(--white-100);
@@ -4113,7 +4113,7 @@ a {
   font-weight: 700;
   line-height: 100%;
 }
-.bold-text-4 {
+.project-context-highlight {
   color: var(--white-100);
   font-weight: 900;
   line-height: 80%;
@@ -4325,7 +4325,7 @@ a {
   font-size: 18px;
   line-height: 22px;
 }
-.bold-text-5 {
+.project-solution-highlight {
   color: #2ae3f5;
   font-size: 22px;
 }
@@ -4402,7 +4402,7 @@ a {
   font-size: 25px;
   line-height: 25px;
 }
-.bold-text-6 {
+.project-flow-text {
   color: #1f2e4f;
 }
 .parrotfy-visual-image {
@@ -4499,7 +4499,7 @@ a {
   margin-bottom: 40px;
   display: grid;
 }
-.bold-text-7 {
+.testimonial-section-lead {
   color: var(--white-100);
   font-weight: 800;
 }
@@ -4603,7 +4603,7 @@ a {
   width: 100%;
   height: auto;
 }
-.bold-text-8 {
+.nico-impact-lead {
   font-weight: 900;
 }
 .paragraph-approach {
@@ -4611,23 +4611,23 @@ a {
   font-size: 18px;
   line-height: 22px;
 }
-.bold-text-9 {
+.project-context-display {
   font-family: var(--instrument);
   letter-spacing: 4px;
   font-size: 75px;
   font-style: italic;
   font-weight: 700;
 }
-.italic-text-2 {
+.project-hero-emphasis {
   font-family: var(--instrument);
   letter-spacing: 2px;
   font-size: 80px;
 }
-.italic-text-3 {
+.nico-award-text {
   font-family: var(--instrument);
   font-size: 45px;
 }
-.italic-text-4 {
+.nico-emoji-highlight {
   font-size: 60px;
   font-style: normal;
 }
@@ -5326,7 +5326,7 @@ a {
   font-size: 18px;
   line-height: 22px;
 }
-.italic-text-6 {
+.alessandri-role-emphasis {
   font-family: var(--instrument);
   letter-spacing: 2px;
   font-size: 70px;
@@ -5492,9 +5492,9 @@ a {
   font-weight: 900;
   line-height: 100%;
 }
-.italic-text-7,
-.bold-text-10,
-.bold-text-11 {
+.parrotfy-testimonial-author,
+.project-impact-intro,
+.project-impact-quote {
   color: #000;
 }
 .text-solution-parrotfy {
@@ -6302,8 +6302,8 @@ a {
 .body-project-playersnap .paragraph-approach {
   color: #ffffff;
 }
-.body-project-playersnap .bold-text-10,
-.body-project-playersnap .bold-text-11 {
+.body-project-playersnap .project-impact-intro,
+.body-project-playersnap .project-impact-quote {
   color: #ffffff;
 }
 .container-playersnap-impact {
@@ -6934,8 +6934,8 @@ a {
 }
 .body-project-bluesphere .title-card-approach { color: #76B7CD; }
 .body-project-bluesphere .paragraph-approach { color: #ffffff; }
-.body-project-bluesphere .bold-text-10,
-.body-project-bluesphere .bold-text-11 { color: #ffffff; }
+.body-project-bluesphere .project-impact-intro,
+.body-project-bluesphere .project-impact-quote { color: #ffffff; }
 .container-bluesphere-impact {
   max-width: var(--container-lg);
   background-color: #0000;
@@ -7416,7 +7416,7 @@ a {
   width: 100%;
   height: auto;
 }
-.italic-text-9 {
+.expediente-tagline {
   font-family: var(--instrument);
 }
 .cards-problems-expediente {
@@ -8360,7 +8360,7 @@ a {
   .project-hero-h1 {
     font-size: 50px;
   }
-  .bold-text-4 {
+  .project-context-highlight {
     font-size: 50px;
     line-height: 102%;
   }
@@ -8414,15 +8414,15 @@ a {
   .cards-approach-copy-copy {
     grid-template-columns: 1fr 1fr;
   }
-  .bold-text-7,
+  .testimonial-section-lead,
   .project-title-impact,
-  .bold-text-9 {
+  .project-context-display {
     font-size: 50px;
   }
-  .italic-text-2 {
+  .project-hero-emphasis {
     font-size: 60px;
   }
-  .italic-text-4 {
+  .nico-emoji-highlight {
     font-size: 40px;
   }
   .navbar-mobile-item {
@@ -8920,7 +8920,7 @@ a {
     text-align: center;
     width: 100%;
   }
-  .bold-text-4,
+  .project-context-highlight,
   .project-title-user-persona,
   .project-title-context,
   .project-title-problem {
@@ -8990,13 +8990,13 @@ a {
   .description-impact-project-copy {
     width: 100%;
   }
-  .bold-text-9 {
+  .project-context-display {
     font-size: 40px;
   }
-  .italic-text-2 {
+  .project-hero-emphasis {
     font-size: 55px;
   }
-  .italic-text-4 {
+  .nico-emoji-highlight {
     font-size: 33px;
   }
   .nav-menu-two-2-copy,
@@ -9359,7 +9359,7 @@ a {
     grid-row-gap: 30px;
     grid-template-columns: 2fr;
   }
-  .list-5 {
+  .footer-contact-list {
     grid-column-gap: 8px;
     grid-row-gap: 8px;
   }
@@ -9734,7 +9734,7 @@ a {
   .description-text-hero {
     font-size: 16px;
   }
-  .bold-text-4 {
+  .project-context-highlight {
     font-size: 35px;
   }
   .project-problem-text {
@@ -9826,7 +9826,7 @@ a {
     flex-flow: column;
     display: flex;
   }
-  .bold-text-7 {
+  .testimonial-section-lead {
     width: 100%;
     font-size: 35px;
     line-height: 50%;
@@ -9856,11 +9856,11 @@ a {
   .card-the-impact {
     width: 100%;
   }
-  .italic-text-2 {
+  .project-hero-emphasis {
     font-size: 40px;
     line-height: 109%;
   }
-  .italic-text-4 {
+  .nico-emoji-highlight {
     font-size: 35px;
   }
   .navbar-mobile-item {
@@ -10027,7 +10027,7 @@ a {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
   }
-  .italic-text-6 {
+  .alessandri-role-emphasis {
     font-size: 40px;
   }
   .project-title-user-persona-parrotfy {
@@ -10330,7 +10330,7 @@ a {
 .project-matchminders-flows      { background: #0d0d0d; width: 100%; }
 .project-matchminders-approach   { background: #020D1F; width: 100%; }
 .project-matchminders-solution-wrapper { background: #260709; width: 100%; }
-.project-matchminders-solution-wrapper .bold-text-5 { color: #FF7780; }
+.project-matchminders-solution-wrapper .project-solution-highlight { color: #FF7780; }
 .components-mm-wrapper { width: 100%; line-height: 0; }
 .components-mm { width: 100%; max-width: none; display: block; }
 .project-matchminders-impact     { background: #020D1F; width: 100%; }
