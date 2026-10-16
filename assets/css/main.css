@@ -2086,7 +2086,7 @@ a {
   align-items: center;
   display: flex;
 }
-.container-4 {
+.about-count-container {
   max-width: var(--container-lg);
   grid-column-gap: 53px;
   grid-row-gap: 53px;
@@ -2324,7 +2324,7 @@ a {
   line-height: 20px;
   display: flex;
 }
-.container-12 {
+.final-cta-container {
   max-width: var(--container-lg);
   justify-content: center;
   align-items: center;
@@ -2394,13 +2394,13 @@ a {
   margin-top: 64px;
   margin-bottom: 64px;
 }
-.text-block-32 {
+.footer-tagline {
   color: var(--white-100);
   font-size: var(--regular-medium);
   letter-spacing: 0.5px;
   line-height: 140%;
 }
-.div-block-42 {
+.footer-social-group {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   display: flex;
@@ -2433,14 +2433,14 @@ a {
   flex-flow: column;
   display: flex;
 }
-.div-block-43 {
+.footer-bottom-bar {
   border-top: 1px solid var(--black-10);
   padding-top: 15px;
 }
 .container-15 {
   max-width: 100%;
 }
-.text-block-33 {
+.footer-copyright-text {
   width: 100%;
   color: var(--white-100);
   font-size: var(--regular-medium);
@@ -2498,7 +2498,7 @@ a {
   border-radius: 999px;
   padding: 8px 11px;
 }
-.div-block-29 {
+.navbar-inner {
   display: none;
   position: relative;
 }
@@ -2755,7 +2755,7 @@ a {
 .footer-column-3 a:hover .title {
   color: var(--pink-100);
 }
-.container-17 {
+.contact-container {
   background-color: #0000;
   max-width: 1275px;
   padding-left: 20px;
@@ -2923,7 +2923,7 @@ a {
     sans-serif;
   display: block;
 }
-.div-block-209 {
+.footer-copyright-wrapper {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   flex-flow: wrap;
@@ -3579,7 +3579,7 @@ a {
   display: flex;
   position: relative;
 }
-.section-14 {
+.work-section {
   flex-flow: column;
   width: 100%;
   display: flex;
@@ -3603,7 +3603,7 @@ a {
   position: static;
   inset: 40% auto auto 0%;
 }
-.container-21 {
+.vip-projects-container {
   max-width: 1100px;
 }
 .container-home-vip-projects {
@@ -5739,14 +5739,14 @@ a {
   display: none;
 }
 .text-block-5-copy-copy,
-.div-block-2134 {
+.footer-link-list {
   flex-flow: column;
   display: flex;
 }
-.link-block-3 {
+.footer-home-link {
   line-height: 100%;
 }
-.link-block-3.w--current {
+.footer-home-link.w--current {
   text-decoration: none;
 }
 .about-float-icon-1,
@@ -5933,7 +5933,7 @@ a {
   margin-right: auto;
   display: grid;
 }
-.div-block-253-copy {
+.about-tools-card-body {
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   flex-flow: column;
@@ -7681,7 +7681,7 @@ a {
     height: 90vh;
     display: flex;
   }
-  .container-12 {
+  .final-cta-container {
     padding-left: 0;
     padding-right: 0;
   }
@@ -8060,7 +8060,7 @@ a {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .container-4 {
+  .about-count-container {
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -8092,7 +8092,7 @@ a {
   .card-1,
   .card-2,
   .card-3,
-  .container-12 {
+  .final-cta-container {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -8172,7 +8172,7 @@ a {
     font-size: 16px;
     font-weight: 600;
   }
-  .div-block-29 {
+  .navbar-inner {
     z-index: 99;
     background-color: #0000;
     align-items: baseline;
@@ -8756,7 +8756,7 @@ a {
   .div-block-47 {
     height: auto;
   }
-  .div-block-29 {
+  .navbar-inner {
     transform: translate(100%);
   }
   .main {
@@ -8845,7 +8845,7 @@ a {
     margin-right: auto;
     position: static;
   }
-  .container-21 {
+  .vip-projects-container {
     flex-flow: column;
     display: flex;
   }
@@ -9298,7 +9298,7 @@ a {
     padding-right: 10px;
     display: flex;
   }
-  .container-4 {
+  .about-count-container {
     flex-flow: column;
     height: 100%;
     padding-left: 20px;
@@ -9363,7 +9363,7 @@ a {
     grid-column-gap: 8px;
     grid-row-gap: 8px;
   }
-  .text-block-33 {
+  .footer-copyright-text {
     text-align: left;
   }
   .navbar {
@@ -9396,7 +9396,7 @@ a {
   .paragraph-10 {
     color: var(--white-100);
   }
-  .div-block-29 {
+  .navbar-inner {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     grid-template-rows: auto auto;
@@ -9490,7 +9490,7 @@ a {
   .heading-h3,
   .heading-h4,
   .heading-h5,
-  .div-block-209 {
+  .footer-copyright-wrapper {
     justify-content: flex-start;
   }
   .body-about-me {
@@ -9591,7 +9591,7 @@ a {
     text-align: center;
     font-size: 40px;
   }
-  .container-21 {
+  .vip-projects-container {
     justify-content: center;
     align-items: center;
     display: block;
