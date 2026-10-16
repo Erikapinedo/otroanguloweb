@@ -247,26 +247,26 @@
           </div>
         </div>
       </section>
-      <section class="section-18">
-        <div class="div-block-2138">
+      <section class="about-floating-section">
+        <div class="about-float-icon-4">
           <img src="../images/about/memoji-erika-creatividad.webp" loading="lazy" width="132" height="157" alt="Memoji de Erika Pinedo con expresión de sorpresa, representando creatividad" class="image-40" />
         </div>
         <p class="descp-copy" data-i18n="aboutPage.creativity">Creativity</p>
-        <div class="div-block-2135">
+        <div class="about-float-icon-1">
           <img src="../images/about/memoji-erika-innovacion-ai.webp" loading="lazy" width="140" height="157" alt="Memoji de Erika Pinedo sonriendo con aretes dorados, representando innovación con IA" class="image-40" />
         </div>
         <p class="descp-copy" data-i18n="aboutPage.innovationAi">Innovation - AI</p>
-        <div class="div-block-2136">
+        <div class="about-float-icon-2">
           <img src="../images/about/memoji-erika-tecnologia.webp" loading="lazy" width="134" height="157" alt="Memoji de Erika Pinedo con amplia sonrisa, representando tecnología" class="image-40" />
         </div>
         <p class="descp-copy" data-i18n="aboutPage.technology">Technology</p>
-        <div class="div-block-2137">
+        <div class="about-float-icon-3">
           <img src="../images/about/memoji-erika-decorativo.webp" loading="lazy" width="131" height="157" alt="" class="image-40" />
         </div>
       </section>
       <div id="vip-projects" class="container-home-vip-projects">
         <div class="w-layout-blockcontainer container-21 w-container">
-          <div data-w-id="b407fbae-c0bd-2669-d205-7eb9d08c5f68" class="div-block-215">
+          <div data-w-id="b407fbae-c0bd-2669-d205-7eb9d08c5f68" class="home-services-cta">
             <div class="w-layout-grid heading-div">
               <h2 class="our-work-heading" data-i18n-html="vip.heading">
                 Proyectos <span class="span-italic-txt">destacados</span>
@@ -296,7 +296,7 @@
               </div>
             </a>
           </div>
-          <div class="div-block-225" style="margin-top: 20px;">
+          <div class="home-services-note" style="margin-top: 20px;">
             <a href="/portafolio" class="button-pink" data-i18n="vip.ctaAll">Ver todos los proyectos</a>
           </div>
         </div>
@@ -690,11 +690,11 @@
         }
 
         // 2. Memojis — drop in con bounce elástico, uno tras otro
-        var memojiBlocks = document.querySelectorAll('.section-18 > div, .section-18 > p');
+        var memojiBlocks = document.querySelectorAll('.about-floating-section > div, .about-floating-section > p');
         if (memojiBlocks.length) {
           gsap.set(memojiBlocks, { opacity: 0, y: -80, rotation: -8 });
           ScrollTrigger.create({
-            trigger: '.section-18',
+            trigger: '.about-floating-section',
             start: 'top 80%',
             once: true,
             onEnter: function () {
