@@ -90,16 +90,29 @@
         heading: 'Mis <span class="span-txt">Servicios</span>',
         intro:
           'Diseño soluciones digitales y visuales que combinan estrategia, usabilidad y estética para generar resultados reales. Trabajo de forma end-to-end: desde la idea y la investigación hasta la implementación y optimización continua.',
+        uxHeadline: '<strong>Productos digitales que escalan y convierten.</strong>',
+        uxFor: 'Para startups B2B y SaaS que necesitan diseñar o rediseñar su producto end-to-end.',
         uxBody:
-          '<strong>Diseño productos digitales claros, intuitivos y escalables, enfocados en usuarios y objetivos de negocio.</strong><br/>‍<br/>- Research y definición de problemas<br/>- Arquitectura de información y user flows<br/>- Wireframes y prototipos en Figma<br/>- Design system<br/>- Optimización de conversión y experiencia',
-        brandingBody:
-          '<strong>Construyo identidades visuales coherentes que transmiten valor, personalidad y diferenciación.</strong><br/>‍<br/>- Diseño de logo e identidad visual<br/>- Sistemas gráficos y guías de estilo<br/>- Aplicaciones digitales y materiales',
+          'Trabajo todo el ciclo: research y definición del problema, arquitectura de información, flujos, wireframes y UI final en Figma, hasta llegar al design system escalable y la optimización continua con mediciones y A/B tests. Productos que no solo se ven bien, también funcionan, escalan y entregan resultados de negocio.',
+        brandingHeadline: '<strong>Identidades con sistema, no solo un logo.</strong>',
+        brandingFor: 'Para marcas nuevas o rebrands que quieren verse coherentes en todos los puntos de contacto.',
+        brandingList:
+          '<li>Logo e identidad visual</li><li>Guía de marca y sistema gráfico</li><li>Aplicaciones digitales y papelería</li>',
         presentationsTitle: 'Presentaciones',
-        presentationsBody:
-          '<strong>Creo presentaciones visuales que comunican ideas complejas con claridad e impacto.</strong><br/>‍<br/>- Pitch decks para startups e inversionistas<br/>- Presentaciones corporativas y comerciales<br/>- Storytelling visual y estructura narrativa<br/><em><br/>Entrega de diseño en PowerPoint o Figma slides</em>',
+        presentationsHeadline: '<strong>Pitch decks que levantan capital.</strong>',
+        presentationsFor: 'Para founders que necesitan contar su historia a inversionistas o clientes.',
+        presentationsList:
+          '<li>Pitch decks para startups</li><li>Decks comerciales y corporativos</li><li>Estructura narrativa y storytelling</li>',
         consultingTitle: 'Consultoría',
-        consultingBody:
-          '<strong>Acompaño a founders y equipos a tomar mejores decisiones de diseño, con visión estratégica y foco en resultados.</strong><br/>‍<br/>- Auditoría de producto o identidad visual<br/>- Estrategia de diseño y hoja de ruta<br/>- Workshops y sesiones de trabajo<br/>- Dirección creativa y feedback para equipos<br/><em><br/>Sesión puntual o acompañamiento continuo</em>',
+        consultingHeadline: '<strong>Dirección de diseño para equipos sin designer in-house.</strong>',
+        consultingFor: 'Para founders y equipos que necesitan criterio estratégico sin contratar full-time.',
+        consultingList:
+          '<li>Auditoría de producto o marca</li><li>Hoja de ruta de diseño</li><li>Workshops y dirección creativa</li>',
+        rrssTitle: 'RRSS',
+        rrssHeadline: '<strong>Contenido para redes, con la coherencia de tu marca.</strong>',
+        rrssFor: 'Para marcas que quieren publicar sin perder tiempo diseñando cada post.',
+        rrssList:
+          '<li>Plantillas de feed e historias</li><li>Reels animados y motion simple</li><li>Carousels educativos y de producto</li>',
         contact: 'Trabajemos juntos',
       },
       finalCta: {
@@ -1032,16 +1045,29 @@
         heading: 'My <span class="span-txt">Services</span>',
         intro:
           'I design digital and visual solutions that combine strategy, usability, and aesthetics to deliver tangible results. I work on projects from start to finish: from concept and research through to implementation and ongoing optimization.',
+        uxHeadline: '<strong>Digital products that scale and convert.</strong>',
+        uxFor: 'For B2B and SaaS startups building or redesigning their product end-to-end.',
         uxBody:
-          '<strong>I design clear, intuitive, and scalable digital products that are focused on users and business objectives.</strong><br/>‍<br/>- Research and problem definition<br/>- Information architecture and user flows<br/>- Wireframes and prototypes in Figma<br/>- Design system<br/>- Conversion and user experience optimization',
-        brandingBody:
-          '<strong>I create cohesive visual identities that convey value, personality, and a unique identity.</strong><br/>‍<br/>- Logo design and visual identity<br/>- Graphic systems and style guides<br/>- Digital applications and materials',
+          'I handle the full cycle: research and problem definition, information architecture, user flows, wireframes, and final UI in Figma, through to a scalable design system and ongoing optimization with measurement and A/B testing. Products that don\'t just look good, they work, scale, and deliver real business outcomes.',
+        brandingHeadline: '<strong>Identities with a system, not just a logo.</strong>',
+        brandingFor: 'For new brands or rebrands that want consistency across every touchpoint.',
+        brandingList:
+          '<li>Logo and visual identity</li><li>Brand guidelines and graphic system</li><li>Digital applications and collateral</li>',
         presentationsTitle: 'Presentations',
-        presentationsBody:
-          '<strong>I create visual presentations that communicate complex ideas clearly and effectively.</strong><br/>‍<br/>- Pitch decks for startups and investors<br/>- Corporate and sales presentations<br/>- Visual storytelling and narrative structure<br/><em><br/>Delivery of designs in PowerPoint or Figma slides</em>',
+        presentationsHeadline: '<strong>Pitch decks that raise capital.</strong>',
+        presentationsFor: 'For founders who need to tell their story to investors or clients.',
+        presentationsList:
+          '<li>Pitch decks for startups</li><li>Corporate and sales decks</li><li>Narrative structure and storytelling</li>',
         consultingTitle: 'Consulting',
-        consultingBody:
-          '<strong>I guide founders and teams toward better design decisions, with a strategic perspective and a focus on results.</strong><br/>‍<br/>- Product or visual identity audit<br/>- Design strategy and roadmap<br/>- Workshops and working sessions<br/>- Creative direction and feedback for teams<br/><em><br/>One-off session or ongoing engagement</em>',
+        consultingHeadline: '<strong>Design direction for teams without an in-house designer.</strong>',
+        consultingFor: 'For founders and teams that need strategic design judgment without hiring full-time.',
+        consultingList:
+          '<li>Product or brand audit</li><li>Design strategy and roadmap</li><li>Workshops and creative direction</li>',
+        rrssTitle: 'Social media',
+        rrssHeadline: '<strong>Social content with your brand\'s coherence.</strong>',
+        rrssFor: 'For brands that want to post without wasting time designing every piece.',
+        rrssList:
+          '<li>Feed and story templates</li><li>Animated reels and simple motion</li><li>Educational and product carousels</li>',
         contact: 'Work with me',
       },
       finalCta: {
