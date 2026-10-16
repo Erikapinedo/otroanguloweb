@@ -2420,7 +2420,7 @@ a {
   font-weight: 700;
   text-decoration: none;
 }
-.list-item-9 {
+.footer-contact-item {
   min-height: 22px;
   color: var(--black-100);
   font-size: var(--regular-medium);
@@ -3859,7 +3859,7 @@ a {
   font-size: 38px;
   line-height: 40px;
 }
-.text-block-43 {
+.contact-success-msg {
   color: var(--white-100);
   margin-top: 20px;
   font-size: 22px;
@@ -5309,7 +5309,7 @@ a {
   font-weight: 900;
   line-height: 100%;
 }
-.div-block-248 {
+.project-impact-card-body {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   justify-content: flex-start;
@@ -7614,7 +7614,7 @@ a {
   color: #2843b3;
   text-align: center;
 }
-.div-block-2140 {
+.expediente-visual-wrapper {
   background-color: #d7eddb;
   width: 100%;
 }
@@ -8036,7 +8036,7 @@ a {
   .image-48-copy-copy {
     background-color: #c4fcfc;
   }
-  .div-block-2140 {
+  .expediente-visual-wrapper {
     width: 100%;
   }
   .description-solution-expediente-copy {
@@ -10023,7 +10023,7 @@ a {
     width: 100%;
     font-size: 40px;
   }
-  .div-block-248 {
+  .project-impact-card-body {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
   }
