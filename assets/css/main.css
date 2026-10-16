@@ -3546,7 +3546,7 @@ a {
   margin-bottom: 40px;
   display: grid;
 }
-.heading-41 {
+.about-skill-title {
   color: var(--pink-100);
   margin-top: 0;
   margin-bottom: 5px;
@@ -4382,7 +4382,7 @@ a {
   font-size: 18px;
   line-height: 22px;
 }
-.heading-41-copy-copy {
+.about-edu-label {
   font-family: var(--instrument);
   color: var(--pink-100);
   margin-top: 0;
@@ -5589,7 +5589,7 @@ a {
   background-color: #7384c7;
   width: 100%;
 }
-.paragraph-28-copy-copy {
+.about-skill-desc {
   font-family: var(--avenir-ok);
   color: var(--white-100);
   letter-spacing: 1px;
@@ -5991,14 +5991,6 @@ a {
   font-weight: 500;
   line-height: 25px;
 }
-.heading-41-copy {
-  color: var(--pink-100);
-  margin-top: 0;
-  margin-bottom: 5px;
-  font-size: 25px;
-  line-height: 32px;
-}
-.heading-41-copy-copy-copy,
 .graphic-h4 {
   color: var(--blue-100);
   margin-top: 0;
@@ -6006,19 +5998,15 @@ a {
   font-size: 25px;
   line-height: 32px;
 }
-.heading-41-copy,
-.heading-41-copy-copy,
-.heading-41-copy-copy-copy,
-.heading-41-copy-copy-copy-copy,
-.heading-41-copy-copy-copy-copy-copy,
-.heading-41-copy-copy-copy-copy-copy-copy-copy {
+.about-edu-label-alt,
+.about-edu-title {
   color: var(--blue-100);
   margin-top: 0;
   margin-bottom: 5px;
   font-size: 25px;
   line-height: 32px;
 }
-.paragraph-28-copy-copy-copy-copy {
+.about-edu-body {
   color: var(--blue-100);
   font-family: var(--avenir-ok);
   letter-spacing: 1px;
@@ -6039,8 +6027,7 @@ a {
   grid-auto-columns: 1fr;
   display: grid;
 }
-.heading-41-copy-copy,
-.heading-41-copy-copy-copy,
+.about-edu-label,
 .title-nico {
   color: var(--white-100);
   margin-top: 0;
@@ -6049,7 +6036,7 @@ a {
   font-weight: 900;
   line-height: 30px;
 }
-.heading-41-copy-copy-copy-copy {
+.about-edu-label-alt {
   font-family: var(--instrument);
   color: var(--blue-100);
   margin-top: 0;
@@ -7874,11 +7861,8 @@ a {
     font-size: 20px;
     line-height: 22px;
   }
-  .paragraph-28-copy-copy,
-  .paragraph-28-copy-copy-copy,
-  .paragraph-28-copy-copy-copy,
-  .paragraph-28-copy-copy-copy-copy,
-  .paragraph-28-copy-copy-copy-copy {
+  .about-skill-desc,
+  .about-edu-body {
     font-size: 18px;
     line-height: 26px;
   }
@@ -8679,8 +8663,7 @@ a {
   .container-cards-tools {
     grid-template-columns: 1fr 1fr;
   }
-  .heading-41-copy-copy,
-  .heading-41-copy-copy-copy,
+  .about-edu-label,
   .title-nico {
     font-size: 28px;
     line-height: 28px;
@@ -9198,8 +9181,7 @@ a {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .heading-41-copy-copy,
-  .heading-41-copy-copy-copy,
+  .about-edu-label,
   .title-nico {
     line-height: 28px;
   }
@@ -9591,7 +9573,7 @@ a {
     flex-flow: column;
     display: flex;
   }
-  .heading-41 {
+  .about-skill-title {
     box-sizing: border-box;
     text-align: left;
     object-fit: cover;
@@ -9819,7 +9801,7 @@ a {
   .card-the-approach {
     width: 100%;
   }
-  .heading-41-copy-copy {
+  .about-edu-label {
     box-sizing: border-box;
     object-fit: cover;
     object-fit: cover;
@@ -10159,7 +10141,7 @@ a {
     flex-flow: column;
     display: flex;
   }
-  .paragraph-28-copy-copy {
+  .about-skill-desc {
     text-align: left;
   }
   .card-skills-2 {
@@ -10178,8 +10160,7 @@ a {
   .container-cards-studies {
     display: flex;
   }
-  .heading-41-copy,
-  .heading-41-copy-copy {
+  .about-edu-label {
     box-sizing: border-box;
     object-fit: cover;
     font-size: 30px;
@@ -10190,30 +10171,22 @@ a {
     width: 100%;
   }
   .certifed-h4,
-  .heading-41-copy,
-  .heading-41-copy-copy,
-  .heading-41-copy-copy-copy,
+  .about-edu-label,
   .graphic-h4,
-  .heading-41-copy,
-  .heading-41-copy-copy,
-  .heading-41-copy-copy-copy,
-  .heading-41-copy-copy-copy-copy,
-  .heading-41-copy-copy-copy-copy-copy,
-  .heading-41-copy-copy-copy-copy-copy-copy,
-  .heading-41-copy-copy-copy-copy-copy-copy-copy,
+  .about-edu-label-alt,
+  .about-edu-title,
   .flex-block-9 {
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr;
   }
-  .heading-41-copy-copy,
-  .heading-41-copy-copy-copy,
+  .about-edu-label,
   .title-nico {
     box-sizing: border-box;
     color: var(--white-100);
     object-fit: cover;
     font-size: 24px;
   }
-  .heading-41-copy-copy-copy-copy {
+  .about-edu-label-alt {
     box-sizing: border-box;
     object-fit: cover;
     object-fit: cover;
