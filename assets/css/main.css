@@ -4092,7 +4092,7 @@ a {
   font-size: 20px;
   line-height: 30px;
 }
-.heading-44 {
+.project-hero-h1 {
   color: #fff;
   font-size: 70px;
   font-weight: 900;
@@ -4133,7 +4133,7 @@ a {
   margin-right: auto;
   padding: 20px;
 }
-.image-45 {
+.project-card-icon {
   max-width: 100%;
   margin-bottom: 0;
 }
@@ -4503,7 +4503,7 @@ a {
   color: var(--white-100);
   font-weight: 800;
 }
-.div-block-245 {
+.project-hero-content {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   grid-template-rows: auto;
@@ -4511,7 +4511,7 @@ a {
   grid-auto-columns: 1fr;
   display: flex;
 }
-.flex-block-7 {
+.project-back-row {
   margin-left: 20px;
   padding-top: 20px;
   padding-left: 0;
@@ -6098,7 +6098,7 @@ a {
 
 /* ===== PlayerSnap ===== */
 /* ===== PlayerSnap clases propias (duplicadas de parrotfy) ===== */
-.body-project-playersnap .image-45{filter:brightness(0) invert(1);margin-bottom:16px}
+.body-project-playersnap .project-card-icon{filter:brightness(0) invert(1);margin-bottom:16px}
 .project-playersnap-hero-section {
   grid-column-gap: 5px;
   grid-row-gap: 5px;
@@ -6788,7 +6788,7 @@ a {
 }
 
 /* ===== BlueSphere clases propias ===== */
-.body-project-bluesphere .image-45 { filter: brightness(0) invert(1); margin-bottom: 16px; }
+.body-project-bluesphere .project-card-icon { filter: brightness(0) invert(1); margin-bottom: 16px; }
 .project-bluesphere-hero-section {
   grid-column-gap: 5px;
   grid-row-gap: 5px;
@@ -7312,12 +7312,12 @@ a {
   from { opacity: 0; transform: translateY(50px); }
   to   { opacity: 1; transform: translateY(0); }
 }
-.body-project-nico .heading-44,
-.body-project-bluesphere .heading-44,
-.body-project-parrotfy .heading-44,
-.body-project-expediente .heading-44,
-.body-project-matchminders .heading-44,
-.body-project-playersnap .heading-44 {
+.body-project-nico .project-hero-h1,
+.body-project-bluesphere .project-hero-h1,
+.body-project-parrotfy .project-hero-h1,
+.body-project-expediente .project-hero-h1,
+.body-project-matchminders .project-hero-h1,
+.body-project-playersnap .project-hero-h1 {
   animation: hero-slide-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 .body-project-nico [class*="description-text-hero"],
@@ -7945,7 +7945,7 @@ a {
   .image-50 {
     max-width: var(--container-lg);
   }
-  .div-block-245 {
+  .project-hero-content {
     justify-items: stretch;
   }
   .project-alessandri-hero-section {
@@ -8357,7 +8357,7 @@ a {
     align-items: stretch;
     padding: 40px 20px;
   }
-  .heading-44 {
+  .project-hero-h1 {
     font-size: 50px;
   }
   .bold-text-4 {
@@ -8913,7 +8913,7 @@ a {
     text-align: center;
     width: 100%;
   }
-  .heading-44 {
+  .project-hero-h1 {
     text-align: left;
   }
   .description-text-hero {
@@ -8979,7 +8979,7 @@ a {
     padding-right: 0;
     display: flex;
   }
-  .div-block-245 {
+  .project-hero-content {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     flex-flow: column;
@@ -9728,7 +9728,7 @@ a {
   .description-problem-project {
     text-align: center;
   }
-  .heading-44 {
+  .project-hero-h1 {
     font-size: 35px;
   }
   .description-text-hero {
@@ -9743,7 +9743,7 @@ a {
   .card-the-problem {
     width: 100%;
   }
-  .image-45 {
+  .project-card-icon {
     width: 35px;
   }
   .project-title-user-persona,
@@ -11188,19 +11188,19 @@ a {
   }
 
   /* Botón Volver: resetear margin extra del base y alinear con el padding del container */
-  .flex-block-7 {
+  .project-back-row {
     margin-left: 0;
     padding-top: 0;
     inset: 14% auto auto 20px;
   }
 
   /* .code-embed tiene margin-left: 20px en base y en 479px — resetearlo dentro del botón Volver */
-  .flex-block-7 .code-embed {
+  .project-back-row .code-embed {
     margin-left: 0;
   }
 
-  /* div-block-245 debe ocupar el ancho completo para que el contenido se alinee con el botón */
-  .div-block-245 {
+  /* project-hero-content debe ocupar el ancho completo para que el contenido se alinee con el botón */
+  .project-hero-content {
     width: 100%;
   }
 
@@ -11213,7 +11213,7 @@ a {
     width: auto;
   }
 
-  /* mm-hero-red: bajar de 80px a escala del heading-44 en 767px */
+  /* mm-hero-red: bajar de 80px a escala del project-hero-h1 en 767px */
   .mm-hero-red {
     font-size: 50px;
     letter-spacing: 0;
@@ -11225,21 +11225,21 @@ a {
 }
 
 @media screen and (max-width: 479px) {
-  .flex-block-7 {
+  .project-back-row {
     margin-left: 0;
     padding-top: 0;
     inset: 14% auto auto 10px;
   }
 
-  .flex-block-7 .code-embed {
+  .project-back-row .code-embed {
     margin-left: 0;
   }
 
-  .div-block-245 {
+  .project-hero-content {
     width: 100%;
   }
 
-  /* mm-hero-red: escala al heading-44 en 479px */
+  /* mm-hero-red: escala al project-hero-h1 en 479px */
   .mm-hero-red {
     font-size: 35px;
     letter-spacing: 0;

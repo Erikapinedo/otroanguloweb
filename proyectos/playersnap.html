@@ -197,11 +197,11 @@
           height: 57px;
         }
       }
-      .project-playersnap-hero-section .div-block-245 { max-width: 80%; }
+      .project-playersnap-hero-section .project-hero-content { max-width: 80%; }
       @media (max-width: 991px) {
-        .project-playersnap-hero-section .div-block-245 { max-width: 100%; }
+        .project-playersnap-hero-section .project-hero-content { max-width: 100%; }
       }
-      .flex-block-7 { margin-left: 10px; }
+      .project-back-row { margin-left: 10px; }
     </style>
         <link rel="preload" as="font" type="font/woff2" crossorigin href="../assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2" />
     <link rel="preload" as="font" type="font/woff2" crossorigin href="../assets/fonts/NGSwv5HMAFg6IuGlBNMjxLsH8ahuQ2e8.woff2" />
@@ -288,7 +288,7 @@
     <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
     <main class="main" id="main-content">
       <section id="home" class="project-playersnap-hero-section">
-        <div class="w-layout-hflex flex-block-7">
+        <div class="w-layout-hflex project-back-row">
           <button
             data-i18n="playersnapProjectPage.back"
             onclick="window.location.href = document.referrer || '/';"
@@ -310,9 +310,9 @@
             onmouseout="this.style.transform = 'translateY(0)'"
           >Volver</button>
         </div>
-        <div class="div-block-245">
+        <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
-            <h1 class="heading-44" data-i18n-html="playersnapProjectPage.heroH1Html">
+            <h1 class="project-hero-h1" data-i18n-html="playersnapProjectPage.heroH1Html">
               Gestión de activos digitales <em class="italic-text-2">impulsada por IA para el deporte</em>
             </h1>
             <p
@@ -420,7 +420,7 @@
           </p>
           <section class="cards-problems-playersnap">
             <div data-w-id="0c7337f2-2057-878d-bb3f-d3ffb0d524b2" class="card-the-problem-playersnap">
-              <img src="../images/shared/x-circle-bold.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/x-circle-bold.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="head-card-playersnap" data-i18n="playersnapProjectPage.prob1Title">
                 Etiquetado manual y lento
               </h3>
@@ -430,7 +430,7 @@
               </p>
             </div>
             <div class="card-the-problem-playersnap">
-              <img src="../images/shared/x-circle-bold.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/x-circle-bold.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="head-card-playersnap" data-i18n="playersnapProjectPage.prob2Title">Búsqueda ineficiente</h3>
               <p class="paragraph-card-playersnap" data-i18n="playersnapProjectPage.prob2Body">
                 Sin un sistema de búsqueda inteligente, encontrar el clip o imagen correcta entre miles de archivos se
@@ -438,7 +438,7 @@
               </p>
             </div>
             <div class="card-the-problem-playersnap">
-              <img src="../images/shared/x-circle-bold.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/x-circle-bold.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="head-card-playersnap" data-i18n="playersnapProjectPage.prob3Title">
                 Distribución descoordinada
               </h3>
@@ -500,7 +500,7 @@
           </p>
           <section class="cards-approach-playersnap">
             <div data-w-id="221d333b-96b5-53d7-e1ff-8dc58e1cd779" class="card-the-approach-playersnap">
-              <img src="../images/shared/sparkle-bold.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/sparkle-bold.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="title-card-approach">
                 <strong data-i18n="playersnapProjectPage.approach1Title">IA al servicio del flujo</strong>
               </h3>
@@ -510,7 +510,7 @@
               </p>
             </div>
             <div class="card-the-approach-playersnap">
-              <img src="../images/shared/list-magnifying-glass-bold.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/list-magnifying-glass-bold.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="title-card-approach" data-i18n="playersnapProjectPage.approach2Title">Búsqueda inteligente</h3>
               <p class="paragraph-approach" data-i18n="playersnapProjectPage.approach2Body">
                 Filtros multidimensionales que permiten encontrar cualquier activo en segundos, sin importar el volumen
@@ -518,7 +518,7 @@
               </p>
             </div>
             <div class="card-the-approach-playersnap">
-              <img src="../images/shared/share-network-bold.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/share-network-bold.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="title-card-approach" data-i18n="playersnapProjectPage.approach3Title">
                 Distribución en tiempo real
               </h3>
@@ -600,28 +600,28 @@
           <div class="div-block-249">
             <section data-w-id="6b1bc87a-e349-d3f7-3ab7-7659633abfc8" class="container-cards-approach-playersnap">
               <div data-w-id="af95a32a-e213-b5b3-8454-990d7423b500" class="card-the-impact-playersnap">
-                <img src="../images/shared/heart-bold.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+                <img src="../images/shared/heart-bold.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
                 <p class="impact-card-body-playersnap" data-i18n-html="playersnapProjectPage.imp1Html">
                   <strong class="impact-card-title-playersnap">Más engagement</strong><br />Contenido en el momento
                   preciso que los fans lo esperan.
                 </p>
               </div>
               <div data-w-id="3a9f30f3-f91f-585f-54f2-7ae77ed92a6d" class="card-the-impact-playersnap">
-                <img src="../images/shared/timer-bold.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+                <img src="../images/shared/timer-bold.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
                 <p class="impact-card-body-playersnap" data-i18n-html="playersnapProjectPage.imp2Html">
                   <strong class="impact-card-title-playersnap">Ahorro de tiempo</strong><br />El etiquetado automático
                   elimina horas de trabajo manual por semana.
                 </p>
               </div>
               <div data-w-id="d21f56cc-0a4d-f4f1-421a-58f4da91f3c8" class="card-the-impact-playersnap">
-                <img src="../images/shared/check-circle-bold.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+                <img src="../images/shared/check-circle-bold.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
                 <p class="impact-card-body-playersnap" data-i18n-html="playersnapProjectPage.imp3Html">
                   <strong class="impact-card-title-playersnap">Mejor organización</strong><br />Todos los activos
                   multimedia en un solo lugar, clasificados y listos para usar.
                 </p>
               </div>
               <div class="card-the-impact-playersnap">
-                <img src="../images/shared/flag-checkered-bold.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+                <img src="../images/shared/flag-checkered-bold.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
                 <p class="impact-card-body-playersnap" data-i18n-html="playersnapProjectPage.imp5Html">
                   <strong class="impact-card-title-playersnap">Distribución escalable</strong><br />Un sistema que crece
                   con la organización sin perder velocidad ni calidad.
@@ -900,7 +900,7 @@
 
         // 1. Headings de sección: fade up
         var titles = document.querySelectorAll(
-          '[class*="project-title-"]:not(.heading-44), ' +
+          '[class*="project-title-"]:not(.project-hero-h1), ' +
           '.title-other-projects .home-heading-h2, ' +
           '.home-heading-h2.other-projects-heading'
         );

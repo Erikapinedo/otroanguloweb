@@ -61,11 +61,11 @@
         ) {
         visibility: hidden !important;
       }
-      .project-parrotfy-hero-section .div-block-245 { max-width: 80%; }
+      .project-parrotfy-hero-section .project-hero-content { max-width: 80%; }
       @media (max-width: 991px) {
-        .project-parrotfy-hero-section .div-block-245 { max-width: 100%; }
+        .project-parrotfy-hero-section .project-hero-content { max-width: 100%; }
       }
-      .flex-block-7 { margin-left: 10px; }
+      .project-back-row { margin-left: 10px; }
     </style>
         <link rel="preload" as="font" type="font/woff2" crossorigin href="../assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2" />
     <link rel="preload" as="font" type="font/woff2" crossorigin href="../assets/fonts/NGSwv5HMAFg6IuGlBNMjxLsH8ahuQ2e8.woff2" />
@@ -188,7 +188,7 @@
     <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
     <main class="main" id="main-content">
       <section id="home" class="project-parrotfy-hero-section">
-        <div class="w-layout-hflex flex-block-7">
+        <div class="w-layout-hflex project-back-row">
           <button
             data-i18n="parrotfyProjectPage.back"
             onclick="window.location.href = document.referrer || '/';"
@@ -210,9 +210,9 @@
             onmouseout="this.style.transform = 'translateY(0)'"
           >Volver</button>
         </div>
-        <div class="div-block-245">
+        <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
-            <h1 class="heading-44" data-i18n-html="parrotfyProjectPage.heroH1Html">
+            <h1 class="project-hero-h1" data-i18n-html="parrotfyProjectPage.heroH1Html">
               ERP, software que integra y automatiza <em class="italic-text-2"> los procesos</em>
             </h1>
             <p
@@ -336,7 +336,7 @@
           </p>
           <section class="cards-problems-parrotfy">
             <div data-w-id="0c7337f2-2057-878d-bb3f-d3ffb0d524b2" class="card-the-problem-parrotfy">
-              <img src="../images/shared/extension-2.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/extension-2.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob1Title">Diferentes Herramientas</h3>
               <p class="paragraph-card-parrotfy" data-i18n="parrotfyProjectPage.prob1Body">
                 Los procesos clave existían en diferentes sistemas, obligando a los equipos a saltar entre plataformas
@@ -344,7 +344,7 @@
               </p>
             </div>
             <div class="card-the-problem-parrotfy">
-              <img src="../images/shared/eye-closed-bold-2.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/eye-closed-bold-2.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob2Title">Visibilidad Limitada</h3>
               <p class="paragraph-card-parrotfy" data-i18n="parrotfyProjectPage.prob2Body">
                 No había una vista unificada del estado de los pedidos, la actividad financiera o el rendimiento del
@@ -352,7 +352,7 @@
               </p>
             </div>
             <div class="card-the-problem-parrotfy">
-              <img src="../images/parrotfy/close-o-2.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/parrotfy/close-o-2.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob3Title">
                 Flujos de Trabajo Manuales y Propensos a Errores
               </h3>
@@ -362,7 +362,7 @@
               </p>
             </div>
             <div class="card-the-problem-parrotfy">
-              <img src="../images/shared/trending-down-2.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/trending-down-2.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="head-card-parrotfy" data-i18n="parrotfyProjectPage.prob4Title">Difícil de Escalar</h3>
               <p class="paragraph-card-parrotfy" data-i18n="parrotfyProjectPage.prob4Body">
                 A medida que la empresa crecía, su estructura administrativa seguía siendo básica, lo que hacía
@@ -451,7 +451,7 @@
           </p>
           <section class="cards-approach-parrotfy">
             <div data-w-id="221d333b-96b5-53d7-e1ff-8dc58e1cd779" class="card-the-approach-parrotfy">
-              <img src="../images/shared/eye-blue.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/eye-blue.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="title-card-approach">
                 <strong data-i18n="parrotfyProjectPage.approach1Title">Simplificar la complejidad</strong>
               </h3>
@@ -460,14 +460,14 @@
               </p>
             </div>
             <div class="card-the-approach-parrotfy">
-              <img src="../images/shared/border-style-dashed-2.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/border-style-dashed-2.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="title-card-approach" data-i18n="parrotfyProjectPage.approach2Title">Apoyar la colaboración</h3>
               <p class="paragraph-approach" data-i18n="parrotfyProjectPage.approach2Body">
                 Permitir que los miembros del equipo participen en el seguimiento y ejecución de tareas.
               </p>
             </div>
             <div class="card-the-approach-parrotfy">
-              <img src="../images/shared/trending-3.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+              <img src="../images/shared/trending-3.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
               <h3 class="title-card-approach" data-i18n="parrotfyProjectPage.approach3Title">Construir para escalar</h3>
               <p class="paragraph-approach" data-i18n="parrotfyProjectPage.approach3Body">
                 Diseñar un sistema modular que crezca con el negocio y se adapte a nuevas industrias y flujos de
@@ -551,20 +551,20 @@
           <div class="div-block-249">
             <section data-w-id="6b1bc87a-e349-d3f7-3ab7-7659633abfc8" class="container-cards-approach-parrotfy">
               <div data-w-id="af95a32a-e213-b5b3-8454-990d7423b500" class="card-the-impact-parrotfy">
-                <img src="../images/shared/eye-pink.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+                <img src="../images/shared/eye-pink.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
                 <p class="paragraph-30-copy-black" data-i18n-html="parrotfyProjectPage.imp1Html">
                   <strong>Mayor visibilidad</strong><br />Seguimiento claro de pedidos, producción y pagos.
                 </p>
               </div>
               <div data-w-id="3a9f30f3-f91f-585f-54f2-7ae77ed92a6d" class="card-the-impact-parrotfy">
-                <img src="../images/parrotfy/handshake.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+                <img src="../images/parrotfy/handshake.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
                 <p class="paragraph-30-copy-black" data-i18n-html="parrotfyProjectPage.imp2Html">
                   <strong>Mejor colaboración</strong><br />Equipos de ventas, facturación, producción y servicio
                   trabajando en el mismo flujo.
                 </p>
               </div>
               <div data-w-id="d21f56cc-0a4d-f4f1-421a-58f4da91f3c8" class="card-the-impact-parrotfy">
-                <img src="../images/shared/rocket-launch.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+                <img src="../images/shared/rocket-launch.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
                 <p class="paragraph-30-copy-black" data-i18n-html="parrotfyProjectPage.imp3Html">
                   <strong>Más productividad</strong><br />Los procesos estandarizados redujeron errores y ahorraron
                   tiempo.
@@ -573,14 +573,14 @@
             </section>
             <section class="container-cards-approach-parrotfy">
               <div class="card-the-impact-parrotfy">
-                <img src="../images/shared/trending-2.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+                <img src="../images/shared/trending-2.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
                 <p class="paragraph-30-copy-black" data-i18n-html="parrotfyProjectPage.imp4Html">
                   <strong>Preparados para el crecimiento</strong><br />Un sistema que soporta una mayor demanda sin
                   perder el orden.
                 </p>
               </div>
               <div class="card-the-impact-parrotfy">
-                <img src="../images/shared/check-o-3.svg" loading="lazy" width="70" height="70" alt="" class="image-45" />
+                <img src="../images/shared/check-o-3.svg" loading="lazy" width="70" height="70" alt="" class="project-card-icon" />
                 <p class="paragraph-30-copy-black" data-i18n-html="parrotfyProjectPage.imp5Html">
                   <strong>Fácil adopción</strong><br />Los usuarios describieron Parrotfy como simple, práctico y rápido
                   de aprender.
@@ -839,7 +839,7 @@
 
         // 1. Headings de sección: fade up
         var titles = document.querySelectorAll(
-          '[class*="project-title-"]:not(.heading-44), ' +
+          '[class*="project-title-"]:not(.project-hero-h1), ' +
           '.title-other-projects .home-heading-h2, ' +
           '.home-heading-h2.other-projects-heading'
         );

@@ -107,7 +107,7 @@
         z-index: 2;
       }
 
-      .body-project-portalpehuen .flex-block-7 { z-index: 2; margin-left: 10px; }
+      .body-project-portalpehuen .project-back-row { z-index: 2; margin-left: 10px; }
 
       /* ── Context ── */
       .project-portalpehuen-context {
@@ -378,9 +378,9 @@
         .images-portalpehuen img,
         .pp-img-full                       { opacity: 1 !important; transform: none !important; }
       }
-      .project-portalpehuen-hero-section .div-block-245 { max-width: 70%; }
+      .project-portalpehuen-hero-section .project-hero-content { max-width: 70%; }
       @media (max-width: 991px) {
-        .project-portalpehuen-hero-section .div-block-245 { max-width: 100%; }
+        .project-portalpehuen-hero-section .project-hero-content { max-width: 100%; }
       }
     </style>
         <link rel="preload" as="font" type="font/woff2" crossorigin href="../assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2" />
@@ -465,7 +465,7 @@
         <img src="../images/portalpehuen/bg-portalpehuen-hero.webp" alt="" aria-hidden="true"
              class="pp-hero-bg" width="1920" height="986" loading="eager" fetchpriority="high" />
 
-        <div class="w-layout-hflex flex-block-7">
+        <div class="w-layout-hflex project-back-row">
           <button
             onclick="window.location.href = document.referrer || '/';"
             style="
@@ -487,9 +487,9 @@
           >Volver</button>
         </div>
 
-        <div class="div-block-245">
+        <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
-            <h1 class="heading-44">
+            <h1 class="project-hero-h1">
               Una identidad que crece <em class="italic-text-2">desde sus raíces.</em>
             </h1>
             <p class="description-text-hero">Identidad visual + Brandbook</p>
@@ -851,7 +851,7 @@
         }
         var p = '.body-project-portalpehuen ';
 
-        gsap.from(p + '.heading-44',            { opacity: 0, y: 30, duration: 0.8, delay: 0.15, ease: 'power3.out' });
+        gsap.from(p + '.project-hero-h1',            { opacity: 0, y: 30, duration: 0.8, delay: 0.15, ease: 'power3.out' });
         gsap.from(p + '.alessandri-hero-impact', { opacity: 0, y: 20, duration: 0.7, delay: 0.35, ease: 'power3.out' });
         gsap.from(p + '.alessandri-hero-stats',  { opacity: 0, y: 20, duration: 0.5, delay: 0.55, ease: 'power3.out' });
 
@@ -900,7 +900,7 @@
 
         // 1. Headings de sección: fade up
         var titles = document.querySelectorAll(
-          '[class*="project-title-"]:not(.heading-44), ' +
+          '[class*="project-title-"]:not(.project-hero-h1), ' +
           '.title-other-projects .home-heading-h2, ' +
           '.home-heading-h2.other-projects-heading'
         );
