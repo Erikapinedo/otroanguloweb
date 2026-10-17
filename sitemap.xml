@@ -174,4 +174,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/limon-nada"/>
   </url>
 
+  <url>
+    <loc>https://otroanguloweb.cl/proyectos/vital-kids</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/vital-kids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/vital-kids"/>
+  </url>
+
 </urlset>
