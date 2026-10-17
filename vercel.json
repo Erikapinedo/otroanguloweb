@@ -1,6 +1,10 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "framework": null,
+  "buildCommand": "echo 'static site, nothing to build'",
+  "installCommand": "echo 'static site, nothing to install'",
+  "outputDirectory": ".",
   "redirects": [
     { "source": "/index.html",                      "destination": "/",                        "permanent": true },
     { "source": "/about-me-erika-pinedo.html",      "destination": "/sobre-mi",                "permanent": true },
