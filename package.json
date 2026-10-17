@@ -1,0 +1,20 @@
+{
+  "name": "otroanguloweb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web de Otro Ángulo Web, estudio de diseño de producto y branding de Erika Pinedo.",
+  "homepage": "https://otroanguloweb.cl",
+  "author": "Erika Pinedo <contacto@otroanguloweb.cl>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build:css": "cleancss -o assets/css/main.min.css assets/css/main.css && cleancss -o assets/css/fonts.min.css assets/css/fonts.css && cleancss -o assets/theme-1.min.css assets/theme-1.css && cleancss -o assets/theme-selector.min.css assets/theme-selector.css",
+    "build:js": "terser components.js -o components.min.js --compress --mangle && terser translations.js -o translations.min.js --compress --mangle",
+    "build": "npm run build:css && npm run build:js",
+    "dev": "npx serve . -l 3000",
+    "optimize:images": "echo 'Instala sharp-cli primero: npm i -D sharp-cli' && exit 1"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.36.0"
+  }
+}
