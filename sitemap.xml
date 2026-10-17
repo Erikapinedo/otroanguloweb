@@ -138,4 +138,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/urbana"/>
   </url>
 
+  <url>
+    <loc>https://otroanguloweb.cl/proyectos/bottlexam</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://otroanguloweb.cl/proyectos/bottlexam"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://otroanguloweb.cl/proyectos/bottlexam"/>
+  </url>
+
 </urlset>
