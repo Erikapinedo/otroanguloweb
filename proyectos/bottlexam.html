@@ -13,20 +13,20 @@
   })(window,document,'script','dataLayer','GTM-MS7SWJ9C');</script>
   <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
-    <title>The Bottlexam · Dirección de arte · Erika Pinedo | Otro Ángulo Web</title>
+    <title>The Bottlexam · Case study · Erika Pinedo | Otro Ángulo Web</title>
     <meta
-      content="The Bottlexam para Vital: una etiqueta de botella con relieves que enseña a reconocer un nódulo mamario. Caso de dirección de arte y campaña publicitaria por Erika Pinedo en Grey."
+      content="The Bottlexam: propuesta conceptual para Vital que convertía una etiqueta de botella en una herramienta de autoexamen mamario. Case study de dirección de arte presentado a premios desde Grey Chile."
       name="description"
     />
-    <meta content="The Bottlexam · Dirección de arte · Vital – Erika Pinedo" property="og:title" />
+    <meta content="The Bottlexam · Case study · Vital – Erika Pinedo" property="og:title" />
     <meta
-      content="Una campaña que convirtió una botella de agua en una herramienta de autoexamen mamario. Dirección de arte para Vital en Grey Chile."
+      content="Case study conceptual: una botella de agua que enseña cómo se siente un nódulo mamario. Propuesta de dirección de arte para Vital, desarrollada en Grey Chile para premios."
       property="og:description"
     />
     <meta content="https://otroanguloweb.cl/images/og/og-bottlexam.png" property="og:image" />
-    <meta content="The Bottlexam · Dirección de arte · Vital – Erika Pinedo" property="twitter:title" />
+    <meta content="The Bottlexam · Case study · Vital – Erika Pinedo" property="twitter:title" />
     <meta
-      content="Una campaña que convirtió una botella de agua en una herramienta de autoexamen mamario. Dirección de arte para Vital en Grey Chile."
+      content="Case study conceptual: una botella de agua que enseña cómo se siente un nódulo mamario. Propuesta de dirección de arte para Vital, desarrollada en Grey Chile para premios."
       property="twitter:description"
     />
     <meta property="og:url" content="https://otroanguloweb.cl/proyectos/bottlexam" />
@@ -320,6 +320,89 @@
         background-color: var(--bx-pink-soft);
       }
 
+      /* ── Distribution strip ── */
+      .project-bottlexam-distribution {
+        background-color: var(--bx-cream);
+        width: 100%;
+      }
+
+      .container-bottlexam-distribution {
+        width: 100%;
+        max-width: var(--container-lg);
+        padding: 90px 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+      }
+
+      .project-title-distribution-bottlexam {
+        font-size: 54px;
+        font-weight: 900;
+        color: var(--bx-purple);
+        margin: 0;
+        line-height: 1.05;
+      }
+
+      .project-title-distribution-bottlexam em {
+        color: var(--bx-magenta);
+        font-style: italic;
+      }
+
+      .bx-distribution-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+      }
+
+      .bx-dist-item {
+        background: #fff;
+        border-radius: 20px;
+        padding: 28px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        border: 1px solid rgba(72,39,88,.08);
+      }
+
+      .bx-dist-icon {
+        font-size: 36px;
+        color: var(--bx-magenta);
+        line-height: 1;
+      }
+
+      .bx-dist-label {
+        color: var(--bx-purple);
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      /* ── Claim closing ── */
+      .project-bottlexam-claim {
+        background: linear-gradient(135deg, var(--bx-magenta), var(--bx-purple));
+        width: 100%;
+        padding: 120px 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .bx-claim-text {
+        color: #fff;
+        font-size: clamp(42px, 7vw, 92px);
+        font-weight: 900;
+        line-height: .95;
+        margin: 0;
+        letter-spacing: -.02em;
+        max-width: 1100px;
+      }
+
+      .bx-claim-text em {
+        font-style: italic;
+        color: var(--bx-pink-bg);
+      }
+
       /* ── Video embed ── */
       .project-bottlexam-video {
         background-color: var(--bx-dark);
@@ -406,11 +489,15 @@
         .container-bottlexam-context  { padding: 70px 40px; }
         .container-bottlexam-idea     { padding: 70px 40px; }
         .container-bottlexam-steps    { padding: 70px 40px; }
+        .container-bottlexam-distribution { padding: 70px 40px; }
         .project-bottlexam-video      { padding: 70px 40px; }
+        .project-bottlexam-claim      { padding: 80px 40px; }
         .project-title-context-bottlexam,
         .project-title-idea-bottlexam,
         .project-title-steps-bottlexam { font-size: 50px; }
+        .project-title-distribution-bottlexam { font-size: 40px; }
         .bx-steps-grid                 { grid-template-columns: 1fr; }
+        .bx-distribution-grid          { grid-template-columns: repeat(2, 1fr); }
       }
 
       @media (max-width: 767px) {
@@ -419,11 +506,15 @@
         .container-bottlexam-context   { padding: 50px 20px; }
         .container-bottlexam-idea      { padding: 50px 20px; }
         .container-bottlexam-steps     { padding: 50px 20px; }
+        .container-bottlexam-distribution { padding: 50px 20px; }
         .project-bottlexam-video       { padding: 50px 20px; }
+        .project-bottlexam-claim       { padding: 60px 20px; }
         .project-title-context-bottlexam,
         .project-title-idea-bottlexam,
         .project-title-steps-bottlexam { font-size: 36px; }
+        .project-title-distribution-bottlexam { font-size: 32px; }
         .images-bottlexam              { grid-template-columns: 1fr; }
+        .bx-distribution-grid          { grid-template-columns: 1fr 1fr; }
         .cierre-bottlexam              { padding: 60px 20px; }
         .images-bottlexam img,
         .bx-img-full                   { opacity: 1 !important; transform: none !important; }
@@ -461,13 +552,13 @@
       {
         "@context": "https://schema.org",
         "@type": "CreativeWork",
-        "name": "The Bottlexam – Dirección de arte para Vital",
+        "name": "The Bottlexam – Case study de dirección de arte para Vital",
         "url": "https://otroanguloweb.cl/proyectos/bottlexam",
         "inLanguage": "es",
-        "description": "The Bottlexam para Vital: una etiqueta de botella con relieves que enseña a reconocer un nódulo mamario. Caso de dirección de arte en Grey Chile.",
+        "description": "Case study conceptual presentado a premios desde Grey Chile: una etiqueta de botella Vital con relieves que enseña a reconocer un nódulo mamario. Propuesta no producida.",
         "dateCreated": "2018",
-        "keywords": ["Dirección de arte","Campaña","Vital","Cáncer de mama","Packaging","Bottlexam","Grey","Advertising"],
-        "genre": "Dirección de arte · Campaña publicitaria",
+        "keywords": ["Dirección de arte","Case study","Vital","Cáncer de mama","Packaging","Bottlexam","Grey","Advertising","Spec work","Festivales"],
+        "genre": "Dirección de arte · Case study publicitario",
         "author": {
           "@type": "Person",
           "name": "Erika Pinedo",
@@ -550,11 +641,11 @@
         <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
             <h1 class="project-hero-h1">
-              Una etiqueta que enseña <em class="project-hero-emphasis">cómo se siente un nódulo.</em>
+              Porque la concientización <em class="project-hero-emphasis">es Vital.</em>
             </h1>
-            <p class="description-text-hero">Dirección de arte + Campaña</p>
+            <p class="description-text-hero">Case study · Dirección de arte</p>
             <p class="alessandri-hero-impact">
-              Convertimos la botella de agua más vendida de Chile en una herramienta de autoexamen mamario. Un relieve en la etiqueta, un gesto cotidiano, una vida posible.
+              Durante el Mes de Concientización contra el Cáncer de Mama, Vital convierte su botella en una herramienta de autoexamen mamario. Edición limitada con una etiqueta rosada cuyos relieves permiten sentir cómo es un nódulo y dónde suele aparecer.
             </p>
             <div class="alessandri-hero-stats">
               <div class="alessandri-hero-stat-item">
@@ -570,6 +661,10 @@
                 <span class="alessandri-stat-label">2018</span>
               </div>
               <div class="alessandri-hero-stat-item">
+                <span class="alessandri-stat-value">Formato</span>
+                <span class="alessandri-stat-label">Case study · no producido</span>
+              </div>
+              <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value">Rol</span>
                 <span class="alessandri-stat-label">Directora de Arte</span>
               </div>
@@ -583,10 +678,13 @@
         <div class="w-layout-blockcontainer container-bottlexam-context w-container">
           <span class="bx-context-pill">El reto</span>
           <h2 class="project-title-context-bottlexam">
-            Toda mujer sabía que debía revisarse. Nadie le había enseñado <em>cómo.</em>
+            La botella de agua ya era parte de su rutina. Solo faltaba <em>que les enseñara algo.</em>
           </h2>
           <p class="description-context-bottlexam">
-            Vital, el agua embotellada líder en Chile, quería incentivar a las mujeres a desarrollar el hábito del autoexamen mamario. El problema era más profundo que la falta de información: la mayoría crecía escuchando que debía ir al médico ante el primer bulto, pero nunca nadie le había explicado qué se sentía al tocarlo.
+            Las botellas de agua se convirtieron en un accesorio cotidiano para las mujeres: las abren en el gimnasio, las llevan en el bolso, las sostienen en la oficina, el festival o la calle. Un objeto que ya estaba asociado al cuidado de su salud y bienestar. El reto era usar ese gesto para instalar otro hábito mucho más importante: el autoexamen mamario, que la mayoría sabe que debe hacerse, pero nunca aprendió cómo.
+          </p>
+          <p class="description-context-bottlexam" style="font-size:14px;opacity:.6;">
+            Nota: pieza desarrollada como <strong>case study</strong> conceptual para presentar a festivales creativos. La propuesta no llegó a producirse.
           </p>
         </div>
       </section>
@@ -624,13 +722,13 @@
       <section class="project-bottlexam-idea">
         <div class="w-layout-blockcontainer container-bottlexam-idea w-container">
           <h2 class="project-title-idea-bottlexam">
-            No <em>una</em> campaña más de cáncer de mama.
+            La idea: usar la botella que ya tenían en la mano para enseñarles <em>qué buscar.</em>
           </h2>
           <p class="description-idea-bottlexam">
-            En vez de pedirle a las mujeres que se detuvieran a cuidarse, miramos qué tenían ya en sus manos durante el día. La respuesta estaba a la vista: botellas de agua. Un objeto cotidiano, portátil, visible, que millones de mujeres sostienen todos los días en el gimnasio, la oficina, el auto, la calle.
+            Durante el Mes de Concientización contra el Cáncer de Mama, Vital lanza una edición limitada: una etiqueta rosada que reemplaza a la original. Dentro de esa etiqueta, pequeños relieves distribuidos en distintas zonas simulan la textura, el tamaño y la ubicación de un posible nódulo.
           </p>
           <p class="description-idea-bottlexam">
-            Creamos una edición especial de etiquetas Vital con pequeños relieves distribuidos en distintas zonas, imitando la textura, el tamaño y la ubicación de un posible nódulo. Al abrir una botella, cada mujer sentía por primera vez qué debía estar buscando en su propio cuerpo.
+            Al abrir una botella y palparla, cada mujer siente por primera vez qué debería estar buscando en su propio cuerpo. En el reverso, tres pasos ilustrados explican cómo hacerse el autoexamen correctamente. La misma botella, el mismo gesto, un hábito nuevo.
           </p>
           <span class="bx-idea-highlight">The Bottlexam</span>
         </div>
@@ -641,14 +739,14 @@
         <div class="w-layout-blockcontainer container-bottlexam-steps w-container">
           <h2 class="project-title-steps-bottlexam">Cómo se hace</h2>
           <p class="description-steps-bottlexam">
-            La misma etiqueta explicaba, con un lenguaje visual simple y directo, los tres pasos del autoexamen mamario. Educación convertida en gesto.
+            La misma etiqueta explicaría, con un lenguaje visual simple y directo, los tres pasos del autoexamen mamario. Educación convertida en gesto.
           </p>
           <div class="bx-steps-grid">
             <div class="bx-step-card">
               <div class="bx-step-number">1</div>
               <i class="ph-duotone ph-eye bx-step-icon"></i>
               <h3 class="bx-step-title">Observar</h3>
-              <p class="bx-step-body">Buscar diferencias entre ambos pechos. Examinar los pezones para detectar cambios de forma, color o enrojecimiento.</p>
+              <p class="bx-step-body">Frente al espejo, comparar ambos pechos y pezones. Buscar diferencias de forma, color o enrojecimiento entre uno y otro.</p>
             </div>
             <div class="bx-step-card">
               <div class="bx-step-number">2</div>
@@ -670,12 +768,46 @@
       <!-- Placeholder: pieza clave / mockup grande del caso (etiqueta extendida, pieza gráfica o fotografía final) -->
       <img
         src="../images/bottlexam/bx-mockup-full.webp"
-        alt="Pieza gráfica principal de la campaña The Bottlexam para Vital: etiqueta con relieves e instrucciones de autoexamen."
+        alt="Pieza gráfica principal del case study The Bottlexam para Vital: etiqueta con relieves e instrucciones de autoexamen."
         class="bx-img-full"
         loading="lazy"
         width="3528"
         height="2112"
       />
+
+      <!-- ===== DISTRIBUCIÓN ===== -->
+      <section class="project-bottlexam-distribution">
+        <div class="w-layout-blockcontainer container-bottlexam-distribution w-container">
+          <h2 class="project-title-distribution-bottlexam">
+            En cualquier lugar donde una mujer <em>vuelva a tener una Vital en la mano.</em>
+          </h2>
+          <div class="bx-distribution-grid">
+            <div class="bx-dist-item">
+              <i class="ph-duotone ph-shopping-cart bx-dist-icon"></i>
+              <p class="bx-dist-label">Supermercados</p>
+            </div>
+            <div class="bx-dist-item">
+              <i class="ph-duotone ph-storefront bx-dist-icon"></i>
+              <p class="bx-dist-label">Tiendas de barrio</p>
+            </div>
+            <div class="bx-dist-item">
+              <i class="ph-duotone ph-coin-vertical bx-dist-icon"></i>
+              <p class="bx-dist-label">Máquinas expendedoras</p>
+            </div>
+            <div class="bx-dist-item">
+              <i class="ph-duotone ph-snowflake bx-dist-icon"></i>
+              <p class="bx-dist-label">Refrigeradores de marca</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CLAIM ===== -->
+      <section class="project-bottlexam-claim">
+        <h2 class="bx-claim-text">
+          Porque la concientización <em>es Vital.</em>
+        </h2>
+      </section>
 
       <!-- ===== VIDEO CASO ===== -->
       <section class="project-bottlexam-video">
@@ -700,7 +832,7 @@
       <!-- ===== CLOSING ===== -->
       <section class="cierre-bottlexam">
         <p class="text-cierre-bottlexam">
-          <strong>Cliente</strong> Vital<br /><strong>Agencia</strong> Grey Chile<br /><strong>Directora de Arte</strong> Erika Pinedo<br /><br />- Todos los derechos reservados -
+          <strong>Marca propuesta</strong> Vital<br /><strong>Agencia</strong> Grey Chile<br /><strong>Directora de Arte</strong> Erika Pinedo<br /><strong>Año</strong> 2018<br /><strong>Formato</strong> Case study conceptual · presentado a festivales creativos · no producido<br /><br />- Todos los derechos reservados -
         </p>
       </section>
 
@@ -828,6 +960,12 @@
 
         var videoWrap = document.querySelector(p + '.bx-video-wrap');
         if (videoWrap) gsap.from(videoWrap, st(videoWrap, { opacity: 0, y: 50, duration: 0.9, ease: 'power2.out' }));
+
+        var distItems = gsap.utils.toArray(p + '.bx-dist-item');
+        if (distItems.length) gsap.from(distItems, st(distItems[0], { opacity: 0, y: 30, duration: 0.55, stagger: 0.08, ease: 'back.out(1.4)' }));
+
+        var claim = document.querySelector(p + '.bx-claim-text');
+        if (claim) gsap.from(claim, st(claim, { opacity: 0, y: 60, scale: 0.92, duration: 1, ease: 'power3.out' }));
       })();
     </script>
 
