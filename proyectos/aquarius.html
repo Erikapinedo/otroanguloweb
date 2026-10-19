@@ -103,6 +103,9 @@
         z-index: 1;
         opacity: .9;
       }
+      @media (max-width: 767px) {
+        .aq-hero-bg { object-position: center top; }
+      }
 
       .body-project-aquarius .container-main-left-project {
         position: relative;
@@ -154,23 +157,10 @@
         margin: 0;
       }
 
-      .aq-context-pill {
-        display: inline-block;
-        padding: 10px 18px;
-        border: 1.5px solid var(--aq-blue-deep);
-        border-radius: 999px;
-        font-size: 14px;
-        font-weight: 700;
-        letter-spacing: .04em;
-        text-transform: uppercase;
-        color: var(--aq-blue-deep);
-        margin-bottom: 8px;
-      }
-
       /* ── Gallery ── */
       .images-aquarius {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
         gap: 0;
         width: 100%;
         overflow: clip;
@@ -178,9 +168,59 @@
 
       .images-aquarius img {
         width: 100%;
-        height: 100%;
+        height: auto;
         object-fit: cover;
         display: block;
+      }
+
+      /* Sabores row (4 fruits) */
+      .aq-sabores {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        width: 100%;
+      }
+
+      .aq-sabor {
+        aspect-ratio: 1 / 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        overflow: hidden;
+      }
+
+      .aq-sabor img {
+        width: 100%;
+        height: 100%;
+        max-width: 320px;
+        object-fit: contain;
+        display: block;
+      }
+
+      .aq-sabor--uva     { background-color: #884593; }
+      .aq-sabor--pomelo  { background-color: #F0C0BD; }
+      .aq-sabor--manzana { background-color: #D82036; }
+      .aq-sabor--pera    { background-color: #ABB830; }
+
+      @media (max-width: 767px) {
+        .aq-sabores { grid-template-columns: 1fr 1fr; }
+      }
+
+      .aq-gallery-row {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 0;
+      }
+
+      .aq-gallery-row img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      @media (max-width: 767px) {
+        .aq-gallery-row { grid-template-columns: 1fr; }
       }
 
       /* ── Idea (dark blue) ── */
@@ -215,91 +255,6 @@
         font-size: 18px;
         line-height: 1.65;
         margin: 0;
-        max-width: 820px;
-      }
-
-      .aq-idea-highlight {
-        display: inline-block;
-        padding: 12px 20px;
-        background: #fff;
-        color: var(--aq-blue-deep);
-        border-radius: 8px;
-        font-weight: 800;
-        font-size: 16px;
-        letter-spacing: .04em;
-        text-transform: uppercase;
-        margin-top: 8px;
-      }
-
-      /* ── Sistema de color por sabor ── */
-      .project-aquarius-flavors {
-        background-color: var(--aq-cream);
-        width: 100%;
-        padding: 100px 60px;
-      }
-
-      .container-aquarius-flavors {
-        max-width: var(--container-lg);
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        align-items: center;
-        margin: 0 auto;
-      }
-
-      .project-title-flavors-aquarius {
-        color: var(--aq-blue-deep);
-        font-size: 44px;
-        font-weight: 800;
-        text-align: center;
-        line-height: 1.1;
-        margin: 0;
-      }
-
-      .project-title-flavors-aquarius em {
-        color: var(--aq-blue);
-        font-style: italic;
-      }
-
-      .aq-flavors-grid {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 16px;
-        width: 100%;
-      }
-
-      .aq-flavor-card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
-        aspect-ratio: 3 / 4;
-        border-radius: 16px;
-        padding: 24px 16px;
-        color: #fff;
-        text-align: center;
-        gap: 6px;
-      }
-
-      .aq-flavor-card--agua    { background: var(--aq-blue); }
-      .aq-flavor-card--manzana { background: var(--aq-red); }
-      .aq-flavor-card--pomelo  { background: var(--aq-pink); color: var(--aq-blue-deep); }
-      .aq-flavor-card--uva     { background: var(--aq-purple); }
-      .aq-flavor-card--pera    { background: var(--aq-green); color: var(--aq-blue-deep); }
-
-      .aq-flavor-name {
-        font-size: 20px;
-        font-weight: 800;
-        line-height: 1.1;
-        margin: 0;
-      }
-
-      .aq-flavor-hex {
-        font-size: 12px;
-        font-weight: 600;
-        letter-spacing: .08em;
-        opacity: .8;
-        margin: 0;
       }
 
       /* ── Mockup vía pública ── */
@@ -317,7 +272,7 @@
 
       /* ── Closing ── */
       .cierre-aquarius {
-        background-color: var(--aq-dark);
+        background-color: #0A3978;
         padding: 80px 60px;
         display: flex;
         flex-direction: column;
@@ -341,12 +296,8 @@
         .project-aquarius-hero-section { padding-top: 160px; }
         .container-aquarius-context  { padding: 70px 40px; }
         .container-aquarius-idea     { padding: 70px 40px; }
-        .project-aquarius-flavors    { padding: 70px 40px; }
         .project-title-context-aquarius,
         .project-title-idea-aquarius { font-size: 50px; }
-        .aq-flavors-grid { grid-template-columns: repeat(5, 1fr); gap: 10px; }
-        .aq-flavor-card { padding: 18px 10px; }
-        .aq-flavor-name { font-size: 16px; }
       }
 
       @media (max-width: 767px) {
@@ -354,16 +305,13 @@
         .project-aquarius-hero-section .description-text-hero { text-align: left; width: auto; }
         .container-aquarius-context   { padding: 50px 20px; }
         .container-aquarius-idea      { padding: 50px 20px; }
-        .project-aquarius-flavors     { padding: 50px 20px; }
         .project-title-context-aquarius,
         .project-title-idea-aquarius { font-size: 36px; }
-        .project-title-flavors-aquarius { font-size: 30px; }
         .images-aquarius              { grid-template-columns: 1fr; }
-        .aq-flavors-grid              { grid-template-columns: repeat(2, 1fr); }
         .cierre-aquarius              { padding: 60px 20px; }
         .images-aquarius img          { opacity: 1 !important; transform: none !important; }
       }
-      .project-aquarius-hero-section .project-hero-content { max-width: 70%; }
+      .project-aquarius-hero-section .project-hero-content { max-width: 95%; }
       @media (max-width: 991px) {
         .project-aquarius-hero-section .project-hero-content { max-width: 100%; }
       }
@@ -456,9 +404,11 @@
 
       <!-- ===== HERO ===== -->
       <section id="home" class="project-aquarius-hero-section">
-        <!-- Placeholder: imagen de fondo del hero (KV Aquarius con las botellas sobre azul) -->
-        <!-- <img src="../images/aquarius/bg-aquarius-hero.webp" alt="" aria-hidden="true"
-             class="aq-hero-bg" width="1920" height="986" loading="eager" fetchpriority="high" /> -->
+        <picture>
+          <source media="(max-width: 767px)" srcset="../images/aquarius/bg-aquarius-hero-mobile.webp" />
+          <img src="../images/aquarius/bg-aquarius-hero.webp" alt="" aria-hidden="true"
+               class="aq-hero-bg" width="1920" height="986" loading="eager" fetchpriority="high" />
+        </picture>
 
         <div class="w-layout-hflex project-back-row">
           <button
@@ -485,7 +435,7 @@
         <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
             <h1 class="project-hero-h1">
-              Nueva imagen de Aquarius, <em class="project-hero-emphasis">un color por sabor.</em>
+              Nueva imagen de Aquarius,<br /><em class="project-hero-emphasis">un color por sabor.</em>
             </h1>
             <p class="description-text-hero">Key visual · Dirección de arte</p>
             <p class="alessandri-hero-impact">
@@ -505,10 +455,6 @@
                 <span class="alessandri-stat-label">2019</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">Formato</span>
-                <span class="alessandri-stat-label">Key visual · Trade · Vía pública</span>
-              </div>
-              <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value">Rol</span>
                 <span class="alessandri-stat-label">Directora de Arte</span>
               </div>
@@ -520,46 +466,35 @@
       <!-- ===== CONTEXT ===== -->
       <section id="project-aquarius-context" class="project-aquarius-context">
         <div class="w-layout-blockcontainer container-aquarius-context w-container">
-          <span class="aq-context-pill">El reto</span>
           <h2 class="project-title-context-aquarius">
             Lanzar la nueva imagen de Aquarius en el punto de venta y <em>que se entienda a primer golpe.</em>
           </h2>
           <p class="description-context-aquarius">
             Aquarius renovaba su propuesta: agua con jugo de fruta real, en cinco sabores. El KV tenía que transmitir los tres atributos de la marca —sabor, frutas y frescura— y a la vez funcionar como sistema para toda la bajada a trade y vía pública, con una lectura clara desde el shopper.
           </p>
-          <p class="description-context-aquarius" style="font-size:14px;opacity:.6;">
-            Nota: pieza desarrollada en <strong>GREY Chile</strong> para Coca-Cola Shopper. La línea que llegó al mercado fue la de fondo azul (Agua); las variantes por sabor se mantienen aquí como exploración del sistema.
-          </p>
         </div>
       </section>
 
       <!-- ===== GALLERY ===== -->
       <section class="images-aquarius" aria-label="Galería del proyecto Aquarius Nueva Imagen">
-        <!-- Placeholders de imágenes · reemplazar con assets reales en /images/aquarius/ -->
-        <img
-          src="../images/aquarius/aq-kv-cuatro-sabores.webp"
-          alt="Key visual de Aquarius dividido en franjas de color por sabor: agua, manzana, pomelo, uva y pera."
-          sizes="(max-width: 767px) 100vw, 33vw"
-          loading="lazy"
-          width="784"
-          height="930"
-        />
-        <img
-          src="../images/aquarius/aq-paleta-sabores.webp"
-          alt="Paleta del sistema de color por sabor: azul agua, rojo manzana, rosa pomelo, morado uva y verde lima pera."
-          sizes="(max-width: 767px) 100vw, 33vw"
-          loading="lazy"
-          width="784"
-          height="930"
-        />
-        <img
-          src="../images/aquarius/aq-kv-final-azul.webp"
-          alt="Key visual final de Aquarius con botella de agua sobre fondo azul: la versión que salió al mercado."
-          sizes="(max-width: 767px) 100vw, 33vw"
-          loading="lazy"
-          width="784"
-          height="930"
-        />
+        <div class="aq-gallery-row">
+          <img
+            src="../images/aquarius/aq-mupi.webp"
+            alt="Mupi urbano con afiche Aquarius 'Una nueva imagen, un rico sabor' con las cuatro botellas sobre fondo de color por sabor."
+            sizes="(max-width: 767px) 100vw, 33vw"
+            loading="lazy"
+            width="1200"
+            height="1400"
+          />
+          <img
+            src="../images/aquarius/aq-kv-sabores.webp"
+            alt="Key visual de Aquarius con las cuatro botellas (Pera, Manzana, Pomelo y Uva) sobre franjas de color por sabor."
+            sizes="(max-width: 767px) 100vw, 67vw"
+            loading="lazy"
+            width="1960"
+            height="1176"
+          />
+        </div>
       </section>
 
       <!-- ===== LA IDEA ===== -->
@@ -574,57 +509,48 @@
           <p class="description-idea-aquarius">
             El retoque y la composición de las botellas se trabajaron para que el producto quedara siempre al centro, y el sistema se adaptó a trade y vía pública con el claim <strong>"Nueva imagen · Agua + jugo de fruta"</strong>.
           </p>
-          <span class="aq-idea-highlight">Aquarius · Nueva imagen</span>
         </div>
       </section>
 
-      <!-- ===== SISTEMA DE COLOR ===== -->
-      <section class="project-aquarius-flavors" aria-label="Sistema de color por sabor">
-        <div class="container-aquarius-flavors">
-          <h2 class="project-title-flavors-aquarius">
-            Un <em>color</em> por sabor
-          </h2>
-          <div class="aq-flavors-grid">
-            <div class="aq-flavor-card aq-flavor-card--agua">
-              <p class="aq-flavor-name">Agua</p>
-              <p class="aq-flavor-hex">AZUL</p>
-            </div>
-            <div class="aq-flavor-card aq-flavor-card--manzana">
-              <p class="aq-flavor-name">Manzana</p>
-              <p class="aq-flavor-hex">ROJO</p>
-            </div>
-            <div class="aq-flavor-card aq-flavor-card--pomelo">
-              <p class="aq-flavor-name">Pomelo</p>
-              <p class="aq-flavor-hex">ROSADO</p>
-            </div>
-            <div class="aq-flavor-card aq-flavor-card--uva">
-              <p class="aq-flavor-name">Uva</p>
-              <p class="aq-flavor-hex">MORADO</p>
-            </div>
-            <div class="aq-flavor-card aq-flavor-card--pera">
-              <p class="aq-flavor-name">Pera</p>
-              <p class="aq-flavor-hex">VERDE LIMA</p>
-            </div>
+      <!-- ===== VÍA PÚBLICA ===== -->
+      <section class="images-aquarius" aria-label="Mockups de vía pública Aquarius Nueva Imagen">
+        <img
+          src="../images/aquarius/aq-billboard-colores.webp"
+          alt="Mockup de valla publicitaria Aquarius con el sistema de franjas de color por sabor y claim 'Nueva imagen'."
+          sizes="100vw"
+          loading="lazy"
+          width="1960"
+          height="1308"
+        />
+        <div class="aq-sabores" aria-label="Sabores Aquarius: uva, pomelo, manzana y pera">
+          <div class="aq-sabor aq-sabor--uva">
+            <img src="../images/aquarius/aq-fruit-uva.webp" alt="Uvas con splash de jugo, sabor uva de Aquarius." loading="lazy" width="420" height="420" />
+          </div>
+          <div class="aq-sabor aq-sabor--pomelo">
+            <img src="../images/aquarius/aq-fruit-pomelo.webp" alt="Pomelo en corte con splash, sabor pomelo de Aquarius." loading="lazy" width="420" height="420" />
+          </div>
+          <div class="aq-sabor aq-sabor--manzana">
+            <img src="../images/aquarius/aq-fruit-manzana.webp" alt="Manzana en corte con splash, sabor manzana de Aquarius." loading="lazy" width="420" height="420" />
+          </div>
+          <div class="aq-sabor aq-sabor--pera">
+            <img src="../images/aquarius/aq-fruit-pera.webp" alt="Pera en corte con splash, sabor pera de Aquarius." loading="lazy" width="420" height="420" />
           </div>
         </div>
-      </section>
-
-      <!-- ===== MOCKUP VÍA PÚBLICA ===== -->
-      <section class="project-aquarius-mockup" aria-label="Mockup de Aquarius en vía pública">
-        <!-- Placeholder: mockup del afiche "Nueva Imagen" en vía pública · reemplazar con asset real -->
         <img
-          src="../images/aquarius/aq-mockup-via-publica.webp"
-          alt="Mockup del afiche de Aquarius en vía pública con el mensaje Nueva imagen, agua más jugo de fruta."
+          src="../images/aquarius/aq-billboard-arboles.webp"
+          alt="Mockup de valla publicitaria Aquarius en entorno urbano con vegetación: una nueva imagen, un rico sabor."
+          sizes="100vw"
           loading="lazy"
-          width="1920"
-          height="1080"
+          width="1960"
+          height="1308"
         />
       </section>
+
 
       <!-- ===== CLOSING ===== -->
       <section class="cierre-aquarius">
         <p class="text-cierre-aquarius">
-          <strong>Marca</strong> Aquarius · Coca-Cola Shopper<br /><strong>Agencia</strong> GREY Chile<br /><strong>Directora de Arte</strong> Erika Pinedo<br /><strong>Año</strong> 2019<br /><strong>Formato</strong> Key visual, sistema de color por sabor, adaptaciones a trade y vía pública<br /><br />- Todos los derechos reservados -
+          <strong>Compañía</strong> GREY Chile<br /><strong>Directora de Arte</strong> Erika Pinedo<br /><br />- Todos los derechos reservados -
         </p>
       </section>
 
@@ -736,9 +662,6 @@
           var els = document.querySelectorAll(s);
           els.forEach(function (el) { gsap.from(el, st(el, fadeUp)); });
         });
-
-        var flavors = gsap.utils.toArray(p + '.aq-flavor-card');
-        if (flavors.length) gsap.from(flavors, st(flavors[0], { opacity: 0, y: 40, duration: 0.6, stagger: 0.08, ease: 'back.out(1.4)' }));
 
         var mockup = document.querySelector(p + '.project-aquarius-mockup img');
         if (mockup) gsap.from(mockup, st(mockup, { opacity: 0, y: 50, duration: 0.9, ease: 'power2.out' }));

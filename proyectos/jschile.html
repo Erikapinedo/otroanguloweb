@@ -101,6 +101,9 @@
         pointer-events: none;
         z-index: 1;
       }
+      @media (max-width: 767px) {
+        .jschile-hero-bg { object-position: center top; }
+      }
 
       /* hero content rides inside the shared container class */
       .body-project-jschile .container-main-left-project {
@@ -622,16 +625,19 @@
 
       <!-- ===== HERO ===== -->
       <section id="home" class="project-jschile-hero-section">
-        <img
-          src="../images/JSChile/bg-jschile-hero.webp"
-          alt=""
-          aria-hidden="true"
-          class="jschile-hero-bg"
-          width="1920"
-          height="986"
-          loading="eager"
-          fetchpriority="high"
-        />
+        <picture>
+          <source media="(max-width: 767px)" srcset="../images/JSChile/bg-jschile-hero-mobile.webp" />
+          <img
+            src="../images/JSChile/bg-jschile-hero.webp"
+            alt=""
+            aria-hidden="true"
+            class="jschile-hero-bg"
+            width="1920"
+            height="986"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </picture>
 
         <div class="w-layout-hflex project-back-row">
           <button

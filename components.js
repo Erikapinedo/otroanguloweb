@@ -278,6 +278,54 @@
       name: 'Banco Falabella',
       titleFallback: 'Plataforma de Gestión de Sucursales',
       pills: ['UX/UI']
+    },
+    {
+      id: 'aquarius',
+      href: '/proyectos/aquarius',
+      cover: '../images/portfolio/aquarius-cover.webp',
+      name: 'Aquarius',
+      titleFallback: 'Nueva Imagen · Key Visual y bajada a trade',
+      pills: ['Dirección de arte']
+    },
+    {
+      id: 'bottlexam',
+      href: '/proyectos/bottlexam',
+      cover: '../images/portfolio/bottlexam-cover.webp',
+      name: 'The Bottlexam',
+      titleFallback: 'Case study · propuesta contra el cáncer de mama para Vital',
+      pills: ['Dirección de arte']
+    },
+    {
+      id: 'kids-cocacola',
+      href: '/proyectos/kids-cocacola',
+      cover: '../images/portfolio/kids-cocacola-cover.webp',
+      name: 'Plataforma KIDS Coca-Cola',
+      titleFallback: 'Dirección de arte shopper · KV, shooting y POP',
+      pills: ['Dirección de arte']
+    },
+    {
+      id: 'limon-nada',
+      href: '/proyectos/limon-nada',
+      cover: '../images/portfolio/limon-nada-cover.webp',
+      name: 'Limón&Nada',
+      titleFallback: 'Dirección de arte · campaña y bajada a trade',
+      pills: ['Dirección de arte']
+    },
+    {
+      id: 'vital-kids',
+      href: '/proyectos/vital-kids',
+      cover: '../images/portfolio/vital-kids-cover.webp',
+      name: 'Vital Kids',
+      titleFallback: 'Dirección de arte · campaña y material POP',
+      pills: ['Dirección de arte']
+    },
+    {
+      id: 'nnodes',
+      href: '/proyectos/nnodes',
+      cover: '../images/portfolio/nnodes-cover.webp',
+      name: 'Nnodes',
+      titleFallback: 'Identidad visual, UX/UI y desarrollo del sitio',
+      pills: ['UX/UI', 'Identidad visual']
     }
   ];
 

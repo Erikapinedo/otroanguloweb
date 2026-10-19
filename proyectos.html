@@ -51,7 +51,28 @@
     <style>
       html {
         min-height: 100%;
-        background-color: #101944;
+        background-color: #101943;
+      }
+      body.body-2 {
+        background-color: #101943;
+        background-image: none;
+      }
+      /* Portfolio tabs — contraste sobre #101943 */
+      .portfolio-tab {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        color: rgba(255, 255, 255, 0.85);
+      }
+      .portfolio-tab:hover {
+        background: rgba(255, 255, 255, 0.16);
+        border-color: rgba(255, 255, 255, 0.4);
+        color: #fff;
+      }
+      .portfolio-tab.active,
+      .portfolio-tab[aria-selected="true"] {
+        background: #fff;
+        border-color: #fff;
+        color: #101943;
       }
       html.w-mod-js:not(.w-mod-ix3)
         :is(
@@ -146,15 +167,15 @@
           },
           {
             "@type": "CreativeWork",
-            "name": "Limón&Nada / Naranja&Nada – Dirección de arte Trade & Shopper para Del Valle",
-            "url": "https://otroanguloweb.cl/proyectos/limon-nada",
-            "description": "Dirección de arte, sistema de personajes ilustrados y exhibición en punto de venta para Limón&Nada y Naranja&Nada de Del Valle (Coca-Cola). Realizado desde Grey Chile."
-          },
-          {
-            "@type": "CreativeWork",
             "name": "Aquarius – Nueva Imagen · Key Visual y bajada a trade",
             "url": "https://otroanguloweb.cl/proyectos/aquarius",
             "description": "Key visual y bajada a trade para la nueva imagen de Aquarius (agua + jugo de fruta): sistema de color por sabor y adaptaciones a punto de venta y vía pública. Dirección de arte en GREY Chile, 2019."
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Vital Kids – Lanzamiento del formato infantil de Vital",
+            "url": "https://otroanguloweb.cl/proyectos/vital-kids",
+            "description": "Dirección de arte y piezas POP para el lanzamiento del nuevo formato infantil de Vital: 5 botellas con personajes coleccionables, desarrollado en Grey Chile."
           },
           {
             "@type": "CreativeWork",
@@ -164,9 +185,15 @@
           },
           {
             "@type": "CreativeWork",
-            "name": "Vital Kids – Lanzamiento del formato infantil de Vital",
-            "url": "https://otroanguloweb.cl/proyectos/vital-kids",
-            "description": "Dirección de arte y piezas POP para el lanzamiento del nuevo formato infantil de Vital: 5 botellas con personajes coleccionables, desarrollado en Grey Chile."
+            "name": "Limón&Nada / Naranja&Nada – Dirección de arte Trade & Shopper para Del Valle",
+            "url": "https://otroanguloweb.cl/proyectos/limon-nada",
+            "description": "Dirección de arte, sistema de personajes ilustrados y exhibición en punto de venta para Limón&Nada y Naranja&Nada de Del Valle (Coca-Cola). Realizado desde Grey Chile."
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Nnodes – Identidad visual, brandbook y landing para consultora de software a medida",
+            "url": "https://otroanguloweb.cl/proyectos/nnodes",
+            "description": "Sistema de marca y bajada digital para Nnodes: isotipo isométrico basado en nodos, paleta navy y celeste, tipografía Red Hat Display y brandbook completo."
           }
         ]
       }
@@ -283,24 +310,10 @@
                 <div class="card-pills"><span class="pill-category" data-i18n="portfolioPage.tabUxUi">UX/UI</span></div>
               </div>
             </a>
-            <a href="/proyectos/portalpehuen" data-categories="identidad-visual" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/portalpehuen-cover.webp');" aria-label="Ver proyecto Portal Pehuén – Identidad Visual para Comunidad de Barrio">
-              <div class="text-content-portfolio">
-                <h2 class="title-name-portfolio-project">Portal Pehuén</h2>
-                <h3 class="title-card-portfolio" data-i18n="portfolioPage.portalpTitle">Identidad Visual para Comunidad de Barrio</h3>
-                <div class="card-pills"><span class="pill-category" data-i18n="portfolioPage.tabIdentity">Identidad visual</span></div>
-              </div>
-            </a>
             <a href="/proyectos/bottlexam" data-categories="direccion-arte" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/bottlexam-cover.webp');" aria-label="Ver case study The Bottlexam – Propuesta de Dirección de Arte para Vital">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">The Bottlexam</h2>
                 <h3 class="title-card-portfolio">Case study · propuesta contra el cáncer de mama para Vital</h3>
-                <div class="card-pills"><span class="pill-category" data-i18n="portfolioPage.tabArt">Dirección de arte</span></div>
-              </div>
-            </a>
-            <a href="/proyectos/limon-nada" data-categories="direccion-arte" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/limon-nada-cover.webp');" aria-label="Ver proyecto Limón&Nada / Naranja&Nada, dirección de arte Trade & Shopper para Del Valle">
-              <div class="text-content-portfolio">
-                <h2 class="title-name-portfolio-project">Limón&amp;Nada</h2>
-                <h3 class="title-card-portfolio">Trade &amp; Shopper · personajes y punto de venta para Del Valle</h3>
                 <div class="card-pills"><span class="pill-category" data-i18n="portfolioPage.tabArt">Dirección de arte</span></div>
               </div>
             </a>
@@ -311,6 +324,13 @@
                 <div class="card-pills"><span class="pill-category" data-i18n="portfolioPage.tabArt">Dirección de arte</span></div>
               </div>
             </a>
+            <a href="/proyectos/vital-kids" data-categories="direccion-arte" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/vital-kids-cover.webp');" aria-label="Ver proyecto Vital Kids – Lanzamiento del formato infantil de Vital">
+              <div class="text-content-portfolio">
+                <h2 class="title-name-portfolio-project">Vital Kids</h2>
+                <h3 class="title-card-portfolio">Lanzamiento del formato infantil · 5 personajes coleccionables</h3>
+                <div class="card-pills"><span class="pill-category" data-i18n="portfolioPage.tabArt">Dirección de arte</span></div>
+              </div>
+            </a>
             <a href="/proyectos/kids-cocacola" data-categories="direccion-arte" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/kids-cocacola-cover.webp');" aria-label="Ver proyecto Plataforma KIDS Coca-Cola – Dirección de arte shopper">
               <div class="text-content-portfolio">
                 <h2 class="title-name-portfolio-project">Plataforma KIDS</h2>
@@ -318,11 +338,25 @@
                 <div class="card-pills"><span class="pill-category" data-i18n="portfolioPage.tabArt">Dirección de arte</span></div>
               </div>
             </a>
-            <a href="/proyectos/vital-kids" data-categories="direccion-arte" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/vital-kids-cover.webp');" aria-label="Ver proyecto Vital Kids – Lanzamiento del formato infantil de Vital">
+            <a href="/proyectos/limon-nada" data-categories="direccion-arte" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/limon-nada-cover.webp');" aria-label="Ver proyecto Limón&Nada / Naranja&Nada, dirección de arte Trade & Shopper para Del Valle">
               <div class="text-content-portfolio">
-                <h2 class="title-name-portfolio-project">Vital Kids</h2>
-                <h3 class="title-card-portfolio">Lanzamiento del formato infantil · 5 personajes coleccionables</h3>
+                <h2 class="title-name-portfolio-project">Limón&amp;Nada</h2>
+                <h3 class="title-card-portfolio">Trade &amp; Shopper · personajes y punto de venta para Del Valle</h3>
                 <div class="card-pills"><span class="pill-category" data-i18n="portfolioPage.tabArt">Dirección de arte</span></div>
+              </div>
+            </a>
+            <a href="/proyectos/nnodes" data-categories="identidad-visual landing" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/nnodes-cover.webp');" aria-label="Ver proyecto Nnodes – Identidad Visual y Landing para consultora de software a medida">
+              <div class="text-content-portfolio">
+                <h2 class="title-name-portfolio-project">Nnodes</h2>
+                <h3 class="title-card-portfolio">Identidad Visual + Brandbook y Landing para consultora TI</h3>
+                <div class="card-pills"><span class="pill-category" data-i18n="portfolioPage.tabIdentity">Identidad visual</span><span class="pill-category" data-i18n="portfolioPage.tabLanding">Landing</span></div>
+              </div>
+            </a>
+            <a href="/proyectos/portalpehuen" data-categories="identidad-visual" class="vip-card vip-card--fullbg" style="background-image: url('../images/portfolio/portalpehuen-cover.webp');" aria-label="Ver proyecto Portal Pehuén – Identidad Visual para Comunidad de Barrio">
+              <div class="text-content-portfolio">
+                <h2 class="title-name-portfolio-project">Portal Pehuén</h2>
+                <h3 class="title-card-portfolio" data-i18n="portfolioPage.portalpTitle">Identidad Visual para Comunidad de Barrio</h3>
+                <div class="card-pills"><span class="pill-category" data-i18n="portfolioPage.tabIdentity">Identidad visual</span></div>
               </div>
             </a>
           </div>
@@ -339,46 +373,69 @@
         var cards = document.querySelectorAll('#portfolio-grid .vip-card');
         var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-        tabs.forEach(function (tab) {
-          tab.addEventListener('click', function () {
-            if (tab.classList.contains('active')) return;
+        function applyFilter(filter, animate) {
+          var tabEl = Array.prototype.find.call(tabs, function (t) { return t.dataset.filter === filter; });
+          if (!tabEl) { filter = 'all'; tabEl = tabs[0]; }
 
-            tabs.forEach(function (t) {
-              t.classList.remove('active');
-              t.setAttribute('aria-selected', 'false');
-            });
-            tab.classList.add('active');
-            tab.setAttribute('aria-selected', 'true');
+          tabs.forEach(function (t) {
+            t.classList.remove('active');
+            t.setAttribute('aria-selected', 'false');
+          });
+          tabEl.classList.add('active');
+          tabEl.setAttribute('aria-selected', 'true');
 
-            var filter = tab.dataset.filter;
-            var visibleCards = [];
-            cards.forEach(function (card) {
-              var cats = card.dataset.categories || '';
-              var show = filter === 'all' || cats.split(' ').indexOf(filter) !== -1;
-              if (show) {
-                card.style.display = '';
-                visibleCards.push(card);
-              } else {
-                card.style.display = 'none';
-                card.classList.remove('card-visible');
-                card.style.animationDelay = '';
-              }
-            });
-
-            if (reduceMotion) return;
-
-            visibleCards.forEach(function (card) {
+          var visibleCards = [];
+          cards.forEach(function (card) {
+            var cats = card.dataset.categories || '';
+            var show = filter === 'all' || cats.split(' ').indexOf(filter) !== -1;
+            if (show) {
+              card.style.display = '';
+              visibleCards.push(card);
+            } else {
+              card.style.display = 'none';
               card.classList.remove('card-visible');
               card.style.animationDelay = '';
-            });
-            // Force reflow so removing + re-adding the class restarts the animation
-            void document.getElementById('portfolio-grid').offsetWidth;
-            visibleCards.forEach(function (card, i) {
-              card.style.animationDelay = (i * 0.08) + 's';
-              card.classList.add('card-visible');
-            });
+            }
+          });
+
+          if (!animate || reduceMotion) return;
+
+          visibleCards.forEach(function (card) {
+            card.classList.remove('card-visible');
+            card.style.animationDelay = '';
+          });
+          void document.getElementById('portfolio-grid').offsetWidth;
+          visibleCards.forEach(function (card, i) {
+            card.style.animationDelay = (i * 0.08) + 's';
+            card.classList.add('card-visible');
+          });
+        }
+
+        function filterFromHash() {
+          var h = (window.location.hash || '').replace(/^#/, '').toLowerCase();
+          return h || 'all';
+        }
+
+        tabs.forEach(function (tab) {
+          tab.addEventListener('click', function (e) {
+            if (tab.classList.contains('active')) return;
+            var filter = tab.dataset.filter;
+            // Update URL: no hash for "all", otherwise #<filter>
+            if (filter === 'all') {
+              history.replaceState(null, '', window.location.pathname + window.location.search);
+            } else {
+              history.replaceState(null, '', '#' + filter);
+            }
+            applyFilter(filter, true);
           });
         });
+
+        window.addEventListener('hashchange', function () {
+          applyFilter(filterFromHash(), true);
+        });
+
+        // Apply initial filter from URL (no animation on first paint)
+        applyFilter(filterFromHash(), false);
       })();
     </script>
     <script

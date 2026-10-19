@@ -89,6 +89,13 @@
         overflow: hidden;
       }
 
+      @media (max-width: 767px) {
+        .project-urbana-hero-section {
+          background-image: linear-gradient(180deg, rgba(28,28,28,.85) 0%, rgba(28,28,28,.45) 55%, rgba(28,28,28,.15) 100%), url('../images/urbana/bg-hero-mobile.webp');
+          background-position: 0 0, center top;
+        }
+      }
+
       /* Subtle diagonal orange accent */
       .project-urbana-hero-section::after {
         content: '';
@@ -385,7 +392,7 @@
         .images-urbana img,
         .urb-img-full                 { opacity: 1 !important; transform: none !important; }
       }
-      .project-urbana-hero-section .project-hero-content { max-width: 55%; }
+      .project-urbana-hero-section .project-hero-content { max-width: 90%; }
       @media (max-width: 991px) {
         .project-urbana-hero-section .project-hero-content { max-width: 100%; }
       }
@@ -511,7 +518,7 @@
         <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
             <h1 class="project-hero-h1">
-              La transparencia del edificio, <em class="project-hero-emphasis">en tu bolsillo.</em>
+              La transparencia<br /><em class="project-hero-emphasis">del edificio, en tu bolsillo.</em>
             </h1>
             <p class="description-text-hero">UX/UI · App Móvil</p>
             <p class="alessandri-hero-impact">

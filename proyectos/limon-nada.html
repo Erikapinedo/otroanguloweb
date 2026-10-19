@@ -74,7 +74,7 @@
       .body-project-limon-nada .brandbook-block          { border-top-color: rgba(255,255,255,.08); }
       .body-project-limon-nada .typo-use-label           { color: var(--ln-orange); border-top-color: rgba(255,255,255,.1); }
       .body-project-limon-nada .description-text-hero    { color: var(--ln-green-dark); }
-      .body-project-limon-nada .project-hero-emphasis    { color: var(--ln-orange); font-style: italic; }
+      .body-project-limon-nada .project-hero-emphasis    { color: var(--ln-green-dark); font-style: italic; }
 
       /* ── Hero ── */
       .project-limon-nada-hero-section {
@@ -101,6 +101,9 @@
         pointer-events: none;
         z-index: 1;
         opacity: .9;
+      }
+      @media (max-width: 767px) {
+        .ln-hero-bg { object-position: center top; }
       }
 
       .body-project-limon-nada .container-main-left-project {
@@ -152,19 +155,6 @@
         margin: 0;
       }
 
-      .ln-context-pill {
-        display: inline-block;
-        padding: 10px 18px;
-        border: 1.5px solid var(--ln-green-dark);
-        border-radius: 999px;
-        font-size: 14px;
-        font-weight: 700;
-        letter-spacing: .04em;
-        text-transform: uppercase;
-        color: var(--ln-green-dark);
-        margin-bottom: 8px;
-      }
-
       /* ── Gallery ── */
       .images-limon-nada {
         display: grid;
@@ -213,90 +203,6 @@
         font-size: 18px;
         line-height: 1.65;
         margin: 0;
-        max-width: 820px;
-      }
-
-      .ln-idea-highlight {
-        display: inline-block;
-        padding: 12px 20px;
-        background: var(--ln-yellow);
-        color: var(--ln-green-dark);
-        border-radius: 8px;
-        font-weight: 800;
-        font-size: 16px;
-        letter-spacing: .04em;
-        text-transform: uppercase;
-        margin-top: 8px;
-      }
-
-      /* ── What I directed (yellow block) ── */
-      .project-limon-nada-work {
-        background-color: var(--ln-yellow);
-        width: 100%;
-      }
-
-      .container-limon-nada-work {
-        max-width: var(--container-lg);
-        padding: 100px 60px;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-      }
-
-      .project-title-work-limon-nada {
-        color: var(--ln-green-dark);
-        font-size: 56px;
-        font-weight: 900;
-        line-height: 1.05;
-        margin: 0;
-      }
-
-      .project-title-work-limon-nada em {
-        color: var(--ln-orange);
-        font-style: italic;
-      }
-
-      .ln-work-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 28px;
-      }
-
-      .ln-work-card {
-        background: var(--ln-cream);
-        border: 1.5px solid rgba(31,95,58,.15);
-        border-radius: 16px;
-        padding: 28px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
-
-      .ln-work-card h3 {
-        color: var(--ln-green-dark);
-        font-size: 22px;
-        font-weight: 800;
-        margin: 0;
-      }
-
-      .ln-work-card p {
-        color: rgba(18,42,27,.78);
-        font-size: 15.5px;
-        line-height: 1.6;
-        margin: 0;
-      }
-
-      .ln-work-tag {
-        display: inline-block;
-        align-self: flex-start;
-        padding: 6px 12px;
-        background: var(--ln-lime);
-        color: var(--ln-green-dark);
-        font-size: 11px;
-        font-weight: 800;
-        letter-spacing: .06em;
-        text-transform: uppercase;
-        border-radius: 999px;
       }
 
       /* ── Closing ── */
@@ -325,11 +231,8 @@
         .project-limon-nada-hero-section { padding-top: 160px; }
         .container-limon-nada-context  { padding: 70px 40px; }
         .container-limon-nada-idea     { padding: 70px 40px; }
-        .container-limon-nada-work     { padding: 70px 40px; }
         .project-title-context-limon-nada,
         .project-title-idea-limon-nada { font-size: 50px; }
-        .project-title-work-limon-nada { font-size: 40px; }
-        .ln-work-grid { grid-template-columns: 1fr; }
       }
 
       @media (max-width: 767px) {
@@ -345,7 +248,7 @@
         .cierre-limon-nada             { padding: 60px 20px; }
         .images-limon-nada img         { opacity: 1 !important; transform: none !important; }
       }
-      .project-limon-nada-hero-section .project-hero-content { max-width: 70%; }
+      .project-limon-nada-hero-section .project-hero-content { max-width: 95%; }
       @media (max-width: 991px) {
         .project-limon-nada-hero-section .project-hero-content { max-width: 100%; }
       }
@@ -439,8 +342,11 @@
       <!-- ===== HERO ===== -->
       <section id="home" class="project-limon-nada-hero-section">
         <!-- Placeholder: imagen de fondo del hero (personajes limón y naranja sobre fondo lima) -->
-        <!-- <img src="../images/limon-nada/bg-limon-nada-hero.webp" alt="" aria-hidden="true"
-             class="ln-hero-bg" width="1920" height="986" loading="eager" fetchpriority="high" /> -->
+        <picture>
+          <source media="(max-width: 767px)" srcset="../images/limon-nada/bg-limon-nada-hero-mobile.webp" />
+          <img src="../images/limon-nada/bg-limon-nada-hero.webp" alt="" aria-hidden="true"
+               class="ln-hero-bg" width="1920" height="986" loading="eager" fetchpriority="high" />
+        </picture>
 
         <div class="w-layout-hflex project-back-row">
           <button
@@ -467,7 +373,7 @@
         <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
             <h1 class="project-hero-h1">
-              Un limón y una naranja que hablan <em class="project-hero-emphasis">su propio idioma.</em>
+              Un limón y una naranja<br /><em class="project-hero-emphasis">que hablan su propio idioma.</em>
             </h1>
             <p class="description-text-hero">Dirección de arte · Shopper &amp; Trade</p>
             <p class="alessandri-hero-impact">
@@ -487,10 +393,6 @@
                 <span class="alessandri-stat-label">2018</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">Formato</span>
-                <span class="alessandri-stat-label">Shopper · Trade · Punto de venta</span>
-              </div>
-              <div class="alessandri-hero-stat-item">
                 <span class="alessandri-stat-value">Rol</span>
                 <span class="alessandri-stat-label">Directora de Arte</span>
               </div>
@@ -502,7 +404,6 @@
       <!-- ===== CONTEXT ===== -->
       <section id="project-limon-nada-context" class="project-limon-nada-context">
         <div class="w-layout-blockcontainer container-limon-nada-context w-container">
-          <span class="ln-context-pill">El reto</span>
           <h2 class="project-title-context-limon-nada">
             Una bebida con fruta de verdad que necesitaba <em>sentirse igual de real.</em>
           </h2>
@@ -556,50 +457,13 @@
           <p class="description-idea-limon-nada">
             Más de ocho poses, entre ellas chef, música, carrito de compras y exprimiendo jugo, permiten adaptar la dupla a cada formato de exhibición y a cada momento de la compra sin perder consistencia.
           </p>
-          <span class="ln-idea-highlight">Limón&amp;Nada / Naranja&amp;Nada</span>
-        </div>
-      </section>
-
-      <!-- ===== QUÉ DIRIGÍ ===== -->
-      <section class="project-limon-nada-work">
-        <div class="w-layout-blockcontainer container-limon-nada-work w-container">
-          <h2 class="project-title-work-limon-nada">
-            Qué <em>dirigí</em>
-          </h2>
-          <div class="ln-work-grid">
-            <div class="ln-work-card">
-              <span class="ln-work-tag">Sistema de personajes</span>
-              <h3>Dupla ilustrada con fotografía de la fruta real</h3>
-              <p>Dirigí la construcción del limón y la naranja mezclando fotografía de la fruta con ilustración de línea a mano, brazos, gestos, accesorios y burbujas. Más de ocho poses listas para distintos contextos de punto de venta.</p>
-            </div>
-            <div class="ln-work-card">
-              <span class="ln-work-tag">Kit gráfico</span>
-              <h3>Tipografía, paleta y recurso de burbujas</h3>
-              <p>Definí el kit visual con la display Belta Regular para números y alfabeto, paleta de verde lima, verde oscuro y amarillo, y burbujas como recurso gráfico transversal que une todas las piezas.</p>
-            </div>
-            <div class="ln-work-card">
-              <span class="ln-work-tag">Exhibición POS</span>
-              <h3>Exhibidor tobogán, scooter y góndolas</h3>
-              <p>Dirigí la pieza central, un exhibidor tobogán con piscina, además de un scooter para venta móvil y tres formatos de góndola y rack, incluyendo torre, cabecera verde y rack con cenefa.</p>
-            </div>
-            <div class="ln-work-card">
-              <span class="ln-work-tag">Material promocional</span>
-              <h3>Merchandising y comunicación en cenefas</h3>
-              <p>Polera con uno de los personajes como pieza de merch y copy breve en cenefas invitando a probar y refrescarse. Toda la comunicación en punto de venta conserva el tono divertido de la dupla.</p>
-            </div>
-            <div class="ln-work-card">
-              <span class="ln-work-tag">Key visual</span>
-              <h3>Botellas con los personajes como protagonistas</h3>
-              <p>Definí el key visual de las botellas acompañadas de la dupla, usado como pieza paraguas del sistema shopper y como pieza de lanzamiento del producto en punto de venta.</p>
-            </div>
-          </div>
         </div>
       </section>
 
       <!-- ===== CLOSING ===== -->
       <section class="cierre-limon-nada">
         <p class="text-cierre-limon-nada">
-          <strong>Cliente</strong> Andina del Valle · Coca-Cola<br /><strong>Agencia</strong> Grey Chile<br /><strong>Directora de Arte</strong> Erika Pinedo<br /><strong>Año</strong> 2018<br /><strong>Formato</strong> Shopper · Trade · Punto de venta<br /><br />Proyecto realizado como Art Director en Grey Chile para Coca-Cola Shopper.<br /><br />- Todos los derechos reservados -
+          <strong>Cliente</strong> Andina del Valle · Coca-Cola<br /><strong>Agencia</strong> Grey Chile<br /><strong>Directora de Arte</strong> Erika Pinedo<br /><strong>Año</strong> 2018<br /><br />- Todos los derechos reservados -
         </p>
       </section>
 
@@ -712,8 +576,6 @@
           els.forEach(function (el) { gsap.from(el, st(el, fadeUp)); });
         });
 
-        var workCards = gsap.utils.toArray(p + '.ln-work-card');
-        if (workCards.length) gsap.from(workCards, st(workCards[0], { opacity: 0, y: 40, duration: 0.7, stagger: 0.1, ease: 'power2.out' }));
       })();
     </script>
 

@@ -101,6 +101,9 @@
         pointer-events: none;
         z-index: 1;
       }
+      @media (max-width: 767px) {
+        .pp-hero-bg { object-position: center top; }
+      }
 
       .body-project-portalpehuen .container-main-left-project {
         position: relative;
@@ -367,7 +370,7 @@
         .project-title-brandbook-portalpehuen,
         .project-title-valores-portalpehuen { font-size: 36px; }
         .images-portalpehuen               { grid-template-columns: 1fr; }
-        .pp-valores-grid                   { grid-template-columns: 1fr 1fr; }
+        .pp-valores-grid                   { grid-template-columns: 1fr; }
         .pp-valor-card:nth-child(1),
         .pp-valor-card:nth-child(2),
         .pp-valor-card:nth-child(3),
@@ -471,8 +474,11 @@
 
       <!-- ===== HERO ===== -->
       <section id="home" class="project-portalpehuen-hero-section">
-        <img src="../images/portalpehuen/bg-portalpehuen-hero.webp" alt="" aria-hidden="true"
-             class="pp-hero-bg" width="1920" height="986" loading="eager" fetchpriority="high" />
+        <picture>
+          <source media="(max-width: 767px)" srcset="../images/portalpehuen/bg-portalpehuen-hero-mobile.webp" />
+          <img src="../images/portalpehuen/bg-portalpehuen-hero.webp" alt="" aria-hidden="true"
+               class="pp-hero-bg" width="1920" height="986" loading="eager" fetchpriority="high" />
+        </picture>
 
         <div class="w-layout-hflex project-back-row">
           <button

@@ -67,7 +67,13 @@
         ) {
         visibility: hidden !important;
       }
-      .project-expediente-hero-section .project-hero-content { max-width: 55%; }
+      @media (max-width: 767px) {
+        .project-expediente-hero-section {
+          background-image: linear-gradient(180deg, rgba(0,104,56,.85) 0%, rgba(0,104,56,.4) 50%, rgba(0,104,56,0) 100%), url('../images/expediente/bg-expediente-mobile.webp');
+          background-position: 0 0, center top;
+        }
+      }
+      .project-expediente-hero-section .project-hero-content { max-width: 90%; }
       @media (max-width: 991px) {
         .project-expediente-hero-section .project-hero-content { max-width: 100%; }
       }
@@ -254,7 +260,7 @@
         <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
             <h1 class="project-hero-h1" data-i18n-html="expedienteProjectPage.heroH1Html">
-              Arbitraje y mediación legal, <em class="project-hero-emphasis">simple y seguro</em>
+              Arbitraje y mediación legal,<br/><em class="project-hero-emphasis">simple y seguro</em>
             </h1>
             <p
               data-w-id="7aa3f357-bd80-b39a-4360-f791406477ff"

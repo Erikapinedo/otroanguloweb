@@ -5,3 +5,4 @@
 .env*
 .cs-wizard/
 node_modules/
+videos/*.mp4

@@ -63,7 +63,13 @@
         filter: brightness(0) saturate(100%) invert(55%) sepia(50%) saturate(700%) hue-rotate(309deg) brightness(105%);
       }
 
-      .project-matchminders-hero-section .project-hero-content { max-width: 55%; }
+      @media (max-width: 767px) {
+        .project-matchminders-hero-section {
+          background-image: linear-gradient(180deg, rgba(26,0,2,.85) 0%, rgba(26,0,2,.4) 50%, rgba(26,0,2,0) 100%), url('../images/Matchminder/bg-matchminder-mobile.webp');
+          background-position: 0 0, center top;
+        }
+      }
+      .project-matchminders-hero-section .project-hero-content { max-width: 90%; }
       @media (max-width: 991px) {
         .project-matchminders-hero-section .project-hero-content { max-width: 100%; }
       }
@@ -196,7 +202,7 @@
         <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
             <h1 class="project-hero-h1" data-i18n-html="matchmindersProjectPage.heroH1Html">
-              Flujos y Design System para <em class="mm-hero-red">torneos deportivos</em>
+              Flujos y Design System<br/><em class="mm-hero-red">para torneos deportivos</em>
             </h1>
             <p
               class="description-text-hero-mm"

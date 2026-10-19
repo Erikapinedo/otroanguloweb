@@ -197,7 +197,13 @@
           height: 57px;
         }
       }
-      .project-playersnap-hero-section .project-hero-content { max-width: 80%; }
+      @media (max-width: 767px) {
+        .project-playersnap-hero-section {
+          background-image: linear-gradient(180deg, rgba(35,35,35,.8) 0%, rgba(35,35,35,.35) 50%, rgba(35,35,35,0) 100%), url('../images/playersnap/bg-playersnap-mobile.webp');
+          background-position: 0 0, center top;
+        }
+      }
+      .project-playersnap-hero-section .project-hero-content { max-width: 95%; }
       @media (max-width: 991px) {
         .project-playersnap-hero-section .project-hero-content { max-width: 100%; }
       }
@@ -322,7 +328,7 @@
         <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
             <h1 class="project-hero-h1" data-i18n-html="playersnapProjectPage.heroH1Html">
-              Gestión de activos digitales <em class="project-hero-emphasis">impulsada por IA para el deporte</em>
+              Gestión de activos digitales<br/><em class="project-hero-emphasis">con IA para el deporte</em>
             </h1>
             <p
               data-w-id="7aa3f357-bd80-b39a-4360-f791406477ff"
