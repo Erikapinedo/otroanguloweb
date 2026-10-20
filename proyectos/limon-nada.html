@@ -122,7 +122,7 @@
 
       /* ── Context ── */
       .project-limon-nada-context {
-        background-color: var(--ln-cream);
+        background-color: #FFE48D;
         width: 100%;
       }
 
@@ -137,7 +137,7 @@
 
       .project-title-context-limon-nada {
         width: 100%;
-        color: var(--ln-green-dark);
+        color: #6B8830;
         font-size: 70px;
         font-weight: 900;
         line-height: 1;
@@ -145,8 +145,10 @@
       }
 
       .project-title-context-limon-nada em {
-        color: var(--ln-orange);
+        color: #6B8830;
+        font-family: 'Instrument Serif', serif;
         font-style: italic;
+        font-weight: 400;
       }
 
       .description-context-limon-nada {
@@ -172,43 +174,73 @@
         display: block;
       }
 
-      /* ── Idea (dark green) ── */
+      /* ── Idea (split: text + portada) ── */
       .project-limon-nada-idea {
-        background-color: var(--ln-green-dark);
+        background-color: #CFDF60;
         width: 100%;
       }
 
       .container-limon-nada-idea {
+        width: 100%;
         max-width: var(--container-lg);
         padding: 100px 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+      }
+      .container-limon-nada-idea::before,
+      .container-limon-nada-idea::after { display: none !important; }
+
+      .ln-idea-text {
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 28px;
       }
 
       .project-title-idea-limon-nada {
-        color: var(--ln-lime);
-        font-size: 70px;
+        color: #6B8830;
+        font-size: 60px;
         font-weight: 900;
-        line-height: 1;
+        line-height: 1.05;
         margin: 0;
       }
 
       .project-title-idea-limon-nada em {
-        color: var(--ln-yellow);
+        color: #6B8830;
+        font-family: 'Instrument Serif', serif;
         font-style: italic;
+        font-weight: 400;
       }
 
       .description-idea-limon-nada {
-        color: rgba(255,255,255,.78);
-        font-size: 18px;
+        color: #000;
+        font-size: 16px;
         line-height: 1.65;
         margin: 0;
       }
 
+      .ln-idea-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      /* ── Full-width tobogán ── */
+      .ln-tobogan-full {
+        width: 100%;
+        display: block;
+        background: #FFE48D;
+      }
+      .ln-tobogan-full img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
       /* ── Closing ── */
       .cierre-limon-nada {
-        background-color: var(--ln-dark);
+        background-color: #FFE48D;
         padding: 80px 60px;
         display: flex;
         flex-direction: column;
@@ -220,18 +252,18 @@
 
       .text-cierre-limon-nada {
         font-size: 15px;
-        color: rgba(255,255,255,.55);
+        color: rgba(0,0,0,.75);
         line-height: 2;
         margin: 0;
       }
 
-      .text-cierre-limon-nada strong { color: #fff; font-weight: 600; }
+      .text-cierre-limon-nada strong { color: #000; font-weight: 600; }
 
       /* ── Responsive ── */
       @media (max-width: 991px) {
         .project-limon-nada-hero-section { padding-top: 160px; }
         .container-limon-nada-context  { padding: 70px 40px; }
-        .container-limon-nada-idea     { padding: 70px 40px; }
+        .container-limon-nada-idea     { padding: 70px 40px; grid-template-columns: 1fr; gap: 40px; }
         .project-title-context-limon-nada,
         .project-title-idea-limon-nada { font-size: 50px; }
       }
@@ -368,34 +400,35 @@
             "
             onmouseover="this.style.transform='translateY(-2px)'"
             onmouseout="this.style.transform='translateY(0)'"
+            data-i18n="limonNadaProjectPage.back"
           >Volver</button>
         </div>
 
         <div class="project-hero-content">
           <div class="w-layout-blockcontainer container-main-left-project w-container">
-            <h1 class="project-hero-h1">
+            <h1 class="project-hero-h1" data-i18n-html="limonNadaProjectPage.heroH1Html">
               Un limón y una naranja<br /><em class="project-hero-emphasis">que hablan su propio idioma.</em>
             </h1>
-            <p class="description-text-hero">Dirección de arte · Shopper &amp; Trade</p>
-            <p class="alessandri-hero-impact">
-              Dirección de arte y mundo visual en punto de venta para Limón&amp;Nada y Naranja&amp;Nada, las primeras bebidas gasificadas del mercado local con jugo natural de Del Valle. Partí del material que ya existía —los personajes limón y naranja y las botellas— y armé el universo colorido que los pone a convivir.
+            <p class="description-text-hero" data-i18n="limonNadaProjectPage.heroSub">Dirección de arte · Shopper &amp; Trade</p>
+            <p class="alessandri-hero-impact" data-i18n="limonNadaProjectPage.heroImpact">
+              Dirección de arte y mundo visual en punto de venta para Limón&amp;Nada y Naranja&amp;Nada, las primeras bebidas gasificadas del mercado local con jugo natural de Del Valle. Partí del material que ya existía (los personajes limón y naranja y las botellas) y armé el universo colorido que los pone a convivir.
             </p>
             <div class="alessandri-hero-stats">
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">Cliente</span>
-                <span class="alessandri-stat-label">Andina del Valle · Coca-Cola</span>
+                <span class="alessandri-stat-value" data-i18n="limonNadaProjectPage.clientLabel">Cliente</span>
+                <span class="alessandri-stat-label" data-i18n="limonNadaProjectPage.clientValue">Andina del Valle · Coca-Cola</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">Agencia</span>
-                <span class="alessandri-stat-label">Grey Chile</span>
+                <span class="alessandri-stat-value" data-i18n="limonNadaProjectPage.agencyLabel">Agencia</span>
+                <span class="alessandri-stat-label" data-i18n="limonNadaProjectPage.agencyValue">Grey Chile</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">Año</span>
-                <span class="alessandri-stat-label">2018</span>
+                <span class="alessandri-stat-value" data-i18n="limonNadaProjectPage.yearLabel">Año</span>
+                <span class="alessandri-stat-label" data-i18n="limonNadaProjectPage.yearValue">2018</span>
               </div>
               <div class="alessandri-hero-stat-item">
-                <span class="alessandri-stat-value">Rol</span>
-                <span class="alessandri-stat-label">Directora de Arte</span>
+                <span class="alessandri-stat-value" data-i18n="limonNadaProjectPage.roleLabel">Rol</span>
+                <span class="alessandri-stat-label" data-i18n="limonNadaProjectPage.roleValue">Directora de Arte</span>
               </div>
             </div>
           </div>
@@ -405,37 +438,36 @@
       <!-- ===== CONTEXT ===== -->
       <section id="project-limon-nada-context" class="project-limon-nada-context">
         <div class="w-layout-blockcontainer container-limon-nada-context w-container">
-          <h2 class="project-title-context-limon-nada">
-            Una bebida con fruta de verdad que necesitaba <em>sentirse igual de real.</em>
+          <h2 class="project-title-context-limon-nada" data-i18n-html="limonNadaProjectPage.contextTitleHtml">
+            Con jugo y buena onda, <em>Limón&amp;Nada llega con burbujas y diversión.</em>
           </h2>
-          <p class="description-context-limon-nada">
-            Limón&amp;Nada y Naranja&amp;Nada fueron las primeras bebidas gasificadas del mercado local con jugo natural de limón y naranja, respaldadas por los néctares Del Valle. La marca quería verse natural y divertida al mismo tiempo, un territorio difícil de ocupar en el pasillo frío del supermercado.
+          <p class="description-context-limon-nada" data-i18n="limonNadaProjectPage.contextBody">
+            Las primeras bebidas gasificadas del mercado local con jugo natural de limón y naranja, respaldadas por los néctares Del Valle. La marca quería verse natural y divertida al mismo tiempo, un territorio difícil de ocupar en el pasillo frío del supermercado.
           </p>
         </div>
       </section>
 
       <!-- ===== GALLERY ===== -->
       <section class="images-limon-nada" aria-label="Galería del proyecto Limón&Nada / Naranja&Nada">
-        <!-- Placeholders de imágenes · reemplazar con assets reales en /images/limon-nada/ -->
         <img
-          src="../images/limon-nada/ln-key-visual.webp"
-          alt="Key visual con botellas Limón&Nada y Naranja&Nada de Del Valle y los personajes limón y naranja ilustrados."
+          src="../images/limon-nada/ln-vespa-pruebas.webp"
+          alt="Vespa de activación con las botellas Limón&Nada y Naranja&Nada y el llamado ¡Prueba!, sobre fondo verde." data-i18n-alt="limonNadaProjectPage.gal1Alt"
           sizes="(max-width: 767px) 100vw, 33vw"
           loading="lazy"
           width="784"
           height="930"
         />
         <img
-          src="../images/limon-nada/ln-personajes.webp"
-          alt="Sistema de personajes limón y naranja en distintas poses ilustradas sobre fondo amarillo."
+          src="../images/limon-nada/ln-personaje-naranja.webp"
+          alt="Personaje naranja con gorro de chef y cuchara, ilustrado a mano sobre la fruta real, sobre fondo amarillo." data-i18n-alt="limonNadaProjectPage.gal2Alt"
           sizes="(max-width: 767px) 100vw, 33vw"
           loading="lazy"
           width="784"
           height="930"
         />
         <img
-          src="../images/limon-nada/ln-exhibidor-tobogan.webp"
-          alt="Exhibidor tobogán con piscina en punto de venta, pieza central del sistema shopper de Limón&Nada."
+          src="../images/limon-nada/ln-exhibidor-columpio.webp"
+          alt="Exhibidor de punto de venta con columpio y pasto, botellas de Limón&Nada y Naranja&Nada, y el claim Llévala, refréscate & Nada." data-i18n-alt="limonNadaProjectPage.gal3Alt"
           sizes="(max-width: 767px) 100vw, 33vw"
           loading="lazy"
           width="784"
@@ -443,24 +475,46 @@
         />
       </section>
 
-      <!-- ===== LA IDEA ===== -->
+      <!-- ===== LA IDEA (split: texto + portada) ===== -->
       <section class="project-limon-nada-idea">
         <div class="w-layout-blockcontainer container-limon-nada-idea w-container">
-          <h2 class="project-title-idea-limon-nada">
-            Un mundo colorido donde los monitos <em>acompañan a las botellas.</em>
-          </h2>
-          <p class="description-idea-limon-nada">
-            Los personajes limón y naranja ya venían ilustrados. Con ellos y con las botellas armé el mundo visual completo: paleta, composiciones y un sistema donde el producto es el héroe y los monitos son el acompañante divertido en la góndola.
-          </p>
-          <p class="description-idea-limon-nada">
-            La dupla aparece en más de ocho poses: chef, música, carrito de compras, exprimiendo jugo. Las fui integrando a cada formato de exhibición y a cada momento de la compra, siempre con la botella al centro.
-          </p>
+          <div class="ln-idea-text">
+            <h2 class="project-title-idea-limon-nada" data-i18n-html="limonNadaProjectPage.ideaTitleHtml">
+              Un mundo colorido donde los monitos <em>acompañan a las botellas.</em>
+            </h2>
+            <p class="description-idea-limon-nada" data-i18n="limonNadaProjectPage.ideaBody1">
+              Los personajes limón y naranja ya venían ilustrados. Con ellos y con las botellas armé el mundo visual completo: paleta, composiciones y un sistema donde el producto es el héroe y los monitos son el acompañante divertido en la góndola.
+            </p>
+            <p class="description-idea-limon-nada" data-i18n="limonNadaProjectPage.ideaBody2">
+              La dupla aparece en más de ocho poses: chef, música, carrito de compras, exprimiendo jugo. Las fui integrando a cada formato de exhibición y a cada momento de la compra, siempre con la botella al centro.
+            </p>
+          </div>
+          <div class="ln-idea-image">
+            <img
+              src="../images/limon-nada/ln-portada-marcas.webp"
+              alt="Portada del sistema Limón&amp;Nada / Naranja&amp;Nada con el logo Del Valle, las botellas de 1,5L y los personajes limón y naranja sobre fondo verde." data-i18n-alt="limonNadaProjectPage.portadaAlt"
+              loading="lazy"
+              width="900"
+              height="1200"
+            />
+          </div>
         </div>
+      </section>
+
+      <!-- ===== FULL-WIDTH TOBOGÁN ===== -->
+      <section class="ln-tobogan-full" aria-label="Exhibidor tobogán con piscina de Limón&Nada y Naranja&Nada en punto de venta">
+        <img
+          src="../images/limon-nada/ln-tobogan-full.webp"
+          alt="Exhibidor tobogán con slide y piscina azul inflable, botellas Limón&amp;Nada y Naranja&amp;Nada con personajes limón y naranja, claim Llévala, refréscate &amp; Nada, sobre fondo amarillo." data-i18n-alt="limonNadaProjectPage.toboganAlt"
+          loading="lazy"
+          width="1920"
+          height="1200"
+        />
       </section>
 
       <!-- ===== CLOSING ===== -->
       <section class="cierre-limon-nada">
-        <p class="text-cierre-limon-nada">
+        <p class="text-cierre-limon-nada" data-i18n-html="limonNadaProjectPage.creditsHtml">
           <strong>Compañía</strong> GREY Chile<br />
           <strong>Directora de Arte</strong> Erika Pinedo<br /><br />
           * Todos los derechos reservados -
@@ -475,20 +529,20 @@
         .project-cta-sub { color: var(--cta-sub); font-size: 17px; line-height: 1.5; margin: 0; max-width: 560px; }
         @media (max-width: 767px) { .project-cta-section { padding: 60px 24px; } }
       </style>
-      <section class="project-cta-section" style="--cta-bg:#1F5F3A;--cta-text:#fff;--cta-sub:rgba(255,255,255,.78)">
+      <section class="project-cta-section" style="--cta-bg:#FFE48D;--cta-text:#000;--cta-sub:rgba(0,0,0,.72)">
         <div class="project-cta-inner">
           <h2 class="project-cta-heading" data-i18n-html="finalCta.heading">Tu próximo proyecto<br /><span class="text-span-17">empieza aquí</span></h2>
           <a href="/contacto" data-i18n-href="links.contact" class="cta-button w-inline-block"><div class="cta-button-label" data-i18n="finalCta.btn">Empecemos</div><div class="btn-icon"><img src="../images/shared/flecha-arriba-derecha.webp" loading="lazy" width="8" height="8" alt="" /></div></a>
         </div>
       </section>
-      <section class="project-pagination" style="--pag-bg:#1F5F3A;--pag-text:#fff;--pag-label:rgba(255,255,255,.55);--pag-border:rgba(255,255,255,.15);--pag-hover-bg:rgba(255,255,255,.07);--pag-text-hover:#F6D13B">
-        <a href="/proyectos/bottlexam" class="project-pagination__link project-pagination__link--prev">
+      <section class="project-pagination" style="--pag-bg:#FFE48D;--pag-text:#000;--pag-label:rgba(0,0,0,.55);--pag-border:rgba(0,0,0,.15);--pag-hover-bg:rgba(0,0,0,.05);--pag-text-hover:#000">
+        <a href="/proyectos/kids-cocacola" class="project-pagination__link project-pagination__link--prev">
           <span class="project-pagination__dir" data-i18n="nav.prevProject">← Proyecto anterior</span>
-          <span class="project-pagination__name">The Bottlexam</span>
+          <span class="project-pagination__name">Plataforma KIDS Coca-Cola</span>
         </a>
-        <a href="/proyectos/alessandri" class="project-pagination__link project-pagination__link--next">
+        <a href="/proyectos/nnodes" class="project-pagination__link project-pagination__link--next">
           <span class="project-pagination__dir" data-i18n="nav.nextProject">Siguiente proyecto →</span>
-          <span class="project-pagination__name">Alessandri</span>
+          <span class="project-pagination__name">Nnodes</span>
         </a>
       </section>
       <section class="project-nico-other-proyects">

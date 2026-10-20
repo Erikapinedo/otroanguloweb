@@ -955,6 +955,74 @@
         otherHeadingHtml: 'Otros <span class="span-txt">Proyectos</span>',
         seeAll: 'Ver todos',
       },
+      limonNadaProjectPage: {
+        back: 'Volver',
+        heroH1Html: 'Un limón y una naranja<br /><em class="project-hero-emphasis">que hablan su propio idioma.</em>',
+        heroSub: 'Dirección de arte · Shopper & Trade',
+        heroImpact: 'Dirección de arte y mundo visual en punto de venta para Limón&Nada y Naranja&Nada, las primeras bebidas gasificadas del mercado local con jugo natural de Del Valle. Partí del material que ya existía (los personajes limón y naranja y las botellas) y armé el universo colorido que los pone a convivir.',
+        clientLabel: 'Cliente',
+        clientValue: 'Andina del Valle · Coca-Cola',
+        agencyLabel: 'Agencia',
+        agencyValue: 'Grey Chile',
+        yearLabel: 'Año',
+        yearValue: '2018',
+        roleLabel: 'Rol',
+        roleValue: 'Directora de Arte',
+        contextTitleHtml: 'Con jugo y buena onda, <em>Limón&amp;Nada llega con burbujas y diversión.</em>',
+        contextBody: 'Las primeras bebidas gasificadas del mercado local con jugo natural de limón y naranja, respaldadas por los néctares Del Valle. La marca quería verse natural y divertida al mismo tiempo, un territorio difícil de ocupar en el pasillo frío del supermercado.',
+        gal1Alt: 'Vespa de activación con las botellas Limón&Nada y Naranja&Nada y el llamado ¡Prueba!, sobre fondo verde.',
+        gal2Alt: 'Personaje naranja con gorro de chef y cuchara, ilustrado a mano sobre la fruta real, sobre fondo amarillo.',
+        gal3Alt: 'Exhibidor de punto de venta con columpio y pasto, botellas de Limón&Nada y Naranja&Nada, y el claim Llévala, refréscate & Nada.',
+        ideaTitleHtml: 'Un mundo colorido donde los monitos <em>acompañan a las botellas.</em>',
+        ideaBody1: 'Los personajes limón y naranja ya venían ilustrados. Con ellos y con las botellas armé el mundo visual completo: paleta, composiciones y un sistema donde el producto es el héroe y los monitos son el acompañante divertido en la góndola.',
+        ideaBody2: 'La dupla aparece en más de ocho poses: chef, música, carrito de compras, exprimiendo jugo. Las fui integrando a cada formato de exhibición y a cada momento de la compra, siempre con la botella al centro.',
+        portadaAlt: 'Portada del sistema Limón&amp;Nada / Naranja&amp;Nada con el logo Del Valle, las botellas de 1,5L y los personajes limón y naranja sobre fondo verde.',
+        toboganAlt: 'Exhibidor tobogán con slide y piscina azul inflable, botellas Limón&amp;Nada y Naranja&amp;Nada con personajes limón y naranja, claim Llévala, refréscate &amp; Nada, sobre fondo amarillo.',
+        creditsHtml: '<strong>Compañía</strong> GREY Chile<br /><strong>Directora de Arte</strong> Erika Pinedo<br /><br />* Todos los derechos reservados -',
+      },
+      aquariusProjectPage: {
+        back: 'Volver',
+        heroSub: 'Dirección de arte · Nueva imagen',
+        clientLabel: 'Cliente',
+        agencyLabel: 'Agencia',
+        yearLabel: 'Año',
+        roleLabel: 'Rol',
+        roleValue: 'Directora de Arte',
+      },
+      bottlexamProjectPage: {
+        back: 'Volver',
+        heroSub: 'Case study · Dirección de arte',
+        clientLabel: 'Cliente',
+        agencyLabel: 'Agencia',
+        yearLabel: 'Año',
+        roleLabel: 'Rol',
+        roleValue: 'Directora de Arte',
+      },
+      kidsCocacolaProjectPage: {
+        back: 'Volver',
+        heroSub: 'Case · Dirección de arte · Shopper marketing',
+        clientLabel: 'Cliente',
+        agencyLabel: 'Agencia',
+        yearLabel: 'Año',
+        roleLabel: 'Rol',
+      },
+      vitalKidsProjectPage: {
+        back: 'Volver',
+        heroSub: 'Dirección de arte · Lanzamiento infantil',
+        clientLabel: 'Cliente',
+        agencyLabel: 'Agencia',
+        yearLabel: 'Año',
+        roleLabel: 'Rol',
+        roleValue: 'Directora de Arte',
+      },
+      nnodesProjectPage: {
+        back: 'Volver',
+        heroSub: 'Identidad visual + Brandbook + Landing',
+        clientLabel: 'Cliente',
+        yearLabel: 'Año',
+        roleLabel: 'Rol',
+        roleValue: 'Diseñadora Gráfica',
+      },
     },
     en: {
       meta: {
@@ -1889,6 +1957,74 @@
         otherHeadingHtml: 'Other <span class="span-txt">Projects</span>',
         seeAll: 'See all',
       },
+      limonNadaProjectPage: {
+        back: 'Back',
+        heroH1Html: 'A lemon and an orange<br /><em class="project-hero-emphasis">that speak their own language.</em>',
+        heroSub: 'Art direction · Shopper & Trade',
+        heroImpact: 'Art direction and in-store visual world for Limón&Nada and Naranja&Nada, the first sparkling drinks in the local market made with real Del Valle juice. I started from the material that already existed (the lemon and orange characters and the bottles) and built the colorful universe where they live together.',
+        clientLabel: 'Client',
+        clientValue: 'Andina del Valle · Coca-Cola',
+        agencyLabel: 'Agency',
+        agencyValue: 'Grey Chile',
+        yearLabel: 'Year',
+        yearValue: '2018',
+        roleLabel: 'Role',
+        roleValue: 'Art Director',
+        contextTitleHtml: 'With real juice and good vibes, <em>Limón&amp;Nada arrives with bubbles and fun.</em>',
+        contextBody: 'The first sparkling drinks in the local market with real lemon and orange juice, backed by the Del Valle nectar brand. The brand wanted to look natural and fun at the same time, a tough territory to own in the cold aisle of the supermarket.',
+        gal1Alt: 'Activation Vespa carrying Limón&Nada and Naranja&Nada bottles with the ¡Prueba! call, on a green background.',
+        gal2Alt: 'Orange character with a chef hat and spoon, hand-drawn on top of the real fruit, on a yellow background.',
+        gal3Alt: 'In-store display with a swing and grass, Limón&Nada and Naranja&Nada bottles, and the claim Llévala, refréscate & Nada.',
+        ideaTitleHtml: 'A colorful world where the characters <em>keep the bottles company.</em>',
+        ideaBody1: 'The lemon and orange characters came already illustrated. With them and the bottles I built the full visual world: palette, compositions and a system where the product is the hero and the characters are the fun sidekick on the shelf.',
+        ideaBody2: 'The duo appears in more than eight poses: chef, music, shopping cart, squeezing juice. I integrated them into every display format and every shopping moment, always with the bottle at the center.',
+        portadaAlt: 'Cover of the Limón&amp;Nada / Naranja&amp;Nada system with the Del Valle logo, 1.5L bottles and the lemon and orange characters on a green background.',
+        toboganAlt: 'Slide display with slide and inflatable blue pool, Limón&amp;Nada and Naranja&amp;Nada bottles with the lemon and orange characters, claim Llévala, refréscate &amp; Nada, on a yellow background.',
+        creditsHtml: '<strong>Company</strong> GREY Chile<br /><strong>Art Director</strong> Erika Pinedo<br /><br />* All rights reserved -',
+      },
+      aquariusProjectPage: {
+        back: 'Back',
+        heroSub: 'Art direction · New image',
+        clientLabel: 'Client',
+        agencyLabel: 'Agency',
+        yearLabel: 'Year',
+        roleLabel: 'Role',
+        roleValue: 'Art Director',
+      },
+      bottlexamProjectPage: {
+        back: 'Back',
+        heroSub: 'Case study · Art direction',
+        clientLabel: 'Client',
+        agencyLabel: 'Agency',
+        yearLabel: 'Year',
+        roleLabel: 'Role',
+        roleValue: 'Art Director',
+      },
+      kidsCocacolaProjectPage: {
+        back: 'Back',
+        heroSub: 'Case · Art direction · Shopper marketing',
+        clientLabel: 'Client',
+        agencyLabel: 'Agency',
+        yearLabel: 'Year',
+        roleLabel: 'Role',
+      },
+      vitalKidsProjectPage: {
+        back: 'Back',
+        heroSub: 'Art direction · Kids launch',
+        clientLabel: 'Client',
+        agencyLabel: 'Agency',
+        yearLabel: 'Year',
+        roleLabel: 'Role',
+        roleValue: 'Art Director',
+      },
+      nnodesProjectPage: {
+        back: 'Back',
+        heroSub: 'Visual identity + Brandbook + Landing',
+        clientLabel: 'Client',
+        yearLabel: 'Year',
+        roleLabel: 'Role',
+        roleValue: 'Graphic Designer',
+      },
     },
   };
 
@@ -1940,6 +2076,24 @@
     } else if (document.body && document.body.classList.contains('body-project-falabella')) {
       var fal = STRINGS[lang].bancoFalabellaProjectPage;
       if (fal && fal.meta) m = fal.meta;
+    } else if (document.body && document.body.classList.contains('body-project-limon-nada')) {
+      var limonNadaPP = STRINGS[lang].limonNadaProjectPage;
+      if (limonNadaPP && limonNadaPP.meta) m = limonNadaPP.meta;
+    } else if (document.body && document.body.classList.contains('body-project-aquarius')) {
+      var aquariusPP = STRINGS[lang].aquariusProjectPage;
+      if (aquariusPP && aquariusPP.meta) m = aquariusPP.meta;
+    } else if (document.body && document.body.classList.contains('body-project-bottlexam')) {
+      var bottlexamPP = STRINGS[lang].bottlexamProjectPage;
+      if (bottlexamPP && bottlexamPP.meta) m = bottlexamPP.meta;
+    } else if (document.body && document.body.classList.contains('body-project-kidscocacola')) {
+      var kidsCocacolaPP = STRINGS[lang].kidsCocacolaProjectPage;
+      if (kidsCocacolaPP && kidsCocacolaPP.meta) m = kidsCocacolaPP.meta;
+    } else if (document.body && document.body.classList.contains('body-project-vitalkids')) {
+      var vitalKidsPP = STRINGS[lang].vitalKidsProjectPage;
+      if (vitalKidsPP && vitalKidsPP.meta) m = vitalKidsPP.meta;
+    } else if (document.body && document.body.classList.contains('body-project-nnodes')) {
+      var nnodesPP = STRINGS[lang].nnodesProjectPage;
+      if (nnodesPP && nnodesPP.meta) m = nnodesPP.meta;
     }
     if (!m) return;
     document.title = m.title;
