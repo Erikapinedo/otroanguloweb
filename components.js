@@ -284,7 +284,7 @@
       href: '/proyectos/aquarius',
       cover: '../images/portfolio/aquarius-cover.webp',
       name: 'Aquarius',
-      titleFallback: 'Nueva Imagen · Key Visual y bajada a trade',
+      titleI18n: 'portfolioPage.aquariusTitle', titleFallback: 'Nueva Imagen · Key Visual y bajada a trade',
       pills: ['Dirección de arte']
     },
     {
@@ -292,7 +292,7 @@
       href: '/proyectos/bottlexam',
       cover: '../images/portfolio/bottlexam-cover.webp',
       name: 'The Bottlexam',
-      titleFallback: 'Case study · propuesta contra el cáncer de mama para Vital',
+      titleI18n: 'portfolioPage.bottlexamTitle', titleFallback: 'Case study · propuesta contra el cáncer de mama para Vital',
       pills: ['Dirección de arte']
     },
     {
@@ -300,7 +300,7 @@
       href: '/proyectos/kids-cocacola',
       cover: '../images/portfolio/kids-cocacola-cover.webp',
       name: 'Plataforma KIDS Coca-Cola',
-      titleFallback: 'Dirección de arte shopper · KV, shooting y POP',
+      titleI18n: 'portfolioPage.kidsCocacolaTitle', titleFallback: 'Dirección de arte shopper · KV, shooting y POP',
       pills: ['Dirección de arte']
     },
     {
@@ -308,7 +308,7 @@
       href: '/proyectos/limon-nada',
       cover: '../images/portfolio/limon-nada-cover.webp',
       name: 'Limón&Nada',
-      titleFallback: 'Dirección de arte · campaña y bajada a trade',
+      titleI18n: 'portfolioPage.limonNadaTitle', titleFallback: 'Dirección de arte · campaña y bajada a trade',
       pills: ['Dirección de arte']
     },
     {
@@ -316,7 +316,7 @@
       href: '/proyectos/vital-kids',
       cover: '../images/portfolio/vital-kids-cover.webp',
       name: 'Vital Kids',
-      titleFallback: 'Dirección de arte · campaña y material POP',
+      titleI18n: 'portfolioPage.vitalKidsTitle', titleFallback: 'Dirección de arte · campaña y material POP',
       pills: ['Dirección de arte']
     },
     {
@@ -324,7 +324,7 @@
       href: '/proyectos/nnodes',
       cover: '../images/portfolio/nnodes-cover.webp',
       name: 'Nnodes',
-      titleFallback: 'Identidad visual, UX/UI y desarrollo del sitio',
+      titleI18n: 'portfolioPage.nnodesTitle', titleFallback: 'Identidad visual, UX/UI y desarrollo del sitio',
       pills: ['UX/UI', 'Identidad visual']
     }
   ];
@@ -335,7 +335,7 @@
     var nameHtml = p.nameI18n
       ? '<h3 class="title-name-portfolio-project" data-i18n="' + p.nameI18n + '">' + p.name + '</h3>'
       : '<h3 class="title-name-portfolio-project">' + p.name + '</h3>';
-    var PILL_I18N = { 'UX/UI': 'portfolioPage.tabUxUi', 'Landing': 'portfolioPage.tabLanding', 'Identidad visual': 'portfolioPage.tabIdentity' };
+    var PILL_I18N = { 'UX/UI': 'portfolioPage.tabUxUi', 'Landing': 'portfolioPage.tabLanding', 'Identidad visual': 'portfolioPage.tabIdentity', 'Dirección de arte': 'portfolioPage.tabArt' };
     var pillsHtml = p.pills.map(function (pill) {
       var key = PILL_I18N[pill];
       var attr = key ? ' data-i18n="' + key + '"' : '';

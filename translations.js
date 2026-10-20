@@ -264,9 +264,18 @@
         // TODO: cablear en proyectos.html si quieres description/alt propios
         "urbanaDesc": "Diseño UX/UI de una app móvil que centraliza la gestión administrativa de edificios: gastos, notificaciones, comunicados y transparencia para residentes.",
         // TODO: cablear en proyectos.html si quieres description/alt propios
-        "urbanaImgAlt": "App móvil Urbana mostrando panel de administración de edificio con módulos de gastos y comunicaciones."
+        "urbanaImgAlt": "App móvil Urbana mostrando panel de administración de edificio con módulos de gastos y comunicaciones.",
+        bottlexamTitle: 'Case study · propuesta contra el cáncer de mama para Vital',
+        aquariusTitle: 'Nueva Imagen · Key Visual y bajada a trade',
+        vitalKidsTitle: 'Lanzamiento del formato infantil · 5 personajes coleccionables',
+        kidsCocacolaTitle: 'Dirección de arte shopper para The Coca-Cola Company',
+        limonNadaTitle: 'Trade & Shopper · personajes y punto de venta para Del Valle',
+        nnodesTitle: 'Identidad Visual + Brandbook y Landing para consultora TI',
+
       },
       alessandriProjectPage:       {
+        clientLabel: 'Cliente',
+        yearLabel: 'Año',
         "meta": {
           "title": "AlessandriPI · Rediseño de Plataforma Jurídica – Product Designer Erika Pinedo",
           "description": "Rediseño end-to-end por Product Designer Erika Pinedo: plataforma interna de gestión legal para 40.000+ clientes. Investigación con 32 usuarios, 7 sprints, arquitectura centrada en el cliente.",
@@ -360,6 +369,8 @@
         errorMsg: '<strong>:( Oops!</strong> Lo lamentamos, algo salió mal, por favor vuelve a intentarlo.',
       },
       nicoProjectPage: {
+        clientLabel: 'Cliente',
+        yearLabel: 'Año',
         meta: {
           title: 'NICO Seguros · Diseño UX/UI B2B SaaS – Erika Pinedo',
           description: 'Diseño UX/UI end-to-end para NICO Seguros: plataforma B2B SaaS que gestiona +10.000 pólizas. Elegida "Most Investable Startup" por Start-Up Chile 2024.',
@@ -447,6 +458,8 @@
         expDesc: 'Diseño end-to-end de una plataforma legaltech para digitalizar la gestión de arbitrajes y mediaciones: expediente virtual, acceso remoto y notificaciones automáticas.<br/>',
       },
       parrotfyProjectPage: {
+        clientLabel: 'Cliente',
+        yearLabel: 'Año',
         meta: {
           title: 'Parrotfy · Diseño UX/UI de ERP para PYMEs – Erika Pinedo',
           description: 'Diseño UX/UI de Parrotfy: ERP todo en uno para PYMEs que centraliza cotizaciones, ventas, pagos, órdenes de trabajo y facturación en un solo flujo de trabajo.',
@@ -526,6 +539,8 @@
         expDesc: 'Diseño end-to-end de una plataforma legaltech para digitalizar la gestión de arbitrajes y mediaciones: expediente virtual, acceso remoto y notificaciones automáticas.<br/>',
       },
       expedienteProjectPage: {
+        clientLabel: 'Cliente',
+        yearLabel: 'Año',
         meta: {
           title: 'E-xpediente · Diseño UX/UI para Gestión Digital de Arbitrajes y Mediaciones | Erika Pinedo',
           description: 'Caso de diseño UX/UI end-to-end: E-xpediente, plataforma legaltech que digitaliza la gestión de arbitrajes y mediaciones para abogados. Expediente virtual, acceso remoto seguro y notificaciones automáticas.',
@@ -586,6 +601,8 @@
         nicoDesc: 'Diseño de una plataforma SaaS B2B para corredores de seguros desde cero: gestión centralizada de pólizas, clientes y renovaciones para reemplazar planillas y correos.<br/>',
       },
       bluesphereProjectPage: {
+        clientLabel: 'Cliente',
+        yearLabel: 'Año',
         meta: {
           title: 'BlueSphere · Diseño UX/UI de Plataforma de Ciberseguridad – Erika Pinedo',
           description: 'Caso de diseño UX/UI: BlueSphere, plataforma cloud-native que integra ciberseguridad, gobernanza y resiliencia operativa para pymes. SOC 24/7, Zero Trust y gestión IT unificada.',
@@ -672,6 +689,8 @@
         typoUse2: 'Interfaz y comunicación',
       },
       jschileProjectPage: {
+        clientLabel: 'Cliente',
+        yearLabel: 'Año',
         meta: {
           title: 'JSChile · Branding e identidad de marca – Erika Pinedo',
           description: 'Branding completo y landing page para JSChile, la comunidad de desarrollo más grande de Chile. Diseño de marca integral: logo, paleta, tipografía y landing.',
@@ -751,6 +770,8 @@
         parrotfyDesc: 'Diseño end-to-end de un ERP todo en uno para PYMEs: cotizaciones, ventas, pagos, órdenes de trabajo y facturación en un solo flujo.',
       },
       matchmindersProjectPage: {
+        clientLabel: 'Cliente',
+        yearLabel: 'Año',
         meta: {
           title: 'MatchMinders · Diseño UX/UI y Design System para Torneos Deportivos – Erika Pinedo',
           description: 'Caso de diseño UX/UI: MatchMinders, plataforma para crear y gestionar torneos deportivos. Mapeo de flujos para Organizador y Jugador, diseño de interfaces y construcción del Design System desde cero.',
@@ -815,6 +836,8 @@
         bluesphereDesc: 'Diseño de marca e interfaz para una plataforma de ciberseguridad enterprise dirigida a PYMEs: SOC 24/7, Zero Trust y gestión IT unificada.<br/>',
       },
       playersnapProjectPage: {
+        clientLabel: 'Cliente',
+        yearLabel: 'Año',
         meta: {
           title: 'PlayerSnap · Diseño UX/UI de Plataforma de Gestión de Activos Digitales para Deportes – Erika Pinedo',
           description: 'Caso de diseño UX/UI: PlayerSnap, plataforma SaaS impulsada por IA para organizaciones deportivas que centraliza la gestión, análisis y distribución de contenido multimedia en tiempo real.',
@@ -1377,9 +1400,18 @@
         "portalpImgAlt": "Portal Pehuén visual identity showing logo, color palette, and brand applications.",
         "urbanaTitle": "Administrative App for Residential Buildings",
         "urbanaDesc": "UX/UI design of a mobile app that centralizes building management: expenses, notifications, announcements, and transparency for residents.",
-        "urbanaImgAlt": "Urbana mobile app showing building administration dashboard with expense and communication modules."
+        "urbanaImgAlt": "Urbana mobile app showing building administration dashboard with expense and communication modules.",
+        bottlexamTitle: 'Case study · breast cancer awareness proposal for Vital',
+        aquariusTitle: 'New image · Key Visual and trade rollout',
+        vitalKidsTitle: 'Launch of the kids format · 5 collectible characters',
+        kidsCocacolaTitle: 'Shopper art direction for The Coca-Cola Company',
+        limonNadaTitle: 'Trade & Shopper · characters and point of sale for Del Valle',
+        nnodesTitle: 'Visual Identity + Brandbook and Landing for IT consultancy',
+
       },
       alessandriProjectPage:       {
+        clientLabel: 'Client',
+        yearLabel: 'Year',
         "meta": {
           "title": "AlessandriPI · Legal Operations Platform Redesign – Product Designer Erika Pinedo",
           "description": "End-to-end redesign by Product Designer Erika Pinedo: internal legal management platform for 40,000+ clients across trademarks, patents, litigation, and domains. Research with 32 users across 7 sprints.",
@@ -1472,6 +1504,8 @@
         errorMsg: '<strong>:( Oops!</strong> Sorry, something went wrong. Please try again.',
       },
       nicoProjectPage: {
+        clientLabel: 'Client',
+        yearLabel: 'Year',
         meta: {
           title: 'NICO Seguros · B2B SaaS UX/UI Design – Erika Pinedo',
           description: 'End-to-end UX/UI design for NICO Seguros: a B2B SaaS platform managing 10,000+ active policies. Named "Most Investable Startup" by Start-Up Chile 2024.',
@@ -1559,6 +1593,8 @@
         expDesc: 'End-to-end design of a legaltech platform to digitize arbitration and mediation management: virtual case file, remote access, and automatic notifications.<br/>',
       },
       parrotfyProjectPage: {
+        clientLabel: 'Client',
+        yearLabel: 'Year',
         meta: {
           title: 'Parrotfy · SMB ERP Platform UX/UI Design – Erika Pinedo',
           description: 'End-to-end UX/UI design for Parrotfy: an all-in-one ERP for SMBs that unifies quotes, sales, payments, work orders, and invoicing into a single workflow.',
@@ -1638,6 +1674,8 @@
         expDesc: 'End-to-end design of a legaltech platform to digitize arbitration and mediation management: virtual case file, remote access, and automatic notifications.<br/>',
       },
       expedienteProjectPage: {
+        clientLabel: 'Client',
+        yearLabel: 'Year',
         meta: {
           title: 'E-xpediente · UX/UI Design for Digital Legal Arbitration & Mediation Management | Erika Pinedo',
           description: 'End-to-end UX/UI design case study: E-xpediente, a legaltech platform that digitizes the management of arbitrations and mediations for lawyers. Virtual case file, secure remote access, and automatic notifications.',
@@ -1698,6 +1736,8 @@
         nicoDesc: 'Design of a B2B SaaS platform for insurance brokers from scratch: centralized policy, client, and renewal management to replace spreadsheets and emails.<br/>',
       },
       bluesphereProjectPage: {
+        clientLabel: 'Client',
+        yearLabel: 'Year',
         meta: {
           title: 'BlueSphere · UX/UI Design for Cybersecurity Platform – Erika Pinedo',
           description: 'UX/UI design case study: BlueSphere, a cloud-native platform integrating cybersecurity, governance, and operational resilience for SMBs. 24/7 SOC, Zero Trust, and unified IT management.',
@@ -1783,6 +1823,8 @@
         typoUse2: 'Interface & communication',
       },
       jschileProjectPage: {
+        clientLabel: 'Client',
+        yearLabel: 'Year',
         meta: {
           title: 'JSChile · Branding and brand identity – Erika Pinedo',
           description: 'Complete branding and landing page for JSChile, Chile\'s largest developer community. Full brand design: logo, palette, typography, and landing page.',
@@ -1856,6 +1898,8 @@
         parrotfyDesc: 'End-to-end design of an all-in-one ERP for SMBs: quotes, sales, payments, work orders, and invoicing in a single workflow.',
       },
       matchmindersProjectPage: {
+        clientLabel: 'Client',
+        yearLabel: 'Year',
         meta: {
           title: 'MatchMinders · UX/UI Design and Design System for Sports Tournaments – Erika Pinedo',
           description: 'UX/UI design case study: MatchMinders, a platform to create and manage sports tournaments. User flow mapping for Organizer and Player profiles, interface design, and Design System built from scratch.',
@@ -1920,6 +1964,8 @@
         bluesphereDesc: 'Brand and interface design for an enterprise cybersecurity platform built for SMBs: 24/7 SOC, Zero Trust, and unified IT management.<br/>',
       },
       playersnapProjectPage: {
+        clientLabel: 'Client',
+        yearLabel: 'Year',
         meta: {
           title: 'PlayerSnap · UX/UI Design for Sports Digital Asset Management Platform – Erika Pinedo',
           description: 'UX/UI design case study: PlayerSnap, an AI-powered SaaS platform for sports organizations that centralizes media asset management, analysis, and real-time distribution.',
