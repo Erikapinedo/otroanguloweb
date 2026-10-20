@@ -1001,7 +1001,7 @@
         ideaBody2: 'La dupla aparece en más de ocho poses: chef, música, carrito de compras, exprimiendo jugo. Las fui integrando a cada formato de exhibición y a cada momento de la compra, siempre con la botella al centro.',
         portadaAlt: 'Portada del sistema Limón&amp;Nada / Naranja&amp;Nada con el logo Del Valle, las botellas de 1,5L y los personajes limón y naranja sobre fondo verde.',
         toboganAlt: 'Exhibidor tobogán con slide y piscina azul inflable, botellas Limón&amp;Nada y Naranja&amp;Nada con personajes limón y naranja, claim Llévala, refréscate &amp; Nada, sobre fondo amarillo.',
-        creditsHtml: '<strong>Compañía</strong> GREY Chile<br /><strong>Directora de Arte</strong> Erika Pinedo<br /><br />* Todos los derechos reservados -',
+        creditsHtml: '<strong>Compañía</strong> GREY Chile<br /><strong>Directora de Arte</strong> Erika Pinedo<br /><br />- Todos los derechos reservados -',
       },
       aquariusProjectPage: {
         back: 'Volver',
@@ -1089,7 +1089,7 @@
         exhibidorAzulAlt: 'Exhibidor azul de góndola Plataforma KIDS con endorsement de The Coca-Cola Company.',
         exhibidorTorreAlt: 'Torre de góndola modular Plataforma KIDS con bloques celeste y verde, mensaje Acompaña su sed de descubrir con un mundo de posibilidades y endorsement de The Coca-Cola Company.',
         exhibidorIslaAlt: 'Exhibidor isla completo de la Plataforma KIDS con bloques celeste, verde, naranja y rojo, mostrando Del Valle, Ades, Aquarius Kids, Vital, Coca-Cola y Fanta bajo el endorsement The Coca-Cola Company.',
-        creditsHtml: '<strong>Compañía</strong> GREY Chile<br /><strong>Dirección de Arte</strong> Erika Pinedo<br /><br />* Todos los derechos reservados -',
+        creditsHtml: '<strong>Compañía</strong> GREY Chile<br /><strong>Dirección de Arte</strong> Erika Pinedo<br /><br />- Todos los derechos reservados -',
       },
       vitalKidsProjectPage: {
         clientLabel: 'Cliente',
@@ -1160,7 +1160,7 @@
         valorGratitudBody: 'Cuidar la relación con quienes confían en el equipo, dentro y fuera de la empresa.',
         valorTecnologicoPill: 'Tecnológico',
         valorTecnologicoBody: 'Buscar la mejor solución técnica para cada caso, con foco en escalabilidad y mantenimiento a largo plazo.',
-        creditsHtml: '<strong>Compañía</strong> Nnodes<br /><strong>Diseñadora Gráfica, UX/UI, Desarrollador</strong> Erika Pinedo<br /><br />* Todos los derechos reservados -',
+        creditsHtml: '<strong>Compañía</strong> Nnodes<br /><strong>Diseñadora Gráfica, UX/UI, Desarrollador</strong> Erika Pinedo<br /><br />- Todos los derechos reservados -',
       },
       urbanaProjectPage: {
         back: 'Volver',
@@ -2237,7 +2237,7 @@
         ideaBody2: 'The duo appears in more than eight poses: chef, music, shopping cart, squeezing juice. I integrated them into every display format and every shopping moment, always with the bottle at the center.',
         portadaAlt: 'Cover of the Limón&amp;Nada / Naranja&amp;Nada system with the Del Valle logo, 1.5L bottles and the lemon and orange characters on a green background.',
         toboganAlt: 'Slide display with slide and inflatable blue pool, Limón&amp;Nada and Naranja&amp;Nada bottles with the lemon and orange characters, claim Llévala, refréscate &amp; Nada, on a yellow background.',
-        creditsHtml: '<strong>Company</strong> GREY Chile<br /><strong>Art Director</strong> Erika Pinedo<br /><br />* All rights reserved -',
+        creditsHtml: '<strong>Company</strong> GREY Chile<br /><strong>Art Director</strong> Erika Pinedo<br /><br />- All rights reserved -',
       },
       aquariusProjectPage: {
         back: 'Back',
@@ -2325,7 +2325,7 @@
         exhibidorAzulAlt: 'Blue shelf display KIDS Platform with The Coca-Cola Company endorsement.',
         exhibidorTorreAlt: 'Modular shelf tower KIDS Platform with sky-blue and green blocks, message "Keep their thirst for discovering with a world of possibilities" and The Coca-Cola Company endorsement.',
         exhibidorIslaAlt: 'Full island display KIDS Platform with sky-blue, green, orange and red blocks, showing Del Valle, Ades, Aquarius Kids, Vital, Coca-Cola and Fanta under The Coca-Cola Company endorsement.',
-        creditsHtml: '<strong>Company</strong> GREY Chile<br /><strong>Art Direction</strong> Erika Pinedo<br /><br />* All rights reserved -',
+        creditsHtml: '<strong>Company</strong> GREY Chile<br /><strong>Art Direction</strong> Erika Pinedo<br /><br />- All rights reserved -',
       },
       vitalKidsProjectPage: {
         clientLabel: 'Client',
@@ -2396,7 +2396,7 @@
         valorGratitudBody: 'Taking care of the relationship with those who trust the team, inside and outside the company.',
         valorTecnologicoPill: 'Tech-first',
         valorTecnologicoBody: 'Finding the best technical solution for each case, with a focus on scalability and long-term maintenance.',
-        creditsHtml: '<strong>Company</strong> Nnodes<br /><strong>Graphic Designer, UX/UI, Developer</strong> Erika Pinedo<br /><br />* All rights reserved -',
+        creditsHtml: '<strong>Company</strong> Nnodes<br /><strong>Graphic Designer, UX/UI, Developer</strong> Erika Pinedo<br /><br />- All rights reserved -',
       },
       urbanaProjectPage: {
         back: 'Back',
