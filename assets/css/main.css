@@ -4531,7 +4531,7 @@ a {
   height: 100%;
 }
 .project-alessandri-userpersona {
-  background-image: url(../../images/alessandri/4alessandri-erika-pinedo.webp);
+  background-image: url(../../images/alessandri/section-bg-persona.webp);
   background-position: 50% 0;
   background-size: cover;
   flex-flow: row;
@@ -4573,7 +4573,7 @@ a {
 }
 .project-alessandri-impact {
   background-color: #0000;
-  background-image: url(../../images/alessandri/9alessandri-erika-pinedo.webp);
+  background-image: url(../../images/alessandri/section-bg-impact.webp);
   background-position: 50% 0;
   background-size: cover;
   width: 100%;
@@ -4952,7 +4952,7 @@ a {
   display: inline;
 }
 .design-process {
-  background-image: url(../../images/alessandri/4alessandri-erika-pinedo.webp);
+  background-image: url(../../images/alessandri/section-bg-persona.webp);
   background-position: 50% 0;
   background-size: cover;
   flex-flow: column;
@@ -5318,7 +5318,7 @@ a {
   padding-bottom: 40px;
 }
 .solution-container {
-  background-image: url(../../images/alessandri/8alessandri-erika-pinedo.webp);
+  background-image: url(../../images/alessandri/section-bg-solution.webp);
   background-position: 50% 0;
   background-size: cover;
   width: 100%;
@@ -7605,7 +7605,7 @@ a {
     align-items: flex-start;
   }
   .project-alessandri-userpersona{
-    background-image: url(../../images/alessandri/4alessandri-erika-pinedo.webp);
+    background-image: url(../../images/alessandri/section-bg-persona.webp);
     background-position: 50% 0;
     background-size: cover;
   }
