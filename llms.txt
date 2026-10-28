@@ -14,7 +14,7 @@ Erika Pinedo es Product Designer especializada en productos digitales B2B y SaaS
 
 ## Proyectos destacados
 
-- **Banco Falabella · IPS** — Plataforma web interna de gestión de sucursales para Infraestructura, Prevención de Riesgos y Servicios Generales. Product Design. [Ver proyecto](https://otroanguloweb.cl/proyectos/banco-falabella)
+- **Banco Falabella · IPS** — Plataforma web interna de gestión de sucursales para Área 1, Área 2 y Área 3. Product Design. [Ver proyecto](https://otroanguloweb.cl/proyectos/banco-falabella)
 - **Alessandri** — Rediseño de plataforma de gestión legal para estudio de abogados. Product Design. [Ver proyecto](https://otroanguloweb.cl/proyectos/alessandri)
 - **Nico Seguros** — Diseño de plataforma insurtech desde cero para contratación y gestión de seguros. Product Design. [Ver proyecto](https://otroanguloweb.cl/proyectos/nico-seguros)
 - **Parrotfy** — Diseño de ERP para organización y control de PYMEs en crecimiento. Product Design. [Ver proyecto](https://otroanguloweb.cl/proyectos/parrotfy)
